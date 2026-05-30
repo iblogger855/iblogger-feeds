@@ -1,6 +1,8 @@
 # FS Module 5: Fulfillment & Delivery
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Getting the goods to the customer — stocked and dropship paths.
+> 
+> 📐 **Build-ready detail:** see [05a-fulfillment-detailed.md](05a-fulfillment-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

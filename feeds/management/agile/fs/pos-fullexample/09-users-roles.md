@@ -1,6 +1,8 @@
 # FS Module 9: Users, Roles & Audit
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Who can do what, and a trail of everything that touches money or stock.
+> 
+> 📐 **Build-ready detail:** see [09a-users-roles-detailed.md](09a-users-roles-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

@@ -1,6 +1,8 @@
 # FS Module 8: Reporting & Profit/Loss
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Turning all the data into the numbers the owner actually cares about.
+> 
+> 📐 **Build-ready detail:** see [08a-reporting-detailed.md](08a-reporting-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

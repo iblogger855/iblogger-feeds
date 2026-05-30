@@ -1,6 +1,8 @@
 # FS Module 10: Promotions & Discounts
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — drives conversion and average order value. Pairs with margin protection from [Landed Cost](02-landed-cost.md).
+> 
+> 📐 **Build-ready detail:** see [10a-promotions-detailed.md](10a-promotions-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

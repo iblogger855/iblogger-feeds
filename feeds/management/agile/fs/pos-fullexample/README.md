@@ -13,7 +13,6 @@ Built to show the [FS Document Procedure](../fs-document-procedure.md) at real s
 - **[02 — Import & Landed Cost](02-landed-cost.md)** — shipping, customs, FX, true per-unit cost.
 - **[03 — Inventory & Products](03-inventory.md)** — catalog, stocked vs dropship, stock levels, valuation.
 - **[04 — Sales Channels & Orders](04-channels-orders.md)** — TikTok & Facebook capture, order lifecycle.
-  - **[04a — Detailed (build-ready) spec](04a-channels-orders-detailed.md)** — gold-standard depth: use cases, mock-up, field-level specs, button/validation tables. The model other modules follow when they enter a build sprint.
 - **[05 — Fulfillment & Delivery](05-fulfillment.md)** — stocked vs dropship fulfillment, couriers, tracking.
 - **[06 — Payments & Reconciliation](06-payments.md)** — COD, bank/ABA, wallet, prepaid, matching money to orders.
 - **[07 — Returns, Refunds & Cancellations](07-returns.md)** — after-sales, restock, refund flow.
@@ -27,6 +26,8 @@ Built to show the [FS Document Procedure](../fs-document-procedure.md) at real s
 - **[12 — Customers, Loyalty & Retention](12-customers-loyalty.md)** — repeat buyers, points, store credit, segments.
 - **[13 — Live Selling & Channel Engagement](13-live-selling.md)** — fast claim capture, real-time stock, follow-up.
 - **[14 — Reviews & Social Proof](14-reviews-social-proof.md)** — trust that lifts conversion.
+
+**Build-ready detailed specs** — each module above has a companion `NNa-…-detailed.md` with full FSD depth (use case, screen mock-up, field-level spec tables, validation/error rules, button behaviors). Linked from each module's header. *(Field-level detail is illustrative until a module enters a build sprint.)*
 
 **Appendices (shared depth)**
 - **[A1 — Data Dictionary & Glossary](A1-data-dictionary.md)** — shared terms + core entities/fields.

@@ -1,6 +1,8 @@
 # FS Module 7: Returns, Refunds & Cancellations
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). After-sales — keeping stock and money correct when things go back.
+> 
+> 📐 **Build-ready detail:** see [07a-returns-detailed.md](07a-returns-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

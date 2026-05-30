@@ -1,6 +1,8 @@
 # FS Module 12: Customers, Loyalty & Retention
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — repeat buyers are the cheapest revenue you'll ever get.
+> 
+> 📐 **Build-ready detail:** see [12a-customers-loyalty-detailed.md](12a-customers-loyalty-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

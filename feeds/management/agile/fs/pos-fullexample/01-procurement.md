@@ -1,6 +1,8 @@
 # FS Module 1: Procurement & Suppliers
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Covers buying from Chinese suppliers and tracking purchase orders.
+> 
+> 📐 **Build-ready detail:** see [01a-procurement-detailed.md](01a-procurement-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

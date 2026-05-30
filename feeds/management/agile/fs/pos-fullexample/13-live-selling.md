@@ -1,6 +1,8 @@
 # FS Module 13: Live Selling & Channel Engagement
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — live selling is the single highest-velocity sales channel for TikTok/Facebook resellers.
+> 
+> 📐 **Build-ready detail:** see [13a-live-selling-detailed.md](13a-live-selling-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

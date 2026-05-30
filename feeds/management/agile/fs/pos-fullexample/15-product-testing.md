@@ -1,6 +1,8 @@
 # FS Module 15: Product Demand Testing (Test Before You Buy)
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Validation gate** — test demand on social *before* spending money on inventory. Runs **before** [Procurement](01-procurement.md).
+> 
+> 📐 **Build-ready detail:** see [15a-product-testing-detailed.md](15a-product-testing-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

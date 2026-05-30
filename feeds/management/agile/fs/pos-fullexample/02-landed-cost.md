@@ -1,6 +1,8 @@
 # FS Module 2: Import & Landed Cost
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Turns a CNY purchase into a true per-unit cost in base currency.
+> 
+> 📐 **Build-ready detail:** see [02a-landed-cost-detailed.md](02a-landed-cost-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

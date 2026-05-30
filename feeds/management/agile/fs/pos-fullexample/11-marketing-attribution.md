@@ -1,6 +1,8 @@
 # FS Module 11: Marketing & Attribution
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — tells you which marketing actually makes money, so spend follows results.
+> 
+> 📐 **Build-ready detail:** see [11a-marketing-attribution-detailed.md](11a-marketing-attribution-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

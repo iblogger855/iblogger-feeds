@@ -1,6 +1,8 @@
 # FS Module 3: Inventory & Products
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). The product catalog and stock truth.
+> 
+> 📐 **Build-ready detail:** see [03a-inventory-detailed.md](03a-inventory-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

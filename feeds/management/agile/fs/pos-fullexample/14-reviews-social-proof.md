@@ -1,6 +1,8 @@
 # FS Module 14: Reviews & Social Proof
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — trust is the #1 conversion lever in social commerce.
+> 
+> 📐 **Build-ready detail:** see [14a-reviews-social-proof-detailed.md](14a-reviews-social-proof-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control

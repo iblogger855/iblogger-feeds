@@ -1,6 +1,8 @@
 # FS Module 6: Payments & Reconciliation
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Matching money to orders across COD, bank/ABA, wallets, and prepaid links.
+> 
+> 📐 **Build-ready detail:** see [06a-payments-detailed.md](06a-payments-detailed.md) for full use case, mock-up, and field-level specifications.
 
 
 ## Document Control
