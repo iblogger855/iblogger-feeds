@@ -1,0 +1,58 @@
+# Analogy Bridge: Proxy (តំណាងគ្រប់គ្រងការដោះស្រាយកិច្ចការជំនួស)
+
+**Author:** ichamrong  
+**Date:** 2026-05-18  
+**Tags:** #analogy-bridge #analogy #design-patterns #proxy #clean-code  
+**Category:** Concepts / Analogy Bridge  
+**Read Time:** ~5 min  
+
+---
+
+## 📌 មាតិកា (Table of Contents)
+- [១. ស្ពានភ្ជាប់គំនិត (The Analogy Bridge)](#១-ស្ពានភ្ជាប់គំនិត-the-analogy-bridge)
+- [២. ព្រំដែននៃភាពដូចគ្នា (Where the Analogy Breaks)](#២-ព្រំដែននៃភាពដូចគ្នា-where-the-analogy-breaks)
+- [៣. ដ្យាក្រាមលំហូរ (Visual Flowchart)](#៣-ដ្យាក្រាមលំហូរ-visual-flowchart)
+- [៤. Related Posts](#៤-related-posts)
+
+---
+
+## ១. ស្ពានភ្ជាប់គំនិត (The Analogy Bridge)
+
+### English
+* **Known Domain (Real World):** Imagine you are a beloved, world-famous author. Every single day, your personal phone rings constantly with hundreds of fans, journalists, and event organizers wanting just a minute of your time. You are completely exhausted, unable to sleep, and worst of all, you have no time left to actually write your books!
+* **Unknown Domain (Software Architecture):** In software, a "heavy" service class (like a complex database query or a massive video rendering engine) experiences the exact same exhaustion. It gets bombarded with endless requests from other parts of the system, draining server memory and causing the entire application to slow to a crawl.
+* **The Proxy:** To save your sanity, you hire a wonderful, protective **Manager (The Proxy)** and give them a duplicate of your phone number. This manager lovingly intercepts every single call. They politely filter out spam (Access Control), quickly hand out pre-signed photos for common requests (Caching), and take careful notes of who called (Logging). Only when a truly life-changing opportunity arises do they gently pass the phone to you. To the outside world, it feels like talking to you, but behind the scenes, your peace of mind is perfectly protected.
+
+### Khmer
+* **ដែនដឹងស្គាល់ (ពិភពពិត):** ស្រមៃថាអ្នកគឺជាអ្នកនិពន្ធដ៏ល្បីល្បាញម្នាក់ដែលគ្រប់គ្នាស្រលាញ់ចូលចិត្ត។ ជារៀងរាល់ថ្ងៃ ទូរស័ព្ទផ្ទាល់ខ្លួនរបស់អ្នករោទ៍មិនឈប់ឈរ ដោយសារអ្នកគាំទ្រ អ្នកកាសែត និងអ្នករៀបចំកម្មវិធីរាប់រយនាក់ដែលចង់បានពេលវេលារបស់អ្នកសូម្បីតែមួយនាទី។ អ្នកហត់នឿយខ្លាំង គេងមិនលក់ ហើយអ្វីដែលអាក្រក់បំផុតនោះគឺ អ្នកលែងមានពេលសរសេរសៀវភៅទៀតហើយ!
+* **ដែនមិនស្គាល់ (ស្ថាបត្យកម្មកូដ):** នៅក្នុងកូដ Class ដែលត្រូវរែកពន់កិច្ចការធ្ងន់ៗ (ដូចជាការទាញទិន្នន័យស្មុគស្មាញពី Database ឬការ Render វីដេអូ) ក៏ជួបប្រទះភាពហត់នឿយបែបនេះដូចគ្នា។ វាត្រូវរងការវាយលុកដោយសំណើឥតឈប់ឈរពីផ្នែកផ្សេងៗនៃប្រព័ន្ធ ដែលធ្វើឱ្យហត់នឿយដល់មេម៉ូរី Server និងធ្វើឱ្យកម្មវិធីទាំងមូលដើរយឺតយ៉ាងខ្លាំង។
+* **តំណាងជំនួស (The Proxy):** ដើម្បីសង្គ្រោះសុខភាពផ្លូវចិត្តរបស់អ្នក អ្នកសម្រេចចិត្តជួល **អ្នកចាត់ការដ៏ល្អម្នាក់ (The Proxy)** ដែលតែងតែការពារអ្នក ហើយអ្នកឱ្យលេខទូរស័ព្ទតំណាងទៅពួកគេ។ អ្នកចាត់ការនេះជួយទទួលរាល់ការហៅចូលទាំងអស់ដោយក្តីយកចិត្តទុកដាក់។ ពួកគេជួយកាត់ចោលអ្នករំខាន (Access Control) ផ្តល់រូបថតដែលមានហត្ថលេខាស្រាប់សម្រាប់សំណួរដដែលៗ (Caching) និងកត់ត្រាយ៉ាងប្រុងប្រយ័ត្នថានរណាខ្លះបានខលមក (Logging)។ លុះត្រាតែមានឱកាសការងារដ៏សំខាន់បំផុត ទើបពួកគេបញ្ជូនទូរស័ព្ទនោះមកអ្នកដោយផ្ទាល់។ សម្រាប់អ្នកខាងក្រៅ វាហាក់ដូចជាកំពុងនិយាយផ្ទាល់ជាមួយអ្នក ប៉ុន្តែនៅពីក្រោយខ្នង ភាពស្ងប់ស្ងាត់របស់អ្នកត្រូវបានការពារយ៉ាងល្អឥតខ្ចោះ។
+
+---
+
+## ២. ព្រំដែននៃភាពដូចគ្នា (Where the Analogy Breaks)
+
+A human manager has their own free will and might make decisions without consulting you. In programming, a Proxy object has zero autonomy; it implements the exact same interface as the real subject and its internal logic is completely dictated by code written to serve the real subject.
+
+អ្នកចាត់ការที่เป็นមនុស្សមានគំនិតផ្ទាល់ខ្លួន ហើយអាចសម្រេចចិត្តដោយមិនបានពិគ្រោះជាមួយអ្នកឡើយ។ នៅក្នុងកូដ Object Proxy គ្មានគំនិតផ្ទាល់ខ្លួននោះទេ វាកើតឡើងដោយការអនុវត្តតាម Interface ដូចគ្នាបេះបិទទៅនឹង Object ពិតប្រាកដ ហើយរាល់តក្កវិជ្ជារបស់វាត្រូវបានគ្រប់គ្រងទាំងស្រុងដោយកូដដែលសរសេរឡើងដើម្បីបម្រើ Object ពិតប្រាកដតែប៉ុណ្ណោះ។
+
+---
+
+## ៣. ដ្យាក្រាមលំហូរ (Visual Flowchart)
+
+```mermaid
+flowchart LR
+    classDef client fill:#2c3e50,stroke:#34495e,color:#fff
+    classDef proxy fill:#f39c12,stroke:#d35400,color:#fff
+    classDef real fill:#27ae60,stroke:#2ecc71,color:#fff
+
+    A["👤 Client Request"]:::client --> B["🛡️ Proxy Manager<br/>(Cache / Security Checks)"]:::proxy
+    B -- "Passed only if valid & uncached" --> C["👑 Real Service (Celebrity)"]:::real
+```
+
+---
+
+## ៤. Related Posts
+
+* 📖 **Read the Parable:** [The King's Gatekeeper (អ្នកយាមទ្វារព្រះរាជា)](../../parables/86-the-kings-gatekeeper.md)
+* 🛠️ **Read the Code Implementation:** [Structural Patterns: The Architecture of Objects](../../../clean-code/design-patterns/02-structural-patterns.md#the-proxy)

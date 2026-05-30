@@ -1,0 +1,51 @@
+# OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Session/cache
+.cache/
+.session/
+
+# Notes (local only, don't commit)
+NOTES.md
+/local-notes/
+
+# Generated Docs & AI
+/docs/
+/docs/superpowers/
+.claude/

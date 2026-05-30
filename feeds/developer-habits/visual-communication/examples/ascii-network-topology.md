@@ -1,0 +1,113 @@
+# Example — ASCII: Network Topology
+
+> **Use when:** Showing infrastructure layout, network zones, server relationships, or cloud architecture in plain text.
+
+**Tool:** ASCII | **Type:** Network Topology
+
+---
+
+## Example: Three-Tier Cloud Architecture
+
+```
+Internet
+    │
+    ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  CDN Layer (CloudFront / Cloudflare)                             │
+│  Static assets, edge caching, DDoS protection                    │
+└──────────────────────────────┬───────────────────────────────────┘
+                               │ HTTPS only
+                               ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  DMZ / Public Subnet                                             │
+│                                                                  │
+│  ┌─────────────────┐    ┌─────────────────┐                     │
+│  │  Load Balancer  │    │  Load Balancer  │                     │
+│  │  (ALB) — AZ-1  │    │  (ALB) — AZ-2  │                     │
+│  └────────┬────────┘    └────────┬────────┘                     │
+└───────────┼──────────────────────┼──────────────────────────────┘
+            │                      │ HTTP (internal)
+            ▼                      ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  Private Subnet — App Tier                                        │
+│                                                                  │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐        │
+│  │  App Server 1 │  │  App Server 2 │  │  App Server 3 │        │
+│  │  (EC2/Pod)    │  │  (EC2/Pod)    │  │  (EC2/Pod)    │        │
+│  └───────┬───────┘  └───────┬───────┘  └───────┬───────┘        │
+└──────────┼──────────────────┼──────────────────┼────────────────┘
+           │                  │                  │ SQL / Redis
+           ▼                  ▼                  ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  Private Subnet — Data Tier                                       │
+│                                                                  │
+│  ┌──────────────────────┐    ┌──────────────────────┐           │
+│  │  PostgreSQL Primary  │    │  Redis Cluster        │           │
+│  │  + Read Replica      │    │  (cache / sessions)   │           │
+│  └──────────────────────┘    └──────────────────────┘           │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Example: Kubernetes Cluster Layout
+
+```
+┌─────────────────────────────────────────────────────┐
+│  Kubernetes Cluster                                  │
+│                                                      │
+│  ┌─────────────────────────────────────────────┐    │
+│  │  Control Plane                               │    │
+│  │  API Server │ Scheduler │ Controller Manager │    │
+│  └─────────────────────────────────────────────┘    │
+│                       │                              │
+│          ┌────────────┼────────────┐                 │
+│          ▼            ▼            ▼                 │
+│  ┌────────────┐ ┌────────────┐ ┌────────────┐       │
+│  │  Node 1    │ │  Node 2    │ │  Node 3    │       │
+│  │            │ │            │ │            │       │
+│  │ [pod:api]  │ │ [pod:api]  │ │ [pod:worker│       │
+│  │ [pod:web]  │ │ [pod:web]  │ │  ]         │       │
+│  └────────────┘ └────────────┘ └────────────┘       │
+│                                                      │
+└─────────────────────────────────────────────────────┘
+         │                                │
+         ▼                                ▼
+  [Persistent Volume]            [External LoadBalancer]
+  (EBS / GCS Disk)               (cloud provider LB)
+```
+
+---
+
+## Example: Simple Network Zones (for code comments)
+
+```
+[Internet]
+    │
+[Firewall / WAF]
+    │
+[Public Zone]
+    ├── [Web Server :80/:443]
+    └── [API Gateway :443]
+              │
+[Private Zone]
+    ├── [App Servers :8080]
+    └── [Cache :6379]
+              │
+[Data Zone]
+    ├── [DB Primary :5432]
+    └── [DB Replica :5432]
+```
+
+---
+
+## Network Diagram Character Conventions
+
+| Symbol | Meaning |
+| :--- | :--- |
+| `──►` / `◄──` | Directional data flow |
+| `─────` | Connection / link |
+| `│` | Vertical connection |
+| `┌─┐ └─┘` | Zone or server boundary box |
+| `[ ]` | Lightweight component label |
+| `AZ-1 / AZ-2` | Availability zone annotation |
