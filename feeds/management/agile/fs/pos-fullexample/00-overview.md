@@ -34,17 +34,27 @@ Customers pay by **COD, bank transfer / ABA, mobile wallet, or prepaid payment l
 **Goals:**
 - One source of truth for products, costs, stock, orders, payments, and customers.
 - Accurate **landed cost** per item (purchase + shipping + import fees + FX), so margin is real, not guessed.
-- Capture orders from **TikTok Shop and Facebook** without manual re-typing.
+- Capture orders from **TikTok Shop and Facebook** (including live selling) without manual re-typing.
 - Support **stocked and dropship** fulfillment from the same order screen.
 - Reconcile **COD, bank, wallet, and prepaid** payments to each order.
 - Handle **returns/refunds** and keep stock and money correct.
+- **Drive revenue** through promotions, marketing attribution, loyalty, live selling, and social proof — while protecting margin.
 - Give the owner **real profit/loss** reporting, not just revenue.
 
 **Non-Goals:**
 - Building our own storefront/website (we sell on social platforms, not a custom shop).
 - Accounting/tax filing (we export data; we don't replace an accountant).
 - Warehouse robotics or barcode hardware in v1 (manual stock counts acceptable initially).
-- Marketing/ads management (out of scope; this is operations, not promotion).
+- Creating ad creative or running the ad platforms themselves (we *measure* marketing and *run promotions*; we don't replace the ad manager or the content team).
+
+## 3b. Expected Impact (honest)
+
+This system is two things working together, and it's worth being precise about what each does:
+
+- **Modules 1–9 (operations) protect profit.** They don't create sales — they stop the leaks: selling below true landed cost, orders lost between a comment and a parcel, COD cash that never reconciles, returns that never hit the books. The realistic win is **higher net margin on the sales you already make, and the ability to scale volume without chaos**.
+- **Modules 10–14 (growth) drive revenue.** Promotions lift conversion and basket size; attribution moves ad spend toward what works; loyalty brings cheaper repeat revenue; live selling raises sales velocity; social proof lifts conversion on everything.
+
+**On numbers:** any specific figure (e.g. "+80% revenue") depends on the seller's current volume, ad budget, product–market fit, and team discipline — not on the software alone. This FS removes the operational ceiling and adds the growth levers, but the lift is earned by *using* them well. Treat percentage targets as goals to test, not guarantees the system delivers on its own.
 
 ## 4. Users / Roles
 
@@ -61,8 +71,9 @@ Roles are permissions, not necessarily separate people — in a small team one p
 
 ## 5. The Modules
 
-This FS is split into modules; each is its own document with full requirements and acceptance criteria. Build order roughly follows the list.
+This FS is split into modules; each is its own document with full requirements and acceptance criteria. Build order roughly follows the list. Modules 1–9 are the **operations backbone** (protect margin, prevent losses, scale without chaos); modules 10–14 are the **revenue/growth layer** (drive more sales).
 
+**Operations backbone**
 1. [Procurement & Suppliers](01-procurement.md) — buying from China, purchase orders, supplier records.
 2. [Import & Landed Cost](02-landed-cost.md) — shipping, customs/import fees, FX, true per-unit cost.
 3. [Inventory & Products](03-inventory.md) — product catalog, stocked vs dropship, stock levels, valuation.
@@ -72,6 +83,13 @@ This FS is split into modules; each is its own document with full requirements a
 7. [Returns, Refunds & Cancellations](07-returns.md) — after-sales, restock, refund money flow.
 8. [Reporting & Profit/Loss](08-reporting.md) — margin, P&L, channel performance, stock value, COD float.
 9. [Users, Roles & Audit](09-users-roles.md) — who can do what; every money/stock action logged.
+
+**Revenue / growth layer**
+10. [Promotions & Discounts](10-promotions.md) — offers, vouchers, bundles, with a margin guardrail.
+11. [Marketing & Attribution](11-marketing-attribution.md) — which ads/posts/lives actually make money (ROAS).
+12. [Customers, Loyalty & Retention](12-customers-loyalty.md) — repeat buyers, points, store credit, segments.
+13. [Live Selling & Channel Engagement](13-live-selling.md) — fast claim capture, real-time stock, follow-up.
+14. [Reviews & Social Proof](14-reviews-social-proof.md) — trust that lifts conversion on every future sale.
 
 ## 6. End-to-End Flow (how the modules connect)
 

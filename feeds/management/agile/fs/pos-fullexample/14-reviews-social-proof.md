@@ -1,0 +1,39 @@
+# FS Module 14: Reviews & Social Proof
+
+> Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — trust is the #1 conversion lever in social commerce.
+
+## Summary
+
+On TikTok and Facebook, buyers trust other buyers more than the seller. Reviews, ratings, and "customer photos" turn a hesitant viewer into a buyer — and a steady stream of fresh social proof lifts conversion on every future sale. This module collects feedback after delivery, surfaces the good for marketing, and routes the bad to service before it becomes a public complaint. It's a small module with outsized revenue impact.
+
+## Users
+
+Marketing/Owner (use proof), Service/Sales (handle negatives), customers (leave reviews).
+
+## Functional Requirements
+
+- **RV-1:** After an order is **Delivered** ([Module 5](05-fulfillment.md)), the system can trigger a **review request** to the customer via their channel (with consent from [Module 12](12-customers-loyalty.md)).
+- **RV-2:** A **review** captures rating (1–5), text, and optional customer photo, linked to the order and product.
+- **RV-3:** **Positive reviews** (e.g. 4–5★) can be marked **shareable** and collected into a library for use in posts, lives, and product listings.
+- **RV-4:** **Negative reviews** (e.g. 1–2★) auto-create a **service follow-up task** so the team can resolve privately before it escalates.
+- **RV-5:** Per-product **average rating and review count** are visible to the team (and usable in listings) to inform what to promote or drop.
+- **RV-6:** Optional **incentive**: offer loyalty points or a voucher for leaving a review (configurable), without paying for fake positives — incentive is for *a* review, not a *good* one.
+- **RV-7:** A small **social-proof metric**: review rate (reviews ÷ delivered orders) and rating trend over time.
+
+## Acceptance Criteria
+
+- **RV-1:** Given an order is marked Delivered, When the review trigger runs, Then the customer receives a review request (unless they opted out of marketing).
+- **RV-2:** Given a customer submits 5★ with a photo, When saved, Then it links to that order and product and appears in the product's reviews.
+- **RV-3:** Given a 5★ review, When marketing marks it shareable, Then it appears in the social-proof library for reuse.
+- **RV-4:** Given a 1★ review arrives, When it is saved, Then a service follow-up task is created and assigned, not left to chance.
+- **RV-5:** Given a product has reviews 5,4,5,3, When viewed, Then it shows average 4.25 over 4 reviews.
+
+## Edge Cases
+
+- Review left for a returned/refunded order → still recorded but flagged so it's read in context.
+- Customer opted out of marketing → no automated review request (manual ask only).
+- Suspected fake/spam review → can be hidden from public use but kept for record.
+
+## Dependencies
+
+- Triggered after delivery in [Module 5](05-fulfillment.md); consent/incentive from [Module 12](12-customers-loyalty.md); negatives route to service; rating trend into [Module 8](08-reporting.md).
