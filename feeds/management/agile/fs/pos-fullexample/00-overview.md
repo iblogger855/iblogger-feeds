@@ -176,7 +176,13 @@ This is a program-level approval of the overall scope and approach. Each module 
 
 **Program status:** `<Draft / In Review / Approved>`
 
-## 11. Related
+## 11. Appendices (shared depth)
+
+- [A1 — Data Dictionary & Glossary](A1-data-dictionary.md) — shared terms and core entities/fields used across all modules.
+- [A2 — Non-Functional Requirements](A2-nfr.md) — measurable performance, reliability, security, usability, and scalability targets.
+- [A3 — Wireframes & Screen Flows](A3-wireframes.md) — low-fidelity sketches of the key screens.
+
+## 12. Related
 
 - [FS Document Procedure](../fs-document-procedure.md) — how this FS was written.
 - [Ticket Sign-Off Procedure](../../procedure/signoff-jira-ticket-procedure.md) — each module becomes Backlog tickets at Gate 0.

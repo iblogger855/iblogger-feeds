@@ -27,6 +27,11 @@ Built to show the [FS Document Procedure](../fs-document-procedure.md) at real s
 - **[13 — Live Selling & Channel Engagement](13-live-selling.md)** — fast claim capture, real-time stock, follow-up.
 - **[14 — Reviews & Social Proof](14-reviews-social-proof.md)** — trust that lifts conversion.
 
+**Appendices (shared depth)**
+- **[A1 — Data Dictionary & Glossary](A1-data-dictionary.md)** — shared terms + core entities/fields.
+- **[A2 — Non-Functional Requirements](A2-nfr.md)** — measurable performance/reliability/security/usability targets.
+- **[A3 — Wireframes & Screen Flows](A3-wireframes.md)** — low-fidelity sketches of the key screens.
+
 Each module is sized to become its own epic; tickets are created from it at Gate 0 of the [Ticket Sign-Off Procedure](../../procedure/signoff-jira-ticket-procedure.md).
 
 **A note on impact:** modules 1–9 protect the profit you already make; modules 10–14 drive new revenue. No software guarantees a specific "+X% revenue" — see the [Expected Impact](00-overview.md#3b-expected-impact-honest) section.
