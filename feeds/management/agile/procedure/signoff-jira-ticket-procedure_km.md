@@ -116,9 +116,9 @@ flowchart LR
 
 ពណ៌បន្ទាត់៖ បៃតង = លំហូរទៅមុខ (ឆ្ពោះទៅ Done) · ក្រហម = បរាជ័យ / កំហុស · ទឹកក្រូច = ផ្អាក ឬផ្ញើទុក (ក្រៅលំហូរ) · បៃតងខៀវ = ត្រឡប់ចូលលំហូរវិញ។
 
-> សម្រាប់ឯកសារដែល Mermaid មិនបង្ហាញ (Google Docs, PDF, បោះពុម្ព) សូមប្រើរូបភាពដែលនាំចេញ៖ `assets/signoff-flow.png` (ឬ `assets/signoff-flow.svg`)។ នាំចេញឡើងវិញពី `assets/signoff-flow.mmd` បើលំហូរផ្លាស់ប្តូរ។
+> សម្រាប់ឯកសារដែល Mermaid មិនបង្ហាញ (Google Docs, PDF, បោះពុម្ព) សូមប្រើរូបភាពដែលនាំចេញ៖ `assets/signoff-jira-ticket-flow.png` (ឬ `assets/signoff-jira-ticket-flow.svg`)។ នាំចេញឡើងវិញពី `assets/signoff-jira-ticket-flow.mmd` បើលំហូរផ្លាស់ប្តូរ។
 
-![លំហូរស្ថានភាពអនុម័តសំបុត្រ](assets/signoff-flow.png)
+![លំហូរស្ថានភាពអនុម័តសំបុត្រ](assets/signoff-jira-ticket-flow.png)
 
 ### 1.3 បញ្ជីស្ថានភាព (Status List)
 

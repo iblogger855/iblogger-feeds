@@ -116,9 +116,9 @@ flowchart LR
 
 Line colors: green = forward flow (toward Done) · red = fail / defect · orange = paused or parked (off-flow) · teal = returning to the flow.
 
-> For documents where Mermaid does not render (Google Docs, PDF, print), use the exported image: `assets/signoff-flow.png` (or `assets/signoff-flow.svg`). Re-export from `assets/signoff-flow.mmd` if the flow changes.
+> For documents where Mermaid does not render (Google Docs, PDF, print), use the exported image: `assets/signoff-jira-ticket-flow.png` (or `assets/signoff-jira-ticket-flow.svg`). Re-export from `assets/signoff-jira-ticket-flow.mmd` if the flow changes.
 
-![Ticket sign-off status flow](assets/signoff-flow.png)
+![Ticket sign-off status flow](assets/signoff-jira-ticket-flow.png)
 
 ### 1.3 Status List
 
