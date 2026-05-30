@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Validation gate** — test demand on social *before* spending money on inventory. Runs **before** [Procurement](01-procurement.md).
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 The most expensive mistake in resell is buying and stocking a product on a hunch, then watching it sit dead in the warehouse — cash frozen, margin gone. This module flips the order of operations: **before any purchase, test the product's demand on TikTok or Facebook** with a small, cheap experiment (a post, a small ad, or a live feature). Real signals — clicks, comments, "how to buy", and actual orders — then drive a clear decision: **Stock it, Dropship-only, or Drop it.** You spend money on inventory only after the market has voted.
@@ -69,3 +79,39 @@ Owner/Marketing (run tests, read results), Buyer (acts on the decision), Sales.
 - Runs **before** [Procurement](01-procurement.md) (gates whether to buy at all).
 - Sells via dropship/pre-order using [Channels & Orders](04-channels-orders.md) + [Fulfillment](05-fulfillment.md).
 - Test spend attributed in [Marketing & Attribution](11-marketing-attribution.md); decision sets fulfillment type in [Inventory](03-inventory.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Test setup (channel/type/budget/window); A/B listing variants; signal capture; dropship/pre-order-only selling during test; demand result → Stock/Dropship/Drop thresholds; set fulfillment type + suggested PO; test cost attribution; test report.
+
+**Out of scope:**
+- The actual purchase (from [Procurement](01-procurement.md)); the selling mechanics (from [Orders](04-channels-orders.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Run a test selling dropship/pre-order-only, capture orders as the signal, map to Stock/Dropship/Drop, set fulfillment type. |
+| **Post-MVP** | A/B listing variants, full signal capture (views/clicks/comments), suggested PO quantity, test-report library. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

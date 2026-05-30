@@ -52,6 +52,7 @@ A good test: a developer should read the FS and know exactly *what success looks
 
 Each FS should contain these sections. Keep it as short as it can be while still answering every question a builder would ask.
 
+0. **Document Control** — status (Draft / In Review / Approved), version, author, reviewers, last updated. Lets readers trust they're looking at the current, agreed version.
 1. **Title & Summary** — one-paragraph "what and why." If someone reads only this, they should grasp the point.
 2. **Background / Problem** — what's wrong today, what pain or opportunity drives this. Ground it in the real situation.
 3. **Goals & Non-Goals** — what this delivers, and — just as important — what it explicitly does *not* cover (so scope can't creep silently).
@@ -60,11 +61,14 @@ Each FS should contain these sections. Keep it as short as it can be while still
 6. **Functional Requirements** — the specific behaviors the system must have, numbered (FR-1, FR-2…) so tickets and tests can reference them.
 7. **Acceptance Criteria** — testable conditions for each requirement (see §4). This is what QA verifies and the PO accepts.
 8. **Non-Functional Requirements** — performance, security, availability, localization, etc., where they matter.
-9. **Out of Scope** — restate the boundaries explicitly.
-10. **Dependencies & Assumptions** — what must be true or in place (other systems, data, third parties).
-11. **Open Questions** — things still undecided, with an owner for each.
+9. **Scope: In / Out** — restate the boundaries explicitly. What this FS owns, and what it deliberately leaves to another FS or phase.
+10. **MVP vs Post-MVP** — the smallest version that delivers the core value (MVP), and what is consciously deferred to a later phase. Stops a big FS from blocking a first release.
+11. **Dependencies & Assumptions** — what must be true or in place (other systems, data, third parties).
+12. **Open Questions** — things still undecided, with an owner for each.
+13. **Approval & Sign-Off** — the roles who reviewed and agreed to build it (PO, PM, Dev Lead, QA), with status and date. An internal working agreement, not a legal contract.
+14. **Change Log** — version history, so changes after approval are visible, not silent.
 
-Not every FS needs every section — but consciously *decide* to omit one, don't just forget it.
+Not every FS needs every section — but consciously *decide* to omit one, don't just forget it. The "why" (rationale) for significant choices should be woven into the Summary, Background, and the requirements themselves — a reader should always understand *why*, not just *what*.
 
 ---
 
@@ -116,13 +120,14 @@ Copy everything below into a new FS document and fill it in.
 ```markdown
 # FS: <feature name>
 
+## Document Control
 | Field | Value |
 |-------|-------|
-| Author (PO) | <name> |
-| Date | <YYYY-MM-DD> |
 | Status | <Draft / In Review / Approved> |
-| Target sprint | <sprint> |
+| Version | <0.1> |
+| Author (PO) | <name> |
 | Reviewers | PM <name>, Dev <name>, QA <name> |
+| Last updated | <YYYY-MM-DD> |
 
 ## 1. Summary
 <One paragraph: what and why.>
@@ -153,14 +158,35 @@ Copy everything below into a new FS document and fill it in.
 ## 8. Non-Functional Requirements
 - <performance / security / availability / localization …>
 
-## 9. Out of Scope
+## 9. Scope: In / Out
+**In scope:** <…>
+**Out of scope:** <… — point to the FS/phase that covers it>
+
+## 10. MVP vs Post-MVP
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | <smallest version that delivers the core value> |
+| **Post-MVP** | <deferred enhancements> |
+
+## 11. Dependencies & Assumptions
 - <…>
 
-## 10. Dependencies & Assumptions
-- <…>
-
-## 11. Open Questions
+## 12. Open Questions
 - <question> — owner: <name>, due: <date>
+
+## 13. Approval & Sign-Off
+*Internal working agreement, not a legal contract.*
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | <name> | <> | <YYYY-MM-DD> |
+| Project Manager (PM) | <name> | <> | <YYYY-MM-DD> |
+| Dev Lead | <name> | <> | <YYYY-MM-DD> |
+| QA | <name> | <> | <YYYY-MM-DD> |
+
+## 14. Change Log
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | <YYYY-MM-DD> | <name> | Initial draft |
 ```
 
 ---

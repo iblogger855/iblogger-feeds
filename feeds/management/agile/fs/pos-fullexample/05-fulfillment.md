@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Getting the goods to the customer — stocked and dropship paths.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Once an order is confirmed, it must be fulfilled. **Stocked** orders are packed from the warehouse and handed to a courier. **Dropship** orders first require a supplier purchase, then ship (from us after we receive it, or sometimes direct from supplier). Both paths converge on **delivery and tracking**. The system must run both from the same order without staff having to remember two separate processes.
@@ -39,3 +49,39 @@ Fulfillment/Dispatch (primary), Buyer (for dropship purchasing), Inventory staff
 ## Dependencies
 
 - Triggered by [Module 4](04-channels-orders.md); for dropship creates a PO in [Module 1](01-procurement.md); COD owed-back feeds [Module 6](06-payments.md); returns handled in [Module 7](07-returns.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Pick/pack for stocked; dropship purchase trigger; partial/mixed-order fulfillment; courier booking + tracking; delivery status; COD owed-back tracking; labels.
+
+**Out of scope:**
+- Order capture (from [Orders](04-channels-orders.md)); COD cash reconciliation (see [Payments](06-payments.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Mark stocked order packed → ship with tracking → delivered (manual update); dropship raises a PO and waits. |
+| **Post-MVP** | Courier API auto status, partial-shipment handling, direct-from-supplier dropship, delivery-failure states. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

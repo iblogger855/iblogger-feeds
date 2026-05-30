@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Capturing orders from TikTok Shop & Facebook, and the order lifecycle.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 This is where sales happen. Orders arrive from **TikTok Shop** (more structured, often via API) and **Facebook** (messy — comments, DMs, live-selling "claims"). The system must capture both into one consistent **Order** object and run it through a clear lifecycle, regardless of where it came from. The order remembers its channel so we can measure each one's performance.
@@ -43,3 +53,39 @@ Sales/Chat agent (primary), Fulfillment, Finance, Owner.
 ## Dependencies
 
 - Reads availability from [Module 3](03-inventory.md); triggers [Module 5 — Fulfillment](05-fulfillment.md); shows payment from [Module 6](06-payments.md); feeds [Module 8 — Reporting](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- The Order object; manual capture from Facebook/live; TikTok API import where available; order lifecycle; stock reservation on confirm; oversell prevention; manual discounts; search.
+
+**Out of scope:**
+- Physical fulfillment (see [Fulfillment](05-fulfillment.md)); money (see [Payments](06-payments.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Manually capture an order from any channel, run it through the lifecycle, reserve stock on confirm, prevent oversell. |
+| **Post-MVP** | TikTok API auto-import, duplicate detection, live-claim fast capture (see [Live Selling](13-live-selling.md)). |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

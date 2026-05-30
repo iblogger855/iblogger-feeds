@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — tells you which marketing actually makes money, so spend follows results.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 The fastest way to grow revenue is to **stop wasting ad spend and double down on what works**. But most resell sellers can't tell which post, ad, or live session produced which sale — so they guess. This module attributes orders back to their marketing source and reports **ROAS (return on ad spend)** and cost-per-order per campaign, turning marketing from a gamble into a measured lever.
@@ -37,3 +47,39 @@ Marketing/Owner (primary), Finance (spend data), Sales (capture source).
 ## Dependencies
 
 - Source captured in [Module 4](04-channels-orders.md); vouchers from [Module 10](10-promotions.md); revenue/margin from [Module 8](08-reporting.md); spend reconciled with [Module 6](06-payments.md)/Finance.
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Campaign records with spend; order source tagging (UTM/voucher/manual); ROAS + cost-per-order; live-session attribution; campaign ranking dashboard; honest 'unattributed' bucket.
+
+**Out of scope:**
+- Creating ad creative / running ad platforms; the order data itself (from [Orders](04-channels-orders.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Campaign with manual spend, order source tagged via voucher/manual, ROAS + cost-per-order per campaign. |
+| **Post-MVP** | Ad-platform API spend import, UTM auto-capture, live-session conversion, multi-touch attribution. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

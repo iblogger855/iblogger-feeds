@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Who can do what, and a trail of everything that touches money or stock.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 A resell business runs on trust but survives on accountability. Staff should see and do only what their job needs, and every action that changes **money or stock** must be traceable to a person and a time. This module defines the roles, their permissions, and the audit log that makes the whole system safe to run with a small team where one mistake (or one bad actor) can quietly drain profit.
@@ -37,3 +47,39 @@ Owner/Admin (manages users), all roles (subject to permissions).
 ## Dependencies
 
 - Cross-cutting: governs access to every other module. The audit log captures money/stock events raised by Modules 1–8.
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Roles as permission sets; permission gates on money/stock actions; append-only audit log; user deactivation; report-visibility by role; activity feed.
+
+**Out of scope:**
+- The business actions themselves (owned by each module); external SSO/identity providers (v1).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Core roles with permission gates on sensitive actions, append-only audit log of money/stock changes. |
+| **Post-MVP** | Custom role builder, fine-grained per-field permissions, activity-feed filtering, SSO. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

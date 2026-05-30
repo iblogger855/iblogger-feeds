@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — repeat buyers are the cheapest revenue you'll ever get.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Acquiring a new customer costs ad money; selling again to an existing one is nearly free. Yet most social resellers treat every sale as a one-off and never bring buyers back. This module builds a real **customer record** with purchase history, and adds the retention levers — loyalty points, store credit, segments, and re-engagement — that turn a first-time buyer into a repeat one. This is where sustainable revenue growth actually comes from.
@@ -38,3 +48,39 @@ Owner/Marketing (retention strategy), Sales (sees customer history at order time
 ## Dependencies
 
 - Built from orders in [Module 4](04-channels-orders.md); credit from [Module 7](07-returns.md); vouchers from [Module 10](10-promotions.md); repeat-rate into [Module 8](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Consolidated customer records across channels; history at order time; loyalty points; store credit; segments; re-engagement export; repeat-rate; consent.
+
+**Out of scope:**
+- The orders themselves (from [Orders](04-channels-orders.md)); the messaging channel (external social platform).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Customer record consolidated by phone/handle with purchase history shown at order capture. |
+| **Post-MVP** | Loyalty points + redemption, store credit, segments, re-engagement lists, record merging, repeat-rate metric. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

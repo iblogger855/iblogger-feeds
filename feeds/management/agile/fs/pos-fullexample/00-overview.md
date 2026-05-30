@@ -162,7 +162,21 @@ flowchart TD
 - Single warehouse or multiple locations in v1? — owner: Rith (Ops).
 - Do we need multi-currency selling, or local-currency only? — owner: Sophea (PO).
 
-## 10. Related
+## 10. Program Approval & Sign-Off
+
+This is a program-level approval of the overall scope and approach. Each module also carries its own approval block. This is an internal working agreement, not a legal contract.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+| Owner | `<name>` | `<>` | `<YYYY-MM-DD>` |
+
+**Program status:** `<Draft / In Review / Approved>`
+
+## 11. Related
 
 - [FS Document Procedure](../fs-document-procedure.md) — how this FS was written.
 - [Ticket Sign-Off Procedure](../../procedure/signoff-jira-ticket-procedure.md) — each module becomes Backlog tickets at Gate 0.

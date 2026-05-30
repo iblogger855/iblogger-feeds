@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — live selling is the single highest-velocity sales channel for TikTok/Facebook resellers.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Live selling (TikTok Live, Facebook Live) drives a huge share of social-commerce revenue: viewers claim items by comment in real time, and speed wins. The chaos of a live — dozens of "SOLD" comments per minute, stock running out mid-stream — is exactly where manual processes collapse and sales get lost. This module makes the live a first-class, fast capture flow tied to inventory and follow-up, so the team can sell faster without losing orders or overselling.
@@ -37,3 +47,39 @@ Sales/Host (during live), Fulfillment (after), Marketing.
 ## Dependencies
 
 - Stock from [Module 3](03-inventory.md); claims become orders in [Module 4](04-channels-orders.md); follow-up payment via [Module 6](06-payments.md); attribution in [Module 11](11-marketing-attribution.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Live session setup with item codes + allocated stock; fast claim capture; real-time sold-out; oversell protection; post-live order creation + payment-request list; campaign attribution; unpaid-claim release.
+
+**Out of scope:**
+- General order lifecycle (from [Orders](04-channels-orders.md)); payment collection (from [Payments](06-payments.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Set up a live with item codes + allocation, fast manual claim entry → draft orders, real-time sold-out, post-live payment list. |
+| **Post-MVP** | Platform comment-API auto-capture, waitlist handling, unpaid-claim auto-release, live conversion analytics. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

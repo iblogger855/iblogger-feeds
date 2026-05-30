@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). The product catalog and stock truth.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Every product has a catalog record with its selling info and a **fulfillment type** (stocked or dropship). Stocked products have a live stock level that goes up on receiving and down on sale; dropship products don't hold stock but still need a record to be sold and costed. This module is the bridge between what we *bought* and what we *sell*.
@@ -39,3 +49,39 @@ Owner (pricing, product setup), Inventory staff (stock counts), Sales (reads ava
 
 - Receives stock-in from [Module 1](01-procurement.md), cost from [Module 2](02-landed-cost.md).
 - Serves availability to [Module 4 — Channels & Orders](04-channels-orders.md); stock value to [Module 8 — Reporting](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Product catalog with variants; fulfillment type (Stocked/Dropship); live stock for stocked items; stock in/out; manual adjustments with reason; low-stock flag; valuation.
+
+**Out of scope:**
+- How stock arrives (from [Procurement](01-procurement.md)/[Landed Cost](02-landed-cost.md)); how it leaves (from [Orders](04-channels-orders.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Catalog with variants, stocked vs dropship flag, stock up on receive / down on sale, manual adjustment with reason. |
+| **Post-MVP** | Low-stock reorder suggestions, weighted-average vs FIFO valuation choice, multi-location stock. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

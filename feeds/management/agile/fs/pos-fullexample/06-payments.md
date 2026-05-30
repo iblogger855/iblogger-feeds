@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Matching money to orders across COD, bank/ABA, wallets, and prepaid links.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Money arrives in different ways and at different times. **Prepaid** (card/wallet/payment link) lands before fulfillment. **Bank transfer / ABA** lands when the customer transfers and Finance confirms it. **COD** is collected by the courier on delivery and paid back to us later — meaning we carry a "COD float" that must be reconciled. This module records every payment against its order and makes sure the money we *should* have matches the money we *do* have.
@@ -41,3 +51,39 @@ Finance (primary), Sales (records intended method), Owner (reads cash position).
 ## Dependencies
 
 - Payment intent set in [Module 4](04-channels-orders.md); COD float created at ship in [Module 5](05-fulfillment.md); refunds in [Module 7](07-returns.md); cash & margin into [Module 8 — Reporting](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Payments per order; methods (COD/bank-ABA/wallet/prepaid); split payment; manual confirm for bank/wallet; COD reconciliation + float; deposits; payment status.
+
+**Out of scope:**
+- Refund money flow (see [Returns](07-returns.md)); profit reporting (see [Reporting](08-reporting.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Record a payment per method, manual confirm for bank/COD, derive order paid/partial/unpaid status. |
+| **Post-MVP** | Gateway auto-confirm for prepaid/wallet, COD batch reconciliation with lump-sum allocation, deposits. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

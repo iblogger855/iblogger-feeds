@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — trust is the #1 conversion lever in social commerce.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 On TikTok and Facebook, buyers trust other buyers more than the seller. Reviews, ratings, and "customer photos" turn a hesitant viewer into a buyer — and a steady stream of fresh social proof lifts conversion on every future sale. This module collects feedback after delivery, surfaces the good for marketing, and routes the bad to service before it becomes a public complaint. It's a small module with outsized revenue impact.
@@ -37,3 +47,39 @@ Marketing/Owner (use proof), Service/Sales (handle negatives), customers (leave 
 ## Dependencies
 
 - Triggered after delivery in [Module 5](05-fulfillment.md); consent/incentive from [Module 12](12-customers-loyalty.md); negatives route to service; rating trend into [Module 8](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Post-delivery review request (with consent); review capture (rating/text/photo); shareable positive library; negative→service task; per-product rating; optional incentive; review-rate metric.
+
+**Out of scope:**
+- Publishing to the social platform itself; the delivery event (from [Fulfillment](05-fulfillment.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Capture a review (rating + text + photo) linked to order/product; route negatives to a service task. |
+| **Post-MVP** | Automated post-delivery review requests, shareable library, incentives, rating-trend reporting, spam handling. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Covers buying from Chinese suppliers and tracking purchase orders.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 The Buyer sources products from Chinese marketplaces and places purchase orders (POs). The system records each supplier, each PO, what was ordered, at what CNY cost, and the state of that PO from "draft" to "received." This is the origin of every cost number that later flows into landed cost and margin.
@@ -39,3 +49,39 @@ Buyer/Sourcer (primary), Owner (approves large POs), Inventory staff (receives a
 
 - Supplier platform links are stored as plain URLs (no API dependency required in v1).
 - Feeds cost data into [Module 2 — Landed Cost](02-landed-cost.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Supplier records; purchase orders with CNY line costs; PO lifecycle (Draft→Ordered→Shipped→Received); owner approval over a threshold; receiving against a PO incl. partial/short.
+
+**Out of scope:**
+- Cost conversion to base currency and fee allocation — see [Landed Cost](02-landed-cost.md). Stock levels — see [Inventory](03-inventory.md).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Create supplier + PO, move it through the lifecycle, receive against it. Single receiving event. |
+| **Post-MVP** | Multiple receiving events per PO, supplier performance analytics (lead time, discrepancy rate), reorder suggestions. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

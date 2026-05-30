@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). **Revenue module** — drives conversion and average order value. Pairs with margin protection from [Landed Cost](02-landed-cost.md).
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Social commerce runs on offers: flash sales, bundle deals, free shipping over a threshold, voucher codes for live viewers. This module lets the team run promotions **deliberately** — with rules, limits, and a guardrail that no promo silently sells below landed cost. The goal is to lift conversion and basket size *without* giving away the margin the ops modules worked to protect.
@@ -38,3 +48,39 @@ Owner (sets promos & margin floor), Sales (applies promos at order), Marketing.
 ## Dependencies
 
 - Margin floor from [Module 2](02-landed-cost.md); applied in [Module 4](04-channels-orders.md); measured in [Module 8](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Promotion types (% / fixed / bundle / free-ship / BXGY); voucher or auto-apply; usage limits; margin guardrail; per-line discount recording; bundle cost split; scheduling; promo performance.
+
+**Out of scope:**
+- Applying the discount at order time (mechanics in [Orders](04-channels-orders.md)); margin floor source ([Landed Cost](02-landed-cost.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Percent/fixed voucher codes with usage limits + the margin guardrail (block below cost). |
+| **Post-MVP** | Bundles, BXGY, auto-apply threshold promos, scheduling, stacking rules, promo performance report. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |

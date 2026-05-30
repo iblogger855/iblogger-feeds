@@ -2,6 +2,16 @@
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). After-sales — keeping stock and money correct when things go back.
 
+
+## Document Control
+| Field | Value |
+|-------|-------|
+| Status | `<Draft / In Review / Approved>` |
+| Version | `<0.1>` |
+| Author (PO) | Sophea |
+| Reviewers | PM Dara, Dev Visal, QA Chenda |
+| Last updated | `<YYYY-MM-DD>` |
+
 ## Summary
 
 Customers cancel, items arrive damaged, COD parcels get rejected at the door. Each of these has to put **stock** and **money** back into a correct state — a returned stocked item should re-enter inventory at its original landed cost, and a refund must reverse the right payment. This module prevents the classic resell-business leak where returns are handled in chat and never reflected in the books.
@@ -39,3 +49,39 @@ Sales/Finance (process returns), Inventory (restock), Owner (approves exceptions
 ## Dependencies
 
 - Reverses payments in [Module 6](06-payments.md); restocks via [Module 3](03-inventory.md); net figures into [Module 8 — Reporting](08-reporting.md).
+
+---
+
+## Scope (this module)
+
+**In scope:**
+- Cancellations (release stock, void payment); returns with reason; restock vs write-off; refunds reversing payment; COD-rejected handling; partial returns; store credit.
+
+**Out of scope:**
+- The original sale (from [Orders](04-channels-orders.md)); how refunds appear in P&L (from [Reporting](08-reporting.md)).
+
+## MVP vs Post-MVP
+
+| Phase | What ships |
+|-------|-----------|
+| **MVP** | Cancel before ship (release stock), return after delivery with refund reversing the payment, restock or write-off. |
+| **Post-MVP** | Partial-line returns, store credit balances, dropship 'refund without physical return', return-in-transit states. |
+
+## Approval
+
+This FS module is an internal working agreement, not a legal contract. By approving, each role confirms they have reviewed it and agree to build to it.
+
+| Role | Name | Status (Reviewed / Approved) | Date |
+|------|------|------------------------------|------|
+| Product Owner (PO) | Sophea | `<>` | `<YYYY-MM-DD>` |
+| Project Manager (PM) | Dara | `<>` | `<YYYY-MM-DD>` |
+| Dev Lead | Visal | `<>` | `<YYYY-MM-DD>` |
+| QA | Chenda | `<>` | `<YYYY-MM-DD>` |
+
+**Approval status:** `<Draft / In Review / Approved>`   ·   **Approved on:** `<YYYY-MM-DD>`
+
+## Change Log
+
+| Version | Date | Author | Change |
+|---------|------|--------|--------|
+| 0.1 | `<YYYY-MM-DD>` | Sophea | Initial draft |
