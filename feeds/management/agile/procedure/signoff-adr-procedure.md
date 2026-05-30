@@ -96,7 +96,7 @@ flowchart LR
     REC -->|"CTO accepts"| ACC["Accepted<br/>(CTO)"]:::success
     REC -.->|"changes requested"| PROP
     ACC -.->|"decision changes later"| SUP["Superseded<br/>(new ADR replaces)"]:::hold
-    PROP -.->|"abandoned before acceptance"| REJ["Rejected<br/>(not adopted)"]:::danger
+    PROP -.->|"abandoned before <br/> acceptance"| REJ["Rejected<br/>(not adopted)"]:::danger
 
     linkStyle 0,1,2 stroke:#27ae60,stroke-width:2px
     linkStyle 3 stroke:#e67e22,stroke-width:2px
