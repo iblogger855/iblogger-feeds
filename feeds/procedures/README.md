@@ -53,6 +53,21 @@ Stepping into a QA Lead role for the first time, in a new workspace — onboardi
 
 ---
 
+## 📋 PM Leadership
+
+Stepping into a Project Manager role (Agile/delivery) for the first time, in a new workspace — onboarding plus the delivery process you run. ([series overview](./pm-leadership/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [pm-leadership/01-first-90-days.md](./pm-leadership/01-first-90-days.md) | First 90 Days as a New PM | Day 1 — Listen → Assess → Plan → Execute roadmap |
+| [pm-leadership/02-delivery-assessment.md](./pm-leadership/02-delivery-assessment.md) | Delivery Health Assessment | Auditing delivery across 6 dimensions |
+| [pm-leadership/03-planning-and-estimation.md](./pm-leadership/03-planning-and-estimation.md) | Planning & Estimation | Roadmap, sizing, capacity, forecasting with ranges |
+| [pm-leadership/04-cadence-and-execution.md](./pm-leadership/04-cadence-and-execution.md) | Cadence & Execution | Ceremonies, flow health, clearing blockers |
+| [pm-leadership/05-stakeholders-and-reporting.md](./pm-leadership/05-stakeholders-and-reporting.md) | Stakeholders & Reporting | Stakeholder mapping, status reports, bad news |
+| [pm-leadership/06-risk-issues-and-change.md](./pm-leadership/06-risk-issues-and-change.md) | Risk, Issues & Change | Keeping surprises off the table; scope control |
+
+---
+
 ## 🏗️ System Design
 
 Architecture, database schema, and UI design — from blank page to documented system.
@@ -109,6 +124,7 @@ Real product flows — clinical systems, booking platforms, and marketplace oper
 |:-----|:-------------|:--------------|
 | Product Owner | PO | Owns the backlog, defines business value, accepts stories |
 | Product Manager | PM | Writes PRD, coordinates stakeholders, defines success metrics |
+| Project Manager | PM (Delivery) | Plans & forecasts delivery, runs cadence, clears blockers, manages risk |
 | Team Lead | TL | Technical decisions, architecture, code review, unblocks team |
 | Developer | DEV | Implements stories, writes tests, raises PRs |
 | QA Engineer | QA | Tests stories, writes E2E tests, signs off for release |
