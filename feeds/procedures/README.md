@@ -7,6 +7,8 @@ Each procedure includes:
 - An **ASCII flow** (portable — works in any text editor, Confluence, or Slack)
 - A **step-by-step responsibility table**
 
+> 🧭 **New to a leadership role?** Start at the **[Leadership Playbooks hub](./leadership-playbooks.md)** — first-90-days guides for QA Lead, Project Manager, Team Lead, Engineering Manager, and Scrum Master, with a "which role am I?" comparison.
+
 ---
 
 ## 📁 Software Delivery
@@ -68,6 +70,51 @@ Stepping into a Project Manager role (Agile/delivery) for the first time, in a n
 
 ---
 
+## 🛠️ Team Lead Leadership
+
+Stepping into a Team Lead / Tech Lead role for the first time — onboarding plus the technical direction you set. ([series overview](./team-lead/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [team-lead/01-first-90-days.md](./team-lead/01-first-90-days.md) | First 90 Days as a New Team Lead | Day 1 — the doer → multiplier shift, Listen→Assess→Plan→Execute |
+| [team-lead/02-technical-assessment.md](./team-lead/02-technical-assessment.md) | Technical Health Assessment | Auditing the codebase & engineering health across 6 dimensions |
+| [team-lead/03-technical-direction.md](./team-lead/03-technical-direction.md) | Setting Technical Direction | Standards, ADRs, tech-debt strategy, delivery vs quality |
+| [team-lead/04-code-review-and-quality.md](./team-lead/04-code-review-and-quality.md) | Code Review & Quality | Owning the quality bar without becoming the bottleneck |
+| [team-lead/05-mentoring-and-growth.md](./team-lead/05-mentoring-and-growth.md) | Mentoring & Growth | 1-on-1s, delegation, pairing, growing engineers |
+| [team-lead/06-delivery-and-collaboration.md](./team-lead/06-delivery-and-collaboration.md) | Delivery & Collaboration | Working with PM/QA/PO, unblocking, representing the team |
+
+---
+
+## 👥 Engineering Manager Leadership
+
+Stepping into an Engineering Manager role for the first time — onboarding plus the people-leadership craft. ([series overview](./engineering-manager/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [engineering-manager/01-first-90-days.md](./engineering-manager/01-first-90-days.md) | First 90 Days as a New EM | Day 1 — the build-software → build-team shift |
+| [engineering-manager/02-team-health-assessment.md](./engineering-manager/02-team-health-assessment.md) | Team Health Assessment | Diagnosing team health across 6 dimensions |
+| [engineering-manager/03-one-on-ones-and-feedback.md](./engineering-manager/03-one-on-ones-and-feedback.md) | 1-on-1s & Feedback | The core EM craft — trust, SBI feedback, hard conversations |
+| [engineering-manager/04-performance-and-growth.md](./engineering-manager/04-performance-and-growth.md) | Performance & Growth | Career ladders, expectations, humane performance management |
+| [engineering-manager/05-hiring-and-team-building.md](./engineering-manager/05-hiring-and-team-building.md) | Hiring & Team Building | Hire-vs-grow, fair interview loops, onboarding |
+| [engineering-manager/06-delivery-and-stakeholders.md](./engineering-manager/06-delivery-and-stakeholders.md) | Delivery & Stakeholders | Accountability without micromanaging; team-health metrics |
+
+---
+
+## 🔄 Scrum Master Leadership
+
+Stepping into a Scrum Master role for the first time — servant-leadership onboarding plus the facilitation craft. ([series overview](./scrum-master/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [scrum-master/01-first-90-days.md](./scrum-master/01-first-90-days.md) | First 90 Days as a New SM | Day 1 — servant-leadership mindset, SM vs PM vs Team Lead |
+| [scrum-master/02-agile-maturity-assessment.md](./scrum-master/02-agile-maturity-assessment.md) | Agile Maturity Assessment | Assessing the team's agile maturity across 6 dimensions |
+| [scrum-master/03-facilitating-ceremonies.md](./scrum-master/03-facilitating-ceremonies.md) | Facilitating Ceremonies | Facilitate vs run — technique for each Scrum event |
+| [scrum-master/04-removing-impediments.md](./scrum-master/04-removing-impediments.md) | Removing Impediments | Surface, track, escalate; the impediment log |
+| [scrum-master/05-coaching-and-team-health.md](./scrum-master/05-coaching-and-team-health.md) | Coaching & Team Health | Coaching stances, psychological safety, retros that change things |
+| [scrum-master/06-metrics-and-continuous-improvement.md](./scrum-master/06-metrics-and-continuous-improvement.md) | Metrics & Continuous Improvement | Healthy metrics for improvement, not judgment; kaizen |
+
+---
+
 ## 🏗️ System Design
 
 Architecture, database schema, and UI design — from blank page to documented system.
@@ -126,6 +173,8 @@ Real product flows — clinical systems, booking platforms, and marketplace oper
 | Product Manager | PM | Writes PRD, coordinates stakeholders, defines success metrics |
 | Project Manager | PM (Delivery) | Plans & forecasts delivery, runs cadence, clears blockers, manages risk |
 | Team Lead | TL | Technical decisions, architecture, code review, unblocks team |
+| Engineering Manager | EM | Hiring, performance, growth, team health; accountable for delivery |
+| Scrum Master | SM | Facilitates ceremonies, removes impediments, coaches on agile |
 | Developer | DEV | Implements stories, writes tests, raises PRs |
 | QA Engineer | QA | Tests stories, writes E2E tests, signs off for release |
 | QA Lead | QA Lead | Owns the test strategy, defect process, release gate, and QA team |
