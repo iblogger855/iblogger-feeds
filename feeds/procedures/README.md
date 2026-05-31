@@ -40,6 +40,18 @@ Before the first sprint — turning an idea into a running, scoped project.
 
 ---
 
+## 🚀 Startup
+
+Foundations, strategy, and build playbooks for starting and scaling a business. ([series overview](./startup/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [startup/foundations/01-four-foundations-of-starting-a-business.md](./startup/foundations/01-four-foundations-of-starting-a-business.md) | The Four Foundations of Starting a Business | Deciding whether/what to build — Knowledge → Skill → Credit → Problem |
+| [startup/01-africa-market-expansion-architecture.md](./startup/01-africa-market-expansion-architecture.md) | Africa Market Expansion & Architecture | Strategy & architecture for expanding into African markets |
+| [startup/clone/README.md](./startup/clone/README.md) | Clone Playbooks | Build-and-expand guides for marketplace & SaaS clones (Doctolib, Airbnb) |
+
+---
+
 ## 💼 Business Owner Leadership
 
 Stepping into a business/product-line owner (sponsor) role for the first time — owning the P&L, vision, budget, and outcomes. ([series overview](./business-owner/README.md))
