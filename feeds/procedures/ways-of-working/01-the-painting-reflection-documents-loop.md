@@ -2,9 +2,9 @@
 
 **Tags:** #ways-of-working #collaboration #mindset #continuous-improvement #teams
 **Audience:** Team leads · anyone running a system or procedure · teams that want to improve how they work
-**Read Time:** ~11 min
+**Read Time:** ~13 min
 
-> A framework shared by a founder at a talk: a system or procedure only works if it keeps improving in a **loop** — **Painting → Reflection → Documents → Confidence → (repeat).** You picture where you're going, look honestly at what happened, write it down so it's shared, and each turn of the loop builds confidence in the system. What keeps the loop healthy is a **mindset**: stay curious, stay humble, stay a student. That mindset is what makes a procedure actually run — and what makes a team collaborate well. 🤝
+> A framework shared by a founder at a talk: to work as a team you need a **procedure / flow**, and it only works if it keeps improving in a **loop** — **Painting → Reflection → Documents → Confidence → (repeat).** You picture where you're going, run the flow for a **set duration**, look honestly at what happened, write it down so it's shared, and each turn builds confidence in the system. What keeps the loop healthy is a **mindset** — stay curious, stay humble, stay a student — and a rule: when something fails, **ask why and fix the flow; don't "kill the goat"** (blame a person). That's what makes a procedure actually run — and what makes a team collaborate well. 🤝
 
 ---
 
@@ -17,7 +17,9 @@
 - [Step 2 — Reflection 🪞](#06)
 - [Step 3 — Documents 📄](#07)
 - [Step 4 — Confidence 🔄](#08)
+- [The Time-Box: Run for a Duration, Then Review ⏱️](#08b)
 - [The Mindset That Powers the Loop 🧠](#09)
+- [Blameless: Ask Why, Don't Kill the Goat 🐐](#09b)
 - [Why This Makes Teams Collaborate 🤝](#10)
 - [Self-Check](#11)
 - [Related Documents](#12)
@@ -96,11 +98,13 @@ THE PAINTING → REFLECTION → DOCUMENTS → CONFIDENCE LOOP
          ┌────────────────────┐                              │
          │  🔄 4 · CONFIDENCE │   trust grows in the system  │
          └─────────┬──────────┘                              │
-                   └───────────  loop again, a bit better  ──┘
+                   └──  ⏱️ run a set duration → review →  ────┘
+                        update the flow, loop again better
 
    ┌──────────────────────────────────────────────────────────────────────────┐
    │  🧠 MINDSET (runs underneath every step):                                  │
    │     curiosity · humility · stay a student                                  │
+   │  🐐 when something fails → ask WHY & fix the flow — don't kill the goat     │
    │  → this is what keeps the loop honest and turning, and what lets a         │
    │    team collaborate 🤝 around the shared system.                           │
    └──────────────────────────────────────────────────────────────────────────┘
@@ -180,6 +184,30 @@ Confidence is the payoff and the fuel. When you've painted, reflected, and docum
 
 ---
 
+<a id="08b"></a>
+## The Time-Box: Run for a Duration, Then Review ⏱️
+
+> To work as a team, you need a **procedure / flow** — and the loop only works if you give it a **fixed duration** to run, *then* check whether it actually worked. Don't review randomly, and don't change the procedure mid-flight on a whim.
+
+This is the practical engine that turns the loop from a nice idea into a habit:
+
+1. **Agree the procedure (the flow).** How does the team work together — who does what, in what order? This is the "painting" made concrete.
+2. **Set a duration / period.** Commit to running it as-is for a fixed window — a sprint, two weeks, a month. A time-box gives the procedure a fair chance and gives you a clean before/after to judge.
+3. **Run it for the whole period.** Resist the urge to keep tweaking mid-window — you can't tell if something works if you change it every day. Let it run; collect what happens.
+4. **Review at the end: did it work?** This is **Reflection 🪞** on a schedule. Compare what happened to the painting. What worked, what didn't, where did it hurt?
+5. **Update the procedure.** Fold the lessons in (**Documents 📄**), then run the next period with the improved flow. Each window earns **Confidence 🔄**.
+
+| | Why it matters |
+|:--|:---------------|
+| **Fixed duration** | A fair test window + a clean point to judge "did it work?" |
+| **Run it un-tweaked** | You can't measure a moving target — let the procedure actually run |
+| **Scheduled review** | Reflection happens *on purpose*, not "if we remember" |
+| **Update, then repeat** | The procedure evolves every cycle instead of rotting |
+
+> ⏱️ *The rhythm:* **set the flow → run for the period → review → update → run again.** This is exactly the [sprint cadence](../scrum-master/03-facilitating-ceremonies.md) underneath agile, and the loop's "duration" is what makes the review honest — you're judging a real run, not a guess.
+
+---
+
 <a id="09"></a>
 ## The Mindset That Powers the Loop 🧠
 
@@ -196,6 +224,33 @@ Confidence is the payoff and the fuel. When you've painted, reflected, and docum
 - **Maintain the mindset of a student** — treat every cycle as something to learn from; the expert who stopped learning is where systems go to die.
 
 > Note the balance: **Confidence 🔄 and Humility 🙏 are held together.** Confidence makes you trust the system; humility keeps you willing to change it. Lose either and the loop breaks — too little confidence and nobody commits; too little humility and nobody improves.
+
+---
+
+<a id="09b"></a>
+## Blameless: Ask Why, Don't Kill the Goat 🐐
+
+> When the review finds a problem, there are two roads. The wrong one: find someone to blame — **sacrifice a "goat"** (a scapegoat) and feel like the problem is handled. The right one: ask **"why did this happen?"** and fix the *procedure*. The issue is almost never the person — it's the flow that let the issue through.
+
+When something goes wrong in a period, the instinct on many teams is to find *who* did it. That instinct quietly destroys the loop:
+
+- **Blaming a person ends the inquiry.** Once there's a "goat," everyone stops asking *why* — and the real cause (a weak step in the procedure) survives to bite again next period.
+- **Blame kills honesty.** If reflection means someone gets punished, people hide problems instead of surfacing them — and you can't fix what you can't see. (This is why **humility 🙏** and psychological safety matter.)
+- **The system, not the person, is usually the cause.** A good person inside a bad procedure will keep producing bad outcomes. Fix the procedure and the *next* person succeeds too.
+
+**Do this instead — blameless review:**
+
+| ❌ Kill the goat | ✅ Ask why |
+|:----------------|:----------|
+| "Who broke it?" | "*Why* did this happen — what in the flow allowed it?" |
+| Punish the person | Update the procedure so it can't happen the same way |
+| Inquiry stops | Inquiry continues until the root cause is found |
+| People hide mistakes | People surface mistakes early |
+| Same issue returns next period | The issue is designed out |
+
+> 🐐 **"Don't kill the goat."** A failed period is not a person to punish — it's a **gap in the procedure to close.** Ask *why* until you reach the process cause, then update the flow ([Documents 📄](#07)). That's how the same issue doesn't come back — and how the team stays safe enough to keep improving together.
+
+> Practically, push past the first answer with a few rounds of **"why?"** (the [Five Whys](../../concepts/articles/02-five-whys-technique.md)). "The deploy failed" → *why?* → "a step was skipped" → *why?* → "the checklist didn't include it" → **there's the procedure fix** — not a goat.
 
 ---
 
@@ -225,9 +280,11 @@ Score your team honestly 1–5 on each:
 | 🪞 Reflection | Do we honestly review what happened — without blame? | ___ |
 | 📄 Documents | Do we capture lessons where the whole team can find them? | ___ |
 | 🔄 Confidence | Do we trust our system enough to follow *and* improve it? | ___ |
+| ⏱️ Time-box | Do we run the procedure for a set period, then review on schedule? | ___ |
+| 🐐 Blameless | When something fails, do we ask *why* and fix the flow — not blame a person? | ___ |
 | 🧠 Mindset | Are we staying curious, humble, and in student mode? | ___ |
 
-> Your **lowest score is the weakest link in the loop.** Usually it's Reflection (too defensive) or Documents (too lazy to write) — and the fix is almost always the **mindset** row.
+> Your **lowest score is the weakest link in the loop.** Usually it's Reflection (too defensive), Documents (too lazy to write), or Blameless (someone got "killed" as a goat) — and the fix is almost always the **mindset** row.
 
 ---
 
