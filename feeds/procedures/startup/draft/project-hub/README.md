@@ -14,6 +14,7 @@
 |:-----|:---------|:--------|
 | 🎯 **Strategy** | [business-model-canvas.md](./business-model-canvas.md) | The business model — value prop, segments, revenue, costs |
 | 🎯 **Strategy** | [roadmap.md](./roadmap.md) | Phased plan: Foundation → MVP → Pilot → Growth |
+| 🎯 **Strategy** | [okrs.md](./okrs.md) | Quarterly objectives & measurable key results |
 | 👥 **Team** | [roles.md](./roles.md) | Who owns what + meeting cadence |
 | 👥 **Team** | [responsibilities.md](./responsibilities.md) | Full responsibility matrix (10 areas → roles) |
 | ✅ **Project Mgmt** | [todo.md](./todo.md) | Active task list & open questions, by area |
@@ -30,19 +31,14 @@
 
 1. **[business-model-canvas.md](./business-model-canvas.md)** — *why* the venture exists (the model)
 2. **[roadmap.md](./roadmap.md)** — *when* — the phased plan
-3. **[roles.md](./roles.md)** → **[responsibilities.md](./responsibilities.md)** — *who* does what
-4. **[todo.md](./todo.md)** — what's being worked on now
-5. **[user-stories.md](./user-stories.md)** — *what* the product must do
-6. **[tech-stack.md](./tech-stack.md)** — *how* it's built
-7. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
-8. **[risk-register.md](./risk-register.md)** — what could go wrong + mitigations
-9. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
-
----
-
-## 🔜 Suggested next documents (not yet written)
-
-- **`okrs.md`** — quarterly goals & key results (once the model & roadmap are validated)
+3. **[okrs.md](./okrs.md)** — quarterly goals that turn the roadmap into measurable targets
+4. **[roles.md](./roles.md)** → **[responsibilities.md](./responsibilities.md)** — *who* does what
+5. **[todo.md](./todo.md)** — what's being worked on now
+6. **[user-stories.md](./user-stories.md)** — *what* the product must do
+7. **[tech-stack.md](./tech-stack.md)** — *how* it's built
+8. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
+9. **[risk-register.md](./risk-register.md)** — what could go wrong + mitigations
+10. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
 
 ---
 
