@@ -10,7 +10,7 @@
 
 ## 📌 មាតិកា (Table of Contents)
 - [សេចក្តីផ្តើម (Introduction)](#0)
-- [១. បញ្ជីមុខវិជ្ជា (Courses)](#1)
+- [១. បញ្ជីមុខវិជ្ជា និងរឿងប្រៀបធៀប (Courses & Related Parables)](#1)
 - [២. របៀបសិក្សា (Study Methodology)](#2)
 
 ---
@@ -23,14 +23,14 @@
 ---
 
 <a id="1"></a>
-## ១. បញ្ជីមុខវិជ្ជា (Courses)
+## ១. បញ្ជីមុខវិជ្ជា និងរឿងប្រៀបធៀប (Courses & Related Parables)
 
-ខាងក្រោមនេះជាតារាងលម្អិតនៃមុខវិជ្ជានៅក្នុងផ្នែកពាណិជ្ជកម្មសកល៖
+ខាងក្រោមនេះជាតារាងលម្អិតនៃមុខវិជ្ជានៅក្នុងផ្នែកពាណិជ្ជកម្មសកល និងរឿងប្រៀបធៀបទាក់ទង៖
 
-| ឯកសារ (File) | ការផ្តោតសំខាន់ (Focus) |
-|:---|:---|
-| 🌐 **[០១ — ទ្រឹស្តីពាណិជ្ជកម្មអន្តរជាតិ (01 — International Trade Theory)](./01-international-trade-theory.md)** | គុណសម្បត្តិប្រៀបធៀប (Ricardo), ទ្រឹស្តីបទ Heckscher-Ohlin, ពន្ធគយ និងកូតា, WTO/GATT, ប្លុកពាណិជ្ជកម្ម, និងទស្សនវិស័យនិរន្តរភាព (CBAM, ការលេចធ្លាយកាបូន) |
-| 🚢 **[០២ — ការចូលទីផ្សារ និងសកលភាវូបនីយកម្ម (02 — Market Entry & Globalization)](./02-market-entry-and-globalization.md)** | របៀបចូលទីផ្សារ (ការនាំចេញ, អាជ្ញាប័ណ្ណ, JV, FDI), ការវិភាគ PESTEL/CAGE, យុទ្ធសាស្ត្រសកល ធៀបនឹង ពហុមូលដ្ឋាន, ខ្សែចង្វាក់ផ្គត់ផ្គង់សកល, និងភាពតានតឹងនៃនិរន្តរភាព |
+| ឯកសារ (File) | ការផ្តោតសំខាន់ (Focus) | រឿងប្រៀបធៀបទាក់ទង (Related Parable) |
+|:---|:---|:---|
+| 🌐 **[០១ — ទ្រឹស្តីពាណិជ្ជកម្មអន្តរជាតិ (01 — International Trade Theory)](./01-international-trade-theory.md)** | គុណសម្បត្តិប្រៀបធៀប (Ricardo), ទ្រឹស្តីបទ Heckscher-Ohlin, ពន្ធគយ និងកូតា, WTO/GATT, ប្លុកពាណិជ្ជកម្ម, និងទស្សនវិស័យនិរន្តរភាព (CBAM, ការលេចធ្លាយកាបូន) | [The Weaver and the Fisherman (ជាងត្បាញ និងអ្នកនេសាទ)](./parables/289-the-weaver-and-the-fisherman.md) |
+| 🚢 **[០២ — ការចូលទីផ្សារ និងសកលភាវូបនីយកម្ម (02 — Market Entry & Globalization)](./02-market-entry-and-globalization.md)** | របៀបចូលទីផ្សារ (ការនាំចេញ, អាជ្ញាប័ណ្ណ, JV, FDI), ការវិភាគ PESTEL/CAGE, យុទ្ធសាស្ត្រសកល ធៀបនឹង ពហុមូលដ្ឋាន, ខ្សែចង្វាក់ផ្គត់ផ្គង់សកល, និងភាពតានតឹងនៃនិរន្តរភាព | [The Noodle Seller Who Crossed the Border (អ្នកលក់មីដែលឆ្លងព្រំដែន)](./parables/290-the-noodle-seller-who-crossed-the-border.md) |
 
 ---
 
