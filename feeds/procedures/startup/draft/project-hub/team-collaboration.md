@@ -4,7 +4,7 @@
 **Document type:** Ways of working
 **Status:** 🚧 Draft (team agreement)
 
-> Most teams don't fail on talent — they fail on **friction**: the same problems recur, decisions get re-argued, knowledge lives in one person's head, and blame replaces learning. This doc defines a simple loop so the team improves how it works, every week. Adapted from the [Painting → Reflection → Documents → Confidence loop](../../ways-of-working/01-the-painting-reflection-documents-loop.md).
+> Most teams don't fail on talent — they fail on **friction**: the same problems recur, decisions get re-argued, knowledge lives in one person's head, and blame replaces learning. This doc defines a simple loop so the team improves how it works, every week. Adapted from the [Painting → Reflection → Documents → Confidence loop](../../../ways-of-working/01-the-painting-reflection-documents-loop.md).
 
 ---
 
@@ -83,4 +83,4 @@ Run the loop on a fixed cadence — the [weekly meeting](./weekly-meeting.md):
 
 ---
 
-*Internal working document · `startup/draft/project-hub/` · See also: [Ways of Working — the full loop](../../ways-of-working/01-the-painting-reflection-documents-loop.md)*
+*Internal working document · `startup/draft/project-hub/` · See also: [Ways of Working — the full loop](../../../ways-of-working/01-the-painting-reflection-documents-loop.md)*
