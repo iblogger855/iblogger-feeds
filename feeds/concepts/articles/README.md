@@ -75,6 +75,7 @@ Understanding interpersonal dynamics, emotional intelligence (EQ), constructive 
 | **47** | Genghis Khan: Agile Methodology and Autonomous Squads | [Read Article](./47-genghis-khan-and-agile-squads.md) | #agile #autonomous-squads #decentralization |
 | **74** | Stress Minimization: The Preservation of Cognitive Energy | [Read Article](./74-stress-minimization.md) | #stress-minimization #burnout #team-culture #sunk-cost |
 | **77** | Information Asymmetry: The Illusion of Knowledge | [Read Article](./77-information-asymmetry.md) | #information-asymmetry #illusion-of-knowledge #knowledge-silos #communication |
+| **78** | The Seventy-Two Faces of Sun Wukong: Adaptation, Masks & the Self | [Read Article](./78-the-seventy-two-faces-of-sun-wukong.md) | #sun-wukong #self-monitoring #goffman #persona #authenticity |
 
 ---
 
