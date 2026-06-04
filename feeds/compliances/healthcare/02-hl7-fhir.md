@@ -1,97 +1,119 @@
-# HL7 FHIR — Fast Healthcare Interoperability Resources
+# HL7 FHIR (ស្តង់ដារដោះដូរទិន្នន័យសុខាភិបាលល្បឿនលឿន)៖ ក្របខ័ណ្ឌការងារអន្តរប្រតិបត្តិការទិន្នន័យគ្លីនិក (HL7 FHIR — Fast Healthcare Interoperability Resources)
 
-**Jurisdiction:** Global standard  
-**Current version:** FHIR R4 (widely adopted), FHIR R5 (2023)  
-**Applies to:** Healthcare platforms, EHR/EMR systems, health apps, clinical data exchange  
-**Administered by:** HL7 International  
+**សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** ស្តង់ដារសកល (Global standard)  
+**نسخةបច្ចុប្បន្ន (Current version)៖** FHIR R4 (ត្រូវបានប្រើយ៉ាងទូលំទូលាយ), FHIR R5 (ឆ្នាំ ២០២៣) (FHIR R4 widely adopted, FHIR R5 2023)  
+**សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** វេទិកាថែទាំសុខភាព, ប្រព័ន្ធ EHR/EMR, កម្មវិធីសុខភាព, និងការដោះដូរទិន្នន័យគ្លីនិក (Healthcare platforms, EHR/EMR systems, health apps, clinical data exchange)  
+**គ្រប់គ្រងដោយ (Administered by)៖** ស្ថាប័ន HL7 International  
 **Tags:** #compliance #fhir #hl7 #healthcare #interoperability #clinical-data
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. គោលគំនិតស្នូល (Core Concepts)](#1)
+- [២. ចំណុចប្រទាក់កម្មវិធី RESTful API (RESTful API)](#2)
+- [៣. ការអនុវត្តជាក់ស្តែង - លំហូរទិន្នន័យគ្លីនិក (FHIR in Practice)](#3)
+- [៤. ប្រព័ន្ធកូដដោះដូរទិន្នន័យ (Coding Systems)](#4)
+- [៥. ក្របខ័ណ្ឌការងារ SMART on FHIR](#5)
+- [៦. លក្ខខណ្ឌតម្រូវសន្តិសុខសម្រាប់ FHIR APIs (Security Requirements)](#6)
+- [៧. ភាពខុសគ្នារវាង FHIR និង HL7 v2 (FHIR vs HL7 v2)](#7)
+- [Related](#8)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+FHIR (Fast Healthcare Interoperability Resources) គឺជាស្តង់ដារសកលសម្រាប់ការដោះដូរព័ត៌មានសុខាភិបាលតាមប្រព័ន្ធអេឡិចត្រូនិក។ វាចែងអំពីគំរូទិន្នន័យរួម និងចំណុចប្រទាក់កម្មវិធី RESTful API សម្រាប់ទិន្នន័យគ្លីនិក និងទិន្នន័យរដ្ឋបាលសុខាភិបាល — ដែលអនុញ្ញាតឱ្យប្រព័ន្ធព័ត៌មានសុខាភិបាលផ្សេង ៗ គ្នាអាចចែករំលែកព័ត៌មានអ្នកជំងឺទៅវិញទៅមកដោយមានសុវត្ថិភាព និងអត្ថន័យច្បាស់លាស់។
 
 FHIR (Fast Healthcare Interoperability Resources) is a standard for exchanging healthcare information electronically. It defines a common data model and RESTful API for clinical and administrative health data — enabling different healthcare systems to share patient information securely and meaningfully.
+
+ស្តង់ដារ FHIR មិនមែនជាបទបញ្ញត្តិច្បាប់ដោយខ្លួនឯងឡើយ ប៉ុន្តែវាត្រូវបានបង្គាប់ឱ្យអនុវត្តដោយច្បាប់ជាតិមួយចំនួន (ដូចជា ច្បាប់ US 21st Century Cures Act របស់អាមេរិក និងប្រព័ន្ធ My Health Record របស់អូស្ត្រាលី) ហើយបច្ចុប្បន្នវាបានក្លាយជាស្តង់ដារជាក់ស្តែង (de facto standard) សម្រាប់ការធ្វើសមាហរណកម្មទិន្នន័យសុខាភិបាលសម័យទំនើប។
 
 FHIR is not a regulatory requirement itself, but it is mandated by several regulations (US 21st Century Cures Act, Australian My Health Record) and is the de facto standard for modern healthcare integration.
 
 ---
 
-## Core Concepts
+<a id="1"></a>
+## ១. គោលគំនិតស្នូល (Core Concepts)
 
-### Resources
+### ១.១ ធនធាន (Resources)
+ច្បាប់ស្តង់ដារ FHIR រៀបចំទិន្នន័យសុខភាពជាប្រភេទ «ធនធាន (Resources)» — ដែលជាវត្ថុទិន្នន័យម៉ូឌុលដាច់ដោយឡែកពីគ្នា (modular, self-contained data objects)។ ធនធាននីមួយ ៗ មានទម្រង់តំណាងជា JSON կամ XML ស្ដង់ដារ។
 
 FHIR organises health data into **Resources** — modular, self-contained data objects. Each resource has a standard JSON/XML representation.
 
-| Resource | Contains |
+| ធនធាន (Resource) | ព័ត៌មានលម្អិតដែលផ្ទុក (Contains) |
 |:---------|:---------|
-| **Patient** | Demographics, identifiers, contact info |
-| **Practitioner** | Doctor/nurse identity and qualifications |
-| **Encounter** | A clinical interaction (appointment, visit) |
-| **Observation** | Vitals, lab results, measurements |
-| **Condition** | Diagnoses, problems |
-| **MedicationRequest** | Prescriptions |
-| **AllergyIntolerance** | Allergies and adverse reactions |
-| **DiagnosticReport** | Lab reports, imaging reports |
-| **Procedure** | Treatments and procedures performed |
-| **Immunization** | Vaccination records |
-| **DocumentReference** | Links to clinical documents |
-| **Appointment** | Booking and scheduling |
-| **Organization** | Hospitals, clinics, health plans |
+| **Patient** | ព័ត៌មានប្រជាសាស្ត្រ, លេខសម្គាល់អ្នកជំងឺ, ព័ត៌មានទំនាក់ទំនង (Demographics, identifiers, contact info) |
+| **Practitioner** | អត្តសញ្ញាណរបស់វេជ្ជបណ្ឌិត ឬគិលានុបដ្ឋាក និងសញ្ញាបត្រសមត្ថភាព (Doctor/nurse identity & credentials) |
+| **Encounter** | អន្តរកម្មគ្លីនិក (ការណាត់ជួប, ការចូលជួបពិនិត្យជំងឺ) (Clinical interaction — appointment, visit) |
+| **Observation** | សញ្ញាជីវិត, លទ្ធផលមន្ទីរពិសោធន៍, ការវាស់វែងរាងកាយ (Vitals, lab results, measurements) |
+| **Condition** | ការធ្វើរោគវិនិច្ឆ័យ, បញ្ហាសុខភាព (Diagnoses, problems) |
+| **MedicationRequest** | វេជ្ជបញ្ជា (Prescriptions) |
+| **AllergyIntolerance** | អាឡែហ្ស៊ី និងប្រតិកម្មផ្សេង ៗ (Allergies and adverse reactions) |
+| **DiagnosticReport** | របាយការណ៍មន្ទីរពិសោធន៍, របាយការណ៍រូបភាពវេជ្ជសាស្ត្រ (Lab reports, imaging reports) |
+| **Procedure** | ការព្យាបាល និងនីតិវិធីវេជ្ជសាស្ត្រដែលបានអនុវត្ត (Treatments and procedures performed) |
+| **Immunization** | កំណត់ត្រាចាក់វ៉ាក់សាំង (Vaccination records) |
+| **DocumentReference** | តំណភ្ជាប់ទៅកាន់ឯកសារគ្លីនិក (Links to clinical documents) |
+| **Appointment** | ការកក់ និងការកំណត់កាលវិភាគណាត់ជួប (Booking and scheduling) |
+| **Organization** | មន្ទីរពេទ្យ, គ្លីនិក, គម្រោងសុខភាព (Hospitals, clinics, health plans) |
 
 ---
 
-## RESTful API
+<a id="2"></a>
+## ២. ចំណុចប្រទាក់កម្មវិធី RESTful API (RESTful API)
 
-FHIR uses standard HTTP operations:
+ស្តង់ដារ FHIR ប្រើប្រាស់ប្រតិបត្តិការ HTTP ស្តង់ដារ (FHIR uses standard HTTP operations)៖
 
 ```
-GET    /Patient/{id}              → Read a specific patient
-GET    /Patient?name=Dara         → Search patients by name
-POST   /Patient                   → Create a new patient
-PUT    /Patient/{id}              → Update a patient
-DELETE /Patient/{id}              → Delete (if permitted)
-GET    /Patient/{id}/_history     → Version history
+GET    /Patient/{id}              → អានព័ត៌មានអ្នកជំងឺជាក់លាក់ម្នាក់ (Read a specific patient)
+GET    /Patient?name=Dara         → ស្វែងរកអ្នកជំងឺតាមឈ្មោះ (Search patients by name)
+POST   /Patient                   → បង្កើតគណនីអ្នកជំងឺថ្មី (Create a new patient)
+PUT    /Patient/{id}              → ធ្វើបច្ចុប្បន្នភាពព័ត៌មានអ្នកជំងឺ (Update a patient)
+DELETE /Patient/{id}              → លុបគណនីចេញ (ប្រសិនបើអនុញ្ញាត) (Delete if permitted)
+GET    /Patient/{id}/_history     → មើលប្រវត្តិនៃការកែប្រែ (Version history)
 ```
 
-### FHIR Search Parameters
+### ឧទាហរណ៍នៃការស្វែងរកប៉ារ៉ាម៉ែត្ររបស់ FHIR (FHIR Search Parameters)
 
 ```
 GET /Observation?patient=123&code=29463-7&date=2026-01-01
-    ← All weight observations for patient 123 since Jan 1 2026
+    ← មើលរាល់ទិន្នន័យសង្កេតទម្ងន់ទាំងអស់របស់អ្នកជំងឺលេខ ១២៣ ចាប់ពីថ្ងៃទី ១ មករា ២០២៦ មក (All weight observations for patient 123 since Jan 1 2026)
 
 GET /MedicationRequest?patient=123&status=active
-    ← All active prescriptions for patient 123
+    ← មើលរាល់វេជ្ជបញ្ជាសកម្មទាំងអស់របស់អ្នកជំងឺលេខ ១២៣ (All active prescriptions for patient 123)
 
 GET /Appointment?patient=123&date=ge2026-05-01&date=le2026-05-31
-    ← All appointments in May 2026
+    ← រាល់ការណាត់ជួបទាំងអស់នៅក្នុងកំឡុងខែ ឧសភា ឆ្នាំ ២០២៦ (All appointments in May 2026)
 ```
 
 ---
 
-## FHIR in Practice — Doctolib-style Platform
+<a id="3"></a>
+## ៣. ការអនុវត្តជាក់ស្តែង - លំហូរទិន្នន័យគ្លីនិក (FHIR in Practice — Doctolib-style Platform)
 
-### Booking to Clinical Data Flow
+### លំហូរទិន្នន័យពីការកក់ រហូតដល់ទិន្នន័យគ្លីនិក (Booking to Clinical Data Flow)
 
 ```
-1. Patient books appointment
-   → Appointment resource created
+១. អ្នកជំងឺធ្វើការកក់ការណាត់ជួប
+   → ធនធាន Appointment ត្រូវបានបង្កើតឡើង
 
-2. Patient arrives — vitals taken
-   → Observation resources created (blood pressure, weight, temp)
-   → Linked to the Encounter resource
+២. អ្នកជំងឺមកដល់គ្លីនិក — វាស់សញ្ញាជីវិត (Vitals)
+   → ធនធាន Observation ត្រូវបានបង្កើតឡើង (សម្ពាធឈាម, ទម្ងន់, សីតុណ្ហភាព)
+   → ភ្ជាប់ទៅកាន់ធនធាន Encounter (ការជួបពិនិត្យ)
 
-3. Doctor diagnoses
-   → Condition resource created (ICD-10 code)
+៣. គ្រូពេទ្យធ្វើរោគវិនិច្ឆ័យ
+   → ធនធាន Condition ត្រូវបានបង្កើតឡើង (ភ្ជាប់ជាមួយកូដ ICD-10)
 
-4. Doctor prescribes
-   → MedicationRequest resource created
-   → Linked to Condition and Practitioner
+៤. គ្រូពេទ្យចេញវេជ្ជបញ្ជា
+   → ធនធាន MedicationRequest ត្រូវបានបង្កើតឡើង
+   → ភ្ជាប់ទៅកាន់ធនធាន Condition និង Practitioner
 
-5. Pharmacist dispenses
-   → MedicationDispense resource created
-   → Linked to MedicationRequest
+៥. ឱសថការីផ្តល់ថ្នាំ
+   → ធនធាន MedicationDispense ត្រូវបានបង្កើតឡើង
+   → ភ្ជាប់ទៅកាន់ធនធាន MedicationRequest
 
-6. All resources linked via:
+៦. គ្រប់ធនធានទាំងអស់ត្រូវបានភ្ជាប់គ្នាតាមរយៈ៖
    → subject (Patient)
    → encounter (Encounter)
    → performer/requester (Practitioner)
@@ -99,67 +121,78 @@ GET /Appointment?patient=123&date=ge2026-05-01&date=le2026-05-31
 
 ---
 
-## Coding Systems Used in FHIR
+<a id="4"></a>
+## ៤. ប្រព័ន្ធកូដដោះដូរទិន្នន័យ (Coding Systems Used in FHIR)
 
-| Code system | Used for |
+| ប្រព័ន្ធកូដ (Code System) | ប្រើប្រាស់សម្រាប់ (Used For) |
 |:------------|:---------|
-| **ICD-10** | Diagnoses (Condition resource) |
-| **SNOMED CT** | Clinical findings, procedures |
-| **LOINC** | Lab tests and observations |
-| **RxNorm** | Medications (US) |
-| **ATC** | Medications (international — WHO) |
-| **CPT** | Procedures (US billing) |
+| **ICD-10** | ការធ្វើរោគវិនិច្ឆ័យ (ធនធាន Condition) (Diagnoses - Condition resource) |
+| **SNOMED CT** | លទ្ធផលរកឃើញគ្លីនិក និងនីតិវិធីវេជ្ជសាស្ត្រ (Clinical findings, procedures) |
+| **LOINC** | វិភាគតេស្តមន្ទីរពិសោធន៍ និងការសង្កេតគ្លីនិក (Lab tests and observations) |
+| **RxNorm** | ព័ត៌មានថ្នាំសង្កូវ (សហរដ្ឋអាមេរិក) (Medications - US) |
+| **ATC** | ព័ត៌មានថ្នាំសង្កូវអន្តរជាតិ (អង្គការសុខភាពពិភពលោក - WHO) (Medications - international) |
+| **CPT** | នីតិវិធីសម្រាប់ការទូទាត់ប្រាក់ (សហរដ្ឋអាមេរិក) (Procedures - US billing) |
 
 ---
 
-## SMART on FHIR
+<a id="5"></a>
+## ៥. ក្របខ័ណ្ឌការងារ SMART on FHIR
+
+SMART on FHIR គឺជាស្តង់ដារសម្រាប់បង្កើតកម្មវិធីសុខាភិបាលដែលអាចតភ្ជាប់ និងដំណើរការដោយផ្ទាល់ជាមួយប្រព័ន្ធ EHR របស់មន្ទីរពេទ្យ។ វាប្រើប្រាស់ពិធីការ OAuth2 សម្រាប់ការអនុញ្ញាតសិទ្ធិ (authorization)៖
 
 SMART on FHIR is a standard for building health apps that plug into EHR systems. It uses OAuth2 for authorisation:
 
 ```
-App requests access to patient data
-  → EHR presents consent screen to patient
-  → Patient approves specific data access
-  → App receives OAuth2 token scoped to approved resources
-  → App calls FHIR API with the token
+កម្មវិធីស្នើសុំចូលប្រើប្រាស់ទិន្នន័យអ្នកជំងឺ
+  → ប្រព័ន្ធ EHR បង្ហាញផ្ទាំងសុំការយល់ព្រមទៅកាន់អ្នកជំងឺ
+  → អ្នកជំងឺអនុម័តយល់ព្រមលើការចូលប្រើប្រាស់ទិន្នន័យជាក់លាក់
+  → កម្មវិធីទទួលបានកូដ OAuth2 Access Token ដែលមានដែនកំណត់សិទ្ធិច្បាស់លាស់
+  → កម្មវិធីហៅទៅកាន់ FHIR API ដោយប្រើប្រាស់ Access Token នោះ
 ```
 
-This allows third-party health apps to access patient data from EHRs (like Epic, Cerner) with patient consent — the foundation of health data portability.
+ចំណុចនេះអនុញ្ញាតឱ្យកម្មវិធីសុខភាពរបស់ភាគីទីបី អាចចូលមើលទិន្នន័យអ្នកជំងឺពីប្រព័ន្ធ EHR (ដូចជា Epic, Cerner) ដោយមានការយល់ព្រមពីអ្នកជំងឺ — ដែលជាមូលដ្ឋានគ្រឹះនៃការផ្ទេរទិន្នន័យសុខភាព (health data portability)។
+
+This allows third-party health apps to access patient data from EHRs with patient consent — the foundation of health data portability.
 
 ---
 
-## Security Requirements for FHIR APIs
+<a id="6"></a>
+## ៦. លក្ខខណ្ឌតម្រូវសន្តិសុខសម្រាប់ FHIR APIs (Security Requirements for FHIR APIs)
 
 ```
-□ OAuth2 / SMART on FHIR for authentication
-□ TLS 1.2+ for all FHIR API traffic
-□ Audit logging — log all resource access (AuditEvent resource)
-□ Patient consent enforcement — only return consented resources
-□ Rate limiting — prevent bulk data extraction
-□ Data minimisation in search results
-□ Break-glass access for emergencies — with enhanced logging
-□ FHIR capability statement — document what your server supports
+□ ប្រើប្រាស់ OAuth2 / SMART on FHIR សម្រាប់ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ (OAuth2 authentication)
+□ ប្រើប្រាស់ TLS 1.2+ សម្រាប់រាល់ការបញ្ជូនព័ត៌មានតាមរយៈ FHIR API (TLS 1.2+)
+□ កំណត់ត្រាសវនកម្ម — កត់ត្រារាល់សកម្មភាពចូលប្រើប្រាស់ធនធាន (ប្រើប្រាស់ធនធាន AuditEvent)
+□ អនុវត្តតាមការយល់ព្រមរបស់អ្នកជំងឺ — ផ្តល់ជូនតែធនធានដែលបានអនុញ្ញាតប៉ុណ្ណោះ (Consent enforcement)
+□ ការកំណត់អត្រាប្រើប្រាស់ API (Rate Limiting) — ដើម្បីការពារការទាញយកទិន្នន័យជាដុំធំ (Rate limiting)
+□ កាត់បន្ថយទិន្នន័យក្នុងលទ្ធផលស្វែងរកឱ្យនៅកម្រិតអប្បបរមា (Data minimisation)
+□ ជម្រើសចូលប្រើប្រាស់ក្នុងករណីអាសន្ន (Break-glass access) — ភ្ជាប់ជាមួយការកត់ត្រា logs កម្រិតខ្ពស់
+□ របាយការណ៍សមត្ថភាពរបស់ FHIR (Capability Statement) — ចងក្រងឯកសារច្បាស់លាស់ពីអ្វីដែល server គាំទ្រ
 ```
 
 ---
 
-## FHIR vs HL7 v2
+<a id="7"></a>
+## ៧. ភាពខុសគ្នារវាង FHIR និង HL7 v2 (FHIR vs HL7 v2)
 
-| Aspect | FHIR | HL7 v2 |
+| ទិដ្ឋភាព (Aspect) | ស្តង់ដារ FHIR | ស្តង់ដារ HL7 v2 |
 |:-------|:-----|:-------|
-| Format | JSON / XML / Turtle | Pipe-delimited text (`MSH|^~\&|...`) |
-| API | RESTful HTTP | File transfer / point-to-point messaging |
-| Readability | Human-readable | Cryptic for non-specialists |
-| Modern use | New implementations | Existing hospital systems (still dominant) |
-| Interoperability | Excellent with modern systems | Requires interface engines (Mirth, Rhapsody) |
+| **ទម្រង់ទិន្នន័យ (Format)** | JSON / XML / Turtle | អត្ថបទខណ្ឌដោយសញ្ញាបំពង់ Pipe (`MSH\|^~\&\|...`) |
+| **ចំណុចប្រទាក់ API** | RESTful HTTP | ការបញ្ជូនឯកសារ / ផ្ញើសារ point-to-point (File transfer) |
+| **ភាពងាយស្រួលអាន** | មនុស្សងាយស្រួលអាន និងយល់ (Human-readable) | ពិបាកយល់សម្រាប់អ្នកមិនមែនជាជំនាញការ (Cryptic) |
+| **ការប្រើប្រាស់បច្ចុប្បន្ន** | ការអនុវត្តប្រព័ន្ធថ្មី ៗ (New implementations) | ប្រព័ន្ធមន្ទីរពេទ្យចាស់ ៗ (នៅតែពេញនិយមខ្លាំង) (Legacy) |
+| **អន្តរប្រតិបត្តិការ** | ល្អឥតខ្ចោះជាមួយប្រព័ន្ធទំនើប ៗ | ទាមទារកម្មវិធីជំនួយបំប្លែងទិន្នន័យ (ដូចជា Mirth, Rhapsody) |
+
+វេទិកាថែទាំសុខភាពថ្មី ៗ ភាគច្រើនប្រើប្រាស់ស្តង់ដារ FHIR។ ទោះជាយ៉ាងណា ប្រព័ន្ធមន្ទីរពេទ្យចាស់ ៗ ភាគច្រើននៅតែប្រើប្រាស់ HL7 v2 ដដែល។ ការតភ្ជាប់ជាមួយមន្ទីរពេទ្យជាច្រើនតម្រូវឱ្យយើងត្រូវគាំទ្រស្តង់ដារទាំងពីរនេះ។
 
 Most new healthcare platforms use FHIR. Most existing hospital systems still use HL7 v2. Integrating with hospitals often means supporting both.
 
 ---
 
+<a id="8"></a>
 ## Related
 
-- [HIPAA](./01-hipaa.md) — US health data protection
-- [GDPR Health Data](./03-gdpr-health-data.md) — EU health data protection
+- [HIPAA](./01-hipaa.md) — វិធានការការពារទិន្នន័យសុខភាពអាមេរិក
+- [GDPR Health Data](./03-gdpr-health-data.md) — វិធានការការពារទិន្នន័យសុខភាពសហភាពអឺរ៉ុប
 - [Doctor Prescription & Clinical Workflow](../../procedures/domain-workflows/01-doctor-prescription-and-clinical-workflow.md)
 - [Second Opinion Clinical Workflow](../../procedures/domain-workflows/02-second-opinion-clinical-workflow.md)

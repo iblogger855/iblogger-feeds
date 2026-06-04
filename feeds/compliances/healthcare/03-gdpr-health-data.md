@@ -1,134 +1,162 @@
-# GDPR Article 9 — Special Category Health Data
+# GDPR Article 9 (ច្បាប់ការពារទិន្នន័យទូទៅ មាត្រា ៩)៖ វិធានការការពារពិសេសសម្រាប់ទិន្នន័យសុខាភិបាល (GDPR Article 9 — Special Category Health Data)
 
-**Jurisdiction:** European Union  
-**Applies to:** Any organisation processing health data of EU residents  
+**សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** សហភាពអឺរ៉ុប (European Union)  
+**សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** អង្គភាពទាំងឡាយណាដែលដំណើរការទិន្នន័យសុខភាពរបស់ពលរដ្ឋសហភាពអឺរ៉ុប (Any organisation processing health data of EU residents)  
 **Tags:** #compliance #gdpr #healthcare #health-data #special-category #eu
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. ទិន្នន័យណាខ្លះដែលរាប់ជាទិន្នន័យសុខភាព (What Counts as Health Data)](#1)
+- [២. ករណីលើកលែងនៃមាត្រា ៩ (Article 9 Exceptions)](#2)
+- [៣. កាតព្វកិច្ចសំខាន់ ៗ សម្រាប់ទិន្នន័យសុខភាព (Key Obligations)](#3)
+- [៤. ករណីលើកលែងសម្រាប់ការស្រាវជ្រាវ (Research Exception)](#4)
+- [៥. ការផ្ទេរទិន្នន័យសុខភាពឆ្លងប្រទេស (Cross-Border Transfer)](#5)
+- [៦. បញ្ជីអនុវត្តជាក់ស្តែង (Practical Checklist)](#6)
+- [Related](#7)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+ภายក្រោមច្បាប់ GDPR ទិន្នន័យសុខភាពត្រូវបានចាត់ចូលជា **«ទិន្នន័យប្រភេទពិសេស» (Special Category)** នៃទិន្នន័យផ្ទាល់ខ្លួន (មាត្រា ៩) — វាទទួលបានការការពារកម្រិតខ្ពស់បំផុតដោយសារតែភាពរសើបរបស់វា។ ការដំណើរការទិន្នន័យប្រភេទនេះគឺ **ត្រូវបានហាមឃាត់ជាគោលការណ៍គ្រឹះ** លើកលែងតែមានករណីលើកលែងជាក់លាក់ណាមួយនៃមាត្រា ៩ ត្រូវបានអនុវត្ត។
 
 Under GDPR, health data is a **special category** of personal data (Article 9) — it receives the highest level of protection because of its sensitivity. Processing it is **prohibited by default** unless a specific Article 9 exception applies.
+
+នេះជាជំពូកនៃច្បាប់ GDPR ដែលមានសារៈសំខាន់បំផុតសម្រាប់វេទិកាថែទាំសុខភាព, កម្មវិធីហាត់ប្រាណ (fitness apps), សេវាកម្មសុខភាពផ្លូវចិត្ត, និងវេទិកាណាដែលប្រមូលព័ត៌មានវេជ្ជសាស្ត្រ។
 
 This is the GDPR chapter most relevant to healthcare platforms, fitness apps, mental health services, and any platform that collects medical information.
 
 ---
 
-## What Counts as Health Data
+<a id="1"></a>
+## ១. ទិន្នន័យណាខ្លះដែលរាប់ជាទិន្នន័យសុខភាព (What Counts as Health Data)
+
+ទិន្នន័យសុខភាពរួមបញ្ចូលទាំងព័ត៌មានទាំងឡាយណាដែលទាក់ទងនឹងសុខភាពផ្លូវកាយ ឬផ្លូវចិត្តរបស់បុគ្គលម្នាក់ ដែលបង្ហាញឱ្យឃើញពីស្ថានភាពសុខភាពរបស់ពួកគេ៖
 
 Health data includes any information relating to the physical or mental health of a person that reveals information about their health status:
 
-- Medical records, diagnoses, prescriptions
-- Test results, medical imaging
-- Fitness data that reveals health condition (heart rate, sleep patterns)
-- Biometric data processed for health purposes
-- Mental health assessments, therapy notes
-- Disability information
-- Health insurance information
-- Genetic data
-- Information about past, present, or future physical or mental conditions
+* កំណត់ត្រាវេជ្ជសាស្ត្រ, ការធ្វើរោគវិនិច្ឆ័យ, និងវេជ្ជបញ្ជា (Medical records, diagnoses, prescriptions)។
+* លទ្ធផលធ្វើតេស្ត, រូបភាពវេជ្ជសាស្ត្រ (Test results, medical imaging)។
+* ទិន្នន័យហាត់ប្រាណដែលបង្ហាញពីស្ថានភាពសុខភាព (ចង្វាក់បេះដូង, ទម្លាប់គេង) (Fitness data revealing health conditions)។
+* ទិន្នន័យជីវមាត្រដែលត្រូវបានដំណើរការសម្រាប់គោលបំណងសុខភាព (Biometric data processed for health)។
+* ការវាយតម្លៃសុខភាពផ្លូវចិត្ត, កំណត់ត្រាព្យាបាល (Mental health assessments, therapy notes)។
+* ព័ត៌មានអំពីពិការភាព (Disability information)។
+* ព័ត៌មានធានារ៉ាប់រងសុខភាព (Health insurance information)។
+* ទិន្នន័យហ្សែន (Genetic data)។
+* ព័ត៌មានអំពីស្ថានភាពផ្លូវកាយ ឬផ្លូវចិត្តក្នុងអតីតកាល បច្ចុប្បន្នកាល ឬអនាគតកាល។
 
 ---
 
-## Article 9 Exceptions — When Health Data Can Be Processed
+<a id="2"></a>
+## ២. ករណីលើកលែងនៃមាត្រា ៩ (Article 9 Exceptions — When Health Data Can Be Processed)
+
+ការដំណើរការទិន្នន័យសុខភាពប្រភេទពិសេសនេះ គឺស្របច្បាប់លុះត្រាតែអ្នកបំពេញតាមករណីលើកលែងណាមួយខាងក្រោមនេះ **ព្រមទាំង** មានមូលដ្ឋានច្បាប់ស្របតាមមាត្រា ៦ ផងដែរ៖
 
 Processing special category health data is only lawful if you meet one of these exceptions **AND** have a valid Article 6 legal basis:
 
-| Exception | Typical use case |
+| ករណីលើកលែង (Exception) | ឧទាហរណ៍នៃការប្រើប្រាស់ (Typical Use Case) |
 |:----------|:----------------|
-| **Explicit consent** (Art. 9.2a) | User explicitly consents to processing of their health data |
-| **Employment / social security** (Art. 9.2b) | Occupational health, employee disability |
-| **Vital interests** (Art. 9.2c) | Life-threatening emergency |
-| **Public interest in public health** (Art. 9.2i) | Pandemic surveillance, food safety |
-| **Preventive or occupational medicine** (Art. 9.2h) | Medical diagnosis, treatment, management |
-| **Research and statistics** (Art. 9.2j) | Scientific research with safeguards |
-| **Legal claims** (Art. 9.2f) | Litigation, legal defence |
+| **ការយល់ព្រមច្បាស់លាស់ (Explicit consent)** (Art. 9.2a) | អ្នកប្រើប្រាស់យល់ព្រមដោយច្បាស់លាស់ឱ្យដំណើរការទិន្នន័យសុខភាពរបស់ខ្លួន |
+| **វិស័យការងារ / សន្តិសុខសង្គម** (Art. 9.2b) | សុខភាពការងារ, ពិការភាពរបស់បុគ្គលិក (Occupational health, employee disability) |
+| **ផលប្រយោជន៍សំខាន់បំផុត (Vital interests)** (Art. 9.2c) | ករណីអាសន្នដែលគំរាមកំហែងដល់ជីវិត (Life-threatening emergency) |
+| **ផលប្រយោជន៍សាធារណៈផ្នែកសុខភាព** (Art. 9.2i) | ការតាមដានជំងឺរាតត្បាត, សុវត្ថិភាពចំណីអាហារ (Pandemic surveillance, food safety) |
+| **វេជ្ជសាស្ត្របង្ការ ឬសុខភាពការងារ** (Art. 9.2h) | ការធ្វើរោគវិនិច្ឆ័យ, ការព្យាបាល, ការគ្រប់គ្រងសុខាភិបាល (Diagnosis, treatment, management) |
+| **ការស្រាវជ្រាវ និងស្ថិតិ** (Art. 9.2j) | ការស្រាវជ្រាវវិទ្យាសាស្ត្រដែលមានវិធានការការពារត្រឹមត្រូវ (Scientific research with safeguards) |
+| **ការទាមទារតាមផ្លូវច្បាប់** (Art. 9.2f) | វិវាទកម្ម, ការការពារក្តីតាមផ្លូវច្បាប់ (Litigation, legal defence) |
 
-**Most healthcare platforms use:** Art. 9.2h (healthcare provision) for treatment data, and Art. 9.2a (explicit consent) for everything beyond direct treatment.
-
----
-
-## Key Obligations for Health Data
-
-### Higher Consent Standard
-Consent for health data must be:
-- **Explicit** (not just "freely given, informed" — but actively and clearly stated)
-- **Granular** — separate consent for each distinct processing purpose
-- **Withdrawable** — as easy to withdraw as to give
-- Documented — record what was consented to, by whom, and when
-
-### Data Protection Impact Assessment (DPIA) — Mandatory
-Processing health data at scale **always** requires a DPIA:
-- Identify and assess the risks to data subjects
-- Implement measures to mitigate those risks
-- Consult the supervisory authority if high residual risk remains
-
-### Data Protection Officer (DPO) — Required
-Organisations processing health data at large scale must appoint a DPO.
-
-### Pseudonymisation and Anonymisation
-- **Pseudonymisation** (replacing identifying info with a code) reduces risk but data is still personal
-- **Anonymisation** (irreversibly removing all identifiers) takes data outside GDPR scope
-- Use pseudonymisation for research datasets; full anonymisation for analytics
-
-### Access Controls
-- Strict need-to-know — only treating clinicians should access patient records
-- No broad internal access to health data
-- Audit trail on all access
-
-### Retention — Strictly Necessary
-- Define retention periods for every health data category
-- Clinical records: typically 10+ years (medical necessity, legal retention)
-- Administrative health data: shorter retention
-- Research data: anonymise when personal data is no longer needed
+**វេទិកាថែទាំសុខភាពភាគច្រើនប្រើប្រាស់៖** មាត្រា ៩.២h (ការផ្តល់សេវាថែទាំសុខភាព) សម្រាប់ទិន្នន័យព្យាបាល និងមាត្រា ៩.២a (ការយល់ព្រមច្បាស់លាស់) សម្រាប់រាល់គោលបំណងផ្សេងទៀតក្រៅពីការព្យាបាលផ្ទាល់។
 
 ---
 
-## Research Exception (Art. 9.2j)
+<a id="3"></a>
+## ៣. កាតព្វកិច្ចសំខាន់ ៗ សម្រាប់ទិន្នន័យសុខភាព (Key Obligations for Health Data)
 
-Health data may be processed for scientific research with:
-- Pseudonymisation where possible
-- Ethics board approval
-- Data sharing agreements
-- Participant consent or derogation where consent is not possible
+### ៣.១ ស្តង់ដារការយល់ព្រមកម្រិតខ្ពស់ (Higher Consent Standard)
+ការយល់ព្រមសម្រាប់ទិន្នន័យសុខភាពត្រូវតែបំពេញតាមលក្ខខណ្ឌ៖
+* **ច្បាស់លាស់ (Explicit)៖** មិនមែនត្រឹមតែជាការយល់ព្រមទូទៅឡើយ ប៉ុន្តែត្រូវតែជាការបង្ហាញឆន្ទៈសកម្ម និងច្បាស់លាស់ (actively & clearly stated)។
+* **បែងចែកលម្អិត (Granular)៖** សុំការយល់ព្រមដាច់ដោយឡែកពីគ្នាសម្រាប់គោលបំណងដំណើរការទិន្នន័យខុស ៗ គ្នា។
+* **អាចដកចេញវិញបាន (Withdrawable)៖** ការដកការយល់ព្រមចេញត្រូវតែងាយស្រួលដូចពេលផ្តល់ឱ្យដែរ។
+* **មានឯកសារយោង៖** រក្សាកំណត់ត្រាទុកថាតើនរណាជាអ្នកយល់ព្រម, យល់ព្រមលើអ្វី, និងនៅពេលណា។
+
+### ៣.២ ការវាយតម្លៃផលប៉ះពាល់លើការការពារទិន្នន័យ (DPIA) — កាតព្វកិច្ចដាច់ខាត
+ការដំណើរការទិន្នន័យសុខភាពក្នុងទ្រង់ទ្រាយធំ **ត្រូវតែ** ធ្វើការវាយតម្លៃ DPIA ជាកាតព្វកិច្ច៖
+* កំណត់ និងវាយតម្លៃហានិភ័យចំពោះម្ចាស់ទិន្នន័យ។
+* អនុវត្តវិធានការកាត់បន្ថយហានិភ័យទាំងនោះ។
+* ពិគ្រោះយោបល់ជាមួយអាជ្ញាធរត្រួតពិនិត្យ ប្រសិនបើនៅតែមានហានិភ័យខ្ពស់ដែលមិនអាចដោះស្រាយបាន។
+
+### ៣.៣ មន្ត្រីការពារទិន្នន័យ (DPO) — លក្ខខណ្ឌតម្រូវ
+អង្គភាពណាដែលដំណើរការទិន្នន័យសុខភាពក្នុងទ្រង់ទ្រាយធំ ត្រូវតែចាត់តាំងមន្ត្រីការពារទិន្នន័យ (DPO) ផ្លូវការម្នាក់។
+
+### ៣.៤ ការបន្លំអត្តសញ្ញាណ និងការធ្វើឱ្យក្លាយជាអនាមិក
+* **ការបន្លំអត្តសញ្ញាណ (Pseudonymisation)៖** ជំនួសព័ត៌មានសម្គាល់អត្តសញ្ញាណដោយប្រើកូដសម្ងាត់ — ចំណុចនេះជួយកាត់បន្ថយហានិភ័យ ប៉ុន្តែទិន្នន័យនៅតែរាប់ជាទិន្នន័យផ្ទាល់ខ្លួនដដែល។
+* **ការធ្វើឱ្យក្លាយជាអនាមិក (Anonymisation)៖** ការលុបចោលរាល់ព័ត៌មានអត្តសញ្ញាណទាំងអស់ជាអចិន្ត្រៃយ៍ និងមិនអាចទាញត្រឡប់វិញបាន — ចំណុចនេះធ្វើឱ្យទិន្នន័យស្ថិតនៅក្រៅវិសាលភាពរបស់ច្បាប់ GDPR។
+* ប្រើប្រាស់ការបន្លំអត្តសញ្ញាណសម្រាប់សំណុំទិន្នន័យស្រាវជ្រាវ និងការធ្វើឱ្យក្លាយជាអនាមិកទាំងស្រុងសម្រាប់ការវិភាគទិន្នន័យទូទៅ។
+
+### ៣.៥ គ្រប់គ្រងសិទ្ធិចូលប្រើប្រាស់ (Access Controls)
+* កម្រិតសិទ្ធិដឹងត្រឹមតែចាំបាច់ (Strict need-to-know) — មានតែគ្រូពេទ្យដែលទទួលបន្ទុកព្យាបាលប៉ុណ្ណោះ ទើបអាចចូលមើលប្រវត្តិអ្នកជំងឺបាន។
+* ហាមឃាត់ការបើកសិទ្ធិចូលមើលទិន្នន័យសុខភាពទូលំទូលាយនៅក្នុងស្ថាប័ន។
+* មានកំណត់ត្រាសវនកម្មរាល់ការចូលមើលទិន្នន័យ។
+
+### ៣.៦ ការរក្សាទុកទិន្នន័យ (Retention) — កំណត់ត្រឹមរយៈពេលចាំបាច់
+* កំណត់រយៈពេលរក្សាទុកសម្រាប់ប្រភេទនីមួយ ៗ នៃទិន្នន័យសុខភាព។
+* កំណត់ត្រាគ្លីនិក៖ ជាទូទៅត្រូវរក្សាទុកចាប់ពី ១០ ឆ្នាំឡើងទៅ (ផ្អែកលើតម្រូវការវេជ្ជសាស្ត្រ និងច្បាប់កាតព្វកិច្ច)។
+* ទិន្នន័យសុខភាពផ្នែករដ្ឋបាល៖ ត្រូវរក្សាទុកក្នុងរយៈពេលខ្លីជាង។
+* ទិន្នន័យស្រាវជ្រាវ៖ ត្រូវធ្វើឱ្យក្លាយជាអនាមិកនៅពេលលែងត្រូវការទិន្នន័យផ្ទាល់ខ្លួន។
 
 ---
 
-## Cross-Border Transfer of Health Data
+<a id="4"></a>
+## ៤. ករណីលើកលែងសម្រាប់ការស្រាវជ្រាវ (Research Exception - Art. 9.2j)
 
-Health data faces the same GDPR cross-border transfer restrictions as all personal data — but:
-- Supervisory authorities take a stricter view of health data transfers
-- Standard Contractual Clauses (SCCs) are required for transfers outside EEA
-- Additional technical safeguards (encryption, access controls) expected
+ទិន្នន័យសុខភាពអាចត្រូវបានដំណើរការសម្រាប់គោលបំណងស្រាវជ្រាវវិទ្យាសាស្ត្រ ដោយត្រូវ៖
+* ប្រើប្រាស់ការបន្លំអត្តសញ្ញាណ (Pseudonymisation) នៅកន្លែងដែលអាចធ្វើទៅបាន។
+* ទទួលបានការអនុម័តពីក្រុមប្រឹក្សាសីលធម៌វិជ្ជាជីវៈ (Ethics board approval)។
+* មានកិច្ចព្រមព្រៀងចែករំលែកទិន្នន័យច្បាស់លាស់ (Data sharing agreements)។
+* ទទួលបានការយល់ព្រមពីអ្នកចូលរួម ឬករណីលើកលែងពិសេសប្រសិនបើការសុំការយល់ព្រមមិនអាចធ្វើទៅបាន។
 
 ---
 
-## Practical Checklist
+<a id="5"></a>
+## ៥. ការផ្ទេរទិន្នន័យសុខភាពឆ្លងប្រទេស (Cross-Border Transfer of Health Data)
+
+ទិន្នន័យសុខភាពប្រឈមនឹងការរឹតត្បិតលើការផ្ទេរទិន្នន័យឆ្លងប្រទេសដូចជាទិន្នន័យផ្ទាល់ខ្លួនទូទៅដែរ ប៉ុន្តែ៖
+* អាជ្ញាធរត្រួតពិនិត្យជាតិយកចិត្តទុកដាក់តឹងរ៉ឹងជាងមុនលើការផ្ទេរទិន្នន័យសុខភាព។
+* តម្រូវឱ្យមានខចែងកិច្ចសន្យាស្តង់ដារ (Standard Contractual Clauses - SCCs) សម្រាប់ការផ្ទេរទិន្នន័យចេញក្រៅតំបន់សេដ្ឋកិច្ចអឺរ៉ុប (EEA)។
+* រំពឹងទុកថានឹងមានវិធានការការពារបច្ចេកទេសបន្ថែម (ដូចជា ការដាក់កូដសម្ងាត់ជាន់ខ្ពស់, ការគ្រប់គ្រងការចូលប្រើប្រាស់តឹងរ៉ឹង)។
+
+---
+
+<a id="6"></a>
+## ៦. បញ្ជីអនុវត្តជាក់ស្តែង (Practical Checklist)
 
 ```
-For a healthcare platform processing EU patient data:
+សម្រាប់វេទិកាថែទាំសុខភាពដែលដំណើរការទិន្នន័យអ្នកជំងឺសហភាពអឺរ៉ុប៖
 
-□ Map all health data — what is collected, where stored, why
-□ Identify Article 9 exception for each processing purpose
-□ Obtain explicit consent for non-treatment purposes
-□ Conduct DPIA — document and mitigate risks
-□ Appoint DPO (if required by scale)
-□ Implement strict access controls — RBAC, audit logs
-□ Encryption at rest and in transit — all health data
-□ Retention policy — per data category
-□ Erasure procedure — including clinical record legal hold check
-□ Patient rights mechanism — access, portability, erasure requests
-□ Processor agreements — with all health IT vendors
-□ Pseudonymise research datasets
-□ 72-hour breach notification capability
-□ Staff training on health data handling
+□ បង្កើតគំនូសផែនទីទិន្នន័យសុខភាព — ប្រមូលអ្វីខ្លះ, រក្សានៅណា, ហេតុអ្វី (Data mapping)
+□ កំណត់ករណីលើកលែងនៃមាត្រា ៩ សម្រាប់រាល់គោលបំណងដំណើរការទិន្នន័យនីមួយៗ
+□ ទទួលបានការយល់ព្រមច្បាស់លាស់ (Explicit consent) សម្រាប់គោលបំណងក្រៅពីការព្យាបាល
+□ ធ្វើការវាយតម្លៃ DPIA — ចងក្រងឯកសារ និងកាត់បន្ថយហានិភ័យ (DPIA)
+□ ចាត់តាំងមន្ត្រី DPO (ប្រសិនបើតម្រូវតាមទំហំប្រតិបត្តិការ)
+□ អនុវត្តការគ្រប់គ្រងការចូលប្រើប្រាស់តឹងរ៉ឹង — RBAC, កំណត់ត្រាសវនកម្ម (Audit trails)
+□ ដាក់កូដសម្ងាត់ទិន្នន័យពេលរក្សាទុក និងពេលបញ្ជូន — សម្រាប់រាល់ទិន្នន័យសុខភាពទាំងអស់
+□ រៀបចំគោលការណ៍រក្សាទុកទិន្នន័យ — ទៅតាមប្រភេទនីមួយៗ (Retention policy)
+□ នីតិវិធីលុបចោលទិន្នន័យ — រួមទាំងការត្រួតពិនិត្យការរក្សាទុកតាមច្បាប់គ្លីនិក (Erasure procedure)
+□ យន្តការអនុវត្តសិទ្ធិរបស់អ្នកជំងឺ — យន្តការសុំមើល, ផ្ទេរ, និងលុបចោលទិន្នន័យ
+□ កិច្ចព្រមព្រៀងដំណើរការទិន្នន័យ (DPA) — ជាមួយដៃគូផ្គត់ផ្គង់ព័ត៌មានវិទ្យាសុខាភិបាលទាំងអស់
+□ ធ្វើការបន្លំអត្តសញ្ញាណ (Pseudonymise) លើសំណុំទិន្នន័យស្រាវជ្រាវ
+□ សមត្ថភាពរាយការណ៍ការលេចធ្លាយក្នុងរយៈពេល ៧២ ម៉ោង (72-hour breach notification)
+□ បណ្តុះបណ្តាលបុគ្គលិកជាប្រចាំលើការចាត់ចែងទិន្នន័យសុខភាព
 ```
 
 ---
 
+<a id="7"></a>
 ## Related
 
-- [GDPR](../data-privacy/01-gdpr.md) — the parent regulation
-- [HIPAA](./01-hipaa.md) — US equivalent
-- [HL7 FHIR](./02-hl7-fhir.md) — health data exchange standard
+- [GDPR](../data-privacy/01-gdpr.md) — ច្បាប់មេការពារទិន្នន័យផ្ទាល់ខ្លួន
+- [HIPAA](./01-hipaa.md) — ស្តង់ដារសមមូលរបស់សហរដ្ឋអាមេរិក
+- [HL7 FHIR](./02-hl7-fhir.md) — ស្តង់ដារដោះដូរទិន្នន័យសុខាភិបាល
 - [Account Deletion & Data Retention](../../procedures/compliance-and-accounts/01-account-deletion-and-data-retention.md)

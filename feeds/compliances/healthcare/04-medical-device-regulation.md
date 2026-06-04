@@ -1,134 +1,169 @@
-# Medical Device Regulation — SaMD, MDR, FDA 21 CFR Part 11
+# Medical Device Regulation (បទបញ្ញត្តិឧបករណ៍វេជ្ជសាស្ត្រ)៖ ក្របខ័ណ្ឌគ្រប់គ្រងកម្មវិធី SaMD និង FDA (Medical Device Regulation — SaMD, MDR, FDA 21 CFR Part 11)
 
 **Tags:** #compliance #mdr #samd #fda #medical-device #healthcare #software
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. កម្មវិធីក្នុងនាមជាឧបករណ៍វេជ្ជសាស្ត្រ (Software as a Medical Device - SaMD)](#1)
+- [២. បទបញ្ញត្តិឧបករណ៍វេជ្ជសាស្ត្រសហភាពអឺរ៉ុប (EU MDR 2017/745)](#2)
+- [៣. វិធានការ FDA — 21 CFR Part 11 (កំណត់ត្រាអេឡិចត្រូនិក)](#3)
+- [៤. ក្របខ័ណ្ឌការងារ IMDRF SaMD (IMDRF SaMD Framework)](#4)
+- [៥. បរិបទច្បាប់ឧបករណ៍វេជ្ជសាស្ត្រនៅប្រទេសកម្ពុជា (Cambodia — SaMD Context)](#5)
+- [៦. ករណីដែលត្រូវពិចារណាលើច្បាប់នេះ (When to Consider This)](#6)
+- [៧. ជំហានអនុវត្តជាក់ស្តែង (Practical Steps)](#7)
+- [Related](#8)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+កម្មវិធីកុំព្យូទ័រដែលត្រូវបានចាត់ថ្នាក់ជា **ឧបករណ៍វេជ្ជសាស្ត្រ** គឺស្ថិតនៅក្រោមការត្រួតពិនិត្យ និងបទបញ្ញត្តិដាច់ដោយឡែកពីច្បាប់ការពារឯកជនភាពទិន្នន័យសុខភាពទូទៅ។ សំណួរគន្លឹះ៖ តើកម្មវិធីរបស់អ្នកចូលរួមចំណែកធ្វើការសម្រេចចិត្ត ឬជួយសម្រេចចិត្តផ្នែកគ្លីនិកដែលជះឥទ្ធិពលដល់សុខភាពអ្នកជំងឺដែរឬទេ?
 
 Software that qualifies as a **Medical Device** is subject to regulatory oversight separate from general health data privacy laws. The key question: does your software make or support clinical decisions that affect patient health?
 
 ---
 
-## Software as a Medical Device (SaMD)
+<a id="1"></a>
+## ១. កម្មវិធីក្នុងនាមជាឧបករណ៍វេជ្ជសាស្ត្រ (Software as a Medical Device - SaMD)
+
+វេទិកាអន្តរជាតិនៃអ្នកគ្រប់គ្រងឧបករណ៍វេជ្ជសាស្ត្រ (IMDRF) ឱ្យនិយមន័យ SaMD ថា៖
+> កម្មវិធីកុំព្យូទ័រដែលមានបំណងប្រើប្រាស់សម្រាប់គោលបំណងវេជ្ជសាស្ត្រមួយ ឬច្រើន ដោយកម្មវិធីនោះបំពេញមុខងាររបស់ខ្លួនដោយមិនចាំបាច់ជាផ្នែកមួយនៃឧបករណ៍វេជ្ជសាស្ត្រផ្នែករឹង (hardware) ឡើយ។
 
 The International Medical Device Regulators Forum (IMDRF) defines SaMD as:
 > Software intended to be used for one or more medical purposes that perform these purposes without being part of a hardware medical device.
 
-### Examples of SaMD
+### ឧទាហរណ៍ជាក់ស្តែងនៃ SaMD (Examples of SaMD)
 
-| Software | SaMD? |
+| កម្មវិធី (Software) | ចាត់ជា SaMD ដែរឬទេ? (SaMD?) |
 |:---------|:------|
-| AI diagnosing diabetic retinopathy from retinal images | Yes |
-| Algorithm detecting atrial fibrillation from ECG | Yes |
-| Software that calculates drug dosage based on weight and diagnosis | Yes |
-| EHR that stores and displays patient records (no clinical decision support) | Generally No |
-| General wellness app that tracks steps | No |
-| Blood glucose monitoring software on a glucometer | Yes (combined hardware+software device) |
+| AI ធ្វើរោគវិនិច្ឆ័យជំងឺរ៉េទីនភ្នែកទឹកនោមផ្អែមពីរូបភាពកែវភ្នែក | ត្រូវ (Yes) |
+| អាល់ហ្គោរីតឹមកំណត់អត្តសញ្ញាណជំងឺបេះដូងលោតខុសចង្វាក់ពី ECG | ត្រូវ (Yes) |
+| កម្មវិធីគណនាដូសថ្នាំផ្អែកលើទម្ងន់ និងការធ្វើរោគវិនិច្ឆ័យ | ត្រូវ (Yes) |
+| EHR ដែលរក្សាទុក និងបង្ហាញកំណត់ត្រាអ្នកជំងឺ (គ្មានការជួយសម្រេចចិត្តព្យាបាល) | ជាទូទៅ មិនមែនទេ (Generally No) |
+| កម្មវិធីសុខភាពទូទៅដែលរាប់ជំហានដើរ | មិនមែនទេ (No) |
+| កម្មវិធីតាមដានជាតិស្ករក្នុងឈាមនៅលើឧបករណ៍វាស់ជាតិស្ករ | ត្រូវ (Yes - ជាឧបករណ៍រួមផ្សំ Hardware+Software) |
 
 ---
 
-## EU Medical Device Regulation (MDR 2017/745)
+<a id="2"></a>
+## ២. បទបញ្ញត្តិឧបករណ៍វេជ្ជសាស្ត្រសហភាពអឺរ៉ុប (EU Medical Device Regulation - MDR 2017/745)
+
+ចូលជាធរមានតាំងពីខែ ឧសភា ឆ្នាំ ២០២១ (ជំនួសច្បាប់ចាស់ MDD 93/42/EEC)។
 
 In force since May 2021 (replaced MDD 93/42/EEC).
 
-### Risk Classification
+### ការបែងចែកកម្រិតហានិភ័យ (Risk Classification)
 
-| Class | Risk | Example SaMD |
+| ថ្នាក់ (Class) | ហានិភ័យ (Risk) | ឧទាហរណ៍ SaMD (Example SaMD) |
 |:------|:-----|:-------------|
-| **Class I** | Low | Administrative software with indirect clinical use |
-| **Class IIa** | Medium-low | Diagnostic decision support for non-serious conditions |
-| **Class IIb** | Medium-high | Diagnostic software for serious conditions |
-| **Class III** | High | Software for life-sustaining devices, implants |
+| **Class I** | ទាប (Low) | កម្មវិធីរដ្ឋបាលដែលមានទំនាក់ទំនងដោយប្រយោលផ្នែកគ្លីនិក |
+| **Class IIa** | មធ្យម-ទាប (Medium-low) | កម្មវិធីជួយសម្រេចចិត្តធ្វើរោគវិនិច្ឆ័យសម្រាប់ជំងឺមិនធ្ងន់ធ្ងរ |
+| **Class IIb** | មធ្យម-ខ្ពស់ (Medium-high) | កម្មវិធីធ្វើរោគវិនិច្ឆ័យសម្រាប់ជំងឺធ្ងន់ធ្ងរ |
+| **Class III** | ខ្ពស់ (High) | កម្មវិធីសម្រាប់ឧបករណ៍ទ្រទ្រង់ជីវិត, ឧបករណ៍ផ្សាំក្នុងរាងកាយ (Implants) |
 
-### Key Requirements
-- **Clinical evaluation** — evidence that the device achieves its intended purpose
-- **Quality Management System (QMS)** — ISO 13485 certification
-- **Technical documentation** — design, testing, risk management (ISO 14971)
-- **CE marking** — required to sell in EU
-- **Post-market surveillance** — ongoing safety monitoring
-- **Unique Device Identification (UDI)** — device identification system
-- **Notified Body** — independent assessment required for Class IIa and above
+### លក្ខខណ្ឌតម្រូវគន្លឹះ (Key Requirements)
+* **ការវាយតម្លៃគ្លីនិក (Clinical evaluation)៖** ភស្តុតាងបង្ហាញថាកម្មវិធីសម្រេចបាននូវគោលបំណងវេជ្ជសាស្ត្រដែលបានគ្រោងទុក។
+* **ប្រព័ន្ធគ្រប់គ្រងគុណភាព (QMS)៖** ទទួលបានវិញ្ញាបនបត្រ ISO 13485។
+* **ឯកសារបច្ចេកទេស៖** ការរចនា, ការធ្វើតេស្ត, ការគ្រប់គ្រងហានិភ័យ (ISO 14971)។
+* **ស្លាកសញ្ញា CE (CE marking)៖** តម្រូវឱ្យមានជាដាច់ខាតដើម្បីលក់នៅក្នុងសហភាពអឺរ៉ុប។
+* **ការតាមដានក្រោយពេលដាក់លក់លើទីផ្សារ (Post-market surveillance)៖** ការតាមដានសុវត្ថិភាពជាបន្តបន្ទាប់។
+* **ការកំណត់អត្តសញ្ញាណឧបករណ៍តែមួយគត់ (UDI)៖** ប្រព័ន្ធសម្គាល់ឧបករណ៍ច្បាស់លាស់។
+* **ស្ថាប័នវាយតម្លៃឯករាជ្យ (Notified Body)៖** ការវាយតម្លៃឯករាជ្យតម្រូវសម្រាប់កម្រិត Class IIa ឡើងទៅ។
 
 ---
 
-## FDA — 21 CFR Part 11 (Electronic Records)
+<a id="3"></a>
+## ៣. វិធានការ FDA — 21 CFR Part 11 (កំណត់ត្រាអេឡិចត្រូនិក)
+
+ច្បាប់ FDA 21 CFR Part 11 អនុវត្តចំពោះកំណត់ត្រាអេឡិចត្រូនិក និងហត្ថលេខាអេឡិចត្រូនិកដែលប្រើប្រាស់ក្នុងសកម្មភាពគ្រប់គ្រងដោយ FDA (ដូចជា ការសាកល្បងគ្លីនិក, ការផលិតឱសថ, ការធ្វើតេស្តឧបករណ៍វេជ្ជសាស្ត្រ)។
 
 FDA 21 CFR Part 11 applies to electronic records and electronic signatures used in FDA-regulated activities (clinical trials, pharmaceutical manufacturing, medical device testing).
 
-### Requirements
-- **Audit trails** — for all electronic record creation, modification, and deletion
-- **Electronic signature controls** — linked to their respective records
-- **System validation** — documented evidence that the system does what it's supposed to do
-- **Access controls** — unique user IDs, passwords
-- **Record retention** — electronic records must be accessible throughout the required retention period
+### លក្ខខណ្ឌតម្រូវ (Requirements)
+* **កំណត់ត្រាសវនកម្ម (Audit trails)៖** សម្រាប់រាល់ការបង្កើត, កែប្រែ, និងលុបចោលកំណត់ត្រាអេឡិចត្រូនិកទាំងអស់។
+* **ការគ្រប់គ្រងហត្ថលេខាអេឡិចត្រូនិក៖** ភ្ជាប់ហត្ថលេខាដោយផ្ទាល់ទៅនឹងកំណត់ត្រាពាក់ព័ន្ធ។
+* **ការផ្ទៀងផ្ទាត់ប្រព័ន្ធ (System validation)៖** ភស្តុតាងជាឯកសារថាកម្មវិធីដំណើរការបានត្រឹមត្រូវតាមការរំពឹងទុក។
+* **គ្រប់គ្រងសិទ្ធិចូលប្រើប្រាស់៖** លេខសម្គាល់អ្នកប្រើប្រាស់ប្លែកដាច់ពីគ្នា, លេខសម្ងាត់។
+* **ការរក្សាទុកកំណត់ត្រា៖** កំណត់ត្រាអេឡិចត្រូនិកត្រូវតែអាចចូលមើលបានក្នុងកំឡុងពេលកំណត់នៃការរក្សាទុកទិន្នន័យ។
 
-### FDA SaMD Guidance (2019)
-FDA published guidance on regulating AI/ML-based SaMD — introducing the concept of a **Predetermined Change Control Plan (PCCP)** to allow continuous improvement of AI algorithms while maintaining regulatory oversight.
+### គោលការណ៍ណែនាំ SaMD របស់ FDA (FDA SaMD Guidance)
+FDA បានចេញផ្សាយគោលការណ៍ណែនាំស្តីពីការគ្រប់គ្រងប្រព័ន្ធ SaMD ដែលប្រើប្រាស់ AI/ML — ដោយណែនាំនូវគោលគំនិត **«ផែនការគ្រប់គ្រងការផ្លាស់ប្តូរដែលបានកំណត់ទុកជាមុន» (PCCP)** ដើម្បីអនុញ្ញាតឱ្យមានការកែលម្អអាល់ហ្គោរីតឹមកូដ AI ជាបន្តបន្ទាប់ ខណៈពេលដែលនៅតែរក្សាបានការត្រួតពិនិត្យផ្នែកច្បាប់ដដែល។
 
 ---
 
-## IMDRF SaMD Framework
+<a id="4"></a>
+## ៤. ក្របខ័ណ្ឌការងារ IMDRF SaMD (IMDRF SaMD Framework)
+
+ក្របខ័ណ្ឌការងារផ្អែកលើហានិភ័យរបស់ IMDRF សម្រាប់ SaMD ពិចារណាលើទិដ្ឋភាពពីរ៖
 
 IMDRF's risk-based framework for SaMD considers two dimensions:
 
-1. **Significance of information** to healthcare decision:
-   - Treat or diagnose
-   - Drive clinical management
-   - Inform clinical management
+1. **សារៈសំខាន់នៃព័ត៌មាន (Significance of information)** សម្រាប់ការសម្រេចចិត្តថែទាំសុខភាព៖
+   * ការព្យាបាល ឬការធ្វើរោគវិនិច្ឆ័យ (Treat or diagnose)
+   * ដឹកនាំការគ្រប់គ្រងគ្លីនិក (Drive clinical management)
+   * ផ្តល់ព័ត៌មានដល់ការគ្រប់គ្រងគ្លីនិក (Inform clinical management)
 
-2. **State of healthcare situation**:
-   - Critical (immediately life-threatening)
-   - Serious
-   - Non-serious
+2. **ស្ថានភាពសុខភាពជាក់ស្តែង (State of healthcare situation)**៖
+   * គ្រោះថ្នាក់បំផុត/អាសន្ន (Critical — គំរាមកំហែងដល់ជីវិតភ្លាម ៗ)
+   * ធ្ងន់ធ្ងរ (Serious)
+   * មិនធ្ងន់ធ្ងរ (Non-serious)
 
-The intersection of these determines the risk category.
-
----
-
-## Cambodia — SaMD Context
-
-Cambodia's Ministry of Health (MOH) regulates medical devices under:
-- **Sub-Decree on Medical Devices** — requires registration for devices used in Cambodia
-- For software: classification follows ASEAN Medical Device Directive (AMDD) guidance
-- Healthcare platforms in Cambodia using AI for clinical support should consult the MOH
+ចំណុចប្រសព្វគ្នារវាងកត្តាទាំងពីរនេះ នឹងកំណត់កម្រិតហានិភ័យ និងប្រភេទគ្រប់គ្រងរបស់កម្មវិធី SaMD នោះ។
 
 ---
 
-## When Does Your Platform Need to Consider This?
+<a id="5"></a>
+## ៥. បរិបទច្បាប់ឧបករណ៍វេជ្ជសាស្ត្រនៅប្រទេសកម្ពុជា (Cambodia — SaMD Context)
+
+ក្រសួងសុខាភិបាលនៃព្រះរាជាណាចក្រកម្ពុជា (MOH) គ្រប់គ្រងឧបករណ៍វេជ្ជសាស្ត្រក្រោម៖
+* **អនុក្រឹត្យស្តីពីឧបករណ៍វេជ្ជសាស្ត្រ៖** តម្រូវឱ្យមានការចុះបញ្ជីសម្រាប់រាល់ឧបករណ៍វេជ្ជសាស្ត្រដែលប្រើប្រាស់នៅក្នុងប្រទេសកម្ពុជា។
+* **សម្រាប់កម្មវិធីកុំព្យូទ័រ (Software)៖** ការបែងចែកប្រភេទអនុវត្តតាមគោលការណ៍ណែនាំរបស់សមាគមប្រជាជាតិអាស៊ីអាគ្នេយ៍ (AMDD - ASEAN Medical Device Directive)។
+* វេទិកាថែទាំសុខភាពនៅកម្ពុជាដែលប្រើប្រាស់ប្រព័ន្ធ AI សម្រាប់គាំទ្រការសម្រេចចិត្តព្យាបាល គួរតែពិគ្រោះយោបល់ផ្ទាល់ជាមួយក្រសួងសុខាភិបាល។
+
+---
+
+<a id="6"></a>
+## ៦. ករណីដែលត្រូវពិចារណាលើច្បាប់នេះ (When Does Your Platform Need to Consider This?)
 
 ```
-DEFINITELY SaMD (requires regulatory review):
-  □ Your AI suggests or makes diagnostic decisions
-  □ Your software calculates medication doses
-  □ Your software analyses medical images
-  □ Your software predicts clinical deterioration
+ជា SaMD ពិតប្រាកដ (ទាមទារការវាយតម្លៃផ្នែកច្បាប់ដាច់ខាត)៖
+  □ AI របស់អ្នកណែនាំ ឬធ្វើការសម្រេចចិត្តធ្វើរោគវិនិច្ឆ័យ (AI diagnostic decisions)
+  □ កម្មវិធីរបស់អ្នកគណនាដូសថ្នាំ (Dosage calculator)
+  □ កម្មវិធីរបស់អ្នកវិភាគរូបភាពវេជ្ជសាស្ត្រ (Medical image analysis)
+  □ កម្មវិធីរបស់អ្នកព្យាករណ៍ពីការធ្លាក់ចុះស្ថានភាពគ្លីនិករបស់ជំងឺ
 
-POSSIBLY SaMD (legal opinion required):
-  □ Your software provides clinical decision support
-  □ Your software risk-stratifies patients
-  □ Your software analyses wearable health data for clinical use
+អាចជា SaMD (ត្រូវការយោបល់ផ្លូវច្បាប់បន្ថែម)៖
+  □ កម្មវិធីរបស់អ្នកផ្តល់ការគាំទ្រការសម្រេចចិត្តព្យាបាល (Decision support)
+  □ កម្មវិធីរបស់អ្នកធ្វើការបែងចែកកម្រិតហានិភ័យអ្នកជំងឺ (Risk stratification)
+  □ កម្មវិធីរបស់អ្នកវិភាគទិន្នន័យពីឧបករណ៍ពាក់ជាប់ខ្លួនសម្រាប់ប្រើប្រាស់ផ្នែកគ្លីនិក (Wearable data)
 
-NOT SaMD:
-  □ Appointment booking
-  □ Administrative record keeping
-  □ General wellness tracking
-  □ Telemedicine video (the communication tool, not the diagnostic software)
+មិនមែនជា SaMD ឡើយ៖
+  □ ការណាត់ជួប និងការកក់ទុក (Appointment booking)
+  □ ការរក្សាកំណត់ត្រាផ្នែករដ្ឋបាល (Administrative record keeping)
+  □ ការតាមដានសុខភាពទូទៅ (General wellness tracking)
+  □ ឧបករណ៍វីដេអូសម្រាប់ពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine video — ជាឧបករណ៍ទំនាក់ទំនង មិនមែនជាឧបករណ៍ធ្វើរោគវិនិច្ឆ័យឡើយ)
 ```
 
 ---
 
-## Practical Steps If Your Software May Be SaMD
+<a id="7"></a>
+## ៧. ជំហានអនុវត្តជាក់ស្តែង (Practical Steps If Your Software May Be SaMD)
 
-1. **Determine intended purpose** — document exactly what clinical function it performs
-2. **Risk classification** — use IMDRF and your target jurisdiction's framework
-3. **Regulatory consultation** — engage with FDA (US) or Notified Body (EU) early
-4. **Quality Management System** — implement ISO 13485
-5. **Clinical evaluation** — gather evidence of efficacy and safety
-6. **Technical documentation** — complete risk management (ISO 14971)
+```
+១. កំណត់គោលបំណងច្បាស់លាស់ — កត់ត្រាជាឯកសារឱ្យបានហ្មត់ចត់ថាតើវាបំពេញមុខងារគ្លីនិកអ្វីខ្លះ (Intended purpose)
+២. បែងចែកប្រភេទហានិភ័យ — ប្រើប្រាស់ក្របខ័ណ្ឌរបស់ IMDRF និងច្បាប់នៃប្រទេសគោលដៅ (Risk classification)
+៣. ពិគ្រោះយោបល់ផ្នែកច្បាប់ — ទាក់ទងទៅកាន់ FDA (អាមេរិក) ឬ Notified Body (អឺរ៉ុប) តាំងពីដំណាក់កាលដំបូង
+៤. អនុវត្តប្រព័ន្ធគ្រប់គ្រងគុណភាព — បង្កើតប្រព័ន្ធគ្រប់គ្រងគុណភាពស្របតាម ISO 13485 (QMS)
+៥. ការវាយតម្លៃគ្លីនិក — ប្រមូលផ្តុំភស្តុតាងបង្ហាញពីប្រសិទ្ធភាព និងសុវត្ថិភាព (Clinical evaluation)
+៦. ចងក្រងឯកសារបច្ចេកទេស — បំពេញតាមស្តង់ដារគ្រប់គ្រងហានិភ័យ ISO 14971 (Technical documentation)
+```
 
 ---
 
+<a id="8"></a>
 ## Related
 
 - [HIPAA](./01-hipaa.md)

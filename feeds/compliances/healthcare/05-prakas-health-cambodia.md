@@ -1,143 +1,180 @@
-# Healthcare Regulations in Cambodia — MOH Prakas and Key Laws
+# Healthcare Regulations in Cambodia (ច្បាប់ និងប្រកាសសុខាភិបាលនៅកម្ពុជា)៖ ក្របខ័ណ្ឌការងារក្រសួងសុខាភិបាល (Healthcare Regulations in Cambodia — MOH Prakas and Key Laws)
 
-**Jurisdiction:** Kingdom of Cambodia  
-**Applies to:** Hospitals, clinics, healthcare platforms, telemedicine services, pharmacies operating in Cambodia  
-**Administered by:** Ministry of Health (MOH), National Committee for Health, relevant provincial health departments  
+**សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** ព្រះរាជាណាចក្រកម្ពុជា (Kingdom of Cambodia)  
+**សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** មន្ទីរពេទ្យ, គ្លីនិក, វេទិកាថែទាំសុខភាព, សេវាពិគ្រោះជំងឺពីចម្ងាយ, និងឱសថស្ថានដែលប្រតិបត្តិការនៅប្រទេសកម្ពុជា (Hospitals, clinics, healthcare platforms, telemedicine, pharmacies in Cambodia)  
+**គ្រប់គ្រងដោយ (Administered by)៖** ក្រសួងសុខាភិបាល (MOH), គណៈកម្មាធិការជាតិសុខាភិបាល, និងមន្ទីរសុខាភិបាលខេត្ត-រាជធានីពាក់ព័ន្ធ  
 **Tags:** #compliance #cambodia #healthcare #moh #prakas #telemedicine #pharmacy
 
 ---
 
-## Regulatory Framework Overview
-
-Cambodia's healthcare sector is regulated through a combination of laws, sub-decrees, and Prakas (ministerial orders/regulations) issued by the MOH. The primary laws:
-
-- **Law on the Management of Private Healthcare Services (2000)** — governs private hospitals, clinics, and health workers
-- **Law on Pharmaceuticals (2014)** — governs medicine manufacturing, import, distribution, and dispensing
-- **Sub-Decree on Medical Devices** — device registration and use
-- **Prakas on Telemedicine** — digital health consultations
-- **Prakas on Electronic Prescriptions** — digital prescribing rules
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. ទិដ្ឋភាពទូទៅនៃក្របខ័ណ្ឌច្បាប់ (Regulatory Framework Overview)](#1)
+- [២. លក្ខខណ្ឌតម្រូវអាជ្ញាបណ្ណ (Licensing Requirements)](#2)
+- [៣. ការចុះបញ្ជីគ្រូពេទ្យ CMC (Doctor Registration)](#3)
+- [៤. បទបញ្ញត្តិពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine Regulations)](#4)
+- [៥. លក្ខខណ្ឌតម្រូវវេជ្ជបញ្ជាអេឡិចត្រូនិក - RCP (Electronic Prescription Requirements)](#5)
+- [៦. បទបញ្ញត្តិឱសថស្ថាន (Pharmacy Regulations)](#6)
+- [៧. ឱសថបុរាណ (Traditional Medicine)](#7)
+- [៨. ទិន្នន័យអ្នកជំងឺ និងការរក្សាទុកក្នុងស្រុក (Patient Data & Localisation)](#8)
+- [៩. អ្វីដែលត្រូវសាងសង់ (What to Build)](#9)
+- [Related](#10)
 
 ---
 
-## Licensing Requirements
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
 
-| Service | Licence required from |
+វិស័យថែទាំសុខភាពរបស់ប្រទេសកម្ពុជាត្រូវបានគ្រប់គ្រងតាមរយៈការរួមបញ្ចូលគ្នានៃច្បាប់, អនុក្រឹត្យ, និងប្រកាស (បទបញ្ជា/បទប្បញ្ញត្តិថ្នាក់ក្រសួង) ដែលចេញដោយក្រសួងសុខាភិបាល (MOH)។ ច្បាប់ទាំងនេះបង្កើតឡើងដើម្បីធានាសុវត្ថិភាពអ្នកជំងឺ និងរក្សាសីលធម៌វិជ្ជាជីវៈវេជ្ជសាស្ត្រ។
+
+Cambodia's healthcare sector is regulated through a combination of laws, sub-decrees, and Prakas (ministerial orders/regulations) issued by the MOH. These laws are designed to ensure patient safety and maintain medical professional ethics.
+
+---
+
+<a id="1"></a>
+## ១. ទិដ្ឋភាពទូទៅនៃក្របខ័ណ្ឌច្បាប់ (Regulatory Framework Overview)
+
+ច្បាប់ និងលិខិតបទដ្ឋានគតិយុត្តិសំខាន់ ៗ រួមមាន៖
+* **ច្បាប់ស្តីពីការគ្រប់គ្រងវិជ្ជាជីវៈឯកជនក្នុងវិស័យព្យាបាលរោគ (២០០០)៖** គ្រប់គ្រងលើមន្ទីរពេទ្យឯកជន, គ្លីនិក, និងអ្នកប្រកបវិជ្ជាជីវៈសុខាភិបាល (Private hospitals, clinics, and health workers)។
+* **ច្បាប់ស្តីពីការគ្រប់គ្រងឱសថ (២០១៤)៖** គ្រប់គ្រងលើការផលិតឱសថ, ការនាំចូល, ការចែកចាយ, និងការលក់ឱសថ (Medicine manufacturing, import, distribution, dispensing)។
+* **អនុក្រឹត្យស្តីពីឧបករណ៍វេជ្ជសាស្ត្រ៖** ការចុះបញ្ជី និងការប្រើប្រាស់ឧបករណ៍វេជ្ជសាស្ត្រ (Device registration and use)។
+* **ប្រកាសស្តីពីការពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine)៖** ការពិគ្រោះយោបល់សុខភាពតាមប្រព័ន្ធឌីជីថល។
+* **ប្រកាសស្តីពីវេជ្ជបញ្ជាអេឡិចត្រូនិក៖** វិធាននៃការចេញវេជ្ជបញ្ជាឌីជីថល។
+
+---
+
+<a id="2"></a>
+## ២. លក្ខខណ្ឌតម្រូវអាជ្ញាបណ្ណ (Licensing Requirements)
+
+| សេវាកម្ម (Service) | ត្រូវការអាជ្ញាបណ្ណពី (Licence Required From) |
 |:--------|:---------------------|
-| Private hospital | MOH + Provincial Health Department |
-| Private clinic | Provincial Health Department |
-| Medical laboratory | MOH Laboratory Department |
-| Pharmacy | MOH Department of Drugs and Food (DDF) |
-| Telemedicine platform | MOH (emerging — Prakas being developed) |
-| Medical device importer | MOH |
+| **មន្ទីរពេទ្យឯកជន (Private hospital)** | ក្រសួងសុខាភិបាល + មន្ទីរសុខាភិបាលខេត្ត-រាជធានី (MOH + Provincial Health Department) |
+| **គ្លីនិកឯកជន (Private clinic)** | មន្ទីរសុខាភិបាលខេត្ត-រាជធានី (Provincial Health Department) |
+| **មន្ទីរពិសោធន៍វេជ្ជសាស្ត្រ (Medical laboratory)** | នាយកដ្ឋានមន្ទីរពិសោធន៍នៃក្រសួងសុខាភិបាល (MOH Laboratory Department) |
+| **ឱសថស្ថាន (Pharmacy)** | នាយកដ្ឋានឱសថ និងចំណីអាហារ (DDF) នៃក្រសួងសុខាភិបាល (MOH DDF) |
+| **វេទិកាពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine)** | ក្រសួងសុខាភិបាល (ក្របខ័ណ្ឌកំពុងរៀបចំ និងអភិវឌ្ឍ) (MOH) |
+| **អ្នកនាំចូលឧបករណ៍វេជ្ជសាស្ត្រ** | ក្រសួងសុខាភិបាល (MOH) |
+
+វេទិកាថែទាំសុខភាពឌីជីថលត្រូវតែទទួលបានអាជ្ញាបណ្ណពាក់ព័ន្ធ ឬសហការជាដៃគូជាមួយអ្នកផ្តល់សេវាថែទាំសុខភាពដែលមានអាជ្ញាបណ្ណស្របច្បាប់។
 
 Healthcare platforms must either obtain the relevant licence or partner with a licensed healthcare provider.
 
 ---
 
-## Doctor Registration
+<a id="3"></a>
+## ៣. ការចុះបញ្ជីគ្រូពេទ្យ CMC (Doctor Registration)
 
-All doctors practicing in Cambodia must be registered with the:
-- **Cambodian Medical Council (CMC)** — the professional body for medical practitioners
-- Registration number must appear on all prescriptions and medical documents
-- Annual renewal required
-- Foreign doctors require special authorisation from MOH and CMC
+គ្រូពេទ្យទាំងអស់ដែលប្រកបវិជ្ជាជីវៈនៅប្រទេសកម្ពុជាត្រូវតែចុះបញ្ជីជាមួយ៖
+* **គណៈគ្រូពេទ្យកម្ពុជា (CMC - Cambodian Medical Council)៖** ស្ថាប័នវិជ្ជាជីវៈសម្រាប់គ្រូពេទ្យប្រកបរបរព្យាបាលរោគ។
+* លេខចុះបញ្ជីគណៈគ្រូពេទ្យ (CMC Number) ត្រូវតែមានវត្តមាននៅលើរាល់វេជ្ជបញ្ជា និងឯកសារវេជ្ជសាស្ត្រទាំងអស់។
+* ត្រូវតែធ្វើការបន្តសុពលភាពចុះបញ្ជីប្រចាំឆ្នាំ។
+* គ្រូពេទ្យបរទេសតម្រូវឱ្យមានការអនុញ្ញាតពិសេសពីក្រសួងសុខាភិបាល និងគណៈគ្រូពេទ្យកម្ពុជា។
 
-**For digital health platforms:** Verify CMC registration of all doctors before they can see patients. The CMC maintains a public registry.
+**សម្រាប់វេទិកាសុខភាពឌីជីថល៖** ត្រូវតែផ្ទៀងផ្ទាត់ការចុះបញ្ជី CMC របស់គ្រូពេទ្យទាំងអស់មុននឹងអនុញ្ញាតឱ្យពួកគេពិនិត្យជំងឺអ្នកជំងឺ។ គណៈគ្រូពេទ្យកម្ពុជាមានបញ្ជីឈ្មោះសាធារណៈសម្រាប់ផ្ទៀងផ្ទាត់។
 
----
-
-## Telemedicine Regulations
-
-Cambodia's MOH has been developing a formal telemedicine framework (as of 2024-2025, Prakas in development). Current guidance:
-
-- Telemedicine consultations are permitted as a supplement to (not replacement for) in-person care
-- Emergency conditions must be referred to physical facilities
-- Prescriptions from telemedicine consultations must comply with pharmaceutical law
-- Patient consent required for telemedicine sessions
-- Records of telemedicine consultations must be maintained
+For digital health platforms: verify CMC registration of all doctors before they can see patients. The CMC maintains a public registry.
 
 ---
 
-## Electronic Prescription (RCP) Requirements
+<a id="4"></a>
+## ៤. បទបញ្ញត្តិពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine Regulations)
+
+ក្រសួងសុខាភិបាលកម្ពុជាបាននឹងកំពុងអភិវឌ្ឍក្របខ័ណ្ឌការងារផ្លូវការសម្រាប់ការពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine)។ គោលការណ៍ណែនាំបច្ចុប្បន្នរួមមាន៖
+* ការពិគ្រោះជំងឺពីចម្ងាយត្រូវបានអនុញ្ញាតក្នុងនាមជាការគាំទ្របន្ថែម (មិនមែនជំនួសទាំងស្រុង) សម្រាប់ការជួបពិនិត្យជំងឺផ្ទាល់ឡើយ។
+* ករណីជំងឺសង្គ្រោះបន្ទាន់ ត្រូវតែបញ្ជូនទៅកាន់មន្ទីរពេទ្យ ឬគ្លីនិករូបវន្តជាបន្ទាន់។
+* វេជ្ជបញ្ជាដែលចេញពីការពិគ្រោះជំងឺពីចម្ងាយត្រូវតែស្របតាមច្បាប់ស្តីពីការគ្រប់គ្រងឱសថ។
+* ត្រូវតែទទួលបានការយល់ព្រមពីអ្នកជំងឺសម្រាប់វគ្គពិគ្រោះជំងឺតាមទូរស័ព្ទ/វីដេអូ។
+* ត្រូវតែរក្សាទុកកំណត់ត្រានៃការពិគ្រោះជំងឺពីចម្ងាយឱ្យបានត្រឹមត្រូវ។
+
+---
+
+<a id="5"></a>
+## ៥. លក្ខខណ្ឌតម្រូវវេជ្ជបញ្ជាអេឡិចត្រូនិក - RCP (Electronic Prescription Requirements)
+
+សម្រាប់វេទិកាដែលចេញវេជ្ជបញ្ជាអេឡិចត្រូនិក៖
 
 For platforms issuing electronic prescriptions:
 
-| Requirement | Detail |
+| លក្ខខណ្ឌតម្រូវ (Requirement) | ព័ត៌មានលម្អិត (Detail) |
 |:------------|:-------|
-| **Doctor identification** | CMC registration number must appear on prescription |
-| **Prescription format** | Must include patient name, DOB, diagnosis, drug name, dosage, quantity, instructions |
-| **Digital signature** | Doctor's electronic signature or equivalent |
-| **Unique reference number** | Prescription must have a traceable reference (e.g. RCP number) |
-| **Pharmacist verification** | Pharmacist must verify prescription authenticity before dispensing |
-| **Retention** | Prescription records must be retained for minimum 5 years |
+| **កំណត់អត្តសញ្ញាណគ្រូពេទ្យ** | លេខចុះបញ្ជីគណៈគ្រូពេទ្យ (CMC) ត្រូវតែបង្ហាញនៅលើវេជ្ជបញ្ជា |
+| **ទម្រង់វេជ្ជបញ្ជា** | រួមមាន ឈ្មោះអ្នកជំងឺ, ថ្ងៃខែឆ្នាំកំណើត, រោគវិនិច្ឆ័យ, ឈ្មោះថ្នាំ, កម្រិតថ្នាំ, ចំនួន, និងការណែនាំប្រើប្រាស់ |
+| **ហត្ថលេខាឌីជីថល** | ហត្ថលេខាអេឡិចត្រូនិករបស់គ្រូពេទ្យ ឬប្រព័ន្ធសមមូលដែលមានសុវត្ថិភាព |
+| **លេខយោងតែមួយគត់** | វេជ្ជបញ្ជាត្រូវតែមានលេខយោងដែលអាចតាមដានបាន (ដូចជា លេខ RCP) |
+| **ការផ្ទៀងផ្ទាត់ដោយឱសថការី** | ឱសថការីត្រូវតែផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃវេជ្ជបញ្ជាមុននឹងផ្តល់ថ្នាំ |
+| **ការរក្សាទុកកំណត់ត្រា** | កំណត់ត្រាវេជ្ជបញ្ជាត្រូវតែរក្សាទុកយ៉ាងហោចណាស់ ៥ ឆ្នាំ |
 
 ---
 
-## Pharmacy Regulations
+<a id="6"></a>
+## ៦. បទបញ្ញត្តិឱសថស្ថាន (Pharmacy Regulations)
 
-Under the Law on Pharmaceuticals:
-- Only licensed pharmacies may dispense prescription medications
-- Prescription drugs require a valid prescription from a registered doctor
-- Pharmacies must maintain dispensing records
-- Controlled substances (opioids, psychotropics) have additional reporting requirements to the DDF
-- Drug import and distribution requires DDF registration
-
----
-
-## Traditional Medicine
-
-Cambodia has a significant traditional medicine sector:
-- Traditional healers (Kru Khmer) are registered separately under MOH
-- Herbal medicines require registration with DDF
-- Digital platforms must clearly differentiate between evidence-based medicine and traditional medicine
+ក្រោមច្បាប់ស្តីពីការគ្រប់គ្រងឱសថ៖
+* មានតែឱសថស្ថានដែលមានអាជ្ញាបណ្ណស្របច្បាប់ប៉ុណ្ណោះ ទើបអាចលក់ និងចែកឱសថតាមវេជ្ជបញ្ជាបាន។
+* ឱសថតាមវេជ្ជបញ្ជាតម្រូវឱ្យមានវេជ្ជបញ្ជាត្រឹមត្រូវពីគ្រូពេទ្យដែលបានចុះបញ្ជី CMC។
+* ឱសថស្ថានត្រូវរក្សាទុកកំណត់ត្រានៃការលក់ឱសថ។
+* សារធាតុញៀន ឬសារធាតុជះឥទ្ធិពលផ្លូវចិត្ត (controlled substances) មានកាតព្វកិច្ចរាយការណ៍បន្ថែមទៅកាន់នាយកដ្ឋានឱសថ និងចំណីអាហារ (DDF)។
+* ការនាំចូល និងការចែកចាយឱសថត្រូវតែចុះបញ្ជីជាមួយនាយកដ្ឋាន DDF។
 
 ---
 
-## Patient Data — Cambodia Context
+<a id="7"></a>
+## ៧. ឱសថបុរាណ (Traditional Medicine)
 
-Until the PDPK is enacted, patient health data is governed by:
-- Professional ethics obligations (CMC code of conduct for doctors)
-- MOH guidelines on patient confidentiality
-- General civil liability for breach of confidentiality
-- The forthcoming PDPK will add formal data protection rights
-
-**Current practice:** Implement GDPR-equivalent health data protections. This exceeds current requirements and will meet the forthcoming PDPK.
+ប្រទេសកម្ពុជាមានផ្នែកឱសថបុរាណដ៏សំខាន់មួយ៖
+* គ្រូបុរាណ (គ្រូខ្មែរ) ត្រូវចុះបញ្ជីដាច់ដោយឡែកក្រោមក្រសួងសុខាភិបាល។
+* ឱសថបុរាណខ្មែរ ឬឱសថរុក្ខជាតិត្រូវចុះបញ្ជីជាមួយនាយកដ្ឋាន DDF។
+* វេទិកាឌីជីថលត្រូវតែបែងចែកឱ្យបានច្បាស់លាស់រវាងវេជ្ជសាស្ត្របែបវិទ្យាសាស្ត្រ និងការព្យាបាលបែបបុរាណ ដើម្បីការពារការភាន់ច្រឡំរបស់អ្នកប្រើប្រាស់។
 
 ---
 
-## Health Data Localisation
+<a id="8"></a>
+## ៨. ទិន្នន័យអ្នកជំងឺ និងការរក្សាទុកក្នុងស្រុក (Patient Data & Localisation)
 
-MOH guidelines indicate that:
-- Patient health records should be accessible to the patient and treating providers
-- Records should be maintained in a format accessible within Cambodia
-- Cloud storage for health data: MOH has not published formal guidance, but data sovereignty concerns exist
+### ៨.១ ឯកជនភាពទិន្នន័យអ្នកជំងឺ (Patient Data Privacy)
+រហូតដល់ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន (PDPK) ត្រូវបានប្រកាសឱ្យប្រើប្រាស់ជាផ្លូវការ ទិន្នន័យសុខភាពអ្នកជំងឺត្រូវបានគ្រប់គ្រងដោយ៖
+* កាតព្វកិច្ចក្រមសីលធម៌វិជ្ជាជីវៈ (ក្រមសីលធម៌គ្រូពេទ្យរបស់គណៈគ្រូពេទ្យកម្ពុជា CMC)។
+* គោលការណ៍ណែនាំរបស់ក្រសួងសុខាភិបាលស្តីពីការរក្សាការសម្ងាត់អ្នកជំងឺ។
+* ទំនួលខុសត្រូវរដ្ឋប្បវេណីទូទៅចំពោះការរំលោភបំពានការសម្ងាត់។
+
+**ការអនុវត្តបច្ចុប្បន្ន៖** គួរតែអនុវត្តស្តង់ដារការពារទិន្នន័យកម្រិតសមមូលនឹង GDPR។ ចំណុចនេះលើសពីតម្រូវការបច្ចុប្បន្ន និងត្រៀមខ្លួនរួចជាស្រេចសម្រាប់ច្បាប់ PDPK នាពេលអនាគត។
+
+### ៨.២ ការរក្សាទុកទិន្នន័យសុខភាពក្នុងស្រុក (Health Data Localisation)
+គោលការណ៍ណែនាំរបស់ក្រសួងសុខាភិបាលបង្ហាញថា៖
+* កំណត់ត្រាសុខភាពអ្នកជំងឺត្រូវតែអាចចូលមើលបានដោយអ្នកជំងឺ និងគ្រូពេទ្យព្យាបាល។
+* កំណត់ត្រាគួរតែត្រូវបានរក្សាទុកក្នុងទម្រង់ដែលអាចចូលប្រើប្រាស់បាននៅក្នុងប្រទេសកម្ពុជា។
+* ចំពោះការរក្សាទុកទិន្នន័យសុខភាពលើ Cloud៖ ក្រសួងសុខាភិបាលមិនទាន់ចេញគោលការណ៍ណែនាំផ្លូវការច្បាស់លាស់ឡើយ ប៉ុន្តែមានការបារម្ភផ្នែកអធិបតេយ្យភាពទិន្នន័យ (data sovereignty)។
 
 ---
 
-## What to Build for Cambodia Healthcare Platform
+<a id="9"></a>
+## ៩. អ្វីដែលត្រូវសាងសង់ (What to Build for Cambodia Healthcare Platform)
 
 ```
-□ Partner with or hire CMC-registered doctors only
-□ Verify CMC registration at onboarding — check public registry
-□ MOH/Provincial licence or partnership with licensed facility
-□ DDF-compliant pharmacy partnerships for prescription fulfilment
-□ RCP number system for all electronic prescriptions
-□ Doctor digital signature on all prescriptions
-□ 5-year retention for all clinical records
-□ Patient consent for telemedicine consultations
-□ Clear referral pathway for emergencies
-□ Separate consent for research use of anonymised data
-□ Monitor MOH Prakas announcements for telemedicine framework
-□ GDPR-equivalent data protection as best practice
+បញ្ជីរៀបចំប្រព័ន្ធការពារទិន្នន័យសម្រាប់វេទិកាសុខាភិបាលនៅកម្ពុជា៖
+
+□ សហការ ឬជួលតែគ្រូពេទ្យដែលចុះបញ្ជីជាមួយ CMC ត្រឹមត្រូវប៉ុណ្ណោះ
+□ ផ្ទៀងផ្ទាត់ការចុះបញ្ជី CMC ពេលបញ្ចូលគ្រូពេទ្យចូលប្រព័ន្ធ — ពិនិត្យបញ្ជីឈ្មោះសាធារណៈ
+□ ទទួលបានអាជ្ញាបណ្ណពីក្រសួងសុខាភិបាល ឬសហការជាមួយមន្ទីរពេទ្យ/គ្លីនិកដែលមានអាជ្ញាបណ្ណ
+□ សហការជាមួយឱសថស្ថានដែលមានអាជ្ញាបណ្ណពី DDF សម្រាប់សេវាបញ្ជូនថ្នាំ
+□ ប្រព័ន្ធលេខកូដ RCP សម្រាប់រាល់ការចេញវេជ្ជបញ្ជាអេឡិចត្រូនិកទាំងអស់
+□ ហត្ថលេខាឌីជីថលរបស់គ្រូពេទ្យលើរាល់វេជ្ជបញ្ជា
+□ រក្សាទុកកំណត់ត្រាគ្លីនិកទាំងអស់ក្នុងរយៈពេលយ៉ាងតិច ៥ ឆ្នាំ
+□ ផ្ទាំងសុំការយល់ព្រមពីអ្នកជំងឺសម្រាប់ការពិគ្រោះជំងឺពីចម្ងាយ (Telemedicine Consent)
+□ រៀបចំហ្សូនប្រព័ន្ធបញ្ជូនអ្នកជំងឺសង្គ្រោះបន្ទាន់ច្បាស់លាស់ទៅមន្ទីរពេទ្យរូបវន្ត
+□ សុំការយល់ព្រមដាច់ដោយឡែកសម្រាប់កិច្ចការស្រាវជ្រាវ (ទិន្នន័យអនាមិក)
+□ តាមដានសេចក្តីប្រកាសរបស់ក្រសួងសុខាភិបាលសម្រាប់ក្របខ័ណ្ឌការងារពិគ្រោះជំងឺពីចម្ងាយថ្មីៗ
+□ អនុវត្តគោលការណ៍ការពារទិន្នន័យកម្រិត GDPR សម្រាប់ការអនុវត្តល្អបំផុត
 ```
 
 ---
 
+<a id="10"></a>
 ## Related
 
-- [GDPR Health Data](./03-gdpr-health-data.md) — best practice to implement now
-- [HIPAA](./01-hipaa.md) — US reference standard
-- [HL7 FHIR](./02-hl7-fhir.md) — clinical data interoperability
+- [GDPR Health Data](./03-gdpr-health-data.md) — គោលការណ៍ណែនាំល្អបំផុតសម្រាប់អនុវត្តនាពេលបច្ចុប្បន្ន
+- [HIPAA](./01-hipaa.md) — ស្តង់ដារយោងរបស់សហរដ្ឋអាមេរិក
+- [HL7 FHIR](./02-hl7-fhir.md) — អន្តរប្រតិបត្តិការទិន្នន័យគ្លីនិក
 - [Doctor Prescription & Clinical Workflow](../../procedures/domain-workflows/01-doctor-prescription-and-clinical-workflow.md)
 - [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md)
 - [Regional: Cambodia Overview](../regional/01-cambodia-overview.md)
