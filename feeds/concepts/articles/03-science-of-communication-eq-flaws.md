@@ -119,20 +119,20 @@ Let us examine how these low-EQ habits destroy relationships in practical situat
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["🗣 គំនិតថ្មីក្នុងប្រជុំ<br/>(New Idea in Meeting)"] --> B1["❌ សកម្មភាព Low EQ<br/>(Low EQ Action)"]
-    A --> B2["✅ សកម្មភាព High EQ<br/>(High EQ Action)"]
-    
-    B1 --> C1["និយាយកាត់ភ្លាមៗ<br/>(Interrupts & Argues)"]
-    C1 --> D1["បុគ្គលិកបាក់ទឹកចិត្ត<br/>(Employee Demotivated)"]
-    D1 --> E1["🔴 ទំនាក់ទំនងប្រេះឆា<br/>(Strained Relation)"]
-    
-    B2 --> C2["ស្តាប់ដោយយកចិត្តទុកដាក់<br/>(Listens Attentively)"]
-    C2 --> D2["បុគ្គលិកមានតម្លៃ<br/>(Employee Valued)"]
-    D2 --> E2["🟢 វប្បធម៌ក្រុមរឹងមាំ<br/>(Strong Team Culture)"]
+sequenceDiagram
+    autonumber
+    actor Emp as 👤 Employee (បុគ្គលិក)
+    actor Ldr as 👥 Team Leader (ប្រធានក្រុម)
 
-    style E1 fill:#e74c3c,color:#fff
-    style E2 fill:#27ae60,color:#fff
+    Emp->>Ldr: Starts presenting a new creative idea<br/>ចាប់ផ្តើមលើកឡើងពីគំនិតច្នៃប្រឌិតថ្មី
+    
+    rect rgb(231, 76, 60)
+        Ldr-->>Emp: Interrupts: "No! That won't work, I've tried it."<br/>និយាយកាត់៖ «ទេ! គំនិតនេះមិនដំណើរការទេ ខ្ញុំធ្លាប់ធ្វើរួចហើយ។»
+        Note over Emp: Feels demotivated & undervalued<br/>មានអារម្មណ៍បាក់ទឹកចិត្ត និងគ្មានតម្លៃ
+    end
+    
+    Emp->>Ldr: Shuts down, stops sharing ideas<br/>សម្រេចចិត្តបិទមាត់ ឈប់បញ្ចេញគំនិត
+    Note over Emp, Ldr: 🔴 Broken collaboration & team failure<br/>ទំនាក់ទំនងប្រេះឆា និងបរាជ័យការងារក្រុម
 ```
 
 ---
@@ -163,20 +163,23 @@ graph TD
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["👥 ជួបជុំគ្នា<br/>ញ៉ាំកាហ្វេ<br/>(Coffee Meetup)"] --> B1["❌ សកម្មភាព Low EQ<br/>(Dumping & Taking)"]
-    A --> B2["✅ សកម្មភាព High EQ<br/>(Reciprocal Sharing)"]
-    
-    B1 --> C1["និយាយតែរឿងខ្លួនឯង<br/>(Only talks of self)"]
-    C1 --> D1["មិត្តភក្តិហត់នឿយ<br/>(Friend gets drained)"]
-    D1 --> E1["🔴 មិត្តភាពប្រេះឆា<br/>(Broken Friendship)"]
-    
-    B2 --> C2["សួរនាំសុខទុក្ខមិត្ត<br/>(Asks about friend)"]
-    C2 --> D2["មិត្តភក្តិកក់ក្តៅ<br/>(Friend feels valued)"]
-    D2 --> E2["🟢 មិត្តភាពស៊ីជម្រៅ<br/>(Deeper Connection)"]
+sequenceDiagram
+    autonumber
+    actor F1 as 👤 Friend A (មិត្តភក្តិ A)
+    actor F2 as 👥 Friend B (មិត្តភក្តិ B)
 
-    style E1 fill:#e74c3c,color:#fff
-    style E2 fill:#27ae60,color:#fff
+    F1->>F2: Complains about work & life for 2 hours<br/>ត្អូញត្អែរពីការងារ និងជីវិតផ្ទាល់ខ្លួន ២ម៉ោងពេញ
+    Note over F1: Emotional Dumping / បង្ហូរសម្រាមអារម្មណ៍
+    
+    F2->>F1: Tries to share their own updates<br/>ព្យាយាមនិយាយចែករំលែកពីជីវិតខ្លួនឯងវិញ
+    
+    rect rgb(231, 76, 60)
+        F1-->>F2: Acts bored and redirects back to self<br/>បង្ហាញអាការៈធុញទ្រាន់ និងបង្វែរមកនិយាយពីខ្លួនឯងវិញ
+        Note over F2: Feels drained & used as a dumping ground<br/>មានអារម្មណ៍ហត់នឿយ និងគ្រាន់តែជាធុងសម្រាមអារម្មណ៍
+    end
+    
+    F2->>F1: Avoids meeting or replying in the future<br/>គេចវេសមិនជួប និងឈប់តបសារនៅពេលក្រោយ
+    Note over F1, F2: 🔴 Broken friendship & emotional decay<br/>មិត្តភាពប្រេះឆា និងបាត់បង់ការប្រាស្រ័យទាក់ទង
 ```
 
 ---
@@ -207,20 +210,21 @@ graph TD
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["🎉 កម្មវិធីជួបជុំ<br/>(Family Gathering)"] --> B1["❌ សកម្មភាព Low EQ<br/>(Humblebragging)"]
-    A --> B2["✅ សកម្មភាព High EQ<br/>(Kindness & Humility)"]
-    
-    B1 --> C1["ចំអក & អួតបង្កប់<br/>(Mocks & Humblebrags)"]
-    C1 --> D1["អ្នកដទៃអសន្តិសុខ<br/>(Others feel insecure)"]
-    D1 --> E1["🔴 បរិយាកាសពុល<br/>(Toxic Atmosphere)"]
-    
-    B2 --> C2["និយាយពាក្យល្អ & បន្ទាបខ្លួន<br/>(Kind words & Humility)"]
-    C2 --> D2["គ្រប់គ្នាមានសុវត្ថិភាព<br/>(Everyone feels safe)"]
-    D2 --> E2["🟢 បង្កើតសាមគ្គីភាព<br/>(Builds Solidarity)"]
+sequenceDiagram
+    autonumber
+    actor Mbr as 👤 Member A (សមាជិក A)
+    actor Fam as 👥 Family (សមាជិកគ្រួសារ)
 
-    style E1 fill:#e74c3c,color:#fff
-    style E2 fill:#27ae60,color:#fff
+    Mbr->>Fam: Mocks weight and body shames someone<br/>និយាយចំអករូបរាងកាយ និងទម្ងន់អ្នកដទៃ
+    Mbr->>Fam: Digs up and weaponizes 10-year-old failures<br/>គាស់កកាយកំហុស ឬការប្រឡងធ្លាក់កាលពី ១០ឆ្នាំមុន
+    
+    rect rgb(231, 76, 60)
+        Mbr-->>Fam: Humblebrags: "Annoyed that my raise is too big!"<br/>អួតបង្កប់៖ «ធុញណាស់ ក្រុមហ៊ុនដំឡើងប្រាក់ខែឱ្យច្រើនពេក!»
+        Note over Fam: Feel insecure, insulted, and resentful<br/>មានអារម្មណ៍អសន្តិសុខ ឈឺចាប់ និងខឹងសម្បារ
+    end
+    
+    Fam->>Mbr: Draw away, keeping conversation minimal<br/>ដើរចេញឆ្ងាយ និងឈប់ចង់សន្ទនាជាមួយ
+    Note over Mbr, Fam: 🔴 Toxic atmosphere & social isolation<br/>បរិយាកាសពុល និងការដកខ្លួនចេញពីគ្នា
 ```
 
 ---
@@ -251,20 +255,22 @@ graph TD
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["💼 ទំនាក់ទំនងការងារ<br/>(Workplace Relations)"] --> B1["❌ សកម្មភាព Low EQ<br/>(Disrespecting Boundaries)"]
-    A --> B2["✅ សកម្មភាព High EQ<br/>(Respecting Boundaries)"]
-    
-    B1 --> C1["ស្តីបន្ទោសជាសាធារណៈ<br/>(Public Scolding)"]
-    C1 --> D1["បុគ្គលិកបាត់បង់ការគោរព<br/>(Staff loses respect)"]
-    D1 --> E1["🔴 បរិយាកាសការងារពុល<br/>(Toxic Workplace)"]
-    
-    B2 --> C2["ណែនាំជាឯកជន<br/>(Private Guidance)"]
-    C2 --> D2["បុគ្គលិកចង់កែលម្អ<br/>(Staff wants to improve)"]
-    D2 --> E2["🟢 វប្បធម៌ការងារល្អ<br/>(Good Work Culture)"]
+sequenceDiagram
+    autonumber
+    actor Mgr as 👤 Manager (ប្រធាន)
+    actor Emp as 👥 Employee (បុគ្គលិក)
 
-    style E1 fill:#e74c3c,color:#fff
-    style E2 fill:#27ae60,color:#fff
+    Mgr->>Emp: Arrives 1 hour late to meeting without apology<br/>មកប្រជុំយឺត ១ម៉ោង ដោយគ្មានពាក្យសុំទោស
+    
+    Emp->>Mgr: Commits a minor administrative mistake<br/>ប្រព្រឹត្តកំហុសការងារបន្តិចបន្តួច
+    
+    rect rgb(231, 76, 60)
+        Mgr-->>Emp: Scolds and demeans employee in public<br/>ស្រែកស្តីបន្ទោស និងបង្អាប់កិត្តិយសកណ្តាលការិយាល័យ
+        Note over Emp: Feels humiliated and loses all respect<br/>មានអារម្មណ៍ខ្មាសគេ និងបាត់បង់ការគោរពទាំងស្រុង
+    end
+    
+    Emp->>Mgr: Quiet quits, prepares to resign<br/>ធ្វើការត្រឹមបង្គ្រប់កិច្ច និងរៀបចំលាឈប់
+    Note over Mgr, Emp: 🔴 Toxic workplace & high staff turnover<br/>បរិយាកាសការងារពុល និងការបាត់បង់បុគ្គលិកល្អ
 ```
 
 ---
@@ -295,20 +301,20 @@ graph TD
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["💑 ជម្លោះប្តីប្រពន្ធ<br/>(Spousal Conflict)"] --> B1["❌ សកម្មភាព Low EQ<br/>(Mockery & Past Errors)"]
-    A --> B2["✅ សកម្មភាព High EQ<br/>(Constructive Dialogue)"]
-    
-    B1 --> C1["ចំអក & គាស់កកាយរឿងចាស់<br/>(Mocks & Weaponizes past)"]
-    C1 --> D1["ដៃគូឈឺចាប់ & បាក់មុខ<br/>(Partner feels hurt)"]
-    D1 --> E1["🔴 គ្រួសារតានតឹង<br/>(Chronic Resentment)"]
-    
-    B2 --> C2["ផ្តោតលើបញ្ហាបច្ចុប្បន្ន<br/>(Focuses on current issue)"]
-    C2 --> D2["សហការស្វែងរកដំណោះស្រាយ<br/>(Collaborative solving)"]
-    D2 --> E2["🟢 គ្រួសារកក់ក្តៅ<br/>(Harmonious Family)"]
+sequenceDiagram
+    autonumber
+    actor Hsb as 👤 Husband (ស្វាមី)
+    actor Wfe as 👥 Wife (ភរិយា)
 
-    style E1 fill:#e74c3c,color:#fff
-    style E2 fill:#27ae60,color:#fff
+    Wfe->>Hsb: Shares a financial/purchasing mistake<br/>ប្រាប់ពីកំហុសនៃការទិញរបស់ខុស
+    
+    rect rgb(231, 76, 60)
+        Hsb-->>Wfe: Mocks and weaponizes old failures<br/>សើចចំអកសមត្ថភាព និងគាស់កកាយរឿងរៀនសូត្រពីមុន
+        Note over Wfe: Feels hurt, embarrassed, and loses self-trust<br/>មានអារម្មណ៍ឈឺចាប់ ខ្មាសគេ និងបាត់ទំនុកចិត្តលើខ្លួនឯង
+    end
+    
+    Wfe->>Hsb: Retracts from constructive dialogue, grows distant<br/>ដកខ្លួនចេញពីការពិភាក្សា និងមានគម្លាតផ្លូវចិត្ត
+    Note over Hsb, Wfe: 🔴 Strained relationship & chronic resentment<br/>ទំនាក់ទំនងតានតឹង និងបង្កើតការអាក់អន់ចិត្តរ៉ាំរ៉ៃ
 ```
 
 ---
