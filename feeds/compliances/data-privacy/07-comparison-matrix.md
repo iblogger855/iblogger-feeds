@@ -1,109 +1,127 @@
-# Data Privacy Laws — Comparison Matrix
+# Comparison Matrix (ម៉ាទ្រីសប្រៀបធៀប)៖ ការប្រៀបធៀបច្បាប់ការពារឯកជនភាពសកល (Data Privacy Laws — Comparison Matrix)
 
 **Tags:** #compliance #data-privacy #comparison #gdpr #ccpa #pdpa #lgpd
 
 ---
 
-## Quick Reference
+## 📌 មាតិកា (Table of Contents)
+- [តារាងយោងរហ័ស (Quick Reference)](#0)
+- [១. ប្រៀបធៀបគំរូនៃការយល់ព្រម (Consent Models Compared)](#1)
+- [២. រយៈពេលនៃការរាយការណ៍ការលេចធ្លាយ (Breach Notification Timelines)](#2)
+- [៣. តម្រូវការរក្សាទុកទិន្នន័យក្នុងប្រទេស (Data Localisation Requirements)](#3)
+- [៤. ប្រៀបធៀបសិទ្ធិរបស់ម្ចាស់ទិន្នន័យ (Rights Comparison)](#4)
+- [៥. តើច្បាប់ណាខ្លះអនុវត្តលើប្រព័ន្ធរបស់អ្នក? (Which Laws Apply to Your Platform?)](#5)
+- [Related](#6)
 
-| Aspect | GDPR (EU) | CCPA/CPRA (CA, USA) | LGPD (Brazil) | PDPA (Thailand) | PDPA (Singapore) | PDPK (Cambodia) |
+---
+
+<a id="0"></a>
+## តារាងយោងរហ័ស (Quick Reference)
+
+| ទិដ្ឋភាព (Aspect) | GDPR (EU) | CCPA/CPRA (CA, USA) | LGPD (Brazil) | PDPA (Thailand) | PDPA (Singapore) | PDPK (Cambodia) |
 |:-------|:----------|:--------------------|:--------------|:----------------|:-----------------|:----------------|
-| **In force** | May 2018 | Jan 2020 | Aug 2020 | Jun 2022 | Jan 2013 (rev. 2021) | Forthcoming |
-| **Model** | Opt-in | Opt-out | Opt-in (GDPR-based) | Opt-in (GDPR-based) | Consent-based | GDPR-based (expected) |
-| **Scope** | Any org processing EU resident data | Large CA businesses | Any org processing Brazilian data | Any org processing Thai data | All private orgs in SG | Orgs in Cambodia |
-| **Legal bases** | 6 | N/A (opt-out model) | 10 | 6 | Consent + exceptions | TBD |
-| **Right to erasure** | Yes | Yes (delete) | Yes | Yes | No general right | TBD |
-| **Data portability** | Yes | Yes | Yes | Yes | Yes (2021) | TBD |
-| **Breach notification** | 72 hours to DPA | Notify affected users | ANPD + individuals | 72 hours to PDPC | 3 days to PDPC | TBD |
-| **DPO required** | Sometimes | No | Sometimes | Sometimes | Recommended | TBD |
-| **Max penalty** | 4% global turnover or €20M | $7,500 per intentional violation | 2% Brazil revenue, R$50M cap | THB 5M admin + criminal | 10% SG turnover or SGD 1M | TBD |
-| **Children** | Under 16 (varies) | Under 16 (opt-in) | Under 18 | Under 18 | Not specified | TBD |
-| **Health data** | Special category — explicit consent | Sensitive PI — limit use right | Sensitive data — explicit consent | Sensitive data — explicit consent | Not specifically called out | MOH Prakas |
+| **ថ្ងៃចូលធរមាន (In force)** | ឧសភា ២០១៨ (May 2018) | មករា ២០២០ (Jan 2020) | សីហា ២០២០ (Aug 2020) | មិថុនា ២០២២ (Jun 2022) | មករា ២០១៣ (កែប្រែ ២០២១) (Jan 2013, rev. 2021) | កំពុងសេចក្តីព្រាង (Forthcoming) |
+| **គំរូអនុវត្ត (Model)** | Opt-in | Opt-out | Opt-in (គំរូ GDPR) (Opt-in - GDPR-based) | Opt-in (គំរូ GDPR) (Opt-in - GDPR-based) | ផ្អែកលើការសុំយល់ព្រម (Consent-based) | គំរូ GDPR រំពឹងទុក (GDPR-based expected) |
+| **សមត្ថកិច្ចអនុវត្ត (Scope)** | ក្រុមហ៊ុនដំណើរការទិន្នន័យពលរដ្ឋសហភាពអឺរ៉ុប (Any org processing EU resident data) | អាជីវកម្មធំៗនៅកាលីហ្វ័រញ៉ា (Large CA businesses) | ក្រុមហ៊ុនដំណើរការទិន្នន័យពលរដ្ឋប្រេស៊ីល (Any org processing Brazilian data) | ក្រុមហ៊ុនដំណើរការទិន្នន័យពលរដ្ឋថៃ (Any org processing Thai data) | គ្រប់ស្ថាប័នឯកជនសិង្ហបុរី (All private orgs in SG) | គ្រប់ក្រុមហ៊ុនប្រតិបត្តិការនៅកម្ពុជា (Orgs in Cambodia) |
+| **មូលដ្ឋានច្បាប់ (Legal bases)** | ៦ មូលដ្ឋានច្បាប់ (6) | មិនអនុវត្ត (គំរូ Opt-out) (N/A — opt-out model) | ១០ មូលដ្ឋានច្បាប់ (10) | ៦ មូលដ្ឋានច្បាប់ (6) | ការយល់ព្រម + ករណីលើកលែង (Consent + exceptions) | កំពុងកំណត់ (TBD) |
+| **សិទ្ធិលុបចោល (Right to erasure)** | មាន (Yes) | មាន - ស្នើសុំលុប (Yes — delete) | មាន (Yes) | មាន (Yes) | គ្មានសិទ្ធិទូទៅឡើយ (No general right) | កំពុងកំណត់ (TBD) |
+| **សិទ្ធិផ្ទេរទិន្នន័យ (Data portability)** | មាន (Yes) | មាន (Yes) | មាន (Yes) | មាន (Yes) | មាន - កែប្រែ ២០២១ (Yes — 2021) | កំពុងកំណត់ (TBD) |
+| **រាយការណ៍លេចធ្លាយ (Breach notification)** | ៧២ ម៉ោងទៅកាន់ DPA (72 hours to DPA) | ជូនដំណឹងដល់អ្នករងផលប៉ះពាល់ (Notify affected users) | ANPD + ម្ចាស់ទិន្នន័យ (ANPD + individuals) | ៧២ ម៉ោងទៅកាន់ PDPC (72 hours to PDPC) | ៣ ថ្ងៃទៅកាន់ PDPC (3 days to PDPC) | កំពុងកំណត់ (TBD) |
+| **តម្រូវការមន្ត្រី DPO** | ករណីខ្លះ (Sometimes) | គ្មានទេ (No) | ករណីខ្លះ (Sometimes) | ករណីខ្លះ (Sometimes) | ណែនាំឱ្យមាន (Recommended) | កំពុងកំណត់ (TBD) |
+| **ពិន័យអតិបរមា (Max penalty)** | ៤% នៃចំណូលសកល ឬ ២០ លានអឺរ៉ូ (4% global turnover or €20M) | ៧,៥០០ ដុល្លារក្នុងមួយការរំលោភដោយចេតនា ($7,500 per intentional violation) | ២% នៃចំណូលប្រេស៊ីល កម្រិត ៥០ លាន BRL (2% Brazil revenue, R$50M cap) | ពិន័យរដ្ឋបាល ៥ លានបាត + ទោសព្រហ្មទណ្ឌ (THB 5M admin + criminal) | ១០% នៃចំណូលសិង្ហបុរី ឬ ១ លាន SGD (10% SG turnover or SGD 1M) | កំពុងកំណត់ (TBD) |
+| **កុមារ/អនីតិជន (Children)** | ក្រោម ១៦ ឆ្នាំ (ប្រែប្រួលតាមប្រទេស) (Under 16) | ក្រោម ១៦ ឆ្នាំ - Opt-in (Under 16 — opt-in) | ក្រោម ១៨ ឆ្នាំ (Under 18) | ក្រោម ១៨ ឆ្នាំ (Under 18) | មិនមានចែងជាក់លាក់ (Not specified) | កំពុងកំណត់ (TBD) |
+| **ទិន្នន័យសុខភាព (Health data)** | ប្រភេទពិសេស - ត្រូវសុំការយល់ព្រមច្បាស់លាស់ (Special category — explicit consent) | ព័ត៌មានរសើប - សិទ្ធិរឹតត្បិត (Sensitive PI — limit use right) | ទិន្នន័យរសើប - ត្រូវសុំការយល់ព្រមច្បាស់លាស់ (Sensitive data — explicit consent) | ទិន្នន័យរសើប - ត្រូវសុំការយល់ព្រមច្បាស់លាស់ (Sensitive data — explicit consent) | មិនត្រូវបានហៅដាច់ដោយឡែក (Not specifically called out) | ប្រកាសក្រសួងសុខាភិបាល (MOH Prakas) |
 
 ---
 
-## Consent Models Compared
+<a id="1"></a>
+## ១. ប្រៀបធៀបគំរូនៃការយល់ព្រម (Consent Models Compared)
 
 ```
-GDPR / LGPD / PDPA (Thailand):
-  Default = cannot collect
-  Must get opt-in BEFORE collecting
-  Pre-ticked boxes invalid
-  Easy withdrawal required
+ច្បាប់ GDPR / LGPD / PDPA (ប្រទេសថៃ)៖
+  * ស្ថានភាពលំនាំដើម = ហាមប្រមូលទិន្នន័យ (Default = cannot collect)
+  * ត្រូវតែសុំការយល់ព្រមជាមុន (Opt-in) មុនពេលប្រមូលទិន្នន័យ (Must get opt-in BEFORE collecting)
+  * ការគូសធីកប្រអប់ជាមុន មិនត្រូវបានចាត់ទុកជាការយល់ព្រមឡើយ (Pre-ticked boxes invalid)
+  * ដំណើរការដកការយល់ព្រមវិញត្រូវតែមានភាពងាយស្រួល (Easy withdrawal required)
 
-CCPA / CPRA:
-  Default = can collect
-  Must give opt-OUT mechanism
-  "Do Not Sell or Share" link required
-  GPC signal must be honoured
+ច្បាប់ CCPA / CPRA៖
+  * ស្ថានភាពលំនាំដើម = អាចប្រមូលទិន្នន័យបាន (Default = can collect)
+  * ត្រូវតែផ្តល់យន្តការឱ្យអ្នកប្រើប្រាស់បដិសេធតាមក្រោយ (Opt-out) (Must give opt-OUT mechanism)
+  * ត្រូវតែមានតំណភ្ជាប់ "Do Not Sell or Share" លើគេហទំព័រ (Link required on homepage)
+  * ត្រូវតែទទួលស្គាល់សញ្ញា Opt-out GPC ពី Browser (GPC signal must be honoured)
 
-Singapore PDPA:
-  Consent + legitimate interests + deemed consent
-  More flexible than GDPR
-  No general right to erasure
-```
-
----
-
-## Breach Notification Timelines
-
-```
-GDPR:            72 hours to supervisory authority
-LGPD:            "Reasonable time" (ANPD guidance: 72 hours in practice)
-PDPA Thailand:   72 hours to PDPC
-PDPA Singapore:  3 calendar days to PDPC (after assessment of notifiability)
-CCPA:            No time limit specified — "expedient" 
-Cambodia:        No formal timeline (cybercrime law: promptly)
+ច្បាប់ PDPA (ប្រទេសសិង្ហបុរី)៖
+  * ការយល់ព្រម + ផលប្រយោជន៍ស្របច្បាប់ + ការសន្មត់ថាបានយល់ព្រម (Consent + legitimate interests + deemed consent)
+  * មានភាពបត់បែន និងធូរស្រាលជាងច្បាប់ GDPR (More flexible than GDPR)
+  * គ្មានចែងសិទ្ធិស្នើសុំលុបទិន្នន័យចោលជាទូទៅឡើយ (No general right to erasure)
 ```
 
 ---
 
-## Data Localisation Requirements
+<a id="2"></a>
+## ២. រយៈពេលនៃការរាយការណ៍ការលេចធ្លាយ (Breach Notification Timelines)
 
-| Country | Requirement |
+```
+GDPR (សហភាពអឺរ៉ុប)៖        ៧២ ម៉ោងទៅកាន់អាជ្ញាធរត្រួតពិនិត្យ (72 hours to supervisory authority)
+LGPD (ប្រទេសប្រេស៊ីល)៖      ក្នុង "រយៈពេលសមហេតុផល" (ANPD ណែនាំជាក់ស្តែងក្នុងរង្វង់ ៧២ ម៉ោង) (Reasonable time - 72h in practice)
+PDPA (ប្រទេសថៃ)៖          ៧២ ម៉ោងទៅកាន់គណៈកម្មាធិការ PDPC (72 hours to PDPC)
+PDPA (ប្រទេសសិង្ហបុរី)៖     ៣ ថ្ងៃនៃថ្ងៃប្រតិទិន ទៅកាន់ PDPC បន្ទាប់ពីការវាយតម្លៃ (3 calendar days to PDPC after assessment)
+CCPA (រដ្ឋកាលីហ្វ័រញ៉ា)៖      មិនមានកំណត់រយៈពេលច្បាស់លាស់ — ត្រូវធ្វើ "ឱ្យបានឆាប់រហ័ស" (No time limit specified — "expedient")
+កម្ពុជា (ច្បាប់បច្ចុប្បន្ន)៖       មិនទាន់មានរយៈពេលជាក់លាក់ — ច្បាប់បទល្មើសបច្ចេកវិទ្យា៖ ត្រូវធ្វើជាបន្ទាន់ (No formal timeline — promptly)
+```
+
+---
+
+<a id="3"></a>
+## ៣. តម្រូវការរក្សាទុកទិន្នន័យក្នុងប្រទេស (Data Localisation Requirements)
+
+| ប្រទេស/តំបន់ (Country) | លក្ខខណ្ឌតម្រូវ (Requirement) |
 |:--------|:------------|
-| EU (GDPR) | No localisation, but strict cross-border transfer rules |
-| Brazil (LGPD) | No general localisation requirement |
-| Thailand (PDPA) | Adequate protection required for transfers |
-| Singapore (PDPA) | Contractual safeguards for transfers |
-| Cambodia (NBC) | Financial data must be stored in Cambodia |
-| Vietnam (Cybersecurity Law) | Critical data must be stored locally |
-| Indonesia (UU PDP) | Strategic data must be stored locally |
+| **សហភាពអឺរ៉ុប (GDPR)** | មិនបង្ខំរក្សាទុកក្នុងស្រុកឡើយ ប៉ុន្តែមានច្បាប់ផ្ទេរទិន្នន័យឆ្លងដែនតឹងរ៉ឹងបំផុត (No localisation, but strict cross-border transfer rules) |
+| **ប្រទេសប្រេស៊ីល (LGPD)** | មិនមានលក្ខខណ្ឌបង្ខំរក្សាទុកក្នុងស្រុកជាទូទៅឡើយ (No general localisation requirement) |
+| **ប្រទេសថៃ (PDPA)** | ត្រូវតែធានាប្រទេសគោលដៅមានស្តង់ដារការពារទិន្នន័យសមស្របសម្រាប់ផ្ទេរទិន្នន័យ (Adequate protection required for transfers) |
+| **ប្រទេសសិង្ហបុរី (PDPA)** | ត្រូវមានវិធានការពារកិច្ចសន្យាត្រឹមត្រូវសម្រាប់ការផ្ទេរទិន្នន័យ (Contractual safeguards for transfers) |
+| **ប្រទេសកម្ពុជា (NBC)** | ទិន្នន័យហិរញ្ញវត្ថុរបស់ធនាគារត្រូវតែរក្សាទុកនៅក្នុងប្រទេសកម្ពុជា (Financial data must be stored in Cambodia) |
+| **ប្រទេសវៀតណាម (ច្បាប់សន្តិសុខអុិនធឺណិត)** | ទិន្នន័យសំខាន់ៗត្រូវតែរក្សាទុកនៅក្នុងប្រទេសវៀតណាម (Critical data must be stored locally) |
+| **ប្រទេសឥណ្ឌូនេស៊ី (UU PDP)** | ទិន្នន័យយុទ្ធសាស្ត្រជាតិត្រូវតែរក្សាទុកនៅក្នុងប្រទេសឥណ្ឌូនេស៊ី (Strategic data must be stored locally) |
 
 ---
 
-## Rights Comparison
+<a id="4"></a>
+## ៤. ប្រៀបធៀបសិទ្ធិរបស់ម្ចាស់ទិន្នន័យ (Rights Comparison)
 
-| Right | GDPR | CCPA | LGPD | PDPA TH | PDPA SG |
+| សិទ្ធិ (Right) | GDPR | CCPA | LGPD | PDPA TH | PDPA SG |
 |:------|:----:|:----:|:----:|:-------:|:-------:|
-| Access | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Correction | ✓ | ✓ (CPRA) | ✓ | ✓ | ✓ |
-| Deletion / Erasure | ✓ | ✓ | ✓ | ✓ | ✗ |
-| Portability | ✓ | ✓ | ✓ | ✓ | ✓ (2021) |
-| Opt-out of sale | N/A | ✓ | N/A | N/A | N/A |
-| Object to processing | ✓ | N/A | ✓ | ✓ | ✓ |
-| No automated decisions | ✓ | ✓ (CPRA) | ✓ | ✓ | N/A |
-| Restrict processing | ✓ | N/A | ✓ | ✓ | N/A |
+| **ចូលមើលទិន្នន័យ (Access)** | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **កែតម្រូវទិន្នន័យ (Correction)** | ✓ | ✓ (CPRA) | ✓ | ✓ | ✓ |
+| **លុបចោលទិន្នន័យ (Deletion / Erasure)** | ✓ | ✓ | ✓ | ✓ | ✗ |
+| **ផ្ទេរទិន្នន័យ (Portability)** | ✓ | ✓ | ✓ | ✓ | ✓ (2021) |
+| **ជំទាស់ការលក់ទិន្នន័យ (Opt-out of sale)** | N/A | ✓ | N/A | N/A | N/A |
+| **ជំទាស់ការដំណើរការ (Object to processing)** | ✓ | N/A | ✓ | ✓ | ✓ |
+| **មិនរងការសម្រេចចិត្តដោយស្វ័យប្រវត្ត (No automated decisions)** | ✓ | ✓ (CPRA) | ✓ | ✓ | N/A |
+| **រឹតត្បិតការដំណើរការ (Restrict processing)** | ✓ | N/A | ✓ | ✓ | N/A |
 
 ---
 
-## Which Laws Apply to Your Platform?
+<a id="5"></a>
+## ៥. តើច្បាប់ណាខ្លះអនុវត្តលើប្រព័ន្ធរបស់អ្នក? (Which Laws Apply to Your Platform?)
 
 ```
-You have EU users             → GDPR applies
-You have California users     → CCPA may apply (check thresholds)
-You have Brazilian users      → LGPD applies
-You have Thai users           → PDPA (Thailand) applies
-You operate in Singapore      → PDPA (Singapore) applies
-You operate in Cambodia       → Sub-Decree 32 + sector rules + future PDPK
-You have Vietnamese users     → Cybersecurity Law + Decree 13
-You have Indonesian users     → UU PDP applies
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់មកពីសហភាពអឺរ៉ុប           ➔ ច្បាប់ GDPR ត្រូវយកមកអនុវត្ត (GDPR applies)
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់នៅរដ្ឋកាលីហ្វ័រញ៉ា         ➔ ច្បាប់ CCPA អាចត្រូវអនុវត្ត (ពិនិត្យកម្រិតចំណូល) (CCPA may apply)
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់នៅក្នុងប្រទេសប្រេស៊ីល       ➔ ច្បាប់ LGPD ត្រូវយកមកអនុវត្ត (LGPD applies)
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់នៅក្នុងប្រទេសថៃ             ➔ ច្បាប់ PDPA (ប្រទេសថៃ) ត្រូវយកមកអនុវត្ត (PDPA Thailand applies)
+* ប្រសិនបើអ្នកប្រតិបត្តិការអាជីវកម្មនៅប្រទេសសិង្ហបុរី        ➔ ច្បាប់ PDPA (ប្រទេសសិង្ហបុរី) ត្រូវយកមកអនុវត្ត (PDPA Singapore applies)
+* ប្រសិនបើអ្នកប្រតិបត្តិការអាជីវកម្មនៅប្រទេសកម្ពុជា         ➔ អនុក្រឹត្យ ៣២ + ច្បាប់វិស័យហិរញ្ញវត្ថុ NBC + សេចក្តីព្រាងច្បាប់ PDPK
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់នៅក្នុងប្រទេសវៀតណាម        ➔ ច្បាប់សន្តិសុខអុិនធឺណិត + ក្រឹត្យលេខ ១៣ ត្រូវអនុវត្ត (Cybersecurity Law)
+* ប្រសិនបើអ្នកមានអ្នកប្រើប្រាស់នៅក្នុងប្រទេសឥណ្ឌូនេស៊ី       ➔ ច្បាប់ UU PDP ត្រូវយកមកអនុវត្ត (UU PDP applies)
 ```
 
-**If multiple laws apply:** Implement the strictest requirements — usually GDPR. A GDPR-compliant system is largely compliant with most other data privacy laws.
+**ប្រសិនបើមានច្បាប់ច្រើនត្រូវអនុវត្តរួមគ្នា៖** ក្រុមហ៊ុនគួរតែជ្រើសរើសអនុវត្តតាមច្បាប់ណាដែលមានលក្ខខណ្ឌតឹងរ៉ឹងបំផុត — ជាទូទៅគឺច្បាប់ **GDPR**។ ប្រព័ន្ធបច្ចេកវិទ្យាណាដែលបំពេញតាមលក្ខខណ្ឌការពាររបស់ GDPR រួចរាល់ គឺស្ទើរតែបំពេញអនុលោមភាពតាមច្បាប់ការពារឯកជនភាពទិន្នន័យរបស់បណ្តាប្រទេសដទៃទៀតនៅលើពិភពលោកទាំងស្រុង។
 
 ---
 
+<a id="6"></a>
 ## Related
 
 - [GDPR](./01-gdpr.md)

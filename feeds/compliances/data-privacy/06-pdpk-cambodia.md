@@ -1,102 +1,126 @@
-# PDPK — Personal Data Protection Law (Cambodia)
+# PDPK (ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួនប្រទេសកម្ពុជា)៖ ក្របខ័ណ្ឌការងារ និងបទប្បញ្ញត្តិបច្ចុប្បន្ន (PDPK — Personal Data Protection Law)
 
-**Jurisdiction:** Kingdom of Cambodia  
-**Status:** Draft law in progress as of 2025 — Sub-Decree 32 on Electronic Commerce (2021) and existing sector-specific regulations currently apply  
-**Applies to:** Organisations operating in Cambodia that process personal data of Cambodian residents  
-**Enforced by:** Ministry of Posts and Telecommunications (MPTC); sector regulators (NBC for finance, MOH for health)  
+**សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** ព្រះរាជាណាចក្រកម្ពុជា (Kingdom of Cambodia)  
+**ស្ថានភាពច្បាប់ (Status)៖** សេចក្តីព្រាងច្បាប់កំពុងស្ថិតក្នុងដំណើរការរៀបចំគិតត្រឹមឆ្នាំ ២០២៥ — អនុក្រឹត្យលេខ ៣២ ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (២០២១) និងបទប្បញ្ញត្តិជាក់លាក់តាមវិស័យត្រូវបានអនុវត្តបច្ចុប្បន្ន (Draft law in progress as of 2025 — Sub-Decree 32 on Electronic Commerce (2021) and existing sector-specific regulations currently apply)  
+**សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** គ្រប់ស្ថាប័ន ឬក្រុមហ៊ុនទាំងអស់ដែលកំពុងប្រតិបត្តិការក្នុងប្រទេសកម្ពុជា ដែលប្រមូល និងដំណើរការទិន្នន័យផ្ទាល់ខ្លួនរបស់ប្រជាពលរដ្ឋកម្ពុជា (Organisations operating in Cambodia that process personal data of Cambodian residents)  
+**ស្ថាប័នអនុវត្តច្បាប់ (Enforced by)៖** ក្រសួងប្រៃសណីយ៍ និងទូរគមនាគមន៍ (ក.ប.ទ. - MPTC); និយតករតាមវិស័យនីមួយៗ (ធនាគារជាតិនៃកម្ពុជា NBC សម្រាប់ហិរញ្ញវត្ថុ, ក្រសួងសុខាភិបាល MOH សម្រាប់សុខាភិបាល) (Ministry of Posts and Telecommunications; NBC for finance, MOH for health)  
 **Tags:** #compliance #pdpk #data-privacy #cambodia #southeast-asia
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. កាតព្វកិច្ចបច្ចុប្បន្នក្រោមច្បាប់ជាធរមាន (Current Obligations Under Existing Laws)](#1)
+- [២. ច្បាប់ការពារទិន្នន័យ PDPK នាពេលអនាគត (Forthcoming PDPK)](#2)
+- [៣. ការអនុវត្តជាក់ស្តែងសម្រាប់ប្រព័ន្ធបច្ចេកវិទ្យាកម្ពុជា (Practical Approach for Cambodian Platforms)](#3)
+- [៤. ទណ្ឌកម្ម និងការផាកពិន័យក្រោមច្បាប់បច្ចុប្បន្ន (Penalties Under Current Law)](#4)
+- [Related](#5)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+គិតត្រឹមឆ្នាំ ២០២៥ ប្រទេសកម្ពុជាមិនទាន់មានច្បាប់ការពារទិន្នន័យដាច់ដោយឡែក និងទូលំទូលាយដូចច្បាប់ GDPR របស់អឺរ៉ុប ឬច្បាប់ PDPA របស់ប្រទេសថៃឡើយ។ ទោះជាយ៉ាងណា ទិន្នន័យផ្ទាល់ខ្លួនត្រូវបានគ្រប់គ្រង និងការពារតាមរយៈបទប្បញ្ញត្តិ និងច្បាប់សំខាន់ៗមួយចំនួនដូចជា៖
 
 Cambodia does not yet have a standalone comprehensive data protection law equivalent to GDPR or Thailand's PDPA (as of 2025). However, personal data is regulated through:
 
-1. **Sub-Decree No. 32 on Electronic Commerce (2021)** — covers e-commerce data handling
-2. **Law on Telecommunications (2015)** — protects communications data
-3. **Law on E-Commerce (2019)** — consumer data in digital transactions
-4. **Cybercrime Law (2023)** — data breach and misuse provisions
-5. **NBC Regulations** — financial data for banks and payment providers
-6. **MOH Prakas** — health data for healthcare platforms
-7. **Forthcoming PDPK** — comprehensive data protection law in draft
+1. **អនុក្រឹត្យលេខ ៣២ ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (២០២១)៖** គ្រប់គ្រងលើការចាត់ចែងទិន្នន័យក្នុងពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (Sub-Decree No. 32 on Electronic Commerce (2021) — covers e-commerce data handling)។
+2. **ច្បាប់ស្តីពីទូរគមនាគមន៍ (២០១៥)៖** ការពារទិន្នន័យ និងឯកជនភាពទំនាក់ទំនង (Law on Telecommunications (2015) — protects communications data)។
+3. **ច្បាប់ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (២០១៩)៖** ការពារទិន្នន័យអ្នកប្រើប្រាស់នៅក្នុងប្រតិបត្តិការឌីជីថល (Law on E-Commerce (2019) — consumer data in digital transactions)។
+4. **ច្បាប់ស្តីពីបទល្មើសបច្ចេកវិទ្យាព័ត៌មាន (២០២៣)៖** វិធានការប្រឆាំងនឹងការលេចធ្លាយទិន្នន័យ និងការប្រើប្រាស់ខុសច្បាប់ (Cybercrime Law (2023) — data breach and misuse provisions)។
+5. **បទប្បញ្ញត្តិធនាគារជាតិនៃកម្ពុជា NBC៖** គ្រប់គ្រងទិន្នន័យហិរញ្ញវត្ថុសម្រាប់ធនាគារ និងអ្នកផ្តល់សេវាបង់ប្រាក់ (NBC Regulations — financial data for banks and payment providers)។
+6. **ប្រកាសក្រសួងសុខាភិបាល MOH៖** គ្រប់គ្រងទិន្នន័យសុខាភិបាលសម្រាប់ប្រព័ន្ធបច្ចេកវិទ្យាសុខាភិបាល (MOH Prakas — health data for healthcare platforms)។
+7. **សេចក្តីព្រាងច្បាប់ PDPK នាពេលខាងមុខ៖** ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួនដ៏ទូលំទូលាយដែលកំពុងស្ថិតក្នុងសេចក្តីព្រាង (Forthcoming PDPK — comprehensive data protection law in draft)។
+
+ប្រព័ន្ធបច្ចេកវិទ្យាដែលប្រតិបត្តិការនៅកម្ពុជា គួរតែរៀបចំប្រព័ន្ធការពារស្របតាមគោលការណ៍ GDPR ចាប់ពីពេលនេះទៅ ព្រោះច្បាប់ការពារទិន្នន័យថ្មី (PDPK) នាពេលខាងមុខ ត្រូវបានរំពឹងថានឹងដកស្រង់តាមគោលការណ៍ GDPR/PDPA។
 
 Platforms operating in Cambodia should implement GDPR-equivalent practices now — the forthcoming law is expected to follow GDPR/PDPA principles.
 
 ---
 
-## Current Obligations Under Existing Laws
+<a id="1"></a>
+## ១. កាតព្វកិច្ចបច្ចុប្បន្នក្រោមច្បាប់ជាធរមាន (Current Obligations Under Existing Laws)
 
-### Sub-Decree 32 (E-Commerce)
-- Collect only necessary personal data for the transaction
-- Disclose data collection and use purposes to consumers
-- Obtain consent before collecting data
-- Protect data with security measures
-- Not share data with third parties without consent
-- Provide mechanism for users to access and correct their data
+### ១.១ អនុក្រឹត្យលេខ ៣២ (ពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក)
+* ប្រមូលតែទិន្នន័យផ្ទាល់ខ្លួនណាដែលចាំបាច់បំផុតសម្រាប់ប្រតិបត្តិការអាជីវកម្ម។
+* ត្រូវលាតត្រដាងគោលបំណងនៃការប្រមូលទិន្នន័យ និងវិធីសាស្ត្រប្រើប្រាស់ដល់អ្នកប្រើប្រាស់។
+* ត្រូវសុំការយល់ព្រម (Consent) ពីអ្នកប្រើប្រាស់មុនពេលប្រមូលទិន្នន័យ។
+* ការពារទិន្នន័យដោយអនុវត្តវិធានការសុវត្ថិភាពសមស្រប។
+* ហាមចែករំលែកទិន្នន័យទៅឱ្យភាគីទីបី បើគ្មានការយល់ព្រមពីម្ចាស់ទិន្នន័យ។
+* ផ្តល់យន្តការឱ្យអ្នកប្រើប្រាស់អាចចូលមើល និងកែតម្រូវទិន្នន័យរបស់ខ្លួនបាន។
 
-### NBC Regulations (Financial Platforms)
-- Customer data must be stored within Cambodia (data localisation for financial data)
-- Consent required before using customer data for marketing
-- AML record retention: minimum 10 years
-- Customer transaction data: minimum 10 years
+### ១.២ បទប្បញ្ញត្តិ NBC (សម្រាប់ប្រព័ន្ធហិរញ្ញវត្ថុ)
+* ទិន្នន័យរបស់អតិថិជនត្រូវតែរក្សាទុកនៅក្នុងប្រទេសកម្ពុជា (ការកំណត់ទីតាំងរក្សាទុកទិន្នន័យ - Data Localisation សម្រាប់ទិន្នន័យហិរញ្ញវត្ថុ)។
+* តម្រូវឱ្យសុំការយល់ព្រមមុននឹងយកទិន្នន័យអតិថិជនទៅប្រើប្រាស់សម្រាប់ផ្សព្វផ្សាយពាណិជ្ជកម្ម។
+* ការរក្សាទុកទិន្នន័យ AML (ប្រឆាំងការលាងលុយកខ្វក់)៖ ត្រូវរក្សាទុកយ៉ាងហោចណាស់ ១០ ឆ្នាំ។
+* ទិន្នន័យប្រតិបត្តិការរបស់អតិថិជន៖ ត្រូវរក្សាទុកយ៉ាងហោចណាស់ ១០ ឆ្នាំ។
 
-### Cybercrime Law (2023)
-- Unauthorised access to computer systems and data — criminal offence
-- Data breach that harms others — criminal liability
-- Penalties up to **10 years imprisonment** for serious offences
+### ១.៣ ច្បាប់ស្តីពីបទល្មើសបច្ចេកវិទ្យាព័ត៌មាន (២០២៣)
+* ការចូលប្រើប្រាស់ប្រព័ន្ធកុំព្យូទ័រ និងទិន្នន័យដោយគ្មានការអនុញ្ញាត គឺជាបទល្មើសព្រហ្មទណ្ឌ។
+* ការលេចធ្លាយទិន្នន័យដែលបង្កការខូចខាត ឬប៉ះពាល់ដល់អ្នកដទៃ នាំឱ្យមានការទទួលខុសត្រូវព្រហ្មទណ្ឌ។
+* បទល្មើសធ្ងន់ធ្ងរអាចប្រឈមនឹងទោសជាប់ពន្ធនាគាររហូតដល់ **១០ ឆ្នាំ**។
 
 ---
 
-## Forthcoming PDPK — Expected Requirements
+<a id="2"></a>
+## ២. ច្បាប់ការពារទិន្នន័យ PDPK នាពេលអនាគត (Forthcoming PDPK)
+
+ផ្អែកលើសេចក្តីព្រាងច្បាប់ និងនិន្នាការច្បាប់នៅក្នុងតំបន់ ច្បាប់ថ្មីនេះត្រូវបានរំពឹងថានឹងរួមបញ្ចូល៖
 
 Based on the draft and regional trends, the forthcoming law is expected to include:
 
-| Expected Requirement | Notes |
+| តម្រូវការរំពឹងទុក (Expected Requirement) | កំណត់សម្គាល់ (Notes) |
 |:---------------------|:------|
-| Consent for data collection | Similar to GDPR/PDPA |
-| Data subject rights | Access, correction, deletion |
-| Data breach notification | Expected 72-hour window |
-| Data Protection Officer | For large-scale processors |
-| Cross-border transfer rules | May include data localisation for certain categories |
-| Sector-specific exceptions | Health and financial data |
-| Enforcement authority | MPTC or new dedicated body |
+| ការសុំការយល់ព្រមសម្រាប់ការប្រមូលទិន្នន័យ | ស្រដៀងគ្នានឹងច្បាប់ GDPR/PDPA (Similar to GDPR/PDPA) |
+| សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ | សិទ្ធិចូលមើល សិទ្ធិកែតម្រូវ និងសិទ្ធិលុបចោល (Access, correction, deletion) |
+| ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ | រំពឹងថាកំណត់ក្នុងរយៈពេល ៧២ ម៉ោង (Expected 72-hour window) |
+| មន្ត្រីការពារទិន្នន័យ (DPO) | តម្រូវសម្រាប់ស្ថាប័នដំណើរការទិន្នន័យទ្រង់ទ្រាយធំ (For large-scale processors) |
+| វិធានការបញ្ជូនទិន្នន័យឆ្លងដែន | អាចរួមបញ្ចូលលក្ខខណ្ឌរក្សាទុកទិន្នន័យក្នុងស្រុកសម្រាប់ប្រភេទរសើបខ្លះ (May include data localisation for certain categories) |
+| ករណីលើកលែងតាមវិស័យ | ទិន្នន័យសុខាភិបាល និងទិន្នន័យហិរញ្ញវត្ថុ (Health and financial data) |
+| អាជ្ញាធរត្រួតពិនិត្យ និងអនុវត្តច្បាប់ | ក្រសួងប្រៃសណីយ៍ និងទូរគមនាគមន៍ ឬស្ថាប័នឯករាជ្យថ្មី (MPTC or new dedicated body) |
 
 ---
 
-## Practical Approach for Cambodian Platforms
+<a id="3"></a>
+## ៣. ការអនុវត្តជាក់ស្តែងសម្រាប់ប្រព័ន្ធបច្ចេកវិទ្យាកម្ពុជា (Practical Approach for Cambodian Platforms)
+
+ខណៈពេលកំពុងរង់ចាំការអនុម័តច្បាប់ទូទៅចុងក្រោយ អាជីវកម្មគួរតែរៀបចំ៖
 
 While awaiting the comprehensive law, implement:
 
 ```
-Current minimum for Cambodia:
+បញ្ជីរៀបចំការការពារទិន្នន័យអប្បបរមាសម្រាប់ប្រទេសកម្ពុជា៖
 
-□ Privacy policy in Khmer and English
-□ Consent for data collection (Sub-Decree 32)
-□ NBC-compliant data retention (10 years for financial data)
-□ MOH-compliant health data handling
-□ Data localisation for financial data (NBC requirement)
-□ Security measures — encryption, access control
-□ Incident response plan — Cybercrime Law awareness
-□ GDPR-equivalent practices if any EU users
-□ Monitor MPTC announcements for PDPK enactment
+□ គោលការណ៍ឯកជនភាពជាភាសាខ្មែរ និងភាសាអង់គ្លេស (Privacy policy in Khmer & English)
+□ ប្រព័ន្ធសុំការយល់ព្រមសម្រាប់ការប្រមូលទិន្នន័យ ស្របតាមអនុក្រឹត្យ ៣២ (Consent for data collection)
+□ ប្រព័ន្ធរក្សាទុកទិន្នន័យស្របតាម NBC (១០ ឆ្នាំសម្រាប់ទិន្នន័យហិរញ្ញវត្ថុ) (NBC-compliant 10-year retention)
+□ ការចាត់ចែងទិន្នន័យសុខាភិបាល ស្របតាមគោលការណ៍ក្រសួងសុខាភិបាល (MOH-compliant health data handling)
+□ ការរក្សាទុកទិន្នន័យហិរញ្ញវត្ថុនៅក្នុងប្រទេស ស្របតាមច្បាប់ NBC (Data localisation for financial data)
+□ វិធានការសុវត្ថិភាពទិន្នន័យ — ការដាក់កូដសម្ងាត់ ការគ្រប់គ្រងការចូលប្រើប្រាស់ (Security measures)
+□ ផែនការឆ្លើយតបឧប្បត្តិហេតុលេចធ្លាយ — យល់ដឹងពីច្បាប់បទល្មើសបច្ចេកវិទ្យា (Incident response plan)
+□ ការអនុវត្តស្របតាមស្តង់ដារ GDPR ប្រសិនបើមានអ្នកប្រើប្រាស់មកពីសហភាពអឺរ៉ុប (GDPR-equivalent practices)
+□ តាមដានសេចក្តីប្រកាសព័ត៌មានពីក្រសួងប្រៃសណីយ៍ ដើម្បីដឹងពីការដាក់ឱ្យប្រើប្រាស់ច្បាប់ PDPK (Monitor MPTC)
 ```
 
 ---
 
-## Penalties Under Current Law
+<a id="4"></a>
+## ៤. ទណ្ឌកម្ម និងការផាកពិន័យក្រោមច្បាប់បច្ចុប្បន្ន (Penalties Under Current Law)
 
-| Law | Penalty |
+| ប្រភពច្បាប់ (Law) | ការផាកពិន័យ និងទោសទណ្ឌ (Penalty) |
 |:----|:--------|
-| Cybercrime Law — unauthorised access | Up to 1–3 years imprisonment + fine |
-| Cybercrime Law — serious data harm | Up to 10 years imprisonment |
-| E-Commerce Law violations | Administrative fines (MPTC) |
-| NBC violations | Licence suspension, fines |
+| ច្បាប់បទល្មើសបច្ចេកវិទ្យាព័ត៌មាន — ចូលប្រើខុសច្បាប់ | ជាប់ពន្ធនាគារពី ១ ទៅ ៣ ឆ្នាំ + ផាកពិន័យជាប្រាក់ (Up to 1–3 years imprisonment + fine) |
+| ច្បាប់បទល្មើសបច្ចេកវិទ្យាព័ត៌មាន — បង្កខូចខាតទិន្នន័យធ្ងន់ធ្ងរ | ជាប់ពន្ធនាគាររហូតដល់ ១០ ឆ្នាំ (Up to 10 years imprisonment) |
+| ច្បាប់ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក | ការផាកពិន័យជាប្រាក់រដ្ឋបាលដោយក្រសួង (Administrative fines - MPTC) |
+| បទប្បញ្ញត្តិ NBC | ការផ្អាកអាជ្ញាប័ណ្ណអាជីវកម្ម, ការផាកពិន័យ (Licence suspension, fines) |
 
 ---
 
+<a id="5"></a>
 ## Related
 
-- [GDPR](./01-gdpr.md) — the model to follow now
-- [Data Privacy Comparison Matrix](./07-comparison-matrix.md)
-- [Regional: Cambodia Overview](../regional/01-cambodia-overview.md)
-- [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md)
+- [GDPR](./01-gdpr.md) — គំរូច្បាប់ការពារទិន្នន័យដ៏ល្អបំផុតដែលត្រូវអនុវត្តតាម។
+- [Data Privacy Comparison Matrix](./07-comparison-matrix.md) — ម៉ាទ្រីសប្រៀបធៀបច្បាប់ឯកជនភាពទិន្នន័យ។
+- [Regional: Cambodia Overview](../regional/01-cambodia-overview.md) — ទិដ្ឋភាពទូទៅនៃបច្ចេកវិទ្យាប្រទេសកម្ពុជា។
+- [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) — បទប្បញ្ញត្តិធនាគារជាតិនៃកម្ពុជា NBC។
