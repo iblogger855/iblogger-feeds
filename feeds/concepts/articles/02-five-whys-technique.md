@@ -1,35 +1,33 @@
 # The 5 Whys Technique (បច្ចេកទេសសួរ «ហេតុអ្វី» ៥ ដង)៖ ឈប់ដោះស្រាយលើរោគសញ្ញា ចាប់ផ្តើមស្វែងរកឫសគល់នៃបញ្ហា (The 5 Whys Technique: Stop Treating Symptoms, Start Solving the Root Cause)
 
 **Author:** ichamrong  
-**Date:** 2026-05-16  
+**Date:** 2026-06-04  
 **Tags:** #5-whys #root-cause-analysis #problem-solving #mental-models #lean #toyota  
 **Category:** Concepts  
-**Read Time:** ~18 min  
+**Read Time:** ~22 min  
 
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [លំនាំបញ្ហា (The Pattern)](#លំនាំបញ្ហា-the-pattern)
-- [១. បញ្ហា៖ ការកាត់ស្មៅដែលមិនធ្លាប់ដកឫស (The Issue: The Lawn Mower That Never Pulls the Roots)](#១-បញ្ហា-ការកាត់ស្មៅដែលមិនធ្លាប់ដកឫស-the-issue-the-lawn-mower-that-never-pulls-the-roots)
-- [២. ឧទាហរណ៍ជាក់ស្តែងក្នុងពិភពពិត (Real World Examples)](#២-ឧទាហរណ៍ជាក់ស្តែងក្នុងពិភពពិត)
-  - [ឧទាហរណ៍ទី ១ — កម្រិតស្រាល៖ ទៅធ្វើការយឺត (Late to Work)](#ឧទាហរណ៍ទី-១--កម្រិតស្រាល-ទៅធ្វើការយឺត-late-to-work)
-  - [ឧទាហរណ៍ទី ២ — កម្រិតមធ្យម (បច្ចេកទេស)៖ ឡានខូចកណ្តាលផ្លូវ (Car Breaks Down)](#ឧទាហរណ៍ទី-២--កម្រិតមធ្យម-បច្ចេកទេស-ឡានខូចកណ្តាលផ្លូវ-car-breaks-down)
-  - [ឧទាហរណ៍ទី ៣ — កម្រិតមធ្យម (បច្ចេកទេស)៖ App ចេញមកមាន Bug ច្រើន (App Shipped With Too Many Bugs)](#ឧទាហរណ៍ទី-៣--កម្រិតមធ្យម-បច្ចេកទេស-app-ចេញមកមាន-bug-ច្រើន-app-shipped-with-too-many-bugs)
-  - [ឧទាហរណ៍ទី ៤ — កម្រិតមធ្យម (បច្ចេកទេស)៖ Bug ធ្លាក់ដល់ផលិតកម្មពិត (Bugs Reaching Production)](#ឧទាហរណ៍ទី-៤--កម្រិតមធ្យម-បច្ចេកទេស-bug-ធ្លាក់ដល់ផលិតកម្មពិត-bugs-reaching-production)
-  - [ឧទាហរណ៍ទី ៥ — កម្រិតមធ្យម (ធុរកិច្ច)៖ ការធ្លាក់ចុះនៃការលក់ (Sales Drop)](#ឧទាហរណ៍ទី-៥--កម្រិតមធ្យម-ធុរកិច្ច-ការធ្លាក់ចុះនៃការលក់-sales-drop)
-  - [ឧទាហរណ៍ទី ៦ — កម្រិតមធ្យម (ការគ្រប់គ្រង)៖ បុគ្គលិកលាឈប់ច្រើន (High Employee Turnover)](#ឧទាហរណ៍ទី-៦--កម្រិតមធ្យម-ការគ្រប់គ្រង-បុគ្គលិកលាឈប់ច្រើន-high-employee-turnover)
-  - [ឧទាហរណ៍ទី ៧ — កម្រិតធ្ងន់៖ កុមារបោះបង់ការសិក្សា (Children Dropping Out of School)](#ឧទាហរណ៍ទី-៧--កម្រិតធ្ងន់-កុមារបោះបង់ការសិក្សា-children-dropping-out-of-school)
-- [៣. កត្តាជម្រុញ៖ ភាពប្រញាប់ប្រញាល់ និងភាពខ្ជិលច្រអូសផ្នែកស្មារតី (The Aggravator: Speed and Mental Laziness)](#៣-កត្តាជម្រុញ-ភាពប្រញាប់ប្រញាល់-និងភាពខ្ជិលច្រអូសផ្នែកស្មារតី-the-aggravator-speed-and-mental-laziness)
-- [៤. ដំណោះស្រាយទូទៅ៖ របៀបប្រើប្រាស់ 5 Whys ឱ្យត្រឹមត្រូវ (The General Solution: How to Use 5 Whys Correctly)](#៤-ដំណោះស្រាយទូទៅ-របៀបប្រើប្រាស់-5-whys-ឱ្យត្រឹមត្រូវ-the-general-solution-how-to-use-5-whys-correctly)
-  - [សួររកបញ្ហានៅក្នុងប្រព័ន្ធ មិនមែនសួររកកំហុសបុគ្គល (Ask about process, not person)](#សួររកបញ្ហានៅក្នុងប្រព័ន្ធ-មិនមែនសួររកកំហុសបុគ្គល)
-  - [ផ្អែកលើការពិតជាក់ស្តែង មិនមែនការស្មាន (Ground in facts, not guesses)](#ផ្អែកលើការពិតជាក់ស្តែង-មិនមែនការស្មាន)
-  - [ដឹងពីចំណុចដែលត្រូវបញ្ឈប់ (Know when to stop)](#ដឹងពីចំណុចដែលត្រូវបញ្ឈប់)
-- [សេចក្តីសន្និដ្ឋាន (Conclusion)](#សេចក្តីសន្និដ្ឋាន-conclusion)
-- [ឯកសារយោង (References)](#ឯកសារយោង-references)
-- [Related Posts](#related-posts)
+- [លំនាំបញ្ហា (The Pattern)](#0)
+- [១. បញ្ហា៖ ការកាត់ស្មៅដែលមិនធ្លាប់ដកឫស (The Issue: The Lawn Mower That Never Pulls the Roots)](#1)
+- [២. ឧទាហរណ៍ជាក់ស្តែងក្នុងពិភពពិត (Real World Examples)](#2)
+  - [ឧទាហរណ៍ទី ១ — កម្រិតស្រាល៖ ទៅធ្វើការយឺត (Late to Work)](#2-1)
+  - [ឧទាហរណ៍ទី ២ — កម្រិតមធ្យម (បច្ចេកទេស)៖ ឡានខូចកណ្តាលផ្លូវ (Car Breaks Down)](#2-2)
+  - [ឧទាហរណ៍ទី ៣ — កម្រិតមធ្យម (បច្ចេកទេស)៖ App ចេញមកមាន Bug ច្រើន (App Shipped With Too Many Bugs)](#2-3)
+  - [ឧទាហរណ៍ទី ៤ — កម្រិតមធ្យម (បច្ចេកទេស)៖ Bug ធ្លាក់ដល់ផលិតកម្មពិត (Bugs Reaching Production)](#2-4)
+  - [ឧទាហរណ៍ទី ៥ — កម្រិតមធ្យម (ធុរកិច្ច)៖ ការធ្លាក់ចុះនៃការលក់ (Sales Drop)](#2-5)
+  - [ឧទាហរណ៍ទី ៦ — កម្រិតមធ្យម (ការគ្រប់គ្រង)៖ បុគ្គលិកលាឈប់ច្រើន (High Employee Turnover)](#2-6)
+  - [ឧទាហរណ៍ទី ៧ — កម្រិតធ្ងន់៖ កុមារបោះបង់ការសិក្សា (Children Dropping Out of School)](#2-7)
+- [៣. កត្តាជម្រុញ៖ ភាពប្រញាប់ប្រញាល់ និងភាពខ្ជិលច្រអូសផ្នែកស្មារតី (The Aggravator: Speed and Mental Laziness)](#3)
+- [៤. ដំណោះស្រាយទូទៅ៖ របៀបប្រើប្រាស់ 5 Whys ឱ្យត្រឹមត្រូវ (The General Solution: How to Use 5 Whys Correctly)](#4)
+- [សេចក្តីសន្និដ្ឋាន (Conclusion)](#5)
+- [ឯកសារយោង (References)](#6)
+- [Related Posts](#7)
 
 ---
 
+<a id="0"></a>
 ## លំនាំបញ្ហា (The Pattern)
 
 តើអ្នកធ្លាប់ដោះស្រាយបញ្ហាណាមួយរួចរាល់ហើយ — ស្រាប់តែវាត្រឡប់មកកើតឡើងវិញនៅខែក្រោយដែរឬទេ?
@@ -46,7 +44,7 @@ Have you ever solved a problem, only to have it return the following month?
 
 This doesn't mean you lack problem-solving skills. It means you are fixing the wrong thing. You are treating the **symptoms**, not the **root cause**.
 
-ផែនទីបង្ហាញផ្លូវសម្រាប់អត្ថបទនេះ៖
+ដើម្បីងាយស្រួលតាមដាន នេះជាផែនទីបង្ហាញផ្លូវសម្រាប់អត្ថបទនេះ៖
 1. **បញ្ហា (The Issue)** — តើការដោះស្រាយត្រឹមតែផ្ទៃក្រៅមានន័យដូចម្តេច? តើបច្ចេកទេស 5 Whys គឺជាអ្វី?
 2. **ឧទាហរណ៍ជាក់ស្តែង (Real World Examples)** — ឧទាហរណ៍ចំនួន ៧ បង្ហាញពីភាពខុសគ្នារវាងការដោះស្រាយលើផ្ទៃក្រៅ និងការប្រើប្រាស់ 5 Whys។
 3. **កត្តាជម្រុញ (The Aggravator)** — ហេតុអ្វីបានជាមនុស្សភាគច្រើនតែងតែដោះស្រាយត្រឹមតែរោគសញ្ញាខាងក្រៅ?
@@ -60,6 +58,7 @@ Roadmap for this article:
 
 ---
 
+<a id="1"></a>
 ## ១. បញ្ហា៖ ការកាត់ស្មៅដែលមិនធ្លាប់ដកឫស (The Issue: The Lawn Mower That Never Pulls the Roots)
 
 នៅពេលបញ្ហាកើតឡើង ខួរក្បាលរបស់យើងតែងតែស្វែងរកដំណោះស្រាយដែលលឿន និងងាយស្រួលបំផុតដោយស្វ័យប្រវត្តិ។ យើងប្រៀបដូចជាអ្នកកាត់ស្មៅ — ដែលកាត់តែចុងស្មៅខាងលើ ដោយមិនបានជីកដកឫសរបស់វាចេញឡើយ។ តែប៉ុន្មានសប្តាហ៍ក្រោយមក ស្មៅនោះនឹងដុះឡើងមកវិញដដែល។
@@ -84,6 +83,7 @@ To put it simply:
 
 ---
 
+<a id="2"></a>
 ## ២. ឧទាហរណ៍ជាក់ស្តែងក្នុងពិភពពិត (Real World Examples)
 
 នេះជា **ឧទាហរណ៍ជាក់ស្តែងចំនួន ៧** ចាប់ពីជីវិតប្រចាំថ្ងៃ រហូតដល់ការគ្រប់គ្រងស្ថាប័នស្មុគស្មាញ៖
@@ -92,14 +92,15 @@ Here are **seven real-world examples** ranging from daily life to complex organi
 
 ---
 
+<a id="2-1"></a>
 ### ឧទាហរណ៍ទី ១ — កម្រិតស្រាល៖ ទៅធ្វើការយឺត (Late to Work)
 
 **បញ្ហា៖** អ្នកមកធ្វើការយឺត ១៥ នាទីនៅថ្ងៃនេះ។
 
+**Problem:** You are 15 minutes late to work today.
+
 **ដំណោះស្រាយលើផ្ទៃក្រៅ៖** *«ចាំស្អែក ខ្ញុំនឹងបង្ខំខ្លួនឯងឱ្យភ្ញាក់ពីព្រលឹម!»*  
 (លទ្ធផល៖ ស្អែកអាចនឹងមកទាន់ តែសប្តាហ៍ក្រោយនឹងនៅតែមកយឺតដដែល។)
-
-**Problem:** You are 15 minutes late to work today.
 
 **Surface Fix:** *"Tomorrow, I'll force myself to wake up earlier!"*  
 (Result: You might make it tomorrow, but next week you'll be late again.)
@@ -125,15 +126,15 @@ Here are **seven real-world examples** ranging from daily life to complex organi
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ មកធ្វើការយឺត ១៥ នាទី<br/>(Problem: 15 mins late to work)"] --> B["Why 1៖ គេងហួសម៉ោង<br/>(Overslept)"]
-    B --> C["Why 2៖ មិនឮសំឡេង Alarm<br/>(Didn't hear alarm)"]
-    C --> D["Why 3៖ ទូរស័ព្ទអស់ថ្មរលត់<br/>(Phone died)"]
-    D --> E["Why 4៖ ភ្លេចសាកថ្មយប់មិញ<br/>(Forgot to charge phone)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ លេងហ្គេមរហូតគេងលក់, ឆ្នាំងសាកនៅឆ្ងាយពីគ្រែ<br/>(Root Cause: Played games until asleep, charger far from bed)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ ប្តូរឆ្នាំងសាកមកក្បែរគ្រែ, កំណត់ម៉ោងឈប់លេងហ្គេម<br/>(Real Solution: Move charger closer, set game curfew)"]
+    A["🔴 បញ្ហា៖ មកយឺត ១៥នាទី<br/>(Problem: 15m late to work)"] --> B["Why 1៖ គេងហួសម៉ោង<br/>(Overslept)"]
+    B --> C["Why 2៖ មិនឮម៉ោងរោទ៍<br/>(Didn't hear alarm)"]
+    C --> D["Why 3៖ ទូរស័ព្ទរលត់<br/>(Phone died)"]
+    D --> E["Why 4៖ ភ្លេចសាកថ្ម<br/>(Forgot to charge)"]
+    E --> F["Why 5 (ឫសគល់)៖ លេងហ្គេម<br/>រហូតគេងលក់ ឆ្នាំងសាកឆ្ងាយ<br/>(Root Cause: Gamed until<br/>asleep, charger far)"]
+    F --> G["✅ ដំណោះស្រាយ៖ ប្តូរឆ្នាំងសាក<br/>មកក្បែរគ្រែ កំណត់ម៉ោងគេង<br/>(Solution: Move charger<br/>closer, set curfew)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -143,14 +144,15 @@ graph TD
 
 ---
 
-### ឧទាហរណ៍ទី ២ — កម្រិតមធ្យម (បច្ចេកទេស)៖ ឡានខូចកណ្តាលផ្លូវ (Car Breaks Down)
+<a id="2-2"></a>
+### ឧទហរណ៍ទី ២ — កម្រិតមធ្យម (បច្ចេកទេស)៖ ឡានខូចកណ្តាលផ្លូវ (Car Breaks Down)
 
 **បញ្ហា៖** ឡានស្រាប់តែរលត់ម៉ាស៊ីន និងខូចនៅកណ្តាលផ្លូវ។
 
+**Problem:** The car suddenly stalls and breaks down in the middle of the road.
+
 **ដំណោះស្រាយលើផ្ទៃក្រៅ៖** ហៅឡានស្ទូចយកទៅជាង និងដូរគ្រឿងបន្លាស់ដែលខូចចេញ។  
 (លទ្ធផល៖ វានឹងខូចម្តងទៀតនៅពេលក្រោយ។)
-
-**Problem:** The car suddenly stalls and breaks down in the middle of the road.
 
 **Surface Fix:** Tow the car to a mechanic and replace the broken part.  
 (Result: It will break down again in the future.)
@@ -176,15 +178,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ ឡានរលត់ម៉ាស៊ីនកណ្តាលផ្លូវ<br/>(Problem: Car stalls on road)"] --> B["Why 1៖ ដុំភ្លើង Alternator ខូច<br/>(Alternator failed)"]
+    A["🔴 បញ្ហា៖ ឡានរលត់ម៉ាស៊ីន<br/>(Problem: Car stalls on road)"] --> B["Why 1៖ ដុំភ្លើងខូច<br/>(Alternator failed)"]
     B --> C["Why 2៖ ខ្សែពានដាច់<br/>(Belt snapped)"]
-    C --> D["Why 3៖ ខ្សែពានចាស់ណាស់ មិនដែលដូរ<br/>(Belt worn out, never replaced)"]
-    D --> E["Why 4៖ មិនដែលយកឡានទៅថែទាំ<br/>(Maintenance skipped)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ គ្មានប្រព័ន្ធក្រើនរំលឹក<br/>(Root Cause: No maintenance reminder)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ កំណត់ប្រព័ន្ធរំលឹកស្វ័យប្រវត្ត<br/>(Real Solution: Set auto-reminders every 6 months)"]
+    C --> D["Why 3៖ ខ្សែពានចាស់ណាស់<br/>មិនដែលប្តូរទាល់តែសោះ<br/>(Belt worn out & old)"]
+    D --> E["Why 4៖ រំលងការថែទាំឡាន<br/>(Maintenance skipped)"]
+    E --> F["Why 5 (ឫសគល់)៖ គ្មានប្រព័ន្ធ<br/>រំលឹកកាលវិភាគថែទាំ<br/>(Root Cause: No reminder<br/>system for maintenance)"]
+    F --> G["✅ ដំណោះស្រាយ៖ កំណត់<br/>ប្រព័ន្ធរំលឹកស្វ័យប្រវត្ត<br/>(Solution: Set recurrent<br/>auto-reminders)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -194,13 +196,14 @@ graph TD
 
 ---
 
+<a id="2-3"></a>
 ### ឧទាហរណ៍ទី ៣ — កម្រិតមធ្យម (បច្ចេកទេស)៖ App ចេញមកមាន Bug ច្រើន (App Shipped With Too Many Bugs)
 
 **បញ្ហា៖** App ដែលទើបតែ Release ថ្មី ត្រូវបានអតិថិជនរាយការណ៍មកថាមាន Bug ច្រើនខ្លាំងណាស់។
 
-**ដំណោះស្រាយលើផ្ទៃក្រៅ (ដែលធ្វើឱ្យប៉ះពាល់ដល់អារម្មណ៍យ៉ាងធ្ងន់ធ្ងរ)៖** ថ្នាក់ដឹកនាំស្តីបន្ទោស និងចោទប្រកាន់ថា Developer គ្មានសមត្ថភាព ឬធ្វើការធូររលុង ដោយសារតែប្រគល់កូដដែលមាន Bug ច្រើនទៅឱ្យ QA។ ពួកគេត្រូវបានបង្ខំឱ្យស្នាក់នៅធ្វើការពេញមួយយប់ដើម្បី Fix នៅក្នុងដំណើរការរុញ Bug ទៅវិញទៅមក (Ping-Pong) យ៉ាងតានតឹងបំផុត ទោះបីជាឫសគល់នៃបញ្ហាគឺមកពីការរៀបចំផែនការក៏ដោយ។
-
 **Problem:** The newly released app is reported by users to have many critical bugs.
+
+**ដំណោះស្រាយលើផ្ទៃក្រៅ (ដែលធ្វើឱ្យប៉ះពាល់ដល់អារម្មណ៍យ៉ាងធ្ងន់ធ្ងរ)៖** ថ្នាក់ដឹកនាំស្តីបន្ទោស និងចោទប្រកាន់ថា Developer គ្មានសមត្ថភាព ឬធ្វើការធូររលុង ដោយសារតែប្រគល់កូដដែលមាន Bug ច្រើនទៅឱ្យ QA។ ពួកគេត្រូវបានបង្ខំឱ្យស្នាក់នៅធ្វើការពេញមួយយប់ដើម្បី Fix នៅក្នុងដំណើរការរុញ Bug ទៅវិញទៅមក (Ping-Pong) យ៉ាងតានតឹងបំផុត ទោះបីជាឫសគល់នៃបញ្ហាគឺមកពីការរៀបចំផែនការក៏ដោយ។
 
 **Surface Fix (The Painful Reality):** Management blames developers for incompetent or sloppy coding because they hand off buggy code to QA. The developers are then forced to work sleepless nights in a stressful, high-pressure "ping-pong" bug-fixing cycle with QA, carrying the blame for a failure that was actually caused by bad project planning.
 
@@ -225,15 +228,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ App មាន Bug ច្រើនធ្លាក់ដល់ដៃ User<br/>(Problem: App shipped with too many bugs)"] --> B["Why 1៖ ការរុញ Bug ទៅវិញទៅមក (Ping-Pong) ឥតឈប់ឈររវាង Dev និង QA<br/>(Endless bugs ping-pong cycle between Dev & QA under pressure)"]
-    B --> C["Why 2៖ Dev ត្រូវប្រញាប់សរសេរកូដដើម្បីប្រគល់ឱ្យ QA ទាន់ពេល ទោះបីជាមាន Bug<br/>(Devs rushed tasks to deliver to QA on time, even with bugs)"]
-    C --> D["Why 3៖ ពេលវេលាសរសេរកូដរបស់ Dev ត្រូវរួញខ្លីដើម្បីទុកពេលឱ្យ QA ផ្ទៃក្នុង<br/>(Coding phase squeezed to fit internal QA without extending timeline)"]
-    D --> E["Why 4៖ គ្មានម៉ោង QA ក្នុងកិច្ចសន្យាដំបូងព្រោះ Client មិនព្រមបង់ថ្លៃ<br/>(No QA hours in initial estimate because client refused to pay)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ Sales កាត់ QA ដើម្បីបានគម្រោង ហើយសង្ឃឹមលើ QA ផ្ទៃក្នុង<br/>(Root Cause: Sales cut QA to win bid, forcing internal QA into a squeezed schedule)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ Timeline ត្រូវតែបូកបញ្ចូលទាំង Dev និង QA, មិនអាចរួញខ្លីឡើយ<br/>(Real Solution: Project timeline must include both Dev & QA phases as non-negotiable)"]
+    A["🔴 បញ្ហា៖ App មាន Bug ច្រើន<br/>(Problem: App with many bugs)"] --> B["Why 1៖ ការរុញ Bug ទៅវិញ<br/>ទៅមកខ្លាំងរវាង Dev និង QA<br/>(Dev-QA bug ping-pong)"]
+    B --> C["Why 2៖ Dev សរសេរកូដប្រញាប់<br/>ដើម្បីប្រគល់ការងារទាន់ពេល<br/>(Devs rushed coding phase)"]
+    C --> D["Why 3៖ ម៉ោង Dev ត្រូវរួញខ្លី<br/>ដើម្បីទុកពេលឱ្យ QA ផ្ទៃក្នុង<br/>(Dev time squeezed for QA)"]
+    D --> E["Why 4៖ គ្មានម៉ោង QA ក្នុងប្លង់<br/>ដំបូងព្រោះ Client មិនបង់ថ្លៃ<br/>(No QA hours in estimate)"]
+    E --> F["Why 5 (ឫសគល់)៖ Sales កាត់ QA<br/>ដើម្បីឈ្នះដេញថ្លៃគម្រោង<br/>(Root: Sales cut QA hours<br/>to win project bid)"]
+    F --> G["✅ ដំណោះស្រាយ៖ Timeline ត្រូវតែ<br/>បូកបញ្ចូលទាំង Dev និង QA<br/>(Solution: Non-negotiable<br/>QA & Dev timeline)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -243,13 +246,14 @@ graph TD
 
 ---
 
+<a id="2-4"></a>
 ### ឧទាហរណ៍ទី ៤ — កម្រិតមធ្យម (បច្ចេកទេស)៖ Bug ធ្លាក់ដល់ផលិតកម្មពិត (Bugs Reaching Production)
 
 **បញ្ហា៖** Bug ធ្ងន់ធ្ងរបានកើតឡើងនៅលើប្រព័ន្ធផលិតកម្មពិត (Production Server) ដែលអតិថិជនពិតប្រាកដកំពុងប្រើប្រាស់។
 
-**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** ស្តីបន្ទោស Developer ណាដែលសរសេរកូដនោះ និងប្រញាប់ប្រញាល់ Push Hotfix ជាបន្ទាន់។
-
 **Problem:** A critical bug occurs on the production server being used by active clients.
+
+**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** ស្តីបន្ទោស Developer ណាដែលសរសេរកូដនោះ និងប្រញាប់ប្រញាល់ Push Hotfix ជាបន្ទាន់។
 
 **Surface Fix:** Blame the developer who wrote the code and rush a hotfix into production.
 
@@ -274,15 +278,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ Bug ធ្លាក់ដល់ Production Server<br/>(Problem: Critical bug on production)"] --> B["Why 1៖ គ្មានការធ្វើ Code Review មុនពេល Deploy<br/>(No code review before deploy)"]
+    A["🔴 បញ្ហា៖ Bug ធ្លាក់ដល់ Prod<br/>(Problem: Bug on production)"] --> B["Why 1៖ គ្មានការ Review កូដ<br/>មុនពេលDeployឡើង Server<br/>(No code review<br/>before deploy)"]
     B --> C["Why 2៖ Team Lead គ្មានពេល<br/>(Team Lead has no time)"]
-    C --> D["Why 3៖ Team Lead ជួយ PM ឆ្លើយសំណួរ Client<br/>(Team Lead helps PM with client questions)"]
-    D --> E["Why 4៖ PM ត្រូវការ Team Lead ពន្យល់បច្ចេកទេស<br/>(PM needs tech explanations for client calls)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ គ្មានតំណែង BA — Team Lead ត្រូវបំពេញចន្លោះនេះ<br/>(Root Cause: No Business Analyst role)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ ជ្រើសរើសបុគ្គលិក BA<br/>(Real Solution: Hire a BA to free up Team Lead's time)"]
+    C --> D["Why 3៖ Team Lead ត្រូវជួយ<br/>PM ឆ្លើយសំណួររបស់ Client<br/>(TL helps PM with clients)"]
+    D --> E["Why 4៖ PM ត្រូវការឱ្យ TL<br/>ពន្យល់បច្គេកទេសរាល់ដង<br/>(PM needs tech explanation)"]
+    E --> F["Why 5 (ឫសគល់)៖ គ្មានតំណែង BA<br/>ធ្វើឱ្យ TL ត្រូវធ្វើការងារ BA<br/>(Root Cause: No BA role<br/>so TL does BA duties)"]
+    F --> G["✅ ដំណោះស្រាយ៖ ជ្រើសរើស BA<br/>ដើម្បីរំដោះពេលឱ្យ Team Lead<br/>(Solution: Hire a BA to<br/>free up TL's schedule)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -292,13 +296,14 @@ graph TD
 
 ---
 
+<a id="2-5"></a>
 ### ឧទាហរណ៍ទី ៥ — កម្រិតមធ្យម (ធុរកិច្ច)៖ ការធ្លាក់ចុះនៃការលក់ (Sales Drop)
 
 **បញ្ហា៖** ការលក់ផលិតផល A បានធ្លាក់ចុះ ២០% នៅក្នុងខែនេះ។
 
-**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** បង្ខំក្រុមលក់ (Sales Team) ឱ្យធ្វើការ Call ទៅកាន់អតិថិជនឱ្យបានច្រើន និងផ្តល់បញ្ចុះតម្លៃបន្ថែម។
-
 **Problem:** Sales of Product A dropped by 20% this month.
+
+**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** បង្ខំក្រុមលក់ (Sales Team) ឱ្យធ្វើការ Call ទៅកាន់អតិថិជនឱ្យបានច្រើន និងផ្តល់បញ្ចុះតម្លៃបន្ថែម។
 
 **Surface Fix:** Force the sales team to make more cold calls and offer deeper discounts.
 
@@ -323,15 +328,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ ការលក់ធ្លាក់ចុះ ២០%<br/>(Problem: Sales dropped 20%)"] --> B["Why 1៖ អតិថិជនចាស់ ៗ មិនត្រឡប់មកទិញ<br/>(No repeat purchases from existing clients)"]
-    B --> C["Why 2៖ មិនពេញចិត្តសេវាដឹកជញ្ជូន<br/>(Dissatisfied with delivery)"]
-    C --> D["Why 3៖ ទំនិញទៅដល់យឺត ២-៣ ថ្ងៃ<br/>(Shipments late by 2-3 days)"]
-    D --> E["Why 4៖ ក្រុមវេចខ្ចប់រៀបចំមិនទាន់<br/>(Packing team behind schedule)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ ម៉ាស៊ីនព្រីនស្ទះម៉ោង ៤ រសៀល<br/>(Root Cause: Invoice printer jams daily at 4 PM)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ ជួសជុល ឬប្តូរម៉ាស៊ីនព្រីនថ្មី<br/>(Real Solution: Repair or replace warehouse printer)"]
+    A["🔴 បញ្ហា៖ ការលក់ធ្លាក់ចុះ២០%<br/>(Problem: Sales dropped 20%)"] --> B["Why 1៖ គ្មានការទិញម្តងទៀត<br/>ពីអតិថិជនចាស់ៗដដែល<br/>(No repeat purchases)"]
+    B --> C["Why 2៖ មិនពេញចិត្តសេវាដឹក<br/>(Dissatisfied with delivery)"]
+    C --> D["Why 3៖ ទំនិញទៅដល់យឺត<br/>(Shipments late by 2-3 days)"]
+    D --> E["Why 4៖ ក្រុមវេចខ្ចប់នៅឃ្លាំង<br/>រៀបចំទំនិញចេញមិនទាន់<br/>(Packing team delayed)"]
+    E --> F["Why 5 (ឫសគល់)៖ ម៉ាស៊ីនព្រីន<br/>វិក្កយបត្រស្ទះរាល់ល្ងាច<br/>(Root: Warehouse printer<br/>jams daily at 4 PM)"]
+    F --> G["✅ ដំណោះស្រាយ៖ ជួសជុល ឬ<br/>ប្តូរម៉ាស៊ីនព្រីន<br/>វិក្កយបត្រថ្មី<br/>(Solution: Fix or replace<br/>warehouse printer)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -341,13 +346,14 @@ graph TD
 
 ---
 
+<a id="2-6"></a>
 ### ឧទាហរណ៍ទី ៦ — កម្រិតមធ្យម (ការគ្រប់គ្រង)៖ បុគ្គលិកលាឈប់ច្រើន (High Employee Turnover)
 
 **បញ្ហា៖** ៣០% នៃបុគ្គលិកនៅក្នុងនាយកដ្ឋាន IT បានសម្រេចចិត្តលាឈប់នៅក្នុងរយៈពេល ៦ ខែចុងក្រោយនេះ។
 
-**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** ប្រធាននាយកដ្ឋានស្នើសុំដំឡើងប្រាក់ខែឱ្យបុគ្គលិកដែលនៅសេសសល់ដើម្បីកុំឱ្យពួកគេលាឈប់បន្ត។
-
 **Problem:** 30% of IT department staff resigned in the past 6 months.
+
+**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** ប្រធាននាយកដ្ឋានស្នើសុំដំឡើងប្រាក់ខែឱ្យបុគ្គលិកដែលនៅសេសសល់ដើម្បីកុំឱ្យពួកគេលាឈប់បន្ត។
 
 **Surface Fix:** The department head requests salary raises for the remaining staff to prevent them from leaving.
 
@@ -358,7 +364,7 @@ graph TD
 | 1 | ហេតុអ្វីបានជាបុគ្គលិក IT លាឈប់ច្រើនម្ល៉េះ? <br/>(Why are IT staff resigning?) | ពីព្រោះពួកគេមានអារម្មណ៍ស្ត្រេស និងរងសម្ពាធការងារធ្ងន់ធ្ងរពេក (Overwhelming Work Pressure)។ <br/>(Because they experience severe stress and overwhelming work pressure.) |
 | 2 | ហេតុអ្វីបានជាសម្ពាធការងារខ្ពស់ម្ល៉េះ? <br/>(Why is the pressure so high?) | ពីព្រោះពួកគេត្រូវធ្វើការថែមម៉ោង (Overtime) ស្ទើរតែរាល់ថ្ងៃ និងគ្មានថ្ងៃសម្រាកឡើយ។ <br/>(Because they have to work overtime almost daily with no rest days.) |
 | 3 | ហេតុអ្វីបានជាពួកគេត្រូវធ្វើការថែមម៉ោងមិនចេះចប់? <br/>(Why do they work endless overtime?) | ពីព្រោះគម្រោងភាគច្រើនមានថ្ងៃកំណត់បញ្ចប់ (Deadline) ដែលមិនប្រាកដនិយម និងគ្មានពេលវេលាបម្រុងទុកសម្រាប់ដោះស្រាយហានិភ័យឡើយ។ <br/>(Because projects have unrealistic deadlines and zero risk buffer.) |
-| 4 | ហេតុអ្វីបានជាគម្រោងមាន Deadline មិនប្រាកដនិយម? <br/>(Why are deadlines unrealistic?) | ពីព្រោះក្រុមការងារផ្នែកលក់ (Sales Team) សន្យាពេលវេលាប្រគោងដ៏លឿនបំផុតទៅកាន់អតិថិជនដើម្បីតែចង់ឈ្នះដេញថ្លៃយកកិច្ចសន្យា។ <br/>(Because the sales team promises ultra-fast delivery times just to win project bids.) |
+| 4 | ហេតុអ្វីបានជាគម្រោងមាន Deadline មិនប្រាកដនិយម? <br/>(Why are deadlines unrealistic?) | ពីព្រោះក្រុមការងារផ្នែកលក់ (Sales Team) សន្យាពេលវេលាប្រគល់ដ៏លឿនបំផុតទៅកាន់អតិថិជនដើម្បីតែចង់ឈ្នះដេញថ្លៃយកកិច្ចសន្យា។ <br/>(Because the sales team promises ultra-fast delivery times just to win project bids.) |
 | 5 | ហេតុអ្វីបានជាក្រុមលក់សន្យាអ្វីដែលក្រុម IT មិនអាចធ្វើបាន? <br/>(Why does Sales promise what IT cannot deliver?) | **ពីព្រោះប្រាក់កម្រៃជើងសារ (Commission) របស់ក្រុមលក់គឺផ្សារភ្ជាប់ទៅនឹងល្បឿននៃការចុះកិច្ចសន្យា ដោយមិនតម្រូវឱ្យមានការត្រួតពិនិត្យ និងយល់ព្រមលើលទ្ធភាពបច្ចេកទេស (Technical Sign-off) ពីក្រុម IT ជាមុនឡើយ។** <br/>(**Because Sales commission is tied purely to contract signatures, without requiring technical sign-off or schedule vetting from the IT team first.**) |
 
 ```mermaid
@@ -372,15 +378,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ បុគ្គលិក IT លាឈប់ ៣០% ក្នុង ៦ ខែ<br/>(Problem: 30% IT turnover in 6 months)"] --> B["Why 1៖ ស្ត្រេស និងសម្ពាធការងារធ្ងន់ធ្ងរ<br/>(Stress and overwhelming pressure)"]
-    B --> C["Why 2៖ ធ្វើការថែមម៉ោងរាល់ថ្ងៃ គ្មានថ្ងៃសម្រាក<br/>(Working daily overtime, no rest)"]
-    C --> D["Why 3៖ ថ្ងៃកំណត់បញ្ចប់មិនប្រាកដនិយម<br/>(Unrealistic project deadlines)"]
-    D --> E["Why 4៖ Sales សន្យាពេលលឿនដើម្បីឈ្នះកិច្ចសន្យា<br/>(Sales promises fast timeline to win contract)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ កម្រៃជើងសារ Sales មិនត្រូវការ IT យល់ព្រម<br/>(Root Cause: Sales commission independent of IT schedule sign-off)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ ត្រូវមាន IT Approval លើ Timeline មុនចុះកិច្ចសន្យា<br/>(Real Solution: Enforce IT schedule sign-off before closing sales)"]
+    A["🔴 បញ្ហា៖ បុគ្គលិក IT លាឈប់៣០%<br/>(Problem: 30% IT turnover)"] --> B["Why 1៖ ស្រ្តេសនិងសម្ពាធធ្ងន់<br/>(Stress & high pressure)"]
+    B --> C["Why 2៖ ធ្វើការថែមម៉ោងរាល់ថ្ងៃ<br/>(Working daily overtime)"]
+    C --> D["Why 3៖ ថ្ងៃកំណត់បញ្ចប់មិនសមស្រប<br/>(Unrealistic deadlines)"]
+    D --> E["Why 4៖ Sales សន្យាពេលលឿន<br/>ដើម្បីតែឈ្នះកិច្ចសន្យា<br/>(Sales promised fast times)"]
+    E --> F["Why 5 (ឫសគល់)៖ កម្រៃជើងសារ<br/>របស់ Sales មិនត្រូវការ<br/>IT យល់ព្រម<br/>(Root: Sales commission<br/>requires no IT sign-off)"]
+    F --> G["✅ ដំណោះស្រាយ៖ ត្រូវមាន<br/>IT Sign-off<br/>លើកាលវិភាគការងារ<br/>មុនលក់គម្រោង<br/>(Solution: Enforce IT<br/>approval before contracts)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -390,13 +396,14 @@ graph TD
 
 ---
 
-### ឧទាហរណ៍ទី ៧ — កម្រិតធ្ងន់៖ កុមារបោះបង់ការសិក្សា (Children Dropping Out of School)
+<a id="2-7"></a>
+### ឧទហរណ៍ទី ៧ — កម្រិតធ្ងន់៖ កុមារបោះបង់ការសិក្សា (Children Dropping Out of School)
 
 **បញ្ហា៖** នៅក្នុងស្រុកដាច់ស្រយាលមួយ មានការកើនឡើងយ៉ាងខ្លាំងនៃអត្រាកុមារបោះបង់ការសិក្សាចោល។
 
-**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** រដ្ឋាភិបាល ឬអង្គការក្រៅរដ្ឋាភិបាលធ្វើការបរិច្ចាគកង់ និងសម្ភារៈសិក្សាដើម្បីជម្រុញឱ្យពួកគេចង់មកសាលារៀនវិញ។
-
 **Problem:** In a remote district, the school dropout rate is rising sharply.
+
+**ដំណោះស្រាយលើផ្ទៃក្រៅ៖** រដ្ឋាភិបាល ឬអង្គការក្រៅរដ្ឋាភិបាលធ្វើការបរិច្ចាគកង់ និងសម្ភារៈសិក្សាដើម្បីជម្រុញឱ្យពួកគេចង់មកសាលារៀនវិញ។
 
 **Surface Fix:** The government or an NGO donates bicycles and study materials to encourage kids to return to school.
 
@@ -421,15 +428,15 @@ graph TD
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🔴 បញ្ហា៖ កើនឡើងអត្រាកុមារបោះបង់ការសិក្សា<br/>(Problem: Rising school dropout rate)"] --> B["Why 1៖ ត្រូវធ្វើការជួយរកចំណូលគ្រួសារ<br/>(Forced to work to support family)"]
-    B --> C["Why 2៖ ឪពុកម្តាយរកប្រាក់ចំណូលមិនគ្រប់<br/>(Parents cannot afford daily needs)"]
-    C --> D["Why 3៖ ទិន្នផលកសិកម្មធ្លាក់ចុះយ៉ាងខ្លាំង<br/>(Agricultural yields dropped severely)"]
-    D --> E["Why 4៖ គ្មានប្រព័ន្ធធារាសាស្ត្រនៅរដូវប្រាំង<br/>(No dry season irrigation system)"]
-    E --> F["Why 5 — ឫសគល់បញ្ហា៖ គម្រោងស្តារប្រឡាយផ្អាក ៥ ឆ្នាំមុន<br/>(Root Cause: Canal project stalled 5 years ago)"]
-    F --> G["✅ ដំណោះស្រាយពិត៖ ស្តារហេដ្ឋារចនាសម្ព័ន្ធធារាសាស្ត្រ<br/>(Real Solution: National intervention to restore canal)"]
+    A["🔴 បញ្ហា៖ កើនឡើងអត្រាបោះបង់រៀន<br/>(Problem: Rising dropout rate)"] --> B["Why 1៖ ត្រូវធ្វើការរកលុយជួយផ្ទះ<br/>(Forced to work for family)"]
+    B --> C["Why 2៖ ម៉ែឪរកចំណូលមិនបានគ្រប់<br/>(Parents can't afford basics)"]
+    C --> D["Why 3៖ ទិន្នផលស្រែចម្ការធ្លាក់ចុះ<br/>(Crop yields dropped)"]
+    D --> E["Why 4៖ គ្មានប្រព័ន្ធទឹកសម្រាប់រដូវប្រាំង<br/>(No dry season irrigation)"]
+    E --> F["Why 5 (ឫសគល់)៖<br/>គម្រោងប្រឡាយទឹក<br/>បានកកស្ទះ និងផ្អាក<br/>៥ ឆ្នាំមុន<br/>(Root: Canal project<br/>stalled 5 years ago)"]
+    F --> G["✅ ដំណោះស្រាយ៖<br/>ជួសជុល និងស្តារ<br/>ប្រឡាយប្រព័ន្ធធារាសាស្ត្រ<br/>ឡើងវិញ<br/>(Solution: Restore canal<br/>irrigation system)"]
 
     style A fill:#e74c3c,color:#fff
-    style F fill:#c0392b,color:#fff
+    style F fill:#e74c3c,color:#fff
     style G fill:#27ae60,color:#fff
 ```
 
@@ -439,6 +446,7 @@ graph TD
 
 ---
 
+<a id="3"></a>
 ## ៣. កត្តាជម្រុញ៖ ភាពប្រញាប់ប្រញាល់ និងភាពខ្ជិលច្រអូសផ្នែកស្មារតី (The Aggravator: Speed and Mental Laziness)
 
 ប្រសិនបើបច្ចេកទេស 5 Whys មានប្រសិទ្ធភាពខ្ពស់ម្ល៉េះ ហេតុអ្វីបានជាមនុស្សភាគច្រើននៅតែ default ជ្រើសរើសការដោះស្រាយត្រឹមតែរោគសញ្ញាខាងក្រៅ?
@@ -471,6 +479,7 @@ Often, digging to the root reveals that the real problem stems from poor managem
 
 ---
 
+<a id="4"></a>
 ## ៤. ដំណោះស្រាយទូទៅ៖ របៀបប្រើប្រាស់ 5 Whys ឱ្យត្រឹមត្រូវ (The General Solution: How to Use 5 Whys Correctly)
 
 ដើម្បីទទួលបានលទ្ធផលពិតប្រាកដពីបច្ចេកទេសនេះ សូមចងចាំគោលការណ៍សំខាន់ ៗ ទាំងនេះ៖
@@ -514,12 +523,12 @@ The number "5" is a general guideline, not an absolute rule. Often, the root cau
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["បញ្ហា<br/>(Problem)"] --> B["Why? → រោគសញ្ញាខាងក្រៅ<br/>(Surface symptoms)"]
+    A["បញ្ហា<br/>(Problem)"] --> B["Why? → រោគសញ្ញាផ្ទៃក្រៅ<br/>(Surface symptoms)"]
     B --> C["Why? → កត្តារួមចំណែក<br/>(Contributing factors)"]
-    C --> D["Why? → ចំណុចខ្សោយរចនាសម្ព័ន្ធ<br/>(Structural weaknesses)"]
-    D --> E["Why? → ដំណើរការដែលខូច/ខ្វះខាត<br/>(Broken or missing process)"]
-    E --> F["វិធានការការពារ កុំឱ្យកើតឡើងវិញជារៀងរហូត<br/>(Countermeasure: Prevent recurrence permanently)"]
-    E --> G["Why? → ជីកកាន់តែជ្រៅបើចាំបាច់<br/>(Dig deeper if necessary)"]
+    C --> D["Why? → ចំណុចខ្សោយ<br/>រចនាសម្ព័ន្ធ<br/>(Structural weaknesses)"]
+    D --> E["Why? → ដំណើរការខូច/ខ្វះខាត<br/>(Broken/missing process)"]
+    E --> F["✅ វិធានការការពារ<br/>កុំឱ្យកើតឡើងវិញ<br/>(Countermeasure:<br/>Prevent recurrence)"]
+    E --> G["Why? → ជីកកាន់តែជ្រៅ<br/>បើចាំបាច់<br/>(Dig deeper if necessary)"]
     G --> F
 
     style E fill:#e67e22,color:#fff
@@ -528,6 +537,17 @@ graph TD
 
 ---
 
+## 🐇 ធ្លាក់ចូលក្នុងរន្ធទន្សាយនៃរឿងព្រេង (Enter the Legendary Rabbit Hole)
+
+ដើម្បីស្វែងយល់កាន់តែស៊ីជម្រៅអំពីការអនុវត្តវិធីសាស្ត្រសួររកហេតុផល ៥ដង តាមរយៈរឿងព្រេងក្អមដីប្រេះ សូមចាប់ផ្តើមដំណើររុករករបស់អ្នកដោយចុចលើតំណភ្ជាប់ខាងក្រោម៖
+
+To delve deeper into applying the 5 Whys technique through the classic parable of the cracked pot, begin your exploration by clicking the link below:
+
+* 🚀 **[ចាប់ផ្តើមដំណើររុករក (Start the Journey) ➔ The Cracked Pot and the Five Whys](../parables/14-the-cracked-pot-and-the-five-whys.md)**
+
+---
+
+<a id="5"></a>
 ## សេចក្តីសន្និដ្ឋាន (Conclusion)
 
 > **«បញ្ហាដែលត្រូវបានកំណត់យ៉ាងច្បាស់លាស់ គឺជាបញ្ហាដែលត្រូវបានដោះស្រាយពាក់កណ្តាលរួចជាស្រេចទៅហើយ។»**  
@@ -550,6 +570,7 @@ The 5 Whys technique might not make you stand out in meetings where everyone is 
 
 ---
 
+<a id="6"></a>
 ## ឯកសារយោង (References)
 
 * **Liker, J.L.** — *The Toyota Way* (2004)។ សៀវភៅផ្លូវការស្តីពីទស្សនវិជ្ជានៃការគ្រប់គ្រងរបស់ Toyota រួមទាំងប្រភពដើម និងការអនុវត្តជាក់ស្តែងនៃ 5 Whys នៅក្នុងប្រព័ន្ធផលិតកម្ម Toyota (Toyota Production System)។
@@ -562,10 +583,11 @@ The 5 Whys technique might not make you stand out in meetings where everyone is 
 
 ---
 
+<a id="7"></a>
 ## Related Posts
 
-* [Confirmation Bias (ការលំអៀងបញ្ជាក់អំណះអំណាង)៖ អន្ទាក់ចិត្តដែលបង្ខំយើងឱ្យស្តាប់តែអ្វីដែលយើងចង់ឮ](./01-confirmation-bias.md)
-* [The Cracked Pot and the Five Whys (ក្អមដីប្រេះ និងឫសគល់ទាំង ៥)](../parables/14-the-cracked-pot-and-the-five-whys.md)
+* **[01-confirmation-bias.md](./01-confirmation-bias.md)** — Confirmation Bias (ការលំអៀងបញ្ជាក់អំណះអំណាង)៖ អន្ទាក់ចិត្តដែលបង្ខំយើងឱ្យស្តាប់តែអ្វីដែលយើងចង់ឮ។
+* **[The Cracked Pot and the Five Whys (ក្អមដីប្រេះ និងឫសគល់ទាំង ៥)](../parables/14-the-cracked-pot-and-the-five-whys.md)** — ការអនុវត្តសួររកហេតុផល ៥ដង ក្នុងរឿងក្អមដីប្រេះបុរាណ។
 
 ---
 
