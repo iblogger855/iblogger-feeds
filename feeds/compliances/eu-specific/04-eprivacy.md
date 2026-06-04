@@ -1,7 +1,7 @@
 # ePrivacy (សេចក្តីណែនាំអំពីឯកជនភាពអេឡិចត្រូនិក)៖ ច្បាប់ Cookie និងឯកជនភាពទំនាក់ទំនង (ePrivacy Directive — Cookie Law and Electronic Communications Privacy)
 
 **សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** សហភាពអឺរ៉ុប (European Union)  
-**نسخةបច្ចុប្បន្ន (Current version)៖** សេចក្តីណែនាំ ePrivacy 2002/58/EC កែសម្រួលដោយសេចក្តីណែនាំ 2009/136/EC ("ច្បាប់ Cookie") (ePrivacy Directive 2002/58/EC, amended by Directive 2009/136/EC)  
+**កំណែបច្ចុប្បន្ន (Current version)៖** សេចក្តីណែនាំ ePrivacy 2002/58/EC កែសម្រួលដោយសេចក្តីណែនាំ 2009/136/EC ("ច្បាប់ Cookie") (ePrivacy Directive 2002/58/EC, amended by Directive 2009/136/EC)  
 **ស្ថានភាព (Status)៖** សេចក្តីណែនាំ (ការអនុវត្តខុសគ្នាទៅតាមប្រទេសសមាជិក); ថ្ងៃខាងមុខនឹងត្រូវជំនួសដោយបទប្បញ្ញត្តិ ePrivacy Regulation ដែលបច្ចុប្បន្នកំពុងចរចា (Directive, ePrivacy Regulation to replace it — still in negotiation)  
 **សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** គេហទំព័រ ឬកម្មវិធីណាដែលផ្តល់សេវាដល់អ្នកប្រើប្រាស់នៅសហភាពអឺរ៉ុប ហើយប្រើប្រាស់ cookies, ការតាមដាន, ឬការទំនាក់ទំនងអេឡិចត្រូនិក (Any website or app serving EU users that uses cookies, tracking, or electronic communications)  
 **Tags:** #compliance #eprivacy #cookies #tracking #eu #consent
