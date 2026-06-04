@@ -163,17 +163,28 @@ The developer focuses on protecting their ego, while the QA tester only focuses 
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["💻 កូដប្រភពតែមួយ<br/>(Same Codebase)"] --> B["Developer៖ តេស្តតែលើ Happy Path<br/>(Developer: Tests only Happy Path)"]
-    A --> C["QA៖ ផ្នត់គំនិតជាមុនថាកូដតែងតែខូច<br/>(QA: Preconceived idea that code is broken)"]
-    B --> D["'វាដំណើរការធម្មតាតើនៅលើម៉ាស៊ីនខ្ញុំ!'<br/>(\"It works on my machine!\")"]
-    C --> E["'ប្រព័ន្ធទាំងមូលនេះគឺគ្មានតម្លៃឡើយ'<br/>(\"This whole system is worthless\")"]
-    D --> F["🔴 ការប៉ះទង្គិច Ego — ផលិតផលចេញយឺតយ៉ាវ និងអតិថិជនរងគ្រោះ<br/>(Ego Clash — Delayed delivery & client suffers)"]
-    E --> F
-    F --> G["✅ ដំណោះស្រាយ៖ ប្តូរពីផ្នត់គំនិតសត្រូវមកជាដៃគូសហការ<br/>(Solution: Shift from enemy to partner mindset)"]
+sequenceDiagram
+    autonumber
+    actor Dev as 💻 Developer (អ្នកអភិវឌ្ឍន៍)
+    actor QA as 🔍 QA Tester (អ្នកតេស្តប្រព័ន្ធ)
+    actor Client as 👥 Client / User (អតិថិជន)
 
-    style F fill:#e74c3c,color:#fff
-    style G fill:#27ae60,color:#fff
+    Dev->>QA: Submits code (tested only on Happy Path)<br/>បញ្ជូនកូដ (តេស្តតែលើ Happy Path)
+    Note over Dev: "My code is perfect"<br/>«កូដខ្ញុំល្អឥតខ្ចោះ»
+    
+    QA->>Dev: Reports a minor bug<br/>រាយការណ៍ Bug តូចមួយ
+    Note over QA: "His code is always broken"<br/>«កូដគាត់តែងតែមានបញ្ហា»
+    
+    rect rgb(231, 76, 60)
+        Dev-->>QA: Defends: "Works on my machine!"<br/>«ម៉ាស៊ីនខ្ញុំដំណើរការធម្មតាតើ!»
+        QA-->>Dev: Retorts: "This whole system is trash!"<br/>«ប្រព័ន្ធទាំងមូលនេះសរសេរមកខូចអស់ហើយ!»
+    end
+    
+    Note over Dev, QA: Ego Clash (Standoff)<br/>ការប៉ះទង្គិច Ego
+    
+    Dev->>Client: Delayed delivery (Buggy)<br/>ចេញផលិតផលយឺតយ៉ាវ និងមានបញ្ហា
+    QA->>Client: Delayed & faulty product<br/>ចេញផលិតផលយឺតយ៉ាវ និងមានបញ្ហា
+    Note over Client: 🔴 Client suffers / អតិថិជនរងគ្រោះ
 ```
 
 **ដំណោះស្រាយ៖**
@@ -212,17 +223,28 @@ Neither party is listening to the **actual end users**. The PO is chasing a tech
   },
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["📱 ការសម្រេចចិត្តលើ Feature<br/>(Feature Decision-Making)"] --> B["PO៖ កត់ត្រាតែមតិសរសើរចំពោះ Feature A<br/>(PO: Records only praise for Feature A)"]
-    A --> C["Client៖ ប្រមូលតែទិន្នន័យគាំទ្រ Feature B<br/>(Client: Gathers only data supporting Feature B)"]
-    B --> D["មើលរំលង User ៨០% ដែលពិបាកប្រើប្រាស់<br/>(Ignores 80% of users struggling to use it)"]
-    C --> E["ច្រានចោលទិន្នន័យជាក់ស្តែងដែលបង្ហាញថាគ្មានតម្រូវការ<br/>(Dismisses objective data showing no demand)"]
-    D --> F["🔴 App ខ្មោច — ខាតបង់ថវិកាលើរបស់ដែលគ្មានអ្នកប្រើប្រាស់<br/>(Ghost App — Wasting budget on unused features)"]
-    E --> F
-    F --> G["✅ ដំណោះស្រាយ៖ សម្រេចចិត្តលើទិន្នន័យ, ធ្វើ A/B Test, លះបង់ក្តីស្រឡាញ់ចោល<br/>(Solution: Data-driven decisions, A/B testing, kill your darling)"]
+sequenceDiagram
+    autonumber
+    actor PO as 📱 Product Owner
+    actor Client as 💼 Client / Owner
+    actor Users as 👥 End Users
 
-    style F fill:#e74c3c,color:#fff
-    style G fill:#27ae60,color:#fff
+    PO->>Client: Recommends Feature A (Tech Preference)<br/>ណែនាំ Feature A (ចំណូលចិត្តបច្ចេកវិទ្យា)
+    Client->>PO: Demands Feature B (Competitor Clone)<br/>ទាមទារ Feature B (ដេញតាមគូប្រជែង)
+    
+    PO->>Users: Tests Feature A (80% find it too complex)<br/>តេស្ត Feature A (User ៨០% ថាស្មុគស្មាញ)
+    Note over PO: Ignores negative feedback<br/>មើលរំលងមតិអវិជ្ជមាន
+    
+    Client->>Users: Promotes Feature B (Analytics show no demand)<br/>ផ្សព្វផ្សាយ Feature B (ទិន្នន័យបង្ហាញថាគ្មានតម្រូវការ)
+    Note over Client: Dismisses objective data<br/>ច្រានចោលទិន្នន័យជាក់ស្តែង
+    
+    rect rgb(231, 76, 60)
+        PO->>Users: Launches Feature A (Unused)<br/>ដាក់ឱ្យប្រើប្រាស់ Feature A (គ្មានអ្នកប្រើ)
+        Client->>Users: Launches Feature B (Unused)<br/>ដាក់ឱ្យប្រើប្រាស់ Feature B (គ្មានអ្នកប្រើ)
+    end
+    
+    Note over Users: 👻 Ghost App / App ខ្មោច
+    Note over PO, Client: Wasted Budget & Effort<br/>ខាតបង់ថវិកា និងកម្លាំងការងារ
 ```
 
 **ដំណោះស្រាយ៖**
