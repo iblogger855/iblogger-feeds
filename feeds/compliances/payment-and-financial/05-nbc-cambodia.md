@@ -1,32 +1,54 @@
-# NBC — National Bank of Cambodia Regulations
+# NBC (ធនាគារជាតិនៃកម្ពុជា)៖ បទប្បញ្ញត្តិ និងការណែនាំពីធនាគារជាតិនៃកម្ពុជា (NBC — National Bank of Cambodia Regulations)
 
-**Jurisdiction:** Kingdom of Cambodia  
-**Applies to:** Banks, microfinance institutions, payment service providers, money changers, e-money issuers operating in Cambodia  
-**Administered by:** National Bank of Cambodia (NBC)  
+**ដែនសមត្ថកិច្ច (Jurisdiction)៖** ព្រះរាជាណាចក្រកម្ពុជា (Kingdom of Cambodia)  
+**អនុវត្តចំពោះ (Applies to)៖** ធនាគារ ស្ថាប័នមីក្រូហិរញ្ញវត្ថុ អ្នកផ្តល់សេវាកម្មទូទាត់ប្រាក់ អាជីវកម្មប្តូរប្រាក់ និងស្ថាប័នបោះផ្សាយប្រាក់អេឡិចត្រូនិកដែលប្រតិបត្តិការនៅក្នុងប្រទេសកម្ពុជា (Banks, microfinance institutions, payment service providers, money changers, e-money issuers operating in Cambodia)  
+**គ្រប់គ្រងដោយ (Administered by)៖** ធនាគារជាតិនៃកម្ពុជា (ធ.ជ.ក. - NBC) (National Bank of Cambodia (NBC))  
 **Tags:** #compliance #nbc #cambodia #banking #payment #khqr #bakong
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [អាជ្ញាប័ណ្ណសំខាន់ៗ (Key Licences)](#1)
+- [ស្តង់ដារកូដ KHQR (KHQR — Khmer QR Code Standard)](#2)
+- [បាគង — ប្រព័ន្ធរូបិយប័ណ្ណឌីជីថលរបស់ធនាគារជាតិ (Bakong — NBC's Digital Currency Platform)](#3)
+- [តម្រូវការប្រឆាំងការលាងលុយកខ្វក់ (ប្រកាសរបស់ធនាគារជាតិ) (AML/CFT Requirements (NBC Prakas))](#4)
+- [ការរក្សាទុកទិន្នន័យក្នុងស្រុក (Data Localisation)](#5)
+- [តម្រូវការការពារអ្នកប្រើប្រាស់ (Consumer Protection Requirements)](#6)
+- [ប្រអប់សាកល្បងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech Regulatory Sandbox)](#7)
+- [ទណ្ឌកម្ម និងការផាកពិន័យ (Penalties)](#8)
+- [អ្វីដែលត្រូវបង្កើត (What to Build)](#9)
+- [ឯកសារទាក់ទង (Related)](#10)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+ធនាគារជាតិនៃកម្ពុជា គឺជាធនាគារកណ្តាល និងជាអាជ្ញាធរត្រួតពិនិត្យហិរញ្ញវត្ថុចម្បងរបស់ប្រទេសកម្ពុជា។ ធនាគារជាតិនៃកម្ពុជាមានតួនាទីផ្តល់អាជ្ញាប័ណ្ណ និងគ្រប់គ្រងរាល់ស្ថាប័នហិរញ្ញវត្ថុ និងអ្នកផ្តល់សេវាកម្មទូទាត់ប្រាក់ទាំងអស់ដែលប្រតិបត្តិការនៅក្នុងប្រទេសកម្ពុជា រួមមានវេទិកាបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech) កាបូបលុយអេឡិចត្រូនិក (E-wallets) និងប្រតិបត្តិករផ្ទេរប្រាក់។
 
 The NBC is Cambodia's central bank and primary financial regulator. It licences and regulates all financial institutions and payment service providers operating in Cambodia, including fintech platforms, e-wallets, and money transfer operators.
 
 ---
 
-## Key Licences
+<a id="1"></a>
+## អាជ្ញាប័ណ្ណសំខាន់ៗ (Key Licences)
 
-| Licence Type | Who Needs It | Capital Requirement |
+| ប្រភេទអាជ្ញាប័ណ្ណ (Licence Type) | សម្រាប់អ្នកណា (Who Needs It) | តម្រូវការដើមទុនអប្បបរមា (Capital Requirement) |
 |:-------------|:------------|:--------------------|
-| Commercial Bank | Full banking services | USD 75M minimum |
-| Microfinance Institution (MFI) | Loans and deposits for underserved | USD 1.5M |
-| Payment Service Provider (PSP) | Processing payments, e-wallets | USD 1M |
-| Money Changer | Currency exchange | USD 50K |
-| E-Money Issuer | Digital wallet, stored value | USD 1M |
-| Representative Office | Foreign bank presence only | No capital requirement |
+| ធនាគារពាណិជ្ជ (Commercial Bank) | សេវាកម្មធនាគារពេញលេញ (Full banking services) | ៧៥ លានដុល្លារអាមេរិក (USD 75M minimum) |
+| ស្ថាប័នមីក្រូហិរញ្ញវត្ថុ (MFI) | ឥណទាន និងការដាក់ប្រាក់បញ្ញើសម្រាប់ប្រជាពលរដ្ឋខ្វះលទ្ធភាព (Loans and deposits for underserved) | ១.៥ លានដុល្លារអាមេរិក (USD 1.5M) |
+| អ្នកផ្តល់សេវាកម្មទូទាត់ប្រាក់ (PSP) | ដំណើរការការទូទាត់, កាបូបលុយអេឡិចត្រូនិក (Processing payments, e-wallets) | ១ លានដុល្លារអាមេរិក (USD 1M) |
+| អាជីវកម្មប្តូរប្រាក់ (Money Changer) | ការដោះដូររូបិយប័ណ្ណ (Currency exchange) | ៥០,០០០ ដុល្លារអាមេរិក (USD 50K) |
+| ស្ថាប័នបោះផ្សាយប្រាក់អេឡិចត្រូនិក (E-Money Issuer) | កាបូបលុយឌីជីថល, ការរក្សាទុកតម្លៃប្រាក់ (Digital wallet, stored value) | ១ លានដុល្លារអាមេរិក (USD 1M) |
+| ការិយាល័យតំណាង (Representative Office) | វត្តមានរបស់ធនាគារបរទេសប៉ុណ្ណោះ (Foreign bank presence only) | គ្មានតម្រូវការដើមទុនឡើយ (No capital requirement) |
 
 ---
 
-## KHQR — Khmer QR Code Standard
+<a id="2"></a>
+## ស្តង់ដារកូដ KHQR (KHQR — Khmer QR Code Standard)
+
+KHQR គឺជាស្តង់ដារទូទាត់តាមកូដ QR ថ្នាក់ជាតិរបស់ប្រទេសកម្ពុជា ដែលត្រូវបានអនុម័ត និងដាក់ឱ្យប្រើប្រាស់ដោយធនាគារជាតិនៃកម្ពុជា។ គ្រប់អ្នកផ្តល់សេវាកម្មទូទាត់ប្រាក់ដែលទទួលបានអាជ្ញាប័ណ្ណទាំងអស់ ត្រូវតែគាំទ្រប្រព័ន្ធ KHQR នេះ។
 
 KHQR is Cambodia's national QR payment standard, adopted by the NBC. All licensed payment providers must support KHQR.
 
@@ -48,7 +70,10 @@ Supports:
 
 ---
 
-## Bakong — NBC's Digital Currency Platform
+<a id="3"></a>
+## បាគង — ប្រព័ន្ធរូបិយប័ណ្ណឌីជីថលរបស់ធនាគារជាតិ (Bakong — NBC's Digital Currency Platform)
+
+បាគង គឺជាហេដ្ឋារចនាសម្ព័ន្ធទូទាត់ប្រាក់ថ្នាក់ជាតិរបស់ប្រទេសកម្ពុជា — ដែលជាប្រព័ន្ធទូទាត់ប្រាក់ផ្អែកលើបច្ចេកវិទ្យា Blockchain ដាក់ឱ្យដំណើរការដោយធនាគារជាតិនៃកម្ពុជានៅក្នុងឆ្នាំ ២០២០។
 
 Bakong is Cambodia's national payment infrastructure — a blockchain-based payment system launched by the NBC in 2020.
 
@@ -65,85 +90,103 @@ All licensed PSPs and banks are encouraged (effectively required) to integrate w
 
 ---
 
-## AML/CFT Requirements (NBC Prakas)
+<a id="4"></a>
+## តម្រូវការប្រឆាំងការលាងលុយកខ្វក់ (ប្រកាសរបស់ធនាគារជាតិ) (AML/CFT Requirements (NBC Prakas))
+
+ប្រកាសរបស់ធនាគារជាតិនៃកម្ពុជា លេខ ធ៧-០១៧-៣៤៤ (និងវិសោធនកម្មជាបន្តបន្ទាប់) ស្តីពីការប្រឆាំងការលាងលុយកខ្វក់៖
 
 NBC Prakas No. B7-017-344 (and subsequent amendments) on Anti-Money Laundering:
 
-| Obligation | Requirement |
+| កាតព្វកិច្ច (Obligation) | លក្ខខណ្ឌតម្រូវ (Requirement) |
 |:-----------|:------------|
-| Customer Identification | KYC for all customers — government ID required |
-| Enhanced Due Diligence | PEPs, high-risk customers, transactions > $10,000 |
-| Transaction Reporting | Cash transactions > $10,000 to NBC Financial Intelligence Unit (FIU) |
-| Suspicious Transaction Reports | File STR with FIU Cambodia within 2 working days |
-| Record Retention | Minimum 10 years for all transaction and KYC records |
-| AML Officer | Designated compliance officer required |
-| AML Training | Annual staff training |
+| ការកំណត់អត្តសញ្ញាណអតិថិជន (Customer Identification) | ធ្វើ KYC សម្រាប់អតិថិជនទាំងអស់ — តម្រូវឱ្យមានអត្តសញ្ញាណប័ណ្ណផ្លូវការរបស់រដ្ឋាភិបាល (KYC for all customers — government ID required) |
+| ការវាយតម្លៃកម្រិតតឹងរ៉ឹង (Enhanced Due Diligence) | សម្រាប់បុគ្គល PEPs, អតិថិជនមានហានិភ័យខ្ពស់, ប្រតិបត្តិការ > ១០,០០០ ដុល្លារ (PEPs, high-risk customers, transactions > $10,000) |
+| របាយការណ៍ប្រតិបត្តិការ (Transaction Reporting) | រាយការណ៍រាល់ប្រតិបត្តិការសាច់ប្រាក់ > ១០,០០០ ដុល្លារ ទៅកាន់អង្គភាពស៊ើបការណ៍ហិរញ្ញវត្ថុកម្ពុជា (FIU) នៃធនាគារជាតិ (Cash transactions > $10,000 to NBC Financial Intelligence Unit (FIU)) |
+| របាយការណ៍ប្រតិបត្តិការគួរឱ្យសង្ស័យ (Suspicious Transaction Reports) | ដាក់របាយការណ៍ STR ទៅកាន់ FIU កម្ពុជា ក្នុងរយៈពេល ២ ថ្ងៃនៃថ្ងៃធ្វើការ (File STR with FIU Cambodia within 2 working days) |
+| ការរក្សាទុកកំណត់ត្រា (Record Retention) | រក្សាទុកកំណត់ត្រាប្រតិបត្តិការ និង KYC ទាំងអស់យ៉ាងតិច ១០ ឆ្នាំ (Minimum 10 years for all transaction and KYC records) |
+| មន្ត្រីអនុលោមភាព AML (AML Officer) | តម្រូវឱ្យមានការចាត់តាំងមន្ត្រីអនុលោមភាពជាក់លាក់ (Designated compliance officer required) |
+| ការបណ្តុះបណ្តាល AML (AML Training) | ការបណ្តុះបណ្តាលបុគ្គលិកជាប្រចាំឆ្នាំ (Annual staff training) |
 
 ---
 
-## Data Localisation
+<a id="5"></a>
+## ការរក្សាទុកទិន្នន័យក្នុងស្រុក (Data Localisation)
+
+បទប្បញ្ញត្តិរបស់ធនាគារជាតិនៃកម្ពុជា តម្រូវឱ្យទិន្នន័យហិរញ្ញវត្ថុរបស់អតិថិជនកម្ពុជា ត្រូវ**រក្សាទុកនៅក្នុងប្រទេសកម្ពុជា**៖
+- កំណត់ត្រាប្រតិបត្តិការ
+- ទិន្នន័យ KYC របស់អតិថិជន
+- ទិន្នន័យគណនី
 
 NBC regulation requires financial data of Cambodian customers to be **stored within Cambodia**:
 - Transaction records
 - Customer KYC data
 - Account data
 
+ការប្រើប្រាស់សេវាកម្ម Cloud Hosting នៅក្រៅប្រទេសកម្ពុជា សម្រាប់ទិន្នន័យហិរញ្ញវត្ថុ ត្រូវតែទទួលបានការអនុម័តជាមុនពីធនាគារជាតិនៃកម្ពុជា។
+
 Cloud hosting outside Cambodia for financial data requires NBC approval.
 
 ---
 
-## Consumer Protection Requirements
+<a id="6"></a>
+## តម្រូវការការពារអ្នកប្រើប្រាស់ (Consumer Protection Requirements)
 
-| Requirement | Detail |
+| លក្ខខណ្ឌតម្រូវ (Requirement) | ព័ត៌មានលម្អិត (Detail) |
 |:------------|:-------|
-| Fee transparency | All fees disclosed before transaction |
-| Complaint mechanism | Must have formal complaint handling process |
-| Error resolution | Resolve disputed transactions within defined SLA |
-| Terms and conditions | In Khmer language (or bilingual) |
+| តម្លាភាពកម្រៃសេវា (Fee transparency) | ត្រូវបង្ហាញរាល់កម្រៃសេវាទាំងអស់មុនពេលប្រតិបត្តិការទូទាត់ (All fees disclosed before transaction) |
+| យន្តការដោះស្រាយបណ្តឹង (Complaint mechanism) | ត្រូវតែមានដំណើរការដោះស្រាយបណ្តឹងផ្លូវការ (Must have formal complaint handling process) |
+| ការដោះស្រាយកំហុសឆ្គង (Error resolution) | ដោះស្រាយប្រតិបត្តិការដែលមានជម្លោះក្នុងរយៈពេលកំណត់ SLA ច្បាស់លាស់ (Resolve disputed transactions within defined SLA) |
+| លក្ខខណ្ឌ និងកិច្ចព្រមព្រៀង (Terms and conditions) | ត្រូវតែមានជាភាសាខ្មែរ (ឬទម្រង់ទ្វិភាសា) (In Khmer language (or bilingual)) |
 
 ---
 
-## Fintech Regulatory Sandbox
+<a id="7"></a>
+## ប្រអប់សាកល្បងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech Regulatory Sandbox)
+
+ធនាគារជាតិនៃកម្ពុជា មានដំណើរការប្រអប់សាកល្បងបទប្បញ្ញត្តិ (Regulatory Sandbox) ដែលអនុញ្ញាតឱ្យក្រុមហ៊ុនបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech) អាចធ្វើតេស្តសាកល្បងផលិតផលហិរញ្ញវត្ថុច្នៃប្រឌិតថ្មីៗ ក្រោមការត្រួតពិនិត្យយ៉ាងជិតស្និទ្ធ មុនពេលស្នើសុំអាជ្ញាប័ណ្ណពេញលេញ។ ពាក្យសុំត្រូវដាក់ជូនទៅកាន់ការិយាល័យបច្ចេកវិទ្យាហិរញ្ញវត្ថុរបស់ធនាគារជាតិនៃកម្ពុជា។
 
 NBC operates a regulatory sandbox allowing fintech companies to test innovative financial products under supervised conditions before full licensing. Application to the NBC's Financial Technology Office.
 
 ---
 
-## Penalties
+<a id="8"></a>
+## ទណ្ឌកម្ម និងការផាកពិន័យ (Penalties)
 
-| Violation | Consequence |
+| ការរំលោភបំពាន (Violation) | ផលវិបាក (Consequence) |
 |:----------|:------------|
-| Operating without licence | Criminal prosecution, asset seizure |
-| AML non-compliance | Licence suspension or revocation, fines |
-| Failure to report STR | Criminal liability for compliance officer |
-| Capital requirement breach | Supervisory intervention |
+| ប្រតិបត្តិការដោយគ្មានអាជ្ញាប័ណ្ណ (Operating without licence) | ការចោទប្រកាន់ព្រហ្មទណ្ឌ និងការរឹបអូសទ្រព្យសម្បត្តិ (Criminal prosecution, asset seizure) |
+| មិនអនុលោមតាមប្រព័ន្ធ AML (AML non-compliance) | ការផ្អាក ឬដកហូតអាជ្ញាប័ណ្ណ, រួមជាមួយការផាកពិន័យ (Licence suspension or revocation, fines) |
+| ខកខានមិនបានរាយការណ៍ STR (Failure to report STR) | ទំនួលខុសត្រូវព្រហ្មទណ្ឌសម្រាប់មន្ត្រីអនុលោមភាព (Criminal liability for compliance officer) |
+| ការរំលោភលើតម្រូវការដើមទុន (Capital requirement breach) | ការអន្តរាគមន៍ត្រួតពិនិត្យផ្ទាល់ពីធនាគារជាតិ (Supervisory intervention) |
 
 ---
 
-## What to Build
+<a id="9"></a>
+## អ្វីដែលត្រូវបង្កើត (What to Build)
 
-```
+សម្រាប់វេទិកាដែលប្រតិបត្តិការនៅក្នុងវិស័យហិរញ្ញវត្ថុរបស់ប្រទេសកម្ពុជា៖
+
 For platforms operating in Cambodia's financial sector:
 
-□ NBC licence (appropriate type) or partner with licensed institution
-□ KHQR integration for QR payments
-□ Bakong integration for interbank transfers
-□ KYC for all users — government ID verification
-□ EDD for PEPs and transactions > $10,000
-□ Cash transaction reports to NBC FIU > $10,000
-□ STR filing within 2 working days of detection
-□ 10-year record retention
-□ Data localisation — store financial data in Cambodia
-□ Khmer language terms and conditions
-□ Designated AML compliance officer
-□ Annual AML training
-```
+□ ស្នើសុំអាជ្ញាប័ណ្ណពីធនាគារជាតិនៃកម្ពុជា (ប្រភេទសមស្រប) ឬចាប់ដៃគូជាមួយស្ថាប័នដែលមានអាជ្ញាប័ណ្ណ (NBC licence (appropriate type) or partner with licensed institution)
+□ ភ្ជាប់សមាហរណកម្ម KHQR សម្រាប់ការទូទាត់តាមកូដ QR (KHQR integration for QR payments)
+□ ភ្ជាប់សមាហរណកម្មជាមួយប្រព័ន្ធបាគង សម្រាប់ការផ្ទេរប្រាក់អន្តរធនាគារ (Bakong integration for interbank transfers)
+□ ធ្វើ KYC សម្រាប់អ្នកប្រើប្រាស់ទាំងអស់ — ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណប័ណ្ណផ្លូវការ (KYC for all users — government ID verification)
+□ ធ្វើការវាយតម្លៃ EDD សម្រាប់បុគ្គល PEPs និងប្រតិបត្តិការ > ១០,០០០ ដុល្លារ (EDD for PEPs and transactions > $10,000)
+□ រាយការណ៍ប្រតិបត្តិការសាច់ប្រាក់ > ១០,០០០ ដុល្លារ ទៅកាន់ FIU នៃធនាគារជាតិ (Cash transaction reports to NBC FIU > $10,000)
+□ ដាក់របាយការណ៍ STR ក្នុងរយៈពេល ២ ថ្ងៃនៃថ្ងៃធ្វើការបន្ទាប់ពីរកឃើញ (STR filing within 2 working days of detection)
+□ រក្សាទុកកំណត់ត្រាក្នុងរយៈពេល ១០ ឆ្នាំ (10-year record retention)
+□ ការរក្សាទុកទិន្នន័យក្នុងស្រុក — រក្សាទុកទិន្នន័យហិរញ្ញវត្ថុនៅក្នុងប្រទេសកម្ពុជា (Data localisation — store financial data in Cambodia)
+□ រៀបចំបទប្បញ្ញត្តិ និងលក្ខខណ្ឌប្រើប្រាស់ជាភាសាខ្មែរ (Khmer language terms and conditions)
+□ ចាត់តាំងមន្ត្រីអនុលោមភាព AML ជាក់លាក់ (Designated AML compliance officer)
+□ ការបណ្តុះបណ្តាលប្រព័ន្ធ AML ប្រចាំឆ្នាំ (Annual AML training)
 
 ---
 
-## Related
+<a id="10"></a>
+## ឯកសារទាក់ទង (Related)
 
-- [AML/CFT](./03-aml-cft.md)
-- [KYC/KYB Fundamentals](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
-- [Regional: Cambodia Overview](../regional/01-cambodia-overview.md)
-- [Platform Revenue & Provider Payout](../../procedures/payments-and-revenue/02-platform-revenue-and-provider-payout.md)
+- [AML/CFT](./03-aml-cft.md) — ការប្រឆាំងការលាងលុយកខ្វក់ និងការទប់ស្កាត់ហិរញ្ញប្បទានភេរវកម្ម។
+- [មូលដ្ឋានគ្រឹះនៃ KYC/KYB](../identity-and-kyc/01-kyc-kyb-fundamentals.md) — មូលដ្ឋានគ្រឹះសម្រាប់ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ។
+- [ទិដ្ឋភាពទូទៅក្នុងតំបន់៖ ប្រទេសកម្ពុជា](../regional/01-cambodia-overview.md) — បរិបទ និងបទប្បញ្ញត្តិទូទៅនៅក្នុងប្រទេសកម្ពុជា។
+- [ប្រាក់ចំណូលរបស់វេទិកា និងការទូទាត់ប្រាក់ឱ្យអ្នកផ្តល់សេវា (Platform Revenue & Provider Payout)](../../procedures/payments-and-revenue/02-platform-revenue-and-provider-payout.md) — នីតិវិធីទូទាត់ប្រាក់ និងការគ្រប់គ្រងចំណូល។

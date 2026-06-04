@@ -1,104 +1,142 @@
-# Philippines — Compliance Overview for Digital Platforms
+# ប្រទេសហ្វីលីពីន៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់សម្រាប់កម្មវិធីឌីជីថល (Philippines: Compliance Overview for Digital Platforms)
 
 **Tags:** #compliance #philippines #dpa #bsp #amla #southeast-asia
 
 ---
 
-## Summary
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)](#1)
+- [២. ការការពារទិន្នន័យ — ច្បាប់ឯកជនភាពទិន្នន័យ (២០១២) (Data Protection — Data Privacy Act (2012))](#2)
+- [៣. សេវាទូទាត់ប្រាក់ — ធនាគារកណ្តាលហ្វីលីពីន (Payment Services — BSP)](#3)
+- [៤. ការប្រឆាំងការលាងលុយកខ្វក់ — ក្រុមប្រឹក្សា AMLC (AML/CFT — AMLC)](#4)
+- [៥. ទីផ្សារផ្ទេរប្រាក់ពីក្រៅប្រទេស (Remittance Market)](#5)
+- [៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)](#6)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#7)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+ប្រទេសហ្វីលីពីនមានក្របខ័ណ្ឌការពារទិន្នន័យដែលបានបង្កើតឡើងយ៉ាងល្អ (ច្បាប់ឯកជនភាពទិន្នន័យឆ្នាំ ២០១២) ធនាគារកណ្តាល (BSP) ប្រកបដោយភាពបុរេសកម្មជាមួយរបៀបវារៈបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech) និងក្របខ័ណ្ឌប្រឆាំងការលាងលុយកខ្វក់ដ៏រឹងមាំដែលអនុវត្តដោយ AMLC។ ប្រទេសហ្វីលីពីនមានទីផ្សារផ្ទេរប្រាក់ពីក្រៅប្រទេសរបស់ប្រជាពលរដ្ឋហ្វីលីពីនដ៏ធំ ដែលធ្វើឱ្យការអនុលោមតាមច្បាប់នៃការទូទាត់ឆ្លងដែនមានសារៈសំខាន់ជាពិសេស។
 
 The Philippines has a well-established data protection framework (Data Privacy Act 2012), a proactive central bank (BSP) with an active fintech agenda, and a strong AML framework enforced by AMLC. The Philippines has a large diaspora remittance market, making cross-border payment compliance especially important.
 
 ---
 
-## Key Regulators
+<a id="1"></a>
+## ១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)
 
-| Regulator | Acronym | Jurisdiction |
-|:----------|:--------|:-------------|
-| National Privacy Commission | NPC | Data Privacy Act enforcement |
-| Bangko Sentral ng Pilipinas | BSP | Banking, payments, e-money, fintech |
-| Anti-Money Laundering Council | AMLC | AML/CFT enforcement |
-| Department of Health | DOH | Healthcare regulation |
-| Food and Drug Administration | FDA (PH) | Pharmaceuticals, medical devices |
-| Securities and Exchange Commission | SEC | Corporate registration, securities |
+| ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | អក្សរកាត់<br/>(Acronym) | សមត្ថកិច្ចអនុវត្តច្បាប់<br/>(Jurisdiction) |
+|:---|:---|:---|
+| គណៈកម្មការឯកជនភាពជាតិ<br/>National Privacy Commission | NPC | ការអនុវត្តច្បាប់ឯកជនភាពទិន្នន័យ<br/>Data Privacy Act enforcement |
+| ធនាគារកណ្តាលហ្វីលីពីន<br/>Bangko Sentral ng Pilipinas | BSP | វិស័យធនាគារ ការទូទាត់ប្រាក់ លុយអេឡិចត្រូនិក និងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)<br/>Banking, payments, e-money, fintech |
+| ក្រុមប្រឹក្សាប្រឆាំងការលាងលុយកខ្វក់<br/>Anti-Money Laundering Council | AMLC | ការអនុវត្តច្បាប់ប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម (AML/CFT)<br/>AML/CFT enforcement |
+| ក្រសួងសុខាភិបាល<br/>Department of Health | DOH | បទប្បញ្ញត្តិសុខាភិបាល<br/>Healthcare regulation |
+| រដ្ឋបាលឱសថ និងចំណីអាហារ<br/>Food and Drug Administration | FDA (PH) | វិស័យឱសថ និងឧបករណ៍វេជ្ជសាស្ត្រ<br/>Pharmaceuticals, medical devices |
+| គណៈកម្មការមូលបត្រ និងការដោះដូរពាណិជ្ជកម្ម<br/>Securities and Exchange Commission | SEC | ការចុះបញ្ជីសាជីវកម្ម និងមូលបត្រ<br/>Corporate registration, securities |
 
 ---
 
-## Data Protection — Data Privacy Act (2012)
+<a id="2"></a>
+## ២. ការការពារទិន្នន័យ — ច្បាប់ឯកជនភាពទិន្នន័យ (២០១២) (Data Protection — Data Privacy Act (2012))
 
+ប្រទេសហ្វីលីពីនរបស់ DPA (ច្បាប់សាធារណៈលេខ ១០១៧៣) គឺជាច្បាប់ការពារទិន្នន័យគ្រប់ជ្រុងជ្រោយដំបូងគេមួយនៅក្នុងតំបន់អាស៊ីអាគ្នេយ៍។
 The Philippines' DPA (Republic Act 10173) was one of the earlier comprehensive data protection laws in Southeast Asia.
 
-| Requirement | Detail |
-|:------------|:-------|
-| Scope | All organisations that process personal information of Filipino citizens |
-| Legal basis | Consent, contract, legal obligation, vital interest, public order, legitimate purpose |
-| Sensitive personal information | Health, genetic, biometric, sex life, criminal records, government ID |
-| Data subject rights | Access, correction, erasure, objection, portability (forthcoming) |
-| DPO | Required — must be registered with NPC |
-| Breach notification | Within 72 hours to NPC; notify individuals if high risk |
-| Max penalty | Up to PHP 5 million + up to 6 years imprisonment per violation |
+| តម្រូវការ<br/>(Requirement) | ព័ត៌មានលម្អិត<br/>(Detail) |
+|:---|:---|
+| វិសាលភាព<br/>Scope | គ្រប់ស្ថាប័នទាំងអស់ដែលដំណើរការព័ត៌មានផ្ទាល់ខ្លួនរបស់ប្រជាពលរដ្ឋហ្វីលីពីន<br/>All organisations that process personal information of Filipino citizens |
+| មូលដ្ឋានច្បាប់<br/>Legal basis | ការយល់ព្រម កិច្ចសន្យា កាតព្វកិច្ចច្បាប់ ផលប្រយោជន៍សំខាន់ៗ សណ្តាប់ធ្នាប់សាធារណៈ និងគោលបំណងស្របច្បាប់<br/>Consent, contract, legal obligation, vital interest, public order, legitimate purpose |
+| ព័ត៌មានផ្ទាល់ខ្លួនរសើប<br/>Sensitive personal information | ព័ត៌មានសុខភាព ហ្សែន ជីវមាត្រ ជីវិតផ្លូវភេទ ប្រវត្តិព្រហ្មទណ្ឌ និងអត្តសញ្ញាណប័ណ្ណរដ្ឋាភិបាល<br/>Health, genetic, biometric, sex life, criminal records, government ID |
+| សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ<br/>Data subject rights | សិទ្ធិចូលមើល កែតម្រូវ លុបចោល ការជំទាស់ និងការផ្ទេរទិន្នន័យ (នាពេលខាងមុខ)<br/>Access, correction, erasure, objection, portability (forthcoming) |
+| មន្ត្រីការពារទិន្នន័យ (DPO)<br/>DPO | តម្រូវឱ្យមាន — ត្រូវតែចុះបញ្ជីជាមួយ NPC<br/>Required — must be registered with NPC |
+| ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ<br/>Breach notification | ក្នុងរយៈពេល ៧២ ម៉ោងទៅកាន់ NPC និងជូនដំណឹងដល់បុគ្គលប្រសិនបើមានហានិភ័យខ្ពស់<br/>Within 72 hours to NPC; notify individuals if high risk |
+| ទណ្ឌកម្មអតិបរមា<br/>Max penalty | ការពិន័យជាប្រាក់រហូតដល់ ៥ លានភេសូ + ជាប់ពន្ធនាគាររហូតដល់ ៦ ឆ្នាំក្នុងមួយករណីល្មើស<br/>Up to PHP 5 million + up to 6 years imprisonment per violation |
 
 ---
 
-## Payment Services — BSP
+<a id="3"></a>
+## ៣. សេវាទូទាត់ប្រាក់ — ធនាគារកណ្តាលហ្វីលីពីន (Payment Services — BSP)
 
-| Service | Licence |
-|:--------|:--------|
-| E-money issuer | BSP registration/licence |
-| Payment system operator | BSP licence |
-| Virtual asset service provider | BSP VASP registration |
-| Remittance | BSP licence |
+| សេវាកម្ម<br/>(Service) | អាជ្ញាប័ណ្ណ<br/>(Licence) |
+|:---|:---|
+| អ្នកបោះផ្សាយលុយអេឡិចត្រូនិក<br/>E-money issuer | ការចុះបញ្ជី / អាជ្ញាប័ណ្ណពី BSP<br/>BSP registration/licence |
+| ប្រតិបត្តិករប្រព័ន្ធទូទាត់<br/>Payment system operator | អាជ្ញាប័ណ្ណពី BSP<br/>BSP licence |
+| អ្នកផ្តល់សេវាទ្រព្យសកម្មនិម្មិត<br/>Virtual asset service provider | ការចុះបញ្ជី VASP ជាមួយ BSP<br/>BSP VASP registration |
+| សេវាផ្ទេរប្រាក់<br/>Remittance | អាជ្ញាប័ណ្ណពី BSP<br/>BSP licence |
 
+**InstaPay និង PESONet** — គឺជាប្រព័ន្ធទូទាត់ថ្នាក់ជាតិរបស់ BSP សម្រាប់ការផ្ទេរប្រាក់ភ្លាមៗ និងជាបាច់។
 **InstaPay and PESONet** — BSP's national payment systems for real-time and batch transfers.
 
+**GCash** និង **Maya (PayMaya)** គឺជាកាបូបលុយអេឡិចត្រូនិកឈានមុខគេ ដែលដំណើរការក្រោមអាជ្ញាប័ណ្ណរបស់ BSP។
 **GCash** and **Maya (PayMaya)** are the dominant e-wallets, operated under BSP licence.
 
 ---
 
-## AML/CFT — AMLC
+<a id="4"></a>
+## ៤. ការប្រឆាំងការលាងលុយកខ្វក់ — ក្រុមប្រឹក្សា AMLC (AML/CFT — AMLC)
 
+នៅក្រោមច្បាប់ប្រឆាំងការលាងលុយកខ្វក់ (AMLA, RA 9160 + វិសោធនកម្ម)៖
 Under the Anti-Money Laundering Act (AMLA, RA 9160 + amendments):
 
-| Obligation | Requirement |
-|:-----------|:------------|
-| KYC | Mandatory for all covered persons |
-| EDD | For PEPs, high-risk customers, large transactions |
-| CTR (Cash Transaction Report) | PHP 500,000+ cash transactions |
-| STR filing | AMLC — within 5 working days |
-| Record retention | 5 years |
-| Covered transactions | Include remittances, e-money, real estate, casinos |
+| កាតព្វកិច្ច<br/>(Obligation) | តម្រូវការ<br/>(Requirement) |
+|:---|:---|
+| ការស្គាល់អត្តសញ្ញាណអតិថិជន (KYC)<br/>KYC | ជាកាតព្វកិច្ចសម្រាប់បុគ្គលជាប់កាតព្វកិច្ចទាំងអស់<br/>Mandatory for all covered persons |
+| ការត្រួតពិនិត្យបន្ថែម (EDD)<br/>EDD | សម្រាប់បុគ្គល PEPs អតិថិជនដែលមានហានិភ័យខ្ពស់ និងប្រតិបត្តិការធំៗ<br/>For PEPs, high-risk customers, large transactions |
+| របាយការណ៍ CTR<br/>CTR (Cash Transaction Report) | ប្រតិបត្តិការសាច់ប្រាក់ចាប់ពី ៥០០,០០០ ភេសូឡើងទៅ<br/>PHP 500,000+ cash transactions |
+| ការដាក់របាយការណ៍ STR<br/>STR filing | រាយការណ៍ទៅ AMLC — ក្នុងរយៈពេល ៥ ថ្ងៃធ្វើការ<br/>AMLC — within 5 working days |
+| ការរក្សាទុកឯកសារ<br/>Record retention | ៥ ឆ្នាំ<br/>5 years |
+| ប្រតិបត្តិការជាប់កាតព្វកិច្ច<br/>Covered transactions | រួមមាន ការផ្ទេរប្រាក់ លុយអេឡិចត្រូនិក អចលនទ្រព្យ និងកាស៊ីណូ<br/>Include remittances, e-money, real estate, casinos |
 
+ប្រទេសហ្វីលីពីនមានភាពលេចធ្លោត្រង់ការដាក់បញ្ចូល **កាស៊ីណូ** ជាបុគ្គលជាប់កាតព្វកិច្ចក្រោមច្បាប់ AMLា — បន្ទាប់ពីការលួចលុយពីធនាគារកណ្តាលបង់ក្លាដែសក្នុងឆ្នាំ ២០១៦ ដែលមូលនិធិនោះត្រូវបានលាងសម្អាតតាមរយៈកាស៊ីណូនានាក្នុងទីក្រុងម៉ានីល។
 Philippines is notable for including **casinos** as covered persons under AMLA — following the 2016 Bangladesh Bank heist where funds were laundered through Manila casinos.
 
 ---
 
-## Remittance Market
+<a id="5"></a>
+## ៥. ទីផ្សារផ្ទេរប្រាក់ពីក្រៅប្រទេស (Remittance Market)
 
+ប្រទេសហ្វីលីពីនទទួលបានសមាមាត្រផ្ទេរប្រាក់ធៀបនឹង GDP ខ្ពស់បំផុតនៅអាស៊ីអាគ្នេយ៍ (~៩% នៃ GDP)។ តម្រូវការបទប្បញ្ញត្តិសំខាន់ៗសម្រាប់កម្មវិធីផ្ទេរប្រាក់រួមមាន៖
 The Philippines receives the highest remittance-to-GDP ratio in Southeast Asia (~9% of GDP). Key regulatory requirements for remittance platforms:
 
-- BSP licence as a Remittance and Transfer Company (RTC)
-- AMLC registration
-- Beneficiary verification
-- Travel Rule for transfers above thresholds
-- Correspondent bank agreements
+* អាជ្ញាប័ណ្ណពី BSP ជាក្រុមហ៊ុនផ្ទេរប្រាក់ (RTC)
+* BSP licence as a Remittance and Transfer Company (RTC)
+* ការចុះបញ្ជីជាមួយ AMLC
+* AMLC registration
+* ការផ្ទៀងផ្ទាត់អ្នកទទួលផល
+* Beneficiary verification
+* វិធានការផ្ទេរព័ត៌មាន (Travel Rule) សម្រាប់ការផ្ទេរប្រាក់លើសកម្រិតកំណត់
+* Travel Rule for transfers above thresholds
+* កិច្ចព្រមព្រៀងជាមួយធនាគារឆ្លើយឆ្លង
+* Correspondent bank agreements
 
 ---
 
-## Healthcare Regulations
+<a id="6"></a>
+## ៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)
 
-| Requirement | Regulator |
-|:------------|:----------|
-| Hospital licensing | DOH |
-| Doctor registration | Professional Regulation Commission (PRC) |
-| Telemedicine | DOH Department Order 2021 (formal framework) |
-| Medical device registration | FDA Philippines |
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|
+| អាជ្ញាប័ណ្ណមន្ទីរពេទ្យ<br/>Hospital licensing | ក្រសួងសុខាភិបាល (DOH)<br/>DOH |
+| ការចុះបញ្ជីគ្រូពេទ្យ<br/>Doctor registration | គណៈកម្មការរៀបចំបទប្បញ្ញត្តិវិជ្ជាជីវៈ (PRC)<br/>Professional Regulation Commission (PRC) |
+| ទូរវេជ្ជសាស្ត្រ (Telemedicine)<br/>Telemedicine | បទបញ្ជាក្រសួងសុខាភិបាលឆ្នាំ ២០២១ (ក្របខ័ណ្ឌផ្លូវការ)<br/>DOH Department Order 2021 (formal framework) |
+| ការចុះបញ្ជីឧបករណ៍វេជ្ជសាស្ត្រ<br/>Medical device registration | រដ្ឋបាលឱសថ និងចំណីអាហារហ្វីលីពីន<br/>FDA Philippines |
 
+ប្រទេសហ្វីលីពីនមានក្របខ័ណ្ឌទូរវេជ្ជសាស្ត្រក្រោមបទបញ្ជាក្រសួងសុខាភិបាលលេខ 2021-0017។
 Philippines has a telemedicine framework under DOH Department Order 2021-0017.
 
 ---
 
-## Related
+<a id="7"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
+- [ម៉ាទ្រីសប្រៀបធៀបច្បាប់ឯកជនភាពទិន្នន័យ](../data-privacy/07-comparison-matrix.md)
 - [Data Privacy Comparison Matrix](../data-privacy/07-comparison-matrix.md)
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
+- [អនុសាសន៍របស់ FATF](../identity-and-kyc/03-fatf-recommendations.md)
 - [FATF Recommendations](../identity-and-kyc/03-fatf-recommendations.md)
+- [ការត្រួតពិនិត្យទណ្ឌកម្ម](../identity-and-kyc/04-sanctions-screening.md)
 - [Sanctions Screening](../identity-and-kyc/04-sanctions-screening.md)

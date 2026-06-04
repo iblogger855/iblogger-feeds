@@ -1,294 +1,425 @@
-# USA Regional Compliance Overview
+# សហរដ្ឋអាមេរិក៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់ថ្នាក់តំបន់ (USA: Regional Compliance Overview)
 
-**Region:** United States of America  
+**តំបន់ (Region)៖** សហរដ្ឋអាមេរិក (United States of America)  
 **Tags:** #compliance #usa #hipaa #glba #sox #ccpa #ftc #sec #fintech
 
 ---
 
-## Overview
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. ច្បាប់សហព័ន្ធតាមវិស័យនីមួយៗ (Federal Sector Laws)](#1)
+  - [ច្បាប់ HIPAA (HIPAA — Health Insurance Portability and Accountability Act)](#2)
+  - [ច្បាប់ GLBA (GLBA — Gramm-Leach-Bliley Act)](#3)
+  - [ច្បាប់ SOX (SOX — Sarbanes-Oxley Act)](#4)
+  - [ច្បាប់ COPPA (COPPA — Children's Online Privacy Protection Act)](#5)
+  - [ច្បាប់ FERPA (FERPA — Family Educational Rights and Privacy Act)](#6)
+- [២. ច្បាប់កម្រិតរដ្ឋ (State Laws)](#7)
+  - [រដ្ឋកាលីហ្វ័រញ៉ា — CCPA / CPRA (California — CCPA / CPRA)](#8)
+  - [បណ្តាញច្បាប់ឯកជនភាពកម្រិតរដ្ឋ (State Privacy Law Patchwork)](#9)
+- [៣. គណៈកម្មការពាណិជ្ជកម្មសហព័ន្ធ (FTC) (Federal Trade Commission (FTC))](#10)
+  - [មាត្រា ៥ នៃច្បាប់ FTC — ការអនុវត្តមិនស្មោះត្រង់ ឬបោកប្រាស់ (FTC Act Section 5 — Unfair or Deceptive Practices)](#11)
+  - [វិធានការរាយការណ៍ការលេចធ្លាយសុខភាពរបស់ FTC (FTC Health Breach Notification Rule)](#12)
+- [៤. វិស័យហិរញ្ញវត្ថុ (Financial Sector)](#13)
+  - [គណៈកម្មការមូលបត្រ (SEC) (SEC — Securities and Exchange Commission)](#14)
+  - [បណ្តាញអនុវត្តច្បាប់ឧក្រិដ្ឋកម្មហិរញ្ញវត្ថុ (FinCEN) (FinCEN — Financial Crimes Enforcement Network)](#15)
+- [៥. ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ (Data Breach Notification)](#16)
+- [៦. ឧបករណ៍អនុលោមតាមច្បាប់របស់សហរដ្ឋអាមេរិកតាមប្រភេទកម្មវិធី (US Compliance Stack by Platform Type)](#17)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#18)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+សហរដ្ឋអាមេរិកមិនមានច្បាប់ការពារទិន្នន័យសហព័ន្ធគ្រប់ជ្រុងជ្រោយតែមួយ (ដូចជាច្បាប់ GDPR) ឡើយ។ ផ្ទុយទៅវិញ ការអនុលោមតាមច្បាប់ត្រូវបានបែងចែកជា៖
+១. ច្បាប់សហព័ន្ធជាក់លាក់តាមវិស័យ — HIPAA (សុខាភិបាល), GLBA (ហិរញ្ញវត្ថុ), COPPA (កុមារ), FERPA (អប់រំ)
+២. ទីភ្នាក់ងារសហព័ន្ធអន្តរវិស័យ — FTC (ការការពារអ្នកប្រើប្រាស់), FCC (ទូរគមនាគមន៍)
+៣. ច្បាប់កម្រិតរដ្ឋ — រដ្ឋកាលីហ្វ័រញ៉ា (CCPA/CPRA), វីជីញ៉ា, កូឡូរ៉ាដូ, ខូនណិកធីខាត់ និងការបង្កើតច្បាប់ជាបន្តបន្ទាប់នៅតាមរដ្ឋផ្សេងទៀត។
 
 The US has no single comprehensive federal data protection law (unlike GDPR). Instead, compliance is:
+1. Sector-specific federal laws — HIPAA (healthcare), GLBA (finance), COPPA (children), FERPA (education)
+2. Cross-sector federal agencies — FTC (consumer protection), FCC (telecoms)
+3. State-level laws — California (CCPA/CPRA), Virginia, Colorado, Connecticut, and growing patchwork
 
-1. **Sector-specific federal laws** — HIPAA (healthcare), GLBA (finance), COPPA (children), FERPA (education)
-2. **Cross-sector federal agencies** — FTC (consumer protection), FCC (telecoms)
-3. **State-level laws** — California (CCPA/CPRA), Virginia, Colorado, Connecticut, and growing patchwork
-
+ចំណុចនេះបង្កើតបរិស្ថានអនុលោមតាមច្បាប់ដែលមានច្រើនស្រទាប់ និងស្មុគស្មាញ — កម្មវិធីឌីជីថលមួយអាចនឹងត្រូវអនុលោមតាម HIPAA, GLBA, CCPA និងច្បាប់កម្រិតរដ្ឋជាច្រើនក្នុងពេលតែមួយ។
 This creates a complex multi-layer compliance environment — a platform may need to comply with HIPAA, GLBA, CCPA, and multiple state laws simultaneously.
 
 ---
 
-## Federal Sector Laws
+<a id="1"></a>
+## ១. ច្បាប់សហព័ន្ធតាមវិស័យនីមួយៗ (Federal Sector Laws)
 
-### HIPAA — Health Insurance Portability and Accountability Act
+<a id="2"></a>
+### ច្បាប់ HIPAA (HIPAA — Health Insurance Portability and Accountability Act)
 
+គ្របដណ្តប់ពេញលេញ៖ [HIPAA](../healthcare/01-hipaa.md)  
 Full coverage: [HIPAA](../healthcare/01-hipaa.md)
 
-```
-Applies to: Covered Entities (healthcare providers, health plans, clearinghouses)
-           + Business Associates (any vendor processing PHI on their behalf)
+* អនុវត្តចំពោះ៖ អង្គភាពគ្របដណ្តប់ (Covered Entities - អ្នកផ្តល់សេវាសុខាភិបាល គម្រោងសុខភាព ស្ថាប័នទូទាត់ប្រាក់) + ដៃគូអាជីវកម្ម (Business Associates - អ្នកលក់/ដៃគូណាដែលដំណើរការ PHI ក្នុងនាមអង្គភាពទាំងនោះ)
+* Applies to: Covered Entities (healthcare providers, health plans, clearinghouses) + Business Associates (any vendor processing PHI on their behalf)
+* វិធានការសំខាន់ៗ៖
+  * វិធានឯកជនភាព (Privacy Rule) — អត្តសញ្ញាណ PHI ចំនួន ១៨ ប្រភេទ ការប្រើប្រាស់ និងការលាតត្រដាងដែលត្រូវបានអនុញ្ញាត និងសិទ្ធិរបស់អ្នកជំងឺ
+  * Privacy Rule — 18 PHI identifiers, permitted uses and disclosures, patient rights
+  * វិធានសន្តិសុខ (Security Rule) — វិធានការការពាររដ្ឋបាល រូបវន្ត និងបច្ចេកទេសសម្រាប់ ePHI
+  * Security Rule — administrative, physical, technical safeguards for ePHI
+  * វិធានរាយការណ៍ការលេចធ្លាយ (Breach Notification Rule) — រយៈពេល ៦០ ថ្ងៃដើម្បីជូនដំណឹងដល់ HHS + បុគ្គលរងផលប៉ះពាល់
+  * Breach Notification Rule — 60 days to notify HHS + affected individuals
+  * កិច្ចព្រមព្រៀងដៃគូអាជីវកម្ម (BAA) — ជាកាតព្វកិច្ចមុនពេលចែករំលែក PHI ជាមួយអ្នកលក់/ដៃគូ
+  * Business Associate Agreements — mandatory before sharing PHI with vendors
 
-Key rules:
-□ Privacy Rule — 18 PHI identifiers, permitted uses and disclosures, patient rights
-□ Security Rule — administrative, physical, technical safeguards for ePHI
-□ Breach Notification Rule — 60 days to notify HHS + affected individuals
-□ Business Associate Agreements — mandatory before sharing PHI with vendors
-```
+<a id="3"></a>
+### ច្បាប់ GLBA (GLBA — Gramm-Leach-Bliley Act)
 
-### GLBA — Gramm-Leach-Bliley Act
-
+**អនុវត្តចំពោះ៖** ស្ថាប័នហិរញ្ញវត្ថុ — ធនាគារ ក្រុមហ៊ុនធានារ៉ាប់រង ក្រុមហ៊ុនវិនិយោគ និងក្រុមហ៊ុនណាដែលផ្តល់ផលិតផល ឬសេវាកម្មហិរញ្ញវត្ថុ  
 **Applies to:** Financial institutions — banks, insurance companies, investment firms, and any company that offers financial products or services
 
-#### Safeguards Rule (FTC-enforced)
+#### វិធានសន្តិសុខព័ត៌មាន (Safeguards Rule) (អនុវត្តដោយ FTC)
 
-```
-Mandatory information security programme:
-□ Designate qualified individual responsible for security programme
-□ Risk assessment — identify internal and external risks
-□ Implement security controls to address identified risks:
-   □ Encryption — in transit and at rest for customer financial information
-   □ Access controls — limit access by need
-   □ Multi-factor authentication — for any individual accessing customer information
-   □ Penetration testing — annual
-   □ Vulnerability assessment — continuous
-□ Oversee service providers — contracts requiring safeguards
-□ Incident response plan — tested annually
-□ Report to Board annually
-```
+* កម្មវិធីសន្តិសុខព័ត៌មានជាកាតព្វកិច្ច៖
+* Mandatory information security programme:
+  * ចាត់តាំងបុគ្គលដែលមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់ទទួលខុសត្រូវលើកម្មវិធីសន្តិសុខ
+  * Designate qualified individual responsible for security programme
+  * ការវាយតម្លៃហានិភ័យ — កំណត់ហានិភ័យផ្ទៃក្នុង និងខាងក្រៅ
+  * Risk assessment — identify internal and external risks
+  * អនុវត្តការត្រួតពិនិត្យសន្តិសុខដើម្បីដោះស្រាយហានិភ័យដែលបានកំណត់៖
+    * ការកូដនីយកម្ម (Encryption) — ទាំងពេលបញ្ជូន និងពេលរក្សាទុកសម្រាប់ព័ត៌មានហិរញ្ញវត្ថុអតិថិជន
+    * Encryption — in transit and at rest for customer financial information
+    * ការត្រួតពិនិត្យការចូលប្រើប្រាស់ — កម្រិតការចូលប្រើប្រាស់ត្រឹមតម្រូវការចាំបាច់
+    * Access controls — limit access by need
+    * ការផ្ទៀងផ្ទាត់កត្តាច្រើន (MFA) — សម្រាប់បុគ្គលណាដែលចូលប្រើព័ត៌មានអតិថិជន
+    * Multi-factor authentication — for any individual accessing customer information
+    * ការធ្វើតេស្តជ្រៀតចូល (Penetration testing) — ប្រចាំឆ្នាំ
+    * Penetration testing — annual
+    * ការវាយតម្លៃភាពងាយរងគ្រោះ — ជាប្រចាំ
+    * Vulnerability assessment — continuous
+  * ត្រួតពិនិត្យអ្នកផ្តល់សេវា — កិច្ចសន្យាដែលតម្រូវឱ្យមានវិធានការការពារព័ត៌មាន
+  * Oversee service providers — contracts requiring safeguards
+  * ផែនការឆ្លើយតបនឹងឧប្បត្តិហេតុ — ធ្វើតេស្តសាកល្បងប្រចាំឆ្នាំ
+  * Incident response plan — tested annually
+  * រាយការណ៍ជូនក្រុមប្រឹក្សាភិបាលប្រចាំឆ្នាំ
+  * Report to Board annually
 
-#### Privacy Notice
+#### សេចក្តីជូនដំណឹងអំពីឯកជនភាព (Privacy Notice)
 
-```
-□ Annual privacy notice to customers
-□ Opt-out right for sharing with non-affiliated third parties
-□ Clear disclosure of data sharing practices
-```
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាពប្រចាំឆ្នាំជូនដល់អតិថិជន
+* Annual privacy notice to customers
+* សិទ្ធិបដិសេធ (Opt-out) សម្រាប់ការចែករំលែកទិន្នន័យជាមួយភាគីទីបីដែលមិនពាក់ព័ន្ធ
+* Opt-out right for sharing with non-affiliated third parties
+* ការលាតត្រដាងច្បាស់លាស់អំពីការអនុវត្តចែករំលែកទិន្នន័យ
+* Clear disclosure of data sharing practices
 
-#### Penalties
+#### ទោសទណ្ឌ (Penalties)
 
-| Violation | Maximum |
-|:----------|:--------|
-| Per violation | $100K |
-| Officers/directors personal liability | $10K + imprisonment |
-| FTC enforcement action | Consent decrees, unlimited civil penalties |
+| ករណីល្មើស<br/>(Violation) | ទណ្ឌកម្មអតិបរមា<br/>(Maximum) |
+|:---|:---|
+| ក្នុងមួយករណីល្មើស<br/>Per violation | ១០០,០០០ ដុល្លារអាមេរិក<br/>$100K |
+| ទំនួលខុសត្រូវផ្ទាល់ខ្លួនរបស់មន្ត្រី/នាយក<br/>Officers/directors personal liability | ១០,០០០ ដុល្លារ + ជាប់ពន្ធនាគារ<br/>$10K + imprisonment |
+| សកម្មភាពអនុវត្តច្បាប់របស់ FTC<br/>FTC enforcement action | កិច្ចព្រមព្រៀងដំណោះស្រាយ (Consent decrees), ពិន័យរដ្ឋប្បវេណីគ្មានដែនកំណត់<br/>Consent decrees, unlimited civil penalties |
 
----
+<a id="4"></a>
+### ច្បាប់ SOX (SOX — Sarbanes-Oxley Act)
 
-### SOX — Sarbanes-Oxley Act
-
+**អនុវត្តចំពោះ៖** ក្រុមហ៊ុនសាធារណៈ (ដែលចុះបញ្ជីជាមួយ SEC) និងក្រុមហ៊ុនសវនកម្មរបស់ពួកគេ  
 **Applies to:** Public companies (SEC registrants) and their audit firms
 
-```
-IT-relevant requirements:
-□ Internal controls over financial reporting (ICFR) — IT general controls
-□ Section 302 — CEO/CFO certify quarterly financial report accuracy
-□ Section 404 — Annual management report on internal control effectiveness
-□ Change management controls — documented procedures for system changes
-□ Access controls — segregation of duties for financial systems
-□ Audit trail — tamper-proof logs for financial transactions
-□ Data retention — 7 years for financial records
-□ Whistleblower protection — internal reporting channels
-```
+* តម្រូវការទាក់ទងនឹងបច្ចេកវិទ្យាព័ត៌មាន (IT-relevant requirements)៖
+* IT-relevant requirements:
+  * ការត្រួតពិនិត្យផ្ទៃក្នុងលើរបាយការណ៍ហិរញ្ញវត្ថុ (ICFR) — ការត្រួតពិនិត្យទូទៅលើ IT
+  * Internal controls over financial reporting (ICFR) — IT general controls
+  * ផ្នែកទី ៣០២ — CEO/CFO បញ្ជាក់ពីភាពត្រឹមត្រូវនៃរបាយការណ៍ហិរញ្ញវត្ថុប្រចាំត្រីមាស
+  * Section 302 — CEO/CFO certify quarterly financial report accuracy
+  * ផ្នែកទី ៤០៤ — របាយការណ៍គ្រប់គ្រងប្រចាំឆ្នាំស្តីពីប្រសិទ្ធភាពនៃការត្រួតពិនិត្យផ្ទៃក្នុង
+  * Section 404 — Annual management report on internal control effectiveness
+  * ការត្រួតពិនិត្យការគ្រប់គ្រងការផ្លាស់ប្តូរ — នីតិវិធីជាឯកសារសម្រាប់ការផ្លាស់ប្តូរប្រព័ន្ធ
+  * Change management controls — documented procedures for system changes
+  * ការត្រួតពិនិត្យការចូលប្រើប្រាស់ — ការបែងចែកភារកិច្ចសម្រាប់ប្រព័ន្ធហិរញ្ញវត្ថុ
+  * Access controls — segregation of duties for financial systems
+  * ដានសវនកម្ម (Audit trail) — កំណត់ហេតុដែលមិនអាចកែប្រែបានសម្រាប់ប្រតិបត្តិការហិរញ្ញវត្ថុ
+  * Audit trail — tamper-proof logs for financial transactions
+  * ការរក្សាទុកទិន្នន័យ — រក្សាទុកកត់ត្រាហិរញ្ញវត្ថុរយៈពេល ៧ ឆ្នាំ
+  * Data retention — 7 years for financial records
+  * ការការពារអ្នករាយការណ៍តម្រុយ (Whistleblower) — ឆានែលរាយការណ៍ផ្ទៃក្នុង
+  * Whistleblower protection — internal reporting channels
 
----
+<a id="5"></a>
+### ច្បាប់ COPPA (COPPA — Children's Online Privacy Protection Act)
 
-### COPPA — Children's Online Privacy Protection Act
-
+**អនុវត្តចំពោះ៖** គេហទំព័រ និងសេវាកម្មអនឡាញដែលតម្រង់ទិសដៅទៅកាន់កុមារអាយុក្រោម ១៣ ឆ្នាំ (ឬដឹងច្បាស់ថាប្រមូលទិន្នន័យពីកុមារអាយុក្រោម ១៣ ឆ្នាំ)  
 **Applies to:** Websites and online services directed at children under 13 (or knowingly collecting data from under-13s)
 
-```
-Key requirements:
-□ Verifiable parental consent — before collecting ANY personal information from under-13
-□ Privacy notice — clear disclosure on homepage and at each point of data collection
-□ Limited data collection — only what's necessary for the child's activity
-□ No conditioning on disclosure — can't require more data than necessary
-□ Parental rights — access, review, correct, delete their child's information
-□ Data security — reasonable security practices
-□ No behavioural advertising — without verifiable parental consent
-□ Retention limitation — only as long as necessary for collection purpose
-```
+* តម្រូវការគន្លឹះ៖
+* Key requirements:
+  * ការយល់ព្រមពីមាតាបិតាដែលអាចផ្ទៀងផ្ទាត់បាន — មុនពេលប្រមូលព័ត៌មានផ្ទាល់ខ្លួនណាមួយពីកុមារក្រោម ១៣ ឆ្នាំ
+  * Verifiable parental consent — before collecting ANY personal information from under-13
+  * សេចក្តីជូនដំណឹងអំពីឯកជនភាព — ការបង្ហាញច្បាស់លាស់នៅលើទំព័រដើម និងនៅត្រង់ចំណុចប្រមូលទិន្នន័យនីមួយៗ
+  * Privacy notice — clear disclosure on homepage and at each point of data collection
+  * ការប្រមូលទិន្នន័យមានកំណត់ — ប្រមូលតែអ្វីដែលចាំបាច់សម្រាប់សកម្មភាពរបស់កុមារប៉ុណ្ណោះ
+  * Limited data collection — only what's necessary for the child's activity
+  * គ្មានការបង្ខំឱ្យលាតត្រដាង — មិនអាចទាមទារទិន្នន័យលើសពីតម្រូវការចាំបាច់ឡើយ
+  * No conditioning on disclosure — can't require more data than necessary
+  * សិទ្ធិរបស់មាតាបិតា — ចូលមើល ពិនិត្យ កែតម្រូវ និងលុបទិន្នន័យរបស់កូនៗរបស់ពួកគេ
+  * Parental rights — access, review, correct, delete their child's information
+  * សន្តិសុខទិន្នន័យ — ការអនុវត្តសន្តិសុខសមស្រប
+  * Data security — reasonable security practices
+  * គ្មានការផ្សព្វផ្សាយពាណិជ្ជកម្មតាមឥរិយាបថ — ដោយគ្មានការយល់ព្រមពីមាតាបិតាដែលអាចផ្ទៀងផ្ទាត់បាន
+  * No behavioural advertising — without verifiable parental consent
+  * ការកម្រិតរក្សាទុកទិន្នន័យ — រក្សាទុកត្រឹមកាលកំណត់ដែលចាំបាច់សម្រាប់គោលបំណងប្រមូល
+  * Retention limitation — only as long as necessary for collection purpose
 
+**ទោសទណ្ឌ៖** FTC អាចស្វែងរកការផាកពិន័យរហូតដល់ ៥១,៧៤៤ ដុល្លារក្នុងមួយករណីល្មើស។ អ្នកល្មើសដដែលៗធ្លាប់ប្រឈមនឹងការដោះស្រាយដំណោះស្រាយលើសពី ១៣៦ លានដុល្លារ។  
 **Penalties:** FTC can seek up to $51,744 per violation. Repeat violators have faced $136M+ settlements.
 
----
+<a id="6"></a>
+### ច្បាប់ FERPA (FERPA — Family Educational Rights and Privacy Act)
 
-### FERPA — Family Educational Rights and Privacy Act
-
+**អនុវត្តចំពោះ៖** ស្ថាប័នអប់រំដែលទទួលបានការផ្តល់មូលនិធិពីក្រសួងអប់រំសហរដ្ឋអាមេរិក  
 **Applies to:** Educational institutions receiving US Department of Education funding
 
-```
-Key requirements for EdTech platforms:
-□ School official exception — vendors must be under "direct control" of institution
-□ School Official Agreement — contract defining legitimate educational interest
-□ No disclosure to third parties without consent — or specific exception
-□ Student rights — access and amend education records (18+ or parent)
-□ Annual notification — of FERPA rights
-□ Data security — reasonable measures to protect education records
-```
+* តម្រូវការគន្លឹះសម្រាប់កម្មវិធី EdTech៖
+* Key requirements for EdTech platforms:
+  * ករណីលើកលែងមន្ត្រីសាលា — អ្នកលក់ត្រូវស្ថិតក្រោម «ការត្រួតពិនិត្យផ្ទាល់» ពីស្ថាប័នអប់រំ
+  * School official exception — vendors must be under "direct control" of institution
+  * កិច្ចព្រមព្រៀងមន្ត្រីសាលា — កិច្ចសន្យាកំណត់ផលប្រយោជន៍អប់រំស្របច្បាប់
+  * School Official Agreement — contract defining legitimate educational interest
+  * គ្មានការលាតត្រដាងទៅភាគីទីបីដោយគ្មានការយល់ព្រម — លើកលែងតែករណីជាក់លាក់
+  * No disclosure to third parties without consent — or specific exception
+  * សិទ្ធិរបស់សិស្ស — ចូលមើល និងកែប្រែប្រវត្តិកំណត់ត្រាអប់រំ (អាយុ ១៨+ ឬមាតាបិតា)
+  * Student rights — access and amend education records (18+ or parent)
+  * ការជូនដំណឹងប្រចាំឆ្នាំ — អំពីសិទ្ធិ FERPA
+  * Annual notification — of FERPA rights
+  * សន្តិសុខទិន្នន័យ — វិធានការសមស្របដើម្បីការពារកំណត់ត្រាអប់រំ
+  * Data security — reasonable measures to protect education records
 
 ---
 
-## State Laws
+<a id="7"></a>
+## ២. ច្បាប់កម្រិតរដ្ឋ (State Laws)
 
-### California — CCPA / CPRA
+<a id="8"></a>
+### រដ្ឋកាលីហ្វ័រញ៉ា — CCPA / CPRA (California — CCPA / CPRA)
 
+គ្របដណ្តប់ពេញលេញ៖ [CCPA](../data-privacy/02-ccpa.md)  
 Full coverage: [CCPA](../data-privacy/02-ccpa.md)
 
+ជាច្បាប់ឯកជនភាពកម្រិតរដ្ឋដែលមានឥទ្ធិពលបំផុតរបស់សហរដ្ឋអាមេរិក — ជាគំរូនៃការអនុវត្តដែលរដ្ឋផ្សេងទៀតដើរតាម។  
 The most influential US state privacy law — enforcement model others follow.
 
-```
-Applies to: Businesses meeting any of:
-□ Annual gross revenue > $25M
-□ Buy/sell/receive personal information of 100,000+ consumers/households
-□ Derive 50%+ of revenue from selling personal information
+* អនុវត្តចំពោះ៖ អាជីវកម្មដែលបំពេញតាមលក្ខខណ្ឌណាមួយខាងក្រោម៖
+* Applies to: Businesses meeting any of:
+  * ប្រាក់ចំណូលសរុបប្រចាំឆ្នាំ > ២៥ លានដុល្លារ
+  * Annual gross revenue > $25M
+  * ទិញ/លក់/ទទួលព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកប្រើប្រាស់/គ្រួសារចំនួន ១០០,០០០ នាក់ឡើងទៅ
+  * Buy/sell/receive personal information of 100,000+ consumers/households
+  * ទទួលបានប្រាក់ចំណូល ៥០% ឬច្រើនជាងនេះពីការលក់ព័ត៌មានផ្ទាល់ខ្លួន
+  * Derive 50%+ of revenue from selling personal information
+* សិទ្ធិសំខាន់ៗ៖
+* Key rights:
+  * ដឹង (Know) — ព័ត៌មានផ្ទាល់ខ្លួនណាខ្លះត្រូវបានប្រមូល និងរបៀបប្រើប្រាស់/ចែករំលែក
+  * Know — what personal information is collected and how it's used/shared
+  * លុប (Delete) — ស្នើសុំលុបទិន្នន័យ (មានករណីលើកលែង)
+  * Delete — request deletion (with exceptions)
+  * បដិសេធ (Opt-out) — នៃការលក់ ឬចែករំលែកព័ត៌មានផ្ទាល់ខ្លួន
+  * Opt-out — of sale or sharing of personal information
+  * ការមិនរើសអើង — សម្រាប់ការអនុវត្តសិទ្ធិរបស់ខ្លួន
+  * Non-discrimination — for exercising rights
+  * កែតម្រូវ (Correct) — ព័ត៌មានផ្ទាល់ខ្លួនដែលមិនត្រឹមត្រូវ (CPRA)
+  * Correct — inaccurate personal information (CPRA)
+  * កម្រិតការប្រើប្រាស់ព័ត៌មានរសើប — ត្រឹមគោលបំណងចាំបាច់ (CPRA)
+  * Limit use of sensitive personal information — to necessary purposes (CPRA)
 
-Key rights:
-□ Know — what personal information is collected and how it's used/shared
-□ Delete — request deletion (with exceptions)
-□ Opt-out — of sale or sharing of personal information
-□ Non-discrimination — for exercising rights
-□ Correct — inaccurate personal information (CPRA)
-□ Limit use of sensitive personal information — to necessary purposes (CPRA)
-```
+<a id="9"></a>
+### បណ្តាញច្បាប់ឯកជនភាពកម្រិតរដ្ឋ (State Privacy Law Patchwork)
 
-### State Privacy Law Patchwork
-
-| State | Law | In Force | Notable Feature |
-|:------|:----|:---------|:----------------|
-| California | CCPA/CPRA | 2020/2023 | Strongest; private right of action for data breaches |
-| Virginia | VCDPA | 2023 | Opt-out of sale and targeting, DPIAs required |
-| Colorado | CPA | 2023 | Universal opt-out mechanism required |
-| Connecticut | CTDPA | 2023 | No threshold — applies to 100K+ residents |
-| Texas | TDPSA | 2024 | No revenue threshold |
-| Florida | FDBR | 2024 | Applies to businesses > $1B revenue |
-| Washington | My Health MY Data | 2024 | Health data — applies broadly beyond HIPAA |
-| Nevada | SB 260 | 2021 | Sale of covered information — opt-out only |
-| New York | SHIELD Act | 2020 | Security requirements + breach notification |
+| រដ្ឋ<br/>(State) | ច្បាប់<br/>(Law) | ចូលជាធរមាន<br/>(In Force) | លក្ខណៈពិសេសគួរឱ្យកត់សម្គាល់<br/>(Notable Feature) |
+|:---|:---|:---|:---|
+| កាលីហ្វ័រញ៉ា<br/>California | CCPA/CPRA | 2020/2023 | ខ្លាំងបំផុត សិទ្ធិប្តឹងផ្តល់ឯកជនសម្រាប់ករណីលេចធ្លាយទិន្នន័យ<br/>Strongest; private right of action for data breaches |
+| វីជីញ៉ា<br/>Virginia | VCDPA | 2023 | បដិសេធការលក់ និងគោលដៅផ្សាយពាណិជ្ជកម្ម តម្រូវឱ្យមាន DPIAs<br/>Opt-out of sale and targeting, DPIAs required |
+| កូឡូរ៉ាដូ<br/>Colorado | CPA | 2023 | តម្រូវឱ្យមានយន្តការបដិសេធជាសកល<br/>Universal opt-out mechanism required |
+| ខូនណិកធីខាត់<br/>Connecticut | CTDPA | 2023 | គ្មានកម្រិតចំណូល — អនុវត្តចំពោះប្រជាពលរដ្ឋ ១០០,០០០ នាក់ឡើងទៅ<br/>No threshold — applies to 100K+ residents |
+| តិចសាស់<br/>Texas | TDPSA | 2024 | គ្មានកម្រិតចំណូលកំណត់ឡើយ<br/>No revenue threshold |
+| ផ្លរីដា<br/>Florida | FDBR | 2024 | អនុវត្តចំពោះអាជីវកម្មដែលមានចំណូល > ១ ប៊ីលានដុល្លារ<br/>Applies to businesses > $1B revenue |
+| វ៉ាស៊ីនតោន<br/>Washington | My Health My Data | 2024 | ទិន្នន័យសុខភាព — អនុវត្តយ៉ាងទូលំទូលាយហួសពីច្បាប់ HIPAA<br/>Health data — applies broadly beyond HIPAA |
+| ណេវ៉ាដា<br/>Nevada | SB 260 | 2021 | ការលក់ព័ត៌មានគ្របដណ្តប់ — ផ្អែកលើការបដិសេធតែប៉ុណ្ណោះ<br/>Sale of covered information — opt-out only |
+| ញូវយ៉ក<br/>New York | SHIELD Act | 2020 | តម្រូវការសន្តិសុខ + ការរាយការណ៍ការលេចធ្លាយ<br/>Security requirements + breach notification |
 
 ---
 
-## Federal Trade Commission (FTC)
+<a id="10"></a>
+## ៣. គណៈកម្មការពាណិជ្ជកម្មសហព័ន្ធ (FTC) (Federal Trade Commission (FTC))
 
+FTC គឺជាអាជ្ញាធរការពារទិន្នន័យជាក់ស្តែង (de facto) របស់សហរដ្ឋអាមេរិក សម្រាប់ការរំលោភបំពានដែលមិនជាក់លាក់តាមវិស័យ។  
 The FTC is the US's de facto data protection authority for non-sector-specific violations.
 
-### FTC Act Section 5 — Unfair or Deceptive Practices
+<a id="11"></a>
+### មាត្រា ៥ នៃច្បាប់ FTC — ការអនុវត្តមិនស្មោះត្រង់ ឬបោកប្រាស់ (FTC Act Section 5 — Unfair or Deceptive Practices)
 
-```
-FTC can act against:
-□ Privacy policy violations — collecting more than stated
-□ Inadequate security — "reasonable" security expected
-□ Broken promises — not delivering on privacy commitments
-□ Dark patterns — deceptive UI for data collection
-□ Surprise data practices — not disclosed at collection
+* FTC អាចចាត់វិធានការប្រឆាំងនឹង៖
+* FTC can act against:
+  * ការរំលោភលើគោលនយោបាយឯកជនភាព — ប្រមូលច្រើនជាងអ្វីដែលបានប្រកាស
+  * Privacy policy violations — collecting more than stated
+  * សន្តិសុខមិនគ្រប់គ្រាន់ — ត្រូវតែមានសន្តិសុខ «សមស្រប»
+  * Inadequate security — "reasonable" security expected
+  * ការមិនគោរពតាមសន្យា — មិនបានអនុវត្តតាមការប្តេជ្ញាចិត្តឯកជនភាព
+  * Broken promises — not delivering on privacy commitments
+  * គំរូមិនល្អ (Dark patterns) — ការរចនា UI បោកប្រាស់ដើម្បីប្រមូលទិន្នន័យ
+  * Dark patterns — deceptive UI for data collection
+  * ការអនុវត្តទិន្នន័យគួរឱ្យភ្ញាក់ផ្អើល — មិនបានលាតត្រដាងនៅពេលប្រមូល
+  * Surprise data practices — not disclosed at collection
+* ឧបករណ៍អនុវត្តច្បាប់របស់ FTC៖
+* FTC enforcement tools:
+  * កិច្ចព្រមព្រៀងដំណោះស្រាយ (Consent decrees) — សកម្មភាពកែតម្រូវដែលមានកាតព្វកិច្ច + ការត្រួតពិនិត្យបន្ត
+  * Consent decrees — binding corrective action + ongoing monitoring
+  * ការផាកពិន័យរដ្ឋប្បវេណី — រហូតដល់ ៥១,៧៤៤ ដុល្លារ/ថ្ងៃ សម្រាប់ករណីល្មើស
+  * Civil penalties — up to $51,744/day for violations
+  * ដំណោះស្រាយបញ្ឈប់ — តម្រូវឱ្យមានការផ្លាស់ប្តូរបច្ចេកទេស/ស្ថាប័នជាក់លាក់
+  * Injunctive relief — requiring specific technical/organisational changes
 
-FTC enforcement tools:
-□ Consent decrees — binding corrective action + ongoing monitoring
-□ Civil penalties — up to $51,744/day for violations
-□ Injunctive relief — requiring specific technical/organisational changes
-```
+<a id="12"></a>
+### វិធានការរាយការណ៍ការលេចធ្លាយសុខភាពរបស់ FTC (FTC Health Breach Notification Rule)
 
-### FTC Health Breach Notification Rule
-
-```
-Applies to: Health apps and connected devices NOT covered by HIPAA
-
-Requirements:
-□ Notify FTC within 60 days of breach discovery
-□ Notify affected consumers within 60 days
-□ >500 people: notify media in affected states
-□ "PHR identifiable health information" — defined broadly
-□ Rule updated 2023 — expanded scope to health apps (e.g. period trackers, fitness apps)
-```
+* អនុវត្តចំពោះ៖ កម្មវិធីសុខភាព និងឧបករណ៍តភ្ជាប់ដែលមិនគ្របដណ្តប់ដោយ HIPAA
+* Applies to: Health apps and connected devices NOT covered by HIPAA
+* តម្រូវការ៖
+* Requirements:
+  * ជូនដំណឹងដល់ FTC ក្នុងរយៈពេល ៦០ ថ្ងៃក្រោយរកឃើញការលេចធ្លាយ
+  * Notify FTC within 60 days of breach discovery
+  * ជូនដំណឹងដល់អ្នកប្រើប្រាស់ដែលរងផលប៉ះពាល់ក្នុងរយៈពេល ៦០ ថ្ងៃ
+  * Notify affected consumers within 60 days
+  * មនុស្សលើសពី ៥០០ នាក់៖ ត្រូវរាយការណ៍ប្រព័ន្ធផ្សព្វផ្សាយនៅក្នុងរដ្ឋដែលរងផលប៉ះពាល់
+  * >500 people: notify media in affected states
+  * «ព័ត៌មានសុខភាពដែលអាចកំណត់អត្តសញ្ញាណ PHR» — កំណត់ន័យយ៉ាងទូលំទូលាយ
+  * "PHR identifiable health information" — defined broadly
+  * វិធានការត្រូវបានធ្វើបច្ចុប្បន្នភាពក្នុងឆ្នាំ ២០២៣ — ពង្រីកវិសាលភាពទៅលើកម្មវិធីសុខភាព (ដូចជាកម្មវិធីតាមដានរដូវ កម្មវិធីហាត់ប្រាណ)
+  * Rule updated 2023 — expanded scope to health apps (e.g. period trackers, fitness apps)
 
 ---
 
-## Financial Sector
+<a id="13"></a>
+## ៤. វិស័យហិរញ្ញវត្ថុ (Financial Sector)
 
-### SEC — Securities and Exchange Commission
+<a id="14"></a>
+### គណៈកម្មការមូលបត្រ (SEC) (SEC — Securities and Exchange Commission)
 
+សម្រាប់ទីប្រឹក្សាវិនិយោគដែលបានចុះបញ្ជី ក្រុមហ៊ុនកណ្តាល និងក្រុមហ៊ុនសាធារណៈ៖  
 For registered investment advisers, broker-dealers, and public companies:
 
-```
-Key cybersecurity requirements (2023 rules):
-□ Material cybersecurity incident disclosure — Form 8-K within 4 business days
-□ Annual cybersecurity risk management disclosure — Form 10-K
-□ Board oversight disclosure — how board oversees cybersecurity risk
-□ Safeguards Rule — protecting customer information (Reg S-P update 2024)
-□ Record retention — electronic books and records (including messaging platforms)
-```
+* តម្រូវការសន្តិសុខសាយប័រគន្លឹះ (វិធានឆ្នាំ ២០២៣)៖
+* Key cybersecurity requirements (2023 rules):
+  * ការលាតត្រដាងឧប្បត្តិហេតុសន្តិសុខសាយប័រធំៗ — ទម្រង់ Form 8-K ក្នុងរយៈពេល ៤ ថ្ងៃធ្វើការ
+  * Material cybersecurity incident disclosure — Form 8-K within 4 business days
+  * ការលាតត្រដាងការគ្រប់គ្រងហានិភ័យសន្តិសុខសាយប័រប្រចាំឆ្នាំ — ទម្រង់ Form 10-K
+  * Annual cybersecurity risk management disclosure — Form 10-K
+  * ការលាតត្រដាងការត្រួតពិនិត្យរបស់ក្រុមប្រឹក្សាភិបាល — របៀបដែលក្រុមប្រឹក្សាភិបាលត្រួតពិនិត្យហានិភ័យសន្តិសុខសាយប័រ
+  * Board oversight disclosure — how board oversees cybersecurity risk
+  * វិធានការការពារព័ត៌មាន — ការការពារព័ត៌មានរបស់អតិថិជន (បច្ចុប្បន្នភាព Reg S-P ឆ្នាំ ២០២៤)
+  * Safeguards Rule — protecting customer information (Reg S-P update 2024)
+  * ការរក្សាទុកកំណត់ត្រា — សៀវភៅ និងកំណត់ត្រាអេឡិចត្រូនិក (រួមទាំងប្រព័ន្ធផ្ញើសារ)
+  * Record retention  — electronic books and records (including messaging platforms)
 
-### FinCEN — Financial Crimes Enforcement Network
+<a id="15"></a>
+### បណ្តាញអនុវត្តច្បាប់ឧក្រិដ្ឋកម្មហិរញ្ញវត្ថុ (FinCEN) (FinCEN — Financial Crimes Enforcement Network)
 
-```
-Bank Secrecy Act (BSA) obligations:
-□ SAR — Suspicious Activity Report — within 30 days of detection
-□ CTR — Currency Transaction Report — transactions > $10,000 in cash
-□ MSB registration — Money Services Businesses must register with FinCEN
-□ AML programme — policies, procedures, internal controls, training
-□ Customer Due Diligence (CDD Rule) — beneficial ownership ≥25%
-□ Travel Rule — SWIFT / wire transfers must include originator and beneficiary
-```
+* កាតព្វកិច្ចច្បាប់សម្ងាត់ធនាគារ (BSA)៖
+* Bank Secrecy Act (BSA) obligations:
+  * SAR — របាយការណ៍សកម្មភាពគួរឱ្យសង្ស័យ — ក្នុងរយៈពេល ៣០ ថ្ងៃបន្ទាប់ពីរកឃើញ
+  * SAR — Suspicious Activity Report — within 30 days of detection
+  * CTR — របាយការណ៍ប្រតិបត្តិការរូបិយប័ណ្ណ — ប្រតិបត្តិការសាច់ប្រាក់លើសពី ១០,០០០ ដុល្លារ
+  * CTR — Currency Transaction Report — transactions > $10,000 in cash
+  * ចុះបញ្ជី MSB — អាជីវកម្មសេវាកម្មហិរញ្ញវត្ថុត្រូវចុះបញ្ជីជាមួយ FinCEN
+  * MSB registration — Money Services Businesses must register with FinCEN
+  * កម្មវិធី AML — គោលនយោបាយ នីតិវិធី ការត្រួតពិនិត្យផ្ទៃក្នុង និងការបណ្តុះបណ្តាល
+  * AML programme — policies, procedures, internal controls, training
+  * ការប្រុងប្រយ័ត្នអតិថិជន (CDD Rule) — កំណត់ម្ចាស់ពិតប្រាកដដែលមានចំណែក ≥ ២៥%
+  * Customer Due Diligence (CDD Rule) — beneficial ownership ≥25%
+  * វិធានធ្វើដំណើរ (Travel Rule) — ការផ្ទេរប្រាក់ SWIFT / ខ្សែត្រូវតែរួមបញ្ចូលព័ត៌មានអ្នកផ្ញើ និងអ្នកទទួល
+  * Travel Rule — SWIFT / wire transfers must include originator and beneficiary
 
 ---
 
-## Data Breach Notification
+<a id="16"></a>
+## ៥. ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ (Data Breach Notification)
 
+រដ្ឋទាំង ៥០ មានច្បាប់រាយការណ៍ការលេចធ្លាយទិន្នន័យរៀងៗខ្លួន។ ប៉ារ៉ាម៉ែត្រសំខាន់ៗ៖  
 All 50 states have breach notification laws. Key parameters:
 
-| Aspect | Typical Range |
-|:-------|:-------------|
-| Notification deadline | 30–90 days (California: 72 hours for "expedient") |
-| Who to notify | Affected individuals + state AG (varies) |
-| What triggers notification | Unencrypted personal information accessed without authorisation |
-| Threshold | 500+ residents in some states requires media notice |
+| ទិដ្ឋភាព<br/>(Aspect) | បំរែបំរួលទូទៅ<br/>(Typical Range) |
+|:---|:---|
+| ពេលវេលាកំណត់រាយការណ៍<br/>Notification deadline | ៣០–៩០ ថ្ងៃ (រដ្ឋកាលីហ្វ័រញ៉ា៖ ៧២ ម៉ោងសម្រាប់ការរាយការណ៍បន្ទាន់)<br/>30–90 days (California: 72 hours for "expedient") |
+| នរណាខ្លះដែលត្រូវជូនដំណឹង<br/>Who to notify | បុគ្គលរងផលប៉ះពាល់ + អគ្គមេធាវីរដ្ឋ (ប្រែប្រួល)<br/>Affected individuals + state AG (varies) |
+| អ្វីខ្លះដែលជម្រុញឱ្យរាយការណ៍<br/>What triggers notification | ព័ត៌មានផ្ទាល់ខ្លួនដែលមិនបានកូដនីយកម្មត្រូវបានចូលប្រើដោយគ្មានការអនុញ្ញាត<br/>Unencrypted personal information accessed without authorisation |
+| កម្រិតកំណត់<br/>Threshold | មនុស្ស ៥០០ នាក់ឡើងទៅ៖ នៅក្នុងរដ្ឋខ្លះតម្រូវឱ្យជូនដំណឹងដល់ប្រព័ន្ធផ្សព្វផ្សាយ<br/>500+ residents in some states requires media notice |
 
+ច្បាប់សហព័ន្ធតាមវិស័យ៖ HIPAA (៦០ ថ្ងៃ), GLBA/FTC (៣០ ថ្ងៃ), SEC (៤ ថ្ងៃធ្វើការសម្រាប់ឧប្បត្តិហេតុធំៗ)  
 Federal sectoral: HIPAA (60 days), GLBA/FTC (30 days), SEC (4 business days for material incidents)
 
 ---
 
-## US Compliance Stack by Platform Type
+<a id="17"></a>
+## ៦. ឧបករណ៍អនុលោមតាមច្បាប់របស់សហរដ្ឋអាមេរិកតាមប្រភេទកម្មវិធី (US Compliance Stack by Platform Type)
 
-### Healthcare Platform
+### កម្មវិធីសុខាភិបាល (Healthcare Platform)
 
-```
-□ HIPAA — BAA with every covered entity customer; Security Rule technical safeguards
-□ SOC 2 Type II — expected by enterprise healthcare customers
-□ FTC Health Breach Notification — if health app not covered by HIPAA
-□ State health data laws — e.g. Washington My Health MY Data
-□ CCPA — if serving California residents, not pre-empted by HIPAA for non-PHI
-□ HITECH — HIPAA extension; breach notification, EHR meaningful use
-```
+* ច្បាប់ HIPAA — កិច្ចព្រមព្រៀង BAA ជាមួយអតិថិជនអង្គភាពគ្រប់គ្រងនីមួយៗ វិធានការការពារបច្ចេកទេសក្រោម Security Rule
+* HIPAA — BAA with every covered entity customer; Security Rule technical safeguards
+* ស្តង់ដារ SOC 2 Type II — ត្រូវបានរំពឹងទុកដោយអតិថិជនសហគ្រាសសុខាភិបាល
+* SOC 2 Type II — expected by enterprise healthcare customers
+* ការរាយការណ៍ការលេចធ្លាយសុខភាពរបស់ FTC — ប្រសិនបើកម្មវិធីសុខភាពមិនស្ថិតក្រោមច្បាប់ HIPAA
+* FTC Health Breach Notification — if health app not covered by HIPAA
+* ច្បាប់ទិន្នន័យសុខភាពរបស់រដ្ឋ — ឧ. ច្បាប់ My Health My Data របស់រដ្ឋវ៉ាស៊ីនតោន
+* State health data laws — e.g. Washington My Health MY Data
+* ច្បាប់ CCPA — ប្រសិនបើបម្រើប្រជាពលរដ្ឋកាលីហ្វ័រញ៉ា មិនត្រូវបានដកចេញដោយ HIPAA សម្រាប់ទិន្នន័យមិនមែន PHI
+* CCPA — if serving California residents, not pre-empted by HIPAA for non-PHI
+* HITECH — ការពង្រីកច្បាប់ HIPAA; ការរាយការណ៍ការលេចធ្លាយ ការប្រើប្រាស់ EHR មានន័យ
+* HITECH — HIPAA extension; breach notification, EHR meaningful use
 
-### Fintech Platform
+### កម្មវិធីបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech Platform)
 
-```
-□ GLBA Safeguards Rule — if qualifying financial institution
-□ FinCEN BSA/AML — if MSB (money transmitter, currency exchanger)
-□ State money transmitter licences — one per state; 50-state patchwork
-□ SEC Regulation — if investment-related features
-□ CCPA/state privacy — for consumer-facing features
-□ SOC 2 — enterprise customers require it
-□ PCI-DSS — if storing, processing, or transmitting cardholder data
-```
+* វិធាន GLBA Safeguards Rule — ប្រសិនបើជាស្ថាប័នហិរញ្ញវត្ថុដែលមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់
+* GLBA Safeguards Rule — if qualifying financial institution
+* FinCEN BSA/AML — ប្រសិនបើជា MSB (ក្រុមហ៊ុនផ្ទេរប្រាក់ ក្រុមហ៊ុនប្តូរប្រាក់)
+* FinCEN BSA/AML — if MSB (money transmitter, currency exchanger)
+* អាជ្ញាប័ណ្ណផ្ទេរប្រាក់កម្រិតរដ្ឋ — អាជ្ញាប័ណ្ណមួយសម្រាប់រដ្ឋនីមួយៗ (បណ្តាញ ៥០ រដ្ឋ)
+* State money transmitter licences — one per state; 50-state patchwork
+* បទប្បញ្ញត្តិ SEC — ប្រសិនបើមានមុខងារទាក់ទងនឹងការវិនិយោគ
+* SEC Regulation — if investment-related features
+* ច្បាប់ CCPA/ឯកជនភាពកម្រិតរដ្ឋ — សម្រាប់មុខងារដែលតម្រង់ទៅរកអ្នកប្រើប្រាស់
+* CCPA/state privacy — for consumer-facing features
+* SOC 2 — អតិថិជនសហគ្រាសតម្រូវឱ្យមាន
+* SOC 2 — enterprise customers require it
+* PCI-DSS — ប្រសិនបើរក្សាទុក ដំណើរការ ឬបញ្ជូនទិន្នន័យម្ចាស់ប័ណ្ណ
+* PCI-DSS — if storing, processing, or transmitting cardholder data
 
-### Consumer App / SaaS
+### កម្មវិធីសម្រាប់អ្នកប្រើប្រាស់ទូទៅ / SaaS (Consumer App / SaaS)
 
-```
-□ CCPA/CPRA — if California threshold met
-□ Growing state law patchwork — Virginia, Colorado, Connecticut, Texas (opt-out)
-□ COPPA — if any users might be under 13
-□ FTC Act Section 5 — privacy policy accuracy, reasonable security
-□ CAN-SPAM — email marketing compliance
-□ TCPA — SMS/phone marketing (opt-in required)
-□ State breach notification — all 50 states
-```
+* ច្បាប់ CCPA/CPRA — ប្រសិនបើបំពេញតាមលក្ខខណ្ឌកំណត់របស់កាលីហ្វ័រញ៉ា
+* CCPA/CPRA — if California threshold met
+* បណ្តាញច្បាប់រដ្ឋកំពុងកើនឡើង — វីជីញ៉ា កូឡូរ៉ាដូ ខូនណិកធីខាត់ តិចសាស់ (ជម្រើសបដិសេធ Opt-out)
+* Growing state law patchwork — Virginia, Colorado, Connecticut, Texas (opt-out)
+* ច្បាប់ COPPA — ប្រសិនបើអ្នកប្រើប្រាស់ខ្លះអាចមានអាយុក្រោម ១៣ ឆ្នាំ
+* COPPA — if any users might be under 13
+* មាត្រា ៥ នៃច្បាប់ FTC — ភាពត្រឹមត្រូវនៃគោលនយោបាយឯកជនភាព សន្តិសុខសមស្រប
+* FTC Act Section 5 — privacy policy accuracy, reasonable security
+* ច្បាប់ CAN-SPAM — ការអនុលោមតាមការផ្សព្វផ្សាយពាណិជ្ជកម្មតាមអ៊ីមែល
+* CAN-SPAM — email marketing compliance
+* ច្បាប់ TCPA — ការផ្សព្វផ្សាយពាណិជ្ជកម្មតាម SMS/ទូរស័ព្ទ (តម្រូវឱ្យមាន Opt-in)
+* TCPA — SMS/phone marketing (opt-in required)
+* ការរាយការណ៍ការលេចធ្លាយទិន្នន័យរដ្ឋ — គ្រប់រដ្ឋទាំង ៥០
+* State breach notification — all 50 states
 
 ---
 
-## Related
+<a id="18"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
+- [ច្បាប់ HIPAA](../healthcare/01-hipaa.md)
 - [HIPAA](../healthcare/01-hipaa.md)
+- [ច្បាប់ឯកជនភាពកាលីហ្វ័រញ៉ា (CCPA/CPRA)](../data-privacy/02-ccpa.md)
 - [CCPA](../data-privacy/02-ccpa.md)
+- [ស្តង់ដារសុវត្ថិភាពទិន្នន័យកាតទូទាត់ (PCI-DSS)](../payment-and-financial/01-pci-dss.md)
 - [PCI-DSS](../payment-and-financial/01-pci-dss.md)
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
+- [របាយការណ៍គ្រប់គ្រងសន្តិសុខ SOC 2](../security-frameworks/01-soc2.md)
 - [SOC 2](../security-frameworks/01-soc2.md)
+- [អនុសាសន៍របស់ FATF](../identity-and-kyc/03-fatf-recommendations.md)
 - [FATF Recommendations](../identity-and-kyc/03-fatf-recommendations.md)

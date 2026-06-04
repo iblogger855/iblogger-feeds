@@ -1,113 +1,151 @@
-# Thailand — Compliance Overview for Digital Platforms
+# ប្រទេសថៃ៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់សម្រាប់កម្មវិធីឌីជីថល (Thailand: Compliance Overview for Digital Platforms)
 
 **Tags:** #compliance #thailand #pdpa #amla #bot #cybersecurity #southeast-asia
 
 ---
 
-## Summary
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)](#1)
+- [២. ការការពារទិន្នន័យ — PDPA (២០២២) (Data Protection — PDPA (2022))](#2)
+- [៣. សេវាទូទាត់ប្រាក់ — បទប្បញ្ញត្តិធនាគារកណ្តាលថៃ (Payment Services — BOT Regulations)](#3)
+- [៤. ការប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម — AMLO (AML/CFT — AMLO)](#4)
+- [៥. ច្បាប់សន្តិសុខសាយប័រ (២០១៩) (Cybersecurity Act (2019))](#5)
+- [៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)](#6)
+- [៧. ពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក និងអាជីវកម្មឌីជីថល (E-Commerce and Digital Business)](#7)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#8)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+ប្រទេសថៃមានបរិស្ថានបទប្បញ្ញត្តិឌីជីថលដែលកំពុងមានភាពចាស់ទុំ។ ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន PDPA (២០២២) ឥឡូវនេះត្រូវបានអនុវត្តយ៉ាងពេញលេញ ច្បាប់សន្តិសុខសាយប័រ (២០១៩) គ្របដណ្តប់លើហេដ្ឋារចនាសម្ព័ន្ធព័ត៌មានសំខាន់ៗ ហើយធនាគារកណ្តាលថៃ (BOT) គ្រប់គ្រងយ៉ាងតឹងរ៉ឹងលើសេវាកម្មទូទាត់ប្រាក់។ ប្រទេសថៃគឺជាសេដ្ឋកិច្ចឌីជីថលដ៏សំខាន់មួយដែលមានប្រជាជនចំនួន ៧១ លាននាក់ និងមានអត្រាប្រើប្រាស់ស្មាតហ្វូនខ្ពស់។
 
 Thailand has a maturing digital regulatory environment. The PDPA (2022) is now fully in force, the Cybersecurity Act (2019) covers critical infrastructure, and the Bank of Thailand (BOT) heavily regulates payment services. Thailand is a significant digital economy with 71 million people and high smartphone penetration.
 
 ---
 
-## Key Regulators
+<a id="1"></a>
+## ១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)
 
-| Regulator | Acronym | Jurisdiction |
-|:----------|:--------|:-------------|
-| Personal Data Protection Committee | PDPC | Data protection, PDPA enforcement |
-| Bank of Thailand | BOT | Banking, payment services, fintech |
-| Anti-Money Laundering Office | AMLO | AML/CFT enforcement |
-| National Cybersecurity Agency | NCSA | Cybersecurity Act oversight |
-| Food and Drug Administration | FDA (Thai) | Healthcare products, medical devices |
-| Electronic Transactions Development Agency | ETDA | E-transactions, digital identity |
-| Securities and Exchange Commission | SEC | Capital markets, crypto assets |
+| ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | អក្សរកាត់<br/>(Acronym) | សមត្ថកិច្ចអនុវត្តច្បាប់<br/>(Jurisdiction) |
+|:---|:---|:---|
+| គណៈកម្មាធិការការពារទិន្នន័យផ្ទាល់ខ្លួន<br/>Personal Data Protection Committee | PDPC | ការការពារទិន្នន័យ និងការអនុវត្តច្បាប់ PDPA<br/>Data protection, PDPA enforcement |
+| ធនាគារកណ្តាលថៃ<br/>Bank of Thailand | BOT | វិស័យធនាគារ សេវាទូទាត់ប្រាក់ និងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)<br/>Banking, payment services, fintech |
+| ការិយាល័យប្រឆាំងការលាងលុយកខ្វក់<br/>Anti-Money Laundering Office | AMLO | ការអនុវត្តច្បាប់ប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម (AML/CFT)<br/>AML/CFT enforcement |
+| ទីភ្នាក់ងារសន្តិសុខសាយប័រជាតិ<br/>National Cybersecurity Agency | NCSA | ការត្រួតពិនិត្យច្បាប់សន្តិសុខសាយប័រ<br/>Cybersecurity Act oversight |
+| រដ្ឋបាលឱសថ និងចំណីអាហារ<br/>Food and Drug Administration | FDA (Thai) | ផលិតផលសុខាភិបាល និងឧបករណ៍វេជ្ជសាស្ត្រ<br/>Healthcare products, medical devices |
+| ទីភ្នាក់ងារអភិវឌ្ឍន៍ប្រតិបត្តិការអេឡិចត្រូនិក<br/>Electronic Transactions Development Agency | ETDA | ប្រតិបត្តិការអេឡិចត្រូនិក និងអត្តសញ្ញាណឌីជីថល<br/>E-transactions, digital identity |
+| គណៈកម្មការមូលបត្រ និងការដោះដូរពាណិជ្ជកម្ម<br/>Securities and Exchange Commission | SEC | ទីផ្សារមូលធន និងទ្រព្យសកម្មគ្រីបតូ (Crypto Assets)<br/>Capital markets, crypto assets |
 
 ---
 
-## Data Protection — PDPA (2022)
+<a id="2"></a>
+## ២. ការការពារទិន្នន័យ — PDPA (២០២២) (Data Protection — PDPA (2022))
 
+ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន (PDPA) របស់ប្រទេសថៃ ត្រូវបានអនុវត្តចំពោះគ្រប់ស្ថាប័នទាំងអស់ដែលប្រមូល ឬដំណើរការទិន្នន័យផ្ទាល់ខ្លួនរបស់បុគ្គលនៅក្នុងប្រទេសថៃ។
 Thailand's PDPA applies to any organisation collecting or processing personal data of individuals in Thailand.
 
-| Requirement | Detail |
-|:------------|:-------|
-| Legal basis | Consent, contract, legal obligation, vital interest, public interest, legitimate interest |
-| Sensitive data | Explicit consent required (race, health, biometrics, etc.) |
-| Data subject rights | Access, correction, deletion, portability, objection — 30-day response |
-| DPO | Required for large-scale sensitive data processing |
-| Breach notification | 72 hours to PDPC |
-| Cross-border transfers | Adequate protection or contractual safeguards |
-| Privacy notice | Required — in Thai language for Thai users |
-| Max penalty | THB 5M administrative + criminal penalties |
+| តម្រូវការ<br/>(Requirement) | ព័ត៌មានលម្អិត<br/>(Detail) |
+|:---|:---|
+| មូលដ្ឋានច្បាប់<br/>Legal basis | ការយល់ព្រម កិច្ចសន្យា កាតព្វកិច្ចច្បាប់ ផលប្រយោជន៍សំខាន់ៗ ផលប្រយោជន៍សាធារណៈ និងផលប្រយោជន៍ស្របច្បាប់<br/>Consent, contract, legal obligation, vital interest, public interest, legitimate interest |
+| ទិន្នន័យរសើប<br/>Sensitive data | តម្រូវឱ្យមានការយល់ព្រមច្បាស់លាស់ (ពូជសាសន៍ សុខភាព ជីវមាត្រ ល។)<br/>Explicit consent required (race, health, biometrics, etc.) |
+| សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ<br/>Data subject rights | សិទ្ធិចូលមើល កែតម្រូវ លុបចោល ការផ្ទេរទិន្នន័យ និងការជំទាស់ — ឆ្លើយតបក្នុងរយៈពេល ៣០ ថ្ងៃ<br/>Access, correction, deletion, portability, objection — 30-day response |
+| មន្ត្រីការពារទិន្នន័យ (DPO)<br/>DPO | តម្រូវសម្រាប់ស្ថាប័នដំណើរការទិន្នន័យរសើបទ្រង់ទ្រាយធំ<br/>Required for large-scale sensitive data processing |
+| ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ<br/>Breach notification | ៧២ ម៉ោងទៅកាន់ PDPC<br/>72 hours to PDPC |
+| ការផ្ទេរទិន្នន័យឆ្លងដែន<br/>Cross-border transfers | ត្រូវមានការការពារគ្រប់គ្រាន់ ឬការធានាតាមកិច្ចសន្យា<br/>Adequate protection or contractual safeguards |
+| សេចក្តីជូនដំណឹងអំពីឯកជនភាព<br/>Privacy notice | តម្រូវឱ្យមាន — ជាភាសាថៃសម្រាប់អ្នកប្រើប្រាស់ថៃ<br/>Required — in Thai language for Thai users |
+| ទណ្ឌកម្មអតិបរមា<br/>Max penalty | ការពិន័យរដ្ឋបាល ៥ លានបាត + ទោសព្រហ្មទណ្ឌ<br/>THB 5M administrative + criminal penalties |
 
+ព័ត៌មានលម្អិត៖ [PDPA Thailand](../data-privacy/04-pdpa-thailand.md)
 Full details: [PDPA Thailand](../data-privacy/04-pdpa-thailand.md)
 
 ---
 
-## Payment Services — BOT Regulations
+<a id="3"></a>
+## ៣. សេវាទូទាត់ប្រាក់ — បទប្បញ្ញត្តិធនាគារកណ្តាលថៃ (Payment Services — BOT Regulations)
 
-| Service | Licence / Notification |
-|:--------|:----------------------|
-| E-money issuance | Payment Systems Act licence |
-| Payment gateway | Payment Systems Act notification |
-| Money transfer | Payment Systems Act licence |
-| QR payment (PromptPay) | BOT registered |
-| Cross-border payment | BOT approval |
+| សេវាកម្ម<br/>(Service) | អាជ្ញាប័ណ្ណ / ការជូនដំណឹង<br/>(Licence / Notification) |
+|:---|:---|
+| ការបោះផ្សាយប្រាក់អេឡិចត្រូនិក (E-money)<br/>E-money issuance | អាជ្ញាប័ណ្ណក្រោមច្បាប់ប្រព័ន្ធទូទាត់ប្រាក់<br/>Payment Systems Act licence |
+| ច្រកទូទាត់ប្រាក់ (Payment gateway)<br/>Payment gateway | ការជូនដំណឹងក្រោមច្បាប់ប្រព័ន្ធទូទាត់ប្រាក់<br/>Payment Systems Act notification |
+| ការផ្ទេរប្រាក់<br/>Money transfer | អាជ្ញាប័ណ្ណក្រោមច្បាប់ប្រព័ន្ធទូទាត់ប្រាក់<br/>Payment Systems Act licence |
+| ការទូទាត់តាម QR (PromptPay)<br/>QR payment (PromptPay) | បានចុះបញ្ជីជាមួយធនាគារកណ្តាលថៃ (BOT)<br/>BOT registered |
+| ការទូទាត់ឆ្លងដែន<br/>Cross-border payment | ត្រូវមានការអនុម័តពីធនាគារកណ្តាលថៃ (BOT)<br/>BOT approval |
 
+**PromptPay** — គឺជាប្រព័ន្ធទូទាត់តាម QR កូដថ្នាក់ជាតិរបស់ប្រទេសថៃ ដែលស្មើនឹងប្រព័ន្ធ KHQR របស់ប្រទេសកម្ពុជា។ គ្រប់អ្នកផ្តល់សេវាទូទាត់ប្រាក់ដែលមានអាជ្ញាប័ណ្ណទាំងអស់ត្រូវតែរួមបញ្ចូលជាមួយ PromptPay។
 **PromptPay** — Thailand's national QR payment system, equivalent to Cambodia's KHQR. All licensed payment providers integrate with PromptPay.
 
 ---
 
-## AML/CFT — AMLO
+<a id="4"></a>
+## ៤. ការប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម — AMLO (AML/CFT — AMLO)
 
+ការិយាល័យប្រឆាំងការលាងលុយកខ្វក់ (AMLO) របស់ប្រទេសថៃ អនុវត្តច្បាប់ស្តីពីការប្រឆាំងការលាងលុយកខ្វក់ B.E. 2542 (១៩៩៩) និងវិសោធនកម្មនានា៖
 Thailand's AMLO enforces the Anti-Money Laundering Act B.E. 2542 (1999) and amendments:
 
-| Obligation | Requirement |
-|:-----------|:------------|
-| Customer identification | KYC for all customers |
-| Record retention | Minimum 5 years |
-| STR filing | Within 3 working days |
-| Currency transaction reports | THB 2M+ cash transactions |
-| EDD for PEPs | Enhanced due diligence required |
+| កាតព្វកិច្ច<br/>(Obligation) | តម្រូវការ<br/>(Requirement) |
+|:---|:---|
+| ការស្គាល់អត្តសញ្ញាណអតិថិជន<br/>Customer identification | ត្រូវធ្វើ KYC សម្រាប់អតិថិជនទាំងអស់<br/>KYC for all customers |
+| ការរក្សាទុកឯកសារ<br/>Record retention | យ៉ាងហោចណាស់ ៥ ឆ្នាំ<br/>Minimum 5 years |
+| ការដាក់របាយការណ៍ STR<br/>STR filing | ក្នុងរយៈពេល ៣ ថ្ងៃធ្វើការ<br/>Within 3 working days |
+| របាយការណ៍ប្រតិបត្តិការរូបិយប័ណ្ណ<br/>Currency transaction reports | ប្រតិបត្តិការសាច់ប្រាក់ចាប់ពី ២ លានបាតឡើងទៅ<br/>THB 2M+ cash transactions |
+| EDD សម្រាប់បុគ្គលលេចធ្លោក្នុងឆាកនយោបាយ (PEPs)<br/>EDD for PEPs | តម្រូវឱ្យមានការត្រួតពិនិត្យបន្ថែមឱ្យបានហ្មត់ចត់ (EDD)<br/>Enhanced due diligence required |
 
 ---
 
-## Cybersecurity Act (2019)
+<a id="5"></a>
+## ៥. ច្បាប់សន្តិសុខសាយប័រ (២០១៩) (Cybersecurity Act (2019))
 
+ច្បាប់នេះអនុវត្តចំពោះប្រតិបត្តិករ **ហេដ្ឋារចនាសម្ព័ន្ធព័ត៌មានសំខាន់ៗ (Critical Information Infrastructure - CII)**៖
 Applies to **Critical Information Infrastructure (CII)** operators:
-- Must implement cybersecurity standards
-- Must cooperate with NCSA incident investigations
-- Must report cyber incidents
-- Annual cybersecurity audit required for CII operators
 
+* ត្រូវតែអនុវត្តស្តង់ដារសុវត្ថិភាពសាយប័រ
+* Must implement cybersecurity standards
+* ត្រូវសហការជាមួយ NCSA ក្នុងការស៊ើបអង្កេតឧប្បត្តិហេតុ
+* Must cooperate with NCSA incident investigations
+* ត្រូវរាយការណ៍អំពីឧប្បត្តិហេតុសាយប័រ
+* Must report cyber incidents
+* តម្រូវឱ្យមានការសវនកម្មសន្តិសុខសាយប័រប្រចាំឆ្នាំសម្រាប់ប្រតិបត្តិករ CII
+* Annual cybersecurity audit required for CII operators
+
+វិស័យដែលចាត់ទុកជា CII៖ ហិរញ្ញវត្ថុ ថាមពល ដឹកជញ្ជូន សុខាភិបាល រដ្ឋាភិបាល សុវត្ថិភាពសាធារណៈ និងទូរគមនាគមន៍។
 CII sectors: finance, energy, transportation, healthcare, government, public safety, telecommunications.
 
 ---
 
-## Healthcare Regulations
+<a id="6"></a>
+## ៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)
 
-| Requirement | Regulator |
-|:------------|:----------|
-| Hospital licensing | Ministry of Public Health |
-| Medical professional registration | Medical Council of Thailand |
-| Pharmaceutical licensing | Thai FDA |
-| Telemedicine framework | Ministry of Public Health Notification |
-| Medical device registration | Thai FDA |
-
----
-
-## E-Commerce and Digital Business
-
-| Requirement | Regulator |
-|:------------|:----------|
-| E-commerce business registration | DBD (Department of Business Development) |
-| VAT registration (if revenue > THB 1.8M/year) | Revenue Department |
-| Electronic transactions | ETDA oversight |
-| Digital ID | ETDA national digital ID framework |
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|
+| អាជ្ញាប័ណ្ណមន្ទីរពេទ្យ<br/>Hospital licensing | ក្រសួងសុខាភិបាលសាធារណៈ<br/>Ministry of Public Health |
+| ការចុះបញ្ជីអ្នកជំនាញវេជ្ជសាស្ត្រ<br/>Medical professional registration | ក្រុមប្រឹក្សាវេជ្ជសាស្ត្រនៃប្រទេសថៃ<br/>Medical Council of Thailand |
+| អាជ្ញាប័ណ្ណឱសថ<br/>Pharmaceutical licensing | រដ្ឋបាលឱសថ និងចំណីអាហារថៃ (Thai FDA)<br/>Thai FDA |
+| ក្របខ័ណ្ឌទូរវេជ្ជសាស្ត្រ<br/>Telemedicine framework | សេចក្តីជូនដំណឹងរបស់ក្រសួងសុខាភិបាលសាធារណៈ<br/>Ministry of Public Health Notification |
+| ការចុះបញ្ជីឧបករណ៍វេជ្ជសាស្ត្រ<br/>Medical device registration | រដ្ឋបាលឱសថ និងចំណីអាហារថៃ (Thai FDA)<br/>Thai FDA |
 
 ---
 
-## Related
+<a id="7"></a>
+## ៧. ពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក និងអាជីវកម្មឌីជីថល (E-Commerce and Digital Business)
 
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|
+| ការចុះបញ្ជីអាជីវកម្មពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក<br/>E-commerce business registration | នាយកដ្ឋានអភិវឌ្ឍន៍អាជីវកម្ម (DBD)<br/>DBD (Department of Business Development) |
+| ការចុះបញ្ជីពន្ធអាករលើតម្លៃបន្ថែម (VAT) (ប្រសិនបើចំណូល > ១.៨ លានបាត/ឆ្នាំ)<br/>VAT registration (if revenue > THB 1.8M/year) | នាយកដ្ឋានចំណូលពន្ធ<br/>Revenue Department |
+| ប្រតិបត្តិការអេឡិចត្រូនិក<br/>Electronic transactions | ការត្រួតពិនិត្យដោយ ETDA<br/>ETDA oversight |
+| អត្តសញ្ញាណឌីជីថល (Digital ID)<br/>Digital ID | ក្របខ័ណ្ឌអត្តសញ្ញាណឌីជីថលជាតិរបស់ ETDA<br/>ETDA national digital ID framework |
+
+---
+
+<a id="8"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
+
+- [ច្បាប់ការពារទិន្នន័យប្រទេសថៃ (PDPA Thailand)](../data-privacy/04-pdpa-thailand.md)
 - [PDPA Thailand](../data-privacy/04-pdpa-thailand.md)
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
+- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
 - [KYC/KYB Fundamentals](../identity-and-kyc/01-kyc-kyb-fundamentals.md)

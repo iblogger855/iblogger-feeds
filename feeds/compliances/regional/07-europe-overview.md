@@ -1,213 +1,342 @@
-# Europe Regional Compliance Overview
+# អឺរ៉ុប៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់ថ្នាក់តំបន់ (Europe: Regional Compliance Overview)
 
-**Region:** European Union, United Kingdom, and Key Member States  
+**តំបន់ (Region)៖** សហភាពអឺរ៉ុប ចក្រភពអង់គ្លេស និងប្រទេសជាសមាជិកសំខាន់ៗ (European Union, United Kingdom, and Key Member States)  
 **Tags:** #compliance #europe #eu #gdpr #uk #france #germany #fintech #healthcare
 
 ---
 
-## European Union — Supranational Framework
+## 📌 មាតិកា (Table of Contents)
+- [សហភាពអឺរ៉ុប — ក្របខ័ណ្ឌការងារលើសពីថ្នាក់ជាតិ (European Union — Supranational Framework)](#0)
+  - [បទប្បញ្ញត្តិសហភាពអឺរ៉ុបស្នូល (Core EU Regulations)](#1)
+  - [សារាចរសហភាពអឺរ៉ុបស្នូល (Core EU Directives)](#2)
+- [ប្រទេសបារាំង (France)](#3)
+  - [អាជ្ញាធរសំខាន់ៗ (Key Authorities)](#4)
+  - [បទប្បញ្ញត្តិជាក់លាក់របស់ប្រទេសបារាំង (France-Specific Regulations)](#5)
+- [ប្រទេសអាល្លឺម៉ង់ (Germany)](#6)
+  - [អាជ្ញាធរសំខាន់ៗ (Key Authorities)](#7)
+  - [បទប្បញ្ញត្តិជាក់លាក់របស់ប្រទេសអាល្លឺម៉ង់ (Germany-Specific Regulations)](#8)
+- [ចក្រភពអង់គ្លេស (United Kingdom)](#9)
+  - [ស្ថានភាពក្រោយ Brexit (Post-Brexit Landscape)](#10)
+  - [អាជ្ញាធរសំខាន់ៗ (Key Authorities)](#11)
+  - [បទប្បញ្ញត្តិជាក់លាក់របស់ចក្រភពអង់គ្លេស (UK-Specific Regulations)](#12)
+  - [បទប្បញ្ញត្តិ FCA (FCA Regulations)](#13)
+- [រចនាសម្ព័ន្ធធនាគារ/Fintech ស្នូលរបស់សហភាពអឺរ៉ុប (Key EU Banking/Fintech Stack)](#14)
+- [រចនាសម្ព័ន្ធសុខាភិបាលស្នូលរបស់សហភាពអឺរ៉ុប (Key EU Healthcare Stack)](#15)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#16)
+
+---
+
+<a id="0"></a>
+## សហភាពអឺរ៉ុប — ក្របខ័ណ្ឌការងារលើសពីថ្នាក់ជាតិ (European Union — Supranational Framework)
+
+សហភាពអឺរ៉ុប (EU) មានបរិស្ថានបទប្បញ្ញត្តិគ្រប់ជ្រុងជ្រោយបំផុតនៅលើពិភពលោក។ បទប្បញ្ញត្តិសហភាពអឺរ៉ុប (EU Regulations) ត្រូវបានអនុវត្តដោយផ្ទាល់នៅក្នុងប្រទេសជាសមាជិកទាំង ២៧ ដោយមិនចាំបាច់មានការអនុវត្តតាមច្បាប់ជាតិឡើយ។ រីឯសារាចរសហភាពអឺរ៉ុប (EU Directives) តម្រូវឱ្យប្រទេសជាសមាជិកអនុវត្តបង្កើតជាច្បាប់ជាតិរៀងៗខ្លួន។
 
 The EU has the most comprehensive regulatory environment in the world. EU Regulations apply directly in all 27 member states without national implementation. EU Directives require member states to implement national laws.
 
-### Core EU Regulations (directly applicable)
+<a id="1"></a>
+### បទប្បញ្ញត្តិសហភាពអឺរ៉ុបស្នូល (Core EU Regulations)
 
-| Regulation | Applies to | Summary |
-|:-----------|:-----------|:--------|
-| [GDPR](../data-privacy/01-gdpr.md) | Any platform processing EU personal data | Data protection, consent, rights, DPAs |
-| [EU AI Act](../eu-specific/06-ai-act.md) | AI providers and deployers in EU market | Risk-based AI classification, high-risk obligations |
-| [MiCA](../eu-specific/03-mica.md) | Crypto issuers and CASPs | CASP licensing, stablecoin rules |
-| [DORA](../eu-specific/02-dora.md) | Financial entities and critical ICT providers | Operational resilience, 4h incident reporting |
+| បទប្បញ្ញត្តិ<br/>(Regulation) | វិសាលភាពអនុវត្ត<br/>(Applies to) | សេចក្តីសង្ខេប<br/>(Summary) |
+|:---|:---|:---|
+| [GDPR](../data-privacy/01-gdpr.md) | កម្មវិធីណាដែលដំណើរការទិន្នន័យផ្ទាល់ខ្លួនរបស់ EU<br/>Any platform processing EU personal data | ការការពារទិន្នន័យ ការសុំការយល់ព្រម សិទ្ធិ និងអាជ្ញាធរការពារទិន្នន័យ (DPAs)<br/>Data protection, consent, rights, DPAs |
+| [EU AI Act](../eu-specific/06-ai-act.md) | អ្នកផ្តល់ និងអ្នកដាក់ពង្រាយប្រព័ន្ធ AI ក្នុងទីផ្សារ EU<br/>AI providers and deployers in EU market | ការចាត់ថ្នាក់ AI ផ្អែកលើហានិភ័យ និងកាតព្វកិច្ចសម្រាប់ AI ហានិភ័យខ្ពស់<br/>Risk-based AI classification, high-risk obligations |
+| [MiCA](../eu-specific/03-mica.md) | អ្នកបោះផ្សាយគ្រីបតូ និងអ្នកផ្តល់សេវា CASP<br/>Crypto issuers and CASPs | ការផ្តល់អាជ្ញាប័ណ្ណ CASP និងវិធានការ Stablecoin<br/>CASP licensing, stablecoin rules |
+| [DORA](../eu-specific/02-dora.md) | ស្ថាប័នហិរញ្ញវត្ថុ និងអ្នកផ្តល់សេវា ICT សំខាន់ៗ<br/>Financial entities and critical ICT providers | ភាពធន់នឹងប្រតិបត្តិការ ការរាយការណ៍ឧប្បត្តិហេតុក្នុងរយៈពេល ៤ ម៉ោង<br/>Operational resilience, 4h incident reporting |
 
-### Core EU Directives (implemented by member states)
+<a id="2"></a>
+### សារាចរសហភាពអឺរ៉ុបស្នូល (Core EU Directives)
 
-| Directive | Applies to | Summary |
-|:----------|:-----------|:--------|
-| [NIS2](../eu-specific/01-nis2.md) | Essential and important entities | Cybersecurity, 24h early warning |
-| [ePrivacy](../eu-specific/04-eprivacy.md) | Any website/app serving EU users | Cookies, marketing, consent |
-| PSD2 | Payment service providers | Open banking, SCA, fraud monitoring |
+| សារាចរ<br/>(Directive) | វិសាលភាពអនុវត្ត<br/>(Applies to) | សេចក្តីសង្ខេប<br/>(Summary) |
+|:---|:---|:---|
+| [NIS2](../eu-specific/01-nis2.md) | ស្ថាប័នសំខាន់ និងស្ថាប័នមានសារៈសំខាន់<br/>Essential and important entities | សន្តិសុខសាយប័រ ការព្រមានទុកជាមុនក្នុងរយៈពេល ២៤ ម៉ោង<br/>Cybersecurity, 24h early warning |
+| [ePrivacy](../eu-specific/04-eprivacy.md) | គេហទំព័រ ឬកម្មវិធីណាដែលបម្រើអ្នកប្រើប្រាស់ EU<br/>Any website/app serving EU users | ខូឃី (Cookies) ការផ្សព្វផ្សាយពាណិជ្ជកម្ម និងការសុំការយល់ព្រម<br/>Cookies, marketing, consent |
+| PSD2 | អ្នកផ្តល់សេវាទូទាត់ប្រាក់<br/>Payment service providers | ធនាគារបើកចំហ (Open banking) ការផ្ទៀងផ្ទាត់អតិថិជនរឹងមាំ (SCA) និងការត្រួតពិនិត្យការក្លែងបន្លំ<br/>Open banking, SCA, fraud monitoring |
 
 ---
 
-## France
+<a id="3"></a>
+## ប្រទេសបារាំង (France)
 
-### Key Authorities
-- **CNIL** (Commission Nationale de l'Informatique et des Libertés) — data protection and cookie enforcement
-- **ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information) — national cybersecurity agency
-- **ANS** (Agence du Numérique en Santé) — health data and HDS certification
-- **AMF** (Autorité des Marchés Financiers) — financial markets regulator
-- **ACPR** (Autorité de Contrôle Prudentiel et de Résolution) — banking and insurance supervisor
+<a id="4"></a>
+### អាជ្ញាធរសំខាន់ៗ (Key Authorities)
 
-### France-Specific Regulations
+* **CNIL** (Commission Nationale de l'Informatique et des Libertés) — ការការពារទិន្នន័យ និងការអនុវត្តច្បាប់ស្តីពីខូឃី (Cookies)
+* **CNIL** (Commission Nationale de l'Informatique et des Libertés) — data protection and cookie enforcement
+* **ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information) — ទីភ្នាក់ងារសន្តិសុខសាយប័រជាតិ
+* **ANSSI** (Agence Nationale de la Sécurité des Systèmes d'Information) — national cybersecurity agency
+* **ANS** (Agence du Numérique en Santé) — ទិន្នន័យសុខាភិបាល និងវិញ្ញាបនប័ត្រ HDS
+* **ANS** (Agence du Numérique en Santé) — health data and HDS certification
+* **AMF** (Autorité des Marchés Financiers) — និយតករទីផ្សារហិរញ្ញវត្ថុ
+* **AMF** (Autorité des Marchés Financiers) — financial markets regulator
+* **ACPR** (Autorité de Contrôle Prudentiel et de Résolution) — ស្ថាប័នត្រួតពិនិត្យធនាគារ និងធានារ៉ាប់រង
+* **ACPR** (Autorité de Contrôle Prudentiel et de Résolution) — banking and insurance supervisor
+
+<a id="5"></a>
+### បទប្បញ្ញត្តិជាក់លាក់របស់ប្រទេសបារាំង (France-Specific Regulations)
 
 #### HDS — Hébergeur de Données de Santé
+
+បទប្បញ្ញត្តិដ៏លេចធ្លោបំផុតរបស់បារាំង — គឺកាតព្វកិច្ចទទួលបានវិញ្ញាបនប័ត្រសម្រាប់ការរក្សាទុកទិន្នន័យសុខាភិបាល។
 The most distinctive French regulation — mandatory certification for hosting health data.
 
+សូមមើលការណែនាំពេញលេញ៖ [HDS France](../eu-specific/05-hds-france.md)
 See full guide: [HDS France](../eu-specific/05-hds-france.md)
 
-```
-Key requirements:
-□ ISO 27001 + ISO 27701 certification prerequisite
-□ Six hosting activities — certification per activity performed
-□ Data storage ONLY in France/EEA
-□ Accredited certification body audit (BSI, Bureau Veritas, LSTI)
-□ Valid 3 years — annual surveillance audits
-□ Criminal penalties: up to 3 years imprisonment, €225,000 org fine
-```
+* **តម្រូវការគន្លឹះរបស់ HDS៖**
+* **Key HDS requirements:**
+  * តម្រូវការជាមុននូវវិញ្ញាបនប័ត្រ ISO 27001 + ISO 27701
+  * ISO 27001 + ISO 27701 certification prerequisite
+  * សកម្មភាពបង្ហោះ/រក្សាទុកចំនួន ៦ — វិញ្ញាបនប័ត្រតាមសកម្មភាពនីមួយៗដែលបានអនុវត្ត
+  * Six hosting activities — certification per activity performed
+  * ការរក្សាទុកទិន្នន័យនៅក្នុងប្រទេសបារាំង/តំបន់សេដ្ឋកិច្ចអឺរ៉ុប (EEA) តែប៉ុណ្ណោះ
+  * Data storage ONLY in France/EEA
+  * ការធ្វើសវនកម្មដោយស្ថាប័នផ្តល់វិញ្ញាបនប័ត្រដែលទទួលបានការទទួលស្គាល់ (BSI, Bureau Veritas, LSTI)
+  * Accredited certification body audit (BSI, Bureau Veritas, LSTI)
+  * សុពលភាព ៣ ឆ្នាំ — សវនកម្មត្រួតពិនិត្យប្រចាំឆ្នាំ
+  * Valid 3 years — annual surveillance audits
+  * ទោសទណ្ឌព្រហ្មទណ្ឌ៖ ជាប់ពន្ធនាគាររហូតដល់ ៣ ឆ្នាំ ពិន័យជាប្រាក់ដល់ទៅ ២២៥,០០០ អឺរ៉ូសម្រាប់អង្គភាព
+  * Criminal penalties: up to 3 years imprisonment, €225,000 org fine
 
-#### CNIL Cookie Enforcement
+#### ការអនុវត្តច្បាប់ខូឃីរបស់ CNIL (CNIL Cookie Enforcement)
+
+ប្រទេសបារាំងមានការអនុវត្តការសុំការយល់ព្រមលើខូឃីសកម្មបំផុតនៅក្នុងសហភាពអឺរ៉ុប៖
 France has the EU's most active cookie consent enforcement:
 
-```
-Key requirements (France-specific interpretation):
-□ "Reject all" button must be equal prominence to "Accept all"
-□ No consent walls — cannot block site access for refusing tracking
-□ Consent records mandatory — who, what, when
-□ Notable fines: Google €150M, Facebook €60M (2022)
-```
+* **តម្រូវការសំខាន់ៗ៖**
+* **Key requirements:**
+  * ប៊ូតុង «បដិសេធទាំងអស់» ត្រូវតែមានភាពលេចធ្លោស្មើគ្នានឹងប៊ូតុង «យល់ព្រមទាំងអស់»
+  * "Reject all" button must be equal prominence to "Accept all"
+  * គ្មានរបាំងសុំការយល់ព្រម — មិនអាចរារាំងការចូលប្រើប្រាស់គេហទំព័រសម្រាប់ការបដិសេធការតាមដានឡើយ
+  * No consent walls — cannot block site access for refusing tracking
+  * កាតព្វកិច្ចកត់ត្រាទុកការយល់ព្រម — នរណា អ្វី ពេលណា
+  * Consent records mandatory — who, what, when
+  * ការផាកពិន័យលេចធ្លោ៖ Google ពិន័យ ១៥០ លានអឺរ៉ូ, Facebook ពិន័យ ៦០ លានអឺរ៉ូ (២០២២)
+  * Notable fines: Google €150M, Facebook €60M (2022)
 
-#### RGPD / GDPR Implementation
+#### ការអនុវត្តច្បាប់ RGPD / GDPR (RGPD / GDPR Implementation)
+
+ប្រទេសបារាំងអនុវត្តច្បាប់ GDPR ជាមួយនឹងការណែនាំជាក់លាក់របស់ CNIL៖
 France implements GDPR with specific CNIL guidance:
-- DPO registration with CNIL for organisations processing at scale
-- CNIL guidance on legitimate interest vs consent for B2B data
-- Specific rules for employee monitoring
+
+* ការចុះបញ្ជី DPO ជាមួយ CNIL សម្រាប់ស្ថាប័នដែលដំណើរការទិន្នន័យទ្រង់ទ្រាយធំ
+* DPO registration with CNIL for organisations processing at scale
+* ការណែនាំរបស់ CNIL លើផលប្រយោជន៍ស្របច្បាប់ធៀបនឹងការសុំការយល់ព្រមសម្រាប់ទិន្នន័យ B2B
+* CNIL guidance on legitimate interest vs consent for B2B data
+* វិធានជាក់លាក់សម្រាប់ការត្រួតពិនិត្យនិយោជិត
+* Specific rules for employee monitoring
 
 ---
 
-## Germany
+<a id="6"></a>
+## ប្រទេសអាល្លឺម៉ង់ (Germany)
 
-### Key Authorities
-- **BfDI** (Bundesbeauftragter für den Datenschutz und die Informationsfreiheit) — federal data protection
-- **16 Landesbeauftragte** — state DPAs (each state has its own)
-- **BSI** (Bundesamt für Sicherheit in der Informationstechnik) — cybersecurity
-- **BaFin** — financial markets and banking supervision
+<a id="7"></a>
+### អាជ្ញាធរសំខាន់ៗ (Key Authorities)
 
-### Germany-Specific Regulations
+* **BfDI** (Bundesbeauftragter für den Datenschutz und die Informationsfreiheit) — អាជ្ញាធរការពារទិន្នន័យសហព័ន្ធ
+* **BfDI** (Bundesbeauftragter für den Datenschutz und die Informationsfreiheit) — federal data protection
+* **អាជ្ញាធរការពារទិន្នន័យរដ្ឋទាំង ១៦** (16 Landesbeauftragte) — រដ្ឋនីមួយៗមានអាជ្ញាធររៀងៗខ្លួន
+* **16 Landesbeauftragte** — state DPAs (each state has its own)
+* **BSI** (Bundesamt für Sicherheit in... (BSI) — សន្តិសុខសាយប័រ
+* **BSI** (Bundesamt für Sicherheit in der Informationstechnik) — cybersecurity
+* **BaFin** — ការត្រួតពិនិត្យទីផ្សារហិរញ្ញវត្ថុ និងធនាគារ
+* **BaFin** — financial markets and banking supervision
+
+<a id="8"></a>
+### បទប្បញ្ញត្តិជាក់លាក់របស់ប្រទេសអាល្លឺម៉ង់ (Germany-Specific Regulations)
 
 #### BDSG — Bundesdatenschutzgesetz
+
+ច្បាប់ការពារទិន្នន័យជាតិអាល្លឺម៉ង់ដែលបំពេញបន្ថែមលើច្បាប់ GDPR៖
 German national data protection law complementing GDPR:
 
-```
-Key differences from base GDPR:
-□ Employee data processing — stricter rules, works council involvement
-□ DPO mandatory threshold: 20+ persons regularly processing personal data
-  (vs GDPR's risk-based criteria)
-□ Video surveillance — specific rules for CCTV in public-accessible areas
-□ Scoring and automated decisions — stricter rules for credit scoring
-```
+* **ភាពខុសគ្នាគន្លឹះពីច្បាប់ GDPR មូលដ្ឋាន៖**
+* **Key differences from base GDPR:**
+  * ការដំណើរការទិន្នន័យនិយោជិត — វិធានការតឹងរ៉ឹងជាងមុន ការចូលរួមពីក្រុមប្រឹក្សានិយោជិត
+  * Employee data processing — stricter rules, works council involvement
+  * កម្រិតកាតព្វកិច្ចត្រូវមាន DPO៖ បុគ្គលចាប់ពី ២០ នាក់ឡើងទៅដែលដំណើរការទិន្នន័យជាទៀងទាត់
+    (ធៀបនឹងលក្ខខណ្ឌវិនិច្ឆ័យផ្អែកលើហានិភ័យរបស់ GDPR)
+  * DPO mandatory threshold: 20+ persons regularly processing personal data (vs GDPR's risk-based criteria)
+  * ការត្រួតពិនិត្យវីដេអូ — វិធានជាក់លាក់សម្រាប់ CCTV ក្នុងតំបន់សាធារណៈដែលអាចចូលប្រើប្រាស់បាន
+  * Video surveillance — specific rules for CCTV in public-accessible areas
+  * ការវាយតម្លៃពិន្ទុ និងការសម្រេចចិត្តស្វ័យប្រវត្ត — វិធានការតឹងរ៉ឹងសម្រាប់ការវាយតម្លៃពិន្ទុឥណទាន
+  * Scoring and automated decisions — stricter rules for credit scoring
 
 #### TTDSG — Telekommunikation-Telemedien-Datenschutz-Gesetz (2021)
+
+ការអនុវត្តច្បាប់ ePrivacy របស់ប្រទេសអាល្លឺម៉ង់ — មានភាពតឹងរ៉ឹងជាងស្តង់ដារអប្បបរមារបស់សហភាពអឺរ៉ុប៖
 Germany's implementation of ePrivacy — stricter than the EU minimum:
 
-```
-Key requirements:
-□ Consent required for ALL tracking technologies — not just cookies
-□ Service providers cannot condition access on tracking consent
-□ Consent Management Services (PIMS) can store consent signals
-□ Applies to: apps, IoT devices, browser APIs — not just HTTP cookies
-```
+* **តម្រូវការសំខាន់ៗ៖**
+* **Key requirements:**
+  * ត្រូវតែសុំការយល់ព្រមសម្រាប់រាល់បច្ចេកវិទ្យាតាមដានទាំងអស់ — មិនមែនត្រឹមតែខូឃីឡើយ
+  * Consent required for ALL tracking technologies — not just cookies
+  * អ្នកផ្តល់សេវាមិនអាចដាក់លក្ខខណ្ឌចូលប្រើប្រាស់លើការយល់ព្រមតាមដានឡើយ
+  * Service providers cannot condition access on tracking consent
+  * សេវាកម្មគ្រប់គ្រងការយល់ព្រម (PIMS) អាចរក្សាទុកសញ្ញានៃការយល់ព្រម
+  * Consent Management Services (PIMS) can store consent signals
+  * អនុវត្តចំពោះ៖ កម្មវិធី ឧបករណ៍ IoT មុខងារកម្មវិធីរុករក (Browser APIs) — មិនមែនត្រឹមតែ HTTP cookies ឡើយ
+  * Applies to: apps, IoT devices, browser APIs — not just HTTP cookies
 
-#### BSI-Grundschutz
+#### BSI-IT-Grundschutz
+
+ស្តង់ដារសន្តិសុខព័ត៌មានជាតិរបស់ប្រទេសអាល្លឺម៉ង់ — មិនបង្ខំឡើយ ប៉ុន្តែត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយ៖
 Germany's national IT security standard — not mandatory but widely used:
-- Comprehensive security baseline catalogue
-- Used as reference for NIS2 implementation in Germany
-- IT-Grundschutz certification similar to ISO 27001
+
+* កាតាឡុកមូលដ្ឋានសុវត្ថិភាពគ្រប់ជ្រុងជ្រោយ
+* Comprehensive security baseline catalogue
+* ប្រើប្រាស់ជាឯកសារយោងសម្រាប់ការអនុវត្ត NIS2 នៅក្នុងប្រទេសអាល្លឺម៉ង់
+* Used as reference for NIS2 implementation in Germany
+* វិញ្ញាបនប័ត្រ IT-Grundschutz ស្រដៀងគ្នានឹង ISO 27001
+* IT-Grundschutz certification similar to ISO 27001
 
 ---
 
-## United Kingdom
+<a id="9"></a>
+## ចក្រភពអង់គ្លេស (United Kingdom)
 
-### Post-Brexit Landscape
+<a id="10"></a>
+### អាជ្ញាធរសំខាន់ៗ (Key Authorities)
+
+* **ICO** (Information Commissioner's Office) — ការការពារទិន្នន័យ និងឯកជនភាព
+* **ICO** (Information Commissioner's Office) — data protection and privacy
+* **FCA** (Financial Conduct Authority) — បទប្បញ្ញត្តិសេវាកម្មហិរញ្ញវត្ថុ
+* **FCA** (Financial Conduct Authority) — financial services regulation
+* **CMA** (Competition and Markets Authority) — ការប្រកួតប្រជែង និងការការពារអ្នកប្រើប្រាស់
+* **CMA** (Competition and Markets Authority) — competition and consumer protection
+* **NCSC** (National Cyber Security Centre) — ការណែនាំសន្តិសុខសាយប័រ
+* **NCSC** (National Cyber Security Centre) — cybersecurity guidance
+
+<a id="11"></a>
+### ស្ថានភាពក្រោយ Brexit (Post-Brexit Landscape)
+
+ចក្រភពអង់គ្លេសបានចាកចេញពីសហភាពអឺរ៉ុបក្នុងឆ្នាំ ២០២០។ ច្បាប់សហភាពអឺរ៉ុបដែលមានស្រាប់ត្រូវបានរក្សាទុកក្រោមច្បាប់ចាកចេញពីសហភាពអឺរ៉ុបឆ្នាំ ២០១៨ ប៉ុន្តែបច្ចុប្បន្នចក្រភពអង់គ្លេសកំពុងអនុវត្តច្បាប់ដាច់ដោយឡែករបស់ខ្លួន។
 The UK left the EU in 2020. Existing EU law was retained under the European Union (Withdrawal) Act 2018 but the UK now diverges on its own trajectory.
 
-### Key Authorities
-- **ICO** (Information Commissioner's Office) — data protection and privacy
-- **FCA** (Financial Conduct Authority) — financial services regulation
-- **CMA** (Competition and Markets Authority) — competition and consumer protection
-- **NCSC** (National Cyber Security Centre) — cybersecurity guidance
+<a id="12"></a>
+### បទប្បញ្ញត្តិជាក់លាក់របស់ចក្រភពអង់គ្លេស (UK-Specific Regulations)
 
-### UK-Specific Regulations
+#### UK GDPR + ច្បាប់ការពារទិន្នន័យឆ្នាំ ២០១៨ (UK GDPR + Data Protection Act 2018)
 
-#### UK GDPR + Data Protection Act 2018
+ចក្រភពអង់គ្លេសបានរក្សាទុកច្បាប់ GDPR ក្រោយ Brexit ជា **UK GDPR** — ដែលដំបូងឡើយមានមុខងារដូចគ្នាបេះបិទ ប៉ុន្តែបច្ចុប្បន្នកំពុងខុសគ្នាខ្លះ៖
 The UK retained GDPR after Brexit as **UK GDPR** — functionally identical initially but now diverging:
 
-```
-Current differences from EU GDPR:
-□ ICO (not CNIL/DPA) is the supervisory authority
-□ UK-specific adequacy decisions — separate from EU adequacy rulings
-□ Data Reform Bill — government proposing changes to reduce some obligations
-□ International transfers: UK has its own adequacy decisions
-   (EU has adequacy for UK — means EU→UK transfers still permitted)
-```
+* **ភាពខុសគ្នាបច្ចុប្បន្នពីច្បាប់ GDPR របស់សហភាពអឺរ៉ុប៖**
+* **Current differences from EU GDPR:**
+  * ស្ថាប័នត្រួតពិនិត្យគឺ ICO (មិនមែន CNIL/DPA ឡើយ)
+  * ICO (not CNIL/DPA) is the supervisory authority
+  * វិធានការសម្រេចសេចក្តីការពារទិន្នន័យគ្រប់គ្រាន់ជាក់លាក់របស់ចក្រភពអង់គ្លេស — ដាច់ដោយឡែកពីសហភាពអឺរ៉ុប
+  * UK-specific adequacy decisions — separate from EU adequacy rulings
+  * សេចក្តីព្រាងច្បាប់កំណែទម្រង់ទិន្នន័យ — រដ្ឋាភិបាលស្នើឱ្យមានការកាត់បន្ថយកាតព្វកិច្ចមួយចំនួន
+  * Data Reform Bill — government proposing changes to reduce some obligations
+  * ការផ្ទេរទិន្នន័យអន្តរជាតិ៖ ចក្រភពអង់គ្លេសមានការសម្រេចការពារគ្រប់គ្រាន់របស់ខ្លួន (សហភាពអឺរ៉ុបមានការការពារគ្រប់គ្រាន់សម្រាប់ចក្រភពអង់គ្លេស — មានន័យថាការផ្ទេរទិន្នន័យពី EU ទៅ UK នៅតែត្រូវបានអនុញ្ញាត)
+  * International transfers: UK has its own adequacy decisions (EU has adequacy for UK — means EU→UK transfers still permitted)
 
 #### PECR — Privacy and Electronic Communications Regulations
-UK's ePrivacy equivalent (mirrors EU Cookie Law):
-```
-□ Consent before non-essential cookies — same as EU
-□ Direct marketing opt-in rules
-□ ICO actively enforces — fines up to £500,000 (plus UK GDPR maximum £17.5M)
-□ SMS/email marketing — soft opt-in exception for existing customers
-```
 
-#### FCA Regulations
+ច្បាប់ស្មើនឹង ePrivacy របស់ចក្រភពអង់គ្លេស (ឆ្លុះបញ្ចាំងពីច្បាប់ខូឃីរបស់សហភាពអឺរ៉ុប)៖
+UK's ePrivacy equivalent (mirrors EU Cookie Law):
+
+* ការសុំការយល់ព្រមមុននឹងប្រើប្រាស់ខូឃីដែលមិនចាំបាច់ — ដូចគ្នានឹងសហភាពអឺរ៉ុប
+* Consent before non-essential cookies — same as EU
+* វិធានការផ្សព្វផ្សាយពាណិជ្ជកម្មផ្ទាល់
+* Direct marketing opt-in rules
+* ICO អនុវត្តច្បាប់យ៉ាងសកម្ម — ពិន័យរហូតដល់ ៥០០,០០០ ផោន (បូករួមនឹងទណ្ឌកម្មអតិបរមារបស់ UK GDPR ចំនួន ១៧.៥ លានផោន)
+* ICO actively enforces — fines up to £500,000 (plus UK GDPR maximum £17.5M)
+* ការផ្សព្វផ្សាយតាម SMS/email — ករណីលើកលែង soft opt-in សម្រាប់អតិថិជនដែលមានស្រាប់
+* SMS/email marketing — soft opt-in exception for existing customers
+
+<a id="13"></a>
+### បទប្បញ្ញត្តិ FCA (FCA Regulations)
+
+សម្រាប់កម្មវិធីបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech) ដែលប្រតិបត្តិការក្នុងចក្រភពអង់គ្លេស៖
 For fintech platforms operating in the UK:
 
-| Regulation | Applies to | Key requirement |
-|:-----------|:-----------|:----------------|
-| Payment Services Regulations 2017 | Payment service providers | Authorisation, SCA, fraud reporting |
-| Electronic Money Regulations 2011 | E-money issuers | Safeguarding, minimum capital |
-| FCA Consumer Duty | All regulated firms | Good outcomes for retail customers |
-| Open Banking (CMA Order) | Major UK banks | Account access APIs (PSD2 equivalent) |
+| បទប្បញ្ញត្តិ<br/>(Regulation) | វិសាលភាពអនុវត្ត<br/>(Applies to) | តម្រូវការគន្លឹះ<br/>(Key requirement) |
+|:---|:---|:---|
+| Payment Services Regulations 2017 | អ្នកផ្តល់សេវាទូទាត់ប្រាក់<br/>Payment service providers | ការអនុញ្ញាត ការផ្ទៀងផ្ទាត់ SCA និងការរាយការណ៍ការក្លែងបន្លំ<br/>Authorisation, SCA, fraud reporting |
+| Electronic Money Regulations 2011 | អ្នកបោះផ្សាយលុយអេឡិចត្រូនិក<br/>E-money issuers | ការធានាសុវត្ថិភាពមូលនិធិ (Safeguarding) មូលធនអប្បបរមា<br/>Safeguarding, minimum capital |
+| FCA Consumer Duty | គ្រប់ក្រុមហ៊ុនដែលគ្រប់គ្រងដោយ FCA<br/>All regulated firms | លទ្ធផលល្អសម្រាប់អតិថិជនលក់រាយ<br/>Good outcomes for retail customers |
+| Open Banking (CMA Order) | ធនាគារធំៗរបស់ចក្រភពអង់គ្លេស<br/>Major UK banks | មុខងារ APIs សម្រាប់ចូលប្រើប្រាស់គណនី (ស្មើនឹង PSD2)<br/>Account access APIs (PSD2 equivalent) |
 
-```
-FCA authorisation requirements for fintech:
-□ Apply for relevant authorisation (EMI, PI, broker, etc.)
-□ Initial capital: £350K (EMI) — £125K (PI)
-□ Safeguarding: 100% client funds ring-fenced
-□ Incident reporting: FCA within 1 hour for major operational incidents
-□ Consumer Duty: annual outcome monitoring reports
-```
+* **តម្រូវការអនុញ្ញាតរបស់ FCA សម្រាប់បច្ចេកវិទ្យាហិរញ្ញវត្ថុ៖**
+* **FCA authorisation requirements for fintech:**
+  * ដាក់ពាក្យស្នើសុំការអនុញ្ញាតដែលពាក់ព័ន្ធ (EMI, PI, ក្រុមហ៊ុនកណ្តាល ល។)
+  * Apply for relevant authorisation (EMI, PI, broker, etc.)
+  * មូលធនដំបូង៖ ៣៥០,០០០ ផោន (EMI) — ១២៥,០០០ ផោន (PI)
+  * Initial capital: £350K (EMI) — £125K (PI)
+  * ការធានាសុវត្ថិភាពមូលនិធិ៖ ត្រូវបំបែកមូលនិធិអតិថិជន ១០០% ទុកដោយឡែក
+  * Safeguarding: 100% client funds ring-fenced
+  * ការរាយការណ៍ឧប្បត្តិហេតុ៖ ជូនដំណឹងដល់ FCA ក្នុងរយៈពេល ១ ម៉ោងសម្រាប់ឧប្បត្តិហេតុប្រតិបត្តិការធំៗ
+  * Incident reporting: FCA within 1 hour for major operational incidents
+  * កាតព្វកិច្ចអតិថិជន (Consumer Duty)៖ របាយការណ៍ត្រួតពិនិត្យលទ្ធផលប្រចាំឆ្នាំ
+  * Consumer Duty: annual outcome monitoring reports
 
 ---
 
-## Key EU Banking/Fintech Stack
+<a id="14"></a>
+## រចនាសម្ព័ន្ធធនាគារ/Fintech ស្នូលរបស់សហភាពអឺរ៉ុប (Key EU Banking/Fintech Stack)
 
+សម្រាប់គ្រប់ស្ថាប័នបច្ចេកវិទ្យាហិរញ្ញវត្ថុអឺរ៉ុប៖
 For any European fintech:
 
-```
-Regulation stack:
-□ GDPR — data protection baseline
-□ ePrivacy/PECR — cookie consent and marketing
-□ PSD2/PSR — payment authorisation
-□ DORA — operational resilience (from Jan 2025)
-□ AML/CFT — KYC, transaction monitoring, SAR filing
-□ NIS2 — cybersecurity (if essential/important entity)
-□ MiCA — if handling crypto assets
-□ EU AI Act — if using AI in consequential decisions
-```
+* **រចនាសម្ព័ន្ធបទប្បញ្ញត្តិ៖**
+* **Regulation stack:**
+  * GDPR — មូលដ្ឋានគ្រឹះការពារទិន្នន័យ
+  * GDPR — data protection baseline
+  * ePrivacy/PECR — ការយល់ព្រមលើខូឃី និងការផ្សព្វផ្សាយ
+  * ePrivacy/PECR — cookie consent and marketing
+  * PSD2/PSR — ការអនុញ្ញាតសេវាទូទាត់ប្រាក់
+  * PSD2/PSR — payment authorisation
+  * DORA — ភាពធន់នឹងប្រតិបត្តិការ (ចាប់ពីខែមករា ឆ្នាំ ២០២៥)
+  * DORA — operational resilience (from Jan 2025)
+  * AML/CFT — ការធ្វើ KYC ការត្រួតពិនិត្យប្រតិបត្តិការ និងការដាក់របាយការណ៍ SAR
+  * AML/CFT — KYC, transaction monitoring, SAR filing
+  * NIS2 — សន្តិសុខសាយប័រ (ប្រសិនបើជាស្ថាប័នសំខាន់/មានសារៈសំាន់)
+  * NIS2 — cybersecurity (if essential/important entity)
+  * MiCA — ប្រសិនបើចាត់ចែងទ្រព្យសកម្មគ្រីបតូ
+  * MiCA — if handling crypto assets
+  * EU AI Act — ប្រសិនបើប្រើប្រាស់ AI ក្នុងការសម្រេចចិត្តសំខាន់ៗ
+  * EU AI Act — if using AI in consequential decisions
 
 ---
 
-## Key EU Healthcare Stack
+<a id="15"></a>
+## រចនាសម្ព័ន្ធសុខាភិបាលស្នូលរបស់សហភាពអឺរ៉ុប (Key EU Healthcare Stack)
 
-```
-Regulation stack:
-□ GDPR Article 9 — health data as special category
-□ EU AI Act (high-risk) — diagnostic AI
-□ MDR/IVDR — if product is a medical device
-□ HDS (France only) — if hosting French patient data
-□ NIS2 — hospitals and healthcare providers as essential entities
-```
+* **រចនាសម្ព័ន្ធបទប្បញ្ញត្តិ៖**
+* **Regulation stack:**
+  * មាត្រា ៩ នៃច្បាប់ GDPR — ទិន្នន័យសុខភាពជាប្រភេទពិសេស
+  * GDPR Article 9 — health data as special category
+  * EU AI Act (ហានិភ័យខ្ពស់) — AI សម្រាប់ការធ្វើរោគវិនិច្ឆ័យ
+  * EU AI Act (high-risk) — diagnostic AI
+  * MDR/IVDR — ប្រសិនបើផលិតផលជាឧបករណ៍វេជ្ជសាស្ត្រ
+  * MDR/IVDR — if product is a medical device
+  * HDS (ប្រទេសបារាំងតែប៉ុណ្ណោះ) — ប្រសិនបើបង្ហោះទិន្នន័យអ្នកជំងឺបារាំង
+  * HDS (France only) — if hosting French patient data
+  * NIS2 — មន្ទីរពេទ្យ និងអ្នកផ្តល់សេវាសុខាភិបាលជាស្ថាប័នសំខាន់
+  * NIS2 — hospitals and healthcare providers as essential entities
 
 ---
 
-## Related
+<a id="16"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
+- [ច្បាប់ការពារទិន្នន័យទូទៅ (GDPR)](../data-privacy/01-gdpr.md)
 - [GDPR](../data-privacy/01-gdpr.md)
+- [សារាចរ NIS2](../eu-specific/01-nis2.md)
 - [NIS2](../eu-specific/01-nis2.md)
+- [ច្បាប់ DORA](../eu-specific/02-dora.md)
 - [DORA](../eu-specific/02-dora.md)
+- [ច្បាប់ MiCA](../eu-specific/03-mica.md)
 - [MiCA](../eu-specific/03-mica.md)
+- [សារាចរ ePrivacy](../eu-specific/04-eprivacy.md)
 - [ePrivacy](../eu-specific/04-eprivacy.md)
+- [វិញ្ញាបនប័ត្រ HDS ប្រទេសបារាំង](../eu-specific/05-hds-france.md)
 - [HDS France](../eu-specific/05-hds-france.md)
+- [ច្បាប់ស្តីពីបញ្ញាសិប្បនិម្មិត (EU AI Act)](../eu-specific/06-ai-act.md)
 - [EU AI Act](../eu-specific/06-ai-act.md)
+- [សារាចរ PSD2](../payment-and-financial/02-psd2.md)
 - [PSD2](../payment-and-financial/02-psd2.md)
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)

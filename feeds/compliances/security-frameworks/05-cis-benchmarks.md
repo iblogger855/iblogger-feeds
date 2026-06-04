@@ -1,34 +1,71 @@
 # CIS Benchmarks — Center for Internet Security
 
-**Jurisdiction:** Global  
-**Applies to:** Any organisation operating IT systems — servers, cloud infrastructure, databases, network devices, browsers  
-**Administered by:** CIS (Center for Internet Security)  
+**Jurisdiction / យុត្តាធិការ៖** Global / ជាសកល  
+**Applies to / អនុវត្តចំពោះ៖** Any organisation operating IT systems — servers, cloud infrastructure, databases, network devices, browsers / គ្រប់ស្ថាប័នទាំងអស់ដែលដំណើរការប្រព័ន្ធព័ត៌មានវិទ្យា — ម៉ាស៊ីនបម្រើ (Servers) ហេដ្ឋារចនាសម្ព័ន្ធក្លោដ (Cloud Infrastructure) មូលដ្ឋានទិន្នន័យ (Databases) ឧបករណ៍បណ្ដាញ (Network Devices) និងកម្មវិធីរុករក (Browsers)  
+**Administered by / គ្រប់គ្រងដោយ៖** CIS (Center for Internet Security) / មជ្ឈមណ្ឌលសម្រាប់សន្តិសុខអ៊ីនធឺណិត (CIS)  
 **Tags:** #compliance #cis #benchmarks #hardening #configuration #security
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+
+- [១. តើអ្វីជា CIS Benchmarks? (What It Is)](#0)
+- [២. កម្រិតនៃការអនុវត្ត (Implementation Levels)](#1)
+- [៣. ស្តង់ដារកំណត់គន្លឹះសម្រាប់ប្រព័ន្ធគេហទំព័រ (Key Benchmarks for Web Platforms)](#2)
+- [៤. វិធានការគ្រប់គ្រង CIS (CIS Controls - v8)](#3)
+- [៥. ឯកសារទាក់ទង (Related)](#4)
+
+---
+
+<a id="0"></a>
+## ១. តើអ្វីជា CIS Benchmarks? (What It Is)
+
+CIS Benchmarks គឺជាគោលការណ៍ណែនាំកំណត់រចនាសម្ព័ន្ធដែលបង្កើតឡើងដោយសហគមន៍ និងផ្អែកលើការព្រមព្រៀងគ្នា ដើម្បីកំណត់រចនាសម្ព័ន្ធប្រព័ន្ធព័ត៌មានវិទ្យាប្រកបដោយសុវត្ថិភាព។ ពួកវាផ្ដល់នូវការណែនាំលម្អិតជាជំហាន ៗ សម្រាប់ការពង្រឹងសុវត្ថិភាព (Hardening) ប្រព័ន្ធប្រតិបត្តិការ ប្រព័ន្ធក្លោដ (Cloud Platforms) មូលដ្ឋានទិន្នន័យ ម៉ាស៊ីនបម្រើគេហទំព័រ និងកម្មវិធីផ្សេង ៗ។
 
 CIS Benchmarks are community-developed, consensus-based configuration guidelines for securely configuring IT systems. They provide specific, step-by-step instructions for hardening operating systems, cloud platforms, databases, web servers, and applications.
+
+មាន **CIS Benchmarks ជាង ១០០** ដែលគ្របដណ្ដប់លើផ្លេតហ្វមពេញនិយមស្ទើរតែទាំងអស់។ គោលការណ៍ទាំងនេះអាចទាញយកដោយសេរី និងត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយជាគ្រឹះបច្ចេកទេសសម្រាប់ការគ្រប់គ្រង SOC 2 និង ISO 27001។
 
 There are **100+ CIS Benchmarks** covering virtually every mainstream platform. They are free to download and widely used as the technical foundation for SOC 2 and ISO 27001 controls.
 
 ---
 
-## Implementation Levels
+<a id="1"></a>
+## ២. កម្រិតនៃការអនុវត្ត (Implementation Levels)
+
+| កម្រិត (Level) | ការពិពណ៌នា (Description) | ឧទាហរណ៍ (Example) |
+|:---|:---|:---|
+| **កម្រិត ១ (Level 1)** | សន្តិសុខទូលំទូលាយ មានលក្ខណៈអនុវត្តជាក់ស្ដែង។ ផលប៉ះពាល់អប្បបរមាលើលទ្ធផលការងារ។ គួរតែអនុវត្តចំពោះគ្រប់ប្រព័ន្ធទាំងអស់។ <br/> Practical, broad security. Minimal performance impact. Should be applied to all systems. | បិទសេវាកម្មដែលមិនចាំបាច់, បើករបាំងការពារ (Firewall) <br/> Disable unnecessary services, enable firewall |
+| **កម្រិត ២ (Level 2)** | ការការពារស៊ីជម្រៅ។ អាចប៉ះពាល់ដល់មុខងារមួយចំនួន។ សម្រាប់មជ្ឈដ្ឋានដែលមានកម្រិតសន្តិសុខខ្ពស់។ <br/> Defence in depth. May affect functionality. For high-security environments. | ការរឹតបន្តឹងម៉ូឌុលខឺណែល (Kernel Module Restrictions) គោលនយោបាយសវនកម្មកម្រិតខ្ពស់ <br/> Kernel module restrictions, advanced audit policies |
+
+រាល់អនុសាសន៍នីមួយ ៗ នៅក្នុង CIS Benchmark ត្រូវបានចាត់ចូលទៅក្នុងកម្រិតណាមួយជាក់លាក់៖
 
 Each recommendation in a CIS Benchmark is assigned a level:
 
-| Level | Description | Example |
-|:------|:------------|:--------|
-| **Level 1** | Practical, broad security. Minimal performance impact. Should be applied to all systems. | Disable unnecessary services, enable firewall |
-| **Level 2** | Defence in depth. May affect functionality. For high-security environments. | Kernel module restrictions, advanced audit policies |
-
 ---
 
-## Key Benchmarks for Web Platforms
+<a id="2"></a>
+## ៣. ស្តង់ដារកំណត់គន្លឹះសម្រាប់ប្រព័ន្ធគេហទំព័រ (Key Benchmarks for Web Platforms)
 
 ### Linux (Ubuntu/Debian/CentOS)
+
+```
+□ ការបែងចែកភាគថាសឯកសារ — បំបែក /tmp, /var, /home ចេញពីគ្នា
+□ បិទប្រព័ន្ធឯកសារដែលមិនប្រើប្រាស់ (cramfs, freevxfs, jffs2, hfs)
+□ បិទការបង្កើតឯកសារវិភាគកំហុសប្រព័ន្ធ (Core Dumps)
+□ បើកដំណើរការ ASLR (Address Space Layout Randomization)
+□ ការពង្រឹងសុវត្ថិភាព SSH៖
+    - PermitRootLogin no (មិនអនុញ្ញាតឱ្យ Root ចូលប្រព័ន្ធដោយផ្ទាល់)
+    - PasswordAuthentication no (អនុញ្ញាតតែការផ្ទៀងផ្ទាត់ដោយប្រើកូនសោសម្ងាត់)
+    - MaxAuthTries 4 (ព្យាយាមបញ្ចូលច្រើនបំផុត ៤ ដង)
+    - ពេលវេលាអស់សកម្មភាព៖ ៣០០ វិនាទី
+□ បិទពិធីការបណ្ដាញដែលមិនប្រើប្រាស់ (DCCP, SCTP)
+□ វិធានរបាំងការពារ (Firewall Rules) — បដិសេធរាល់ចរាចរណ៍ចូលទាំងអស់ លើកលែងតែរន្ធ (Ports) ដែលតម្រូវការ
+□ បើកដំណើរការកម្មវិធីត្រួតពិនិត្យ (Audit Daemon) — កត់ត្រារាល់ការបញ្ជាដែលត្រូវការសិទ្ធិពិសេសទាំងអស់
+□ គោលនយោបាយពាក្យសម្ងាត់ — យ៉ាងតិច ១៤ តួអក្សរ និងតម្រូវការភាពស្មុគស្មាញ
+□ កំណត់រចនាសម្ព័ន្ធ Sudo ឱ្យបានត្រឹមត្រូវ — គ្មាន NOPASSWD នៅក្នុងប្រព័ន្ធផលិតកម្ម
+```
+
 ```
 □ Filesystem partitioning — separate /tmp, /var, /home
 □ Disable unused filesystems (cramfs, freevxfs, jffs2, hfs)
@@ -47,6 +84,24 @@ Each recommendation in a CIS Benchmark is assigned a level:
 ```
 
 ### AWS (Amazon Web Services)
+
+```
+□ បើកដំណើរការ MFA សម្រាប់គណនី Root
+□ គ្មានកូនសោចូលប្រើប្រាស់ (Access Keys) សម្រាប់គណនី Root ឡើយ
+□ គោលនយោបាយពាក្យសម្ងាត់ IAM — យ៉ាងតិច ១៤ តួអក្សរ, តម្រូវឱ្យមាន MFA សម្រាប់អ្នកប្រើប្រាស់ផ្ទាំងគ្រប់គ្រង (Console)
+□ បើកដំណើរការ CloudTrail ក្នុងគ្រប់តំបន់ (Regions) ទាំងអស់
+□ ធុងផ្ទុកទិន្នន័យ S3 (S3 Buckets) — គ្មានការចូលប្រើប្រាស់ជាសាធារណៈតាមលំនាំដើម (Block Public Access)
+□ បើកដំណើរការការកត់ត្រាទុក (Logging) សម្រាប់ធុងផ្ទុកទិន្នន័យ S3
+□ បើកដំណើរការកំណត់ត្រាលំហូរ VPC (VPC Flow Logs)
+□ ក្រុមសន្តិសុខ (Security Groups) — គ្មានការអនុញ្ញាត 0.0.0.0/0 ចូលទៅកាន់រន្ធងាយរងគ្រោះឡើយ
+□ បើកដំណើរការការកូដនីយកម្មទិន្នន័យពេលរក្សាទុកសម្រាប់ RDS
+□ កំណត់ឱ្យ RDS មិនអាចចូលប្រើប្រាស់ជាសាធារណៈបាន
+□ បើកដំណើរការការបង្វិលកូនសោ KMS — សម្រាប់គ្រប់កូនសោដែលគ្រប់គ្រងដោយអតិថិជន
+□ បើកដំណើរការ GuardDuty
+□ បើកដំណើរការវិធាន Config (Config Rules)
+□ បង្កើតការផ្ដល់ដំណឹង CloudWatch សម្រាប់ការចូលគណនី Root, ការចូលផ្ទាំងគ្រប់គ្រងដោយគ្មាន MFA, ការផ្លាស់ប្ដូរក្រុមសន្តិសុខ
+```
+
 ```
 □ Root account MFA enabled
 □ No access keys for root account
@@ -65,6 +120,18 @@ Each recommendation in a CIS Benchmark is assigned a level:
 ```
 
 ### Docker
+
+```
+□ មិនត្រូវបង្ហាញ Docker Daemon តាម TCP ដោយគ្មាន TLS ឡើយ
+□ ប្រើប្រាស់អ្នកប្រើប្រាស់ដែលមិនមែនជា Root នៅក្នុងកុងតឺន័រ (Containers)
+□ ប្រើប្រាស់ប្រព័ន្ធឯកសារដែលអាចអានបានតែមួយមុខ (Read-only Filesystem) ប្រសិនបើអាចធ្វើទៅបាន
+□ គ្មានការប្រើប្រាស់ទង់ --privileged ឡើយ
+□ ប្រើប្រាស់រូបភាពមូលដ្ឋានផ្លូវការ ឬត្រូវបានផ្ទៀងផ្ទាត់ (Official/Verified Base Images)
+□ គ្មានការលាក់កូនសោសម្ងាត់នៅក្នុង Dockerfile ENV ឬអាគុយម៉ង់ស្ថាបនា (Build Args) ឡើយ — ត្រូវប្រើប្រាស់ការគ្រប់គ្រងកូនសោសម្ងាត់
+□ កំណត់កម្រិតធនធានរបស់កុងតឺន័រ (CPU/Memory)
+□ គោលនយោបាយបណ្ដាញ — កុងតឺន័រអាចប្រាស្រ័យទាក់ទងតែជាមួយអ្វីដែលពួកគេត្រូវការប៉ុណ្ណោះ
+```
+
 ```
 □ Docker daemon not exposed over TCP without TLS
 □ Non-root user in containers
@@ -77,6 +144,19 @@ Each recommendation in a CIS Benchmark is assigned a level:
 ```
 
 ### Kubernetes
+
+```
+□ ម៉ាស៊ីនបម្រើ API (API Server) — គ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយអនាមិក (Anonymous Auth) ឡើយ
+□ បើកដំណើរការ RBAC (លំនាំដើមនៅក្នុងកំណែថ្មីៗ)
+□ បើកដំណើរការការកត់ត្រាសវនកម្ម (Audit Logging) លើម៉ាស៊ីនបម្រើ API
+□ ធ្វើកូដនីយកម្ម etcd ពេលរក្សាទុក
+□ គោលនយោបាយបណ្ដាញ — បដិសេធទាំងអស់តាមលំនាំដើម, អនុញ្ញាតតែអ្វីដែលនៅក្នុងបញ្ជីស (Whitelist)
+□ ការអនុញ្ញាតសន្តិសុខផត (Pod Security Admission) — រឹតត្បិតផតដែលមានសិទ្ធិខ្ពស់ (Privileged Pods)
+□ រក្សាទុកកូនសោសម្ងាត់នៅក្នុងកម្មវិធីគ្រប់គ្រងកូនសោខាងក្រៅ (មិនមែនគ្រាន់តែជា k8s secrets ធម្មតាឡើយ)
+□ ស្កេនរូបភាព (Image Scanning) នៅក្នុងបំពង់បង្ហូរ CI/CD
+□ គ្មានកុងតឺន័រណាដែលដំណើរការក្នុងនាមជា Root ឡើយ
+```
+
 ```
 □ API server — no anonymous auth
 □ RBAC enabled (default in modern versions)
@@ -90,6 +170,18 @@ Each recommendation in a CIS Benchmark is assigned a level:
 ```
 
 ### PostgreSQL / MySQL
+
+```
+□ មូលដ្ឋានទិន្នន័យមិនត្រូវចូលប្រើប្រាស់បានពីអ៊ីនធឺណិតសាធារណៈឡើយ
+□ ប្រើប្រាស់គណនីអ្នកប្រើប្រាស់មូលដ្ឋានទិន្នន័យដាច់ដោយឡែកសម្រាប់កម្មវិធីនីមួយ ៗ — សិទ្ធិអប្បបរមា
+□ គ្មានការប្រើប្រាស់គណនី Superuser ដោយកម្មវិធីឡើយ
+□ កូដនីយកម្មទិន្នន័យពេលរក្សាទុក — ប្រើប្រាស់ TDE ឬការកូដនីយកម្មប្រព័ន្ធឯកសារ
+□ កូដនីយកម្មទិន្នន័យពេលបញ្ជូន — តម្រូវឱ្យមាន SSL/TLS
+□ ការកត់ត្រាសវនកម្ម — កត់ត្រារាល់ការផ្លាស់ប្ដូរ DDL និងប្រតិបត្តិការដែលមានសិទ្ធិពិសេស
+□ បិទមុខងារ និងកម្មវិធីបន្ថែម (Extensions) ដែលមិនប្រើប្រាស់
+□ ការបម្រុងទុកទិន្នន័យជាទៀងទាត់ — កូដនីយកម្ម និងបានសាកល្បងសង្គ្រោះឡើងវិញ
+```
+
 ```
 □ Database not accessible from the public internet
 □ Dedicated database user per application — minimal privileges
@@ -103,38 +195,48 @@ Each recommendation in a CIS Benchmark is assigned a level:
 
 ---
 
-## CIS Controls (v8)
+<a id="3"></a>
+## ៤. វិធានការគ្រប់គ្រង CIS (CIS Controls - v8)
+
+ដាច់ដោយឡែកពី Benchmarks វិធានការគ្រប់គ្រង CIS (CIS Controls) គឺជាការអនុវត្តសន្តិសុខព័ត៌មានកម្រិតខ្ពស់ចំនួន ១៨៖
 
 Separate from Benchmarks, CIS Controls are 18 high-level security practices:
 
-| # | Control | Priority |
-|:--|:--------|:---------|
-| 1 | Inventory and control of enterprise assets | IG1 |
-| 2 | Inventory and control of software assets | IG1 |
-| 3 | Data protection | IG1 |
-| 4 | Secure configuration of enterprise assets and software | IG1 |
-| 5 | Account management | IG1 |
-| 6 | Access control management | IG1 |
-| 7 | Continuous vulnerability management | IG1 |
-| 8 | Audit log management | IG1 |
-| 9 | Email and web browser protections | IG1 |
-| 10 | Malware defences | IG1 |
-| 11 | Data recovery | IG2 |
-| 12 | Network infrastructure management | IG2 |
-| 13 | Network monitoring and defence | IG2 |
-| 14 | Security awareness and skills training | IG2 |
-| 15 | Service provider management | IG2 |
-| 16 | Application software security | IG2 |
-| 17 | Incident response management | IG3 |
-| 18 | Penetration testing | IG3 |
+| # | វិធានការគ្រប់គ្រង (Control) | អាទិភាព (Priority) |
+|:---|:---|:---|
+| 1 | បញ្ជីសារពើភណ្ឌ និងការគ្រប់គ្រងទ្រព្យសកម្មសហគ្រាស <br/> Inventory and control of enterprise assets | IG1 |
+| 2 | បញ្ជីសារពើភណ្ឌ និងការគ្រប់គ្រងទ្រព្យសកម្មកម្មវិធី <br/> Inventory and control of software assets | IG1 |
+| 3 | ការការពារទិន្នន័យ <br/> Data protection | IG1 |
+| 4 | | ការកំណត់រចនាសម្ព័ន្ធប្រកបដោយសុវត្ថិភាពនៃទ្រព្យសកម្ម និងកម្មវិធីសហគ្រាស <br/> Secure configuration of enterprise assets and software | IG1 |
+| 5 | ការគ្រប់គ្រងគណនី <br/> Account management | IG1 |
+| 6 | ការគ្រប់គ្រងការចូលប្រើប្រាស់ <br/> Access control management | IG1 |
+| 7 | ការគ្រប់គ្រងភាពងាយរងគ្រោះជាបន្តបន្ទាប់ <br/> Continuous vulnerability management | IG1 |
+| 8 | ការគ្រប់គ្រងកំណត់ត្រាសវនកម្ម <br/> Audit log management | IG1 |
+| 9 | | ការការពារអ៊ីមែល និងកម្មវិធីរុករកគេហទំព័រ <br/> Email and web browser protections | IG1 |
+| 10 | ការការពារពីកម្មវិធីព្យាបាទ (Malware) <br/> Malware defences | IG1 |
+| 11 | ការសង្គ្រោះទិន្នន័យ <br/> Data recovery | IG2 |
+| 12 | | ការគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធបណ្ដាញ <br/> Network infrastructure management | IG2 |
+| 13 | ការត្រួតពិនិត្យ និងការការពារបណ្ដាញ <br/> Network monitoring and defence | IG2 |
+| 14 | | ការបណ្ដុះបណ្ដាលការយល់ដឹង និងជំនាញសន្តិសុខព័ត៌មាន <br/> Security awareness and skills training | IG2 |
+| 15 | ការគ្រប់គ្រងអ្នកផ្ដល់សេវាកម្ម <br/> Service provider management | IG2 |
+| 16 | សន្តិសុខកម្មវិធីកុំព្យូទ័រ <br/> Application software security | IG2 |
+| 17 | ការគ្រប់គ្រងការឆ្លើយតបនឹងឧប្បត្តិហេតុ <br/> Incident response management | IG3 |
+| 18 | | ការធ្វើតេស្តជ្រៀតចូល (Penetration Testing) <br/> Penetration testing | IG3 |
+
+IG1 = ក្រុមអនុវត្តទី ១ — សន្តិសុខអប្បបរមាសម្រាប់គ្រប់ស្ថាប័នទាំងអស់។
 
 IG1 = Implementation Group 1 — minimum security for all organisations.
 
 ---
 
-## Related
+<a id="4"></a>
+## ៥. ឯកសារទាក់ទង (Related)
 
+- [SOC 2](./01-soc2.md) — CIS Benchmarks ត្រូវបានប្រើប្រាស់ជាទូទៅដើម្បីបំពេញតម្រូវការគ្រប់គ្រងរបស់ SOC 2
 - [SOC 2](./01-soc2.md) — CIS Benchmarks are commonly used to satisfy SOC 2 controls
+- [ISO 27001](./02-iso-27001.md) — វិញ្ញាបនបត្រ ISMS
 - [ISO 27001](./02-iso-27001.md)
+- [NIST CSF](./04-nist-csf.md) — ក្របខ័ណ្ឌសន្តិសុខព័ត៌មាន NIST
 - [NIST CSF](./04-nist-csf.md)
+- [OWASP ASVS](./03-owasp-asvs.md) — តម្រូវការសន្តិសុខកម្រិតកម្មវិធី
 - [OWASP ASVS](./03-owasp-asvs.md) — application-level security requirements

@@ -1,137 +1,211 @@
-# Middle East Regional Compliance Overview
+# មជ្ឈិមបូព៌ា៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់ថ្នាក់តំបន់ (Middle East: Regional Compliance Overview)
 
-**Region:** Gulf Cooperation Council (GCC) and Levant  
+**តំបន់ (Region)៖** ក្រុមប្រឹក្សាសហប្រតិបត្តិការឈូងសមុទ្រ (GCC) និងតំបន់ Levant (Gulf Cooperation Council (GCC) and Levant)  
 **Tags:** #compliance #middleeast #uae #saudi-arabia #qatar #difc #pdpl #data-protection
 
 ---
 
-## Overview
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. សហរដ្ឋអាមេរិកអារ៉ាប់ (UAE) (United Arab Emirates (UAE))](#1)
+  - [រចនាសម្ព័ន្ធបទប្បញ្ញត្តិទ្វេ (Dual Regulatory Structure)](#2)
+  - [ដែនដីគោក UAE — ច្បាប់ការពារទិន្នន័យសហព័ន្ធ (Onshore UAE — Federal Data Protection Law)](#3)
+  - [តំបន់ DIFC — មជ្ឈមណ្ឌលហិរញ្ញវត្ថុអន្តរជាតិឌូបៃ (DIFC — Dubai International Financial Centre)](#4)
+  - [តំបន់ ADGM — ទីផ្សារសកលអាប៊ូដាប៊ី (ADGM — Abu Dhabi Global Market)](#5)
+- [២. ប្រទេសអារ៉ាប៊ីសាអូឌីត (Saudi Arabia)](#6)
+  - [ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Authorities)](#7)
+  - [ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន - PDPL (PDPL — Personal Data Protection Law)](#8)
+  - [លក្ខណៈជាក់លាក់របស់អារ៉ាប៊ីសាអូឌីត៖ ការរក្សាទុកទិន្នន័យក្នុងប្រទេស (Saudi-Specific: Data Localisation)](#9)
+  - [ក្របខ័ណ្ឌការងារ Fintech របស់ SAMA (SAMA Fintech Framework)](#10)
+- [៣. ប្រទេសកាតា (Qatar)](#11)
+  - [ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Authorities)](#12)
+  - [ច្បាប់ PDPL ២០១៦ និងវិសោធនកម្ម ២០២១ (PDPL 2016 and Amendment 2021)](#13)
+  - [វិធានការការពារទិន្នន័យរបស់ QFC (QFC Data Protection Rules)](#14)
+- [៤. ប្រទេសអ៊ីស្រាអែល (Israel)](#15)
+- [៥. ប្រទេសតួកគី (Turkey)](#16)
+- [៦. សេចក្តីសង្ខេបការអនុលោមតាមច្បាប់ថ្នាក់តំបន់ (Regional Compliance Summary)](#17)
+- [៧. អ្វីដែលត្រូវរៀបចំសម្រាប់ការវិនិយោគនៅតំបន់មជ្ឈិមបូព៌ា (What to Build for Middle East Expansion)](#18)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#19)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+តំបន់មជ្ឈិមបូព៌ា — ជាពិសេសសហរដ្ឋអាមេរិកអារ៉ាប់ (UAE) និងប្រទេសអារ៉ាប៊ីសាអូឌីត — បានបង្កើតរបបការពារទិន្នន័យយ៉ាងរហ័សចាប់តាំងពីឆ្នាំ ២០២១។ តំបន់នេះមានយុត្តាធិការពីរប្រភេទ៖
+១. ដែនដីគោក (Onshore) — យុត្តាធិការចម្បងរបស់ប្រទេស
+២. ដែនកោះ/តំបន់សេដ្ឋកិច្ចពិសេស (Offshore / Special Economic Zones) — DIFC (ឌូបៃ), ADGM (អាប៊ូដាប៊ី), QFC (កាតា) — ផ្អែកលើច្បាប់ទូទៅ (Common Law) និងជារឿយៗជិតស្និទ្ធនឹងស្តង់ដាររបស់ចក្រភពអង់គ្លេស/សហភាពអឺរ៉ុប។
 
 The Middle East — particularly the UAE and Saudi Arabia — has rapidly developed data protection regimes since 2021. The region has two types of jurisdiction:
-1. **Onshore** — the main country jurisdiction
-2. **Offshore / Special Economic Zones** — DIFC (Dubai), ADGM (Abu Dhabi), QFC (Qatar) — common law-based, often closer to UK/EU standards
+1. Onshore — the main country jurisdiction
+2. Offshore / Special Economic Zones — DIFC (Dubai), ADGM (Abu Dhabi), QFC (Qatar) — common law-based, often closer to UK/EU standards
 
+សម្រាប់ក្រុមហ៊ុនបច្ចេកវិទ្យា តំបន់សេរីហិរញ្ញវត្ថុ (DIFC, ADGM) គឺជាមជ្ឈមណ្ឌលធំៗដែលមានក្របខ័ណ្ឌបទប្បញ្ញត្តិឯករាជ្យ។
 For technology companies, the financial free zones (DIFC, ADGM) are major hubs with independent regulatory frameworks.
 
 ---
 
-## United Arab Emirates (UAE)
+<a id="1"></a>
+## ១. សហរដ្ឋអាមេរិកអារ៉ាប់ (UAE) (United Arab Emirates (UAE))
 
-### Dual Regulatory Structure
+<a id="2"></a>
+### រចនាសម្ព័ន្ធបទប្បញ្ញត្តិទ្វេ (Dual Regulatory Structure)
 
+UAE ដំណើរការប្រព័ន្ធពីរស្របគ្នា៖
 UAE operates two parallel systems:
 
-| System | Coverage | Regulator |
-|:-------|:---------|:----------|
-| Onshore UAE | All of UAE except free zones | Multiple federal authorities |
-| DIFC | Dubai International Financial Centre | DIFC Authority / DFSA |
-| ADGM | Abu Dhabi Global Market | ADGM Authority / FSRA |
+| ប្រព័ន្ធ<br/>(System) | វិសាលភាពគ្របដណ្តប់<br/>(Coverage) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|:---|
+| ដែនដីគោក UAE<br/>Onshore UAE | គ្រប់ទីតាំងទាំងអស់របស់ UAE លើកលែងតែតំបន់សេរី<br/>All of UAE except free zones | អាជ្ញាធរសហព័ន្ធជាច្រើន<br/>Multiple federal authorities |
+| DIFC | មជ្ឈមណ្ឌលហិរញ្ញវត្ថុអន្តរជាតិឌូបៃ<br/>Dubai International Financial Centre | អាជ្ញាធរ DIFC / DFSA<br/>DIFC Authority / DFSA |
+| ADGM | ទីផ្សារសកលអាប៊ូដាប៊ី<br/>Abu Dhabi Global Market | អាជ្ញាធរ ADGM / FSRA<br/>ADGM Authority / FSRA |
 
-### Onshore UAE — Federal Data Protection Law
+<a id="3"></a>
+### ដែនដីគោក UAE — ច្បាប់ការពារទិន្នន័យសហព័ន្ធ (Onshore UAE — Federal Data Protection Law)
 
+**UAE PDPL** — ច្បាប់ក្រឹត្យសហព័ន្ធលេខ ៤៥ ឆ្នាំ ២០២១ ស្តីពីការការពារទិន្នន័យផ្ទាល់ខ្លួន  
 **UAE PDPL** — Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data  
+
+**ចូលជាធរមាន៖** ខែមករា ឆ្នាំ ២០២២ (បទប្បញ្ញត្តិប្រតិបត្តិប្រកាសឱ្យប្រើក្នុងឆ្នាំ ២០២៣)  
 **In force:** January 2022 (executive regulations issued 2023)  
-**Enforced by:** UAE Data Office
 
-#### Key Requirements
+**អនុវត្តដោយ៖** ការិយាល័យទិន្នន័យ UAE  
+**Enforced by:** UAE Data Office  
 
-```
-□ Lawful basis — consent, contract, legitimate interest, legal obligation, vital interest
-□ Privacy notice — purpose, legal basis, rights, data retention
-□ Data subject rights — access, correction, deletion, restriction, portability
-□ Controller-processor contracts — mandatory data processing agreements
-□ Data Protection Officer — mandatory for high-risk processing
-□ DPIAs — for processing that poses high risk
-□ Cross-border transfers — adequate protection or appropriate safeguards
-□ Data breach notification — UAE Data Office and data subjects
-   Minor breach: within 72 hours
-   Major breach: within 24 hours
-□ Children (under 18): parental/guardian consent required
-```
+#### តម្រូវការគន្លឹះ (Key Requirements)
 
-#### Sensitive Personal Data
+* មូលដ្ឋានច្បាប់ — ការយល់ព្រម កិច្ចសន្យា ផលប្រយោជន៍ស្របច្បាប់ កាតព្វកិច្ចច្បាប់ ផលប្រយោជន៍សំខាន់ៗ
+* Lawful basis — consent, contract, legitimate interest, legal obligation, vital interest
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព — គោលបំណង មូលដ្ឋានច្បាប់ សិទ្ធិ ការរក្សាទុកទិន្នន័យ
+* Privacy notice — purpose, legal basis, rights, data retention
+* សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ — ការចូលមើល ការកែតម្រូវ ការលុបចោល ការកម្រិត ការផ្ទេរទិន្នន័យ
+* Data subject rights — access, correction, deletion, restriction, portability
+* កិច្ចសន្យារវាងភាគីគ្រប់គ្រង និងដំណើរការ — កិច្ចព្រមព្រៀងដំណើរការទិន្នន័យជាកាតព្វកិច្ច
+* Controller-processor contracts — mandatory data processing agreements
+* មន្ត្រីការពារទិន្នន័យ (DPO) — ជាកាតព្វកិច្ចសម្រាប់ការដំណើរការដែលមានហានិភ័យខ្ពស់
+* Data Protection Officer — mandatory for high-risk processing
+* ការវាយតម្លៃ DPIAs — សម្រាប់ការដំណើរការដែលបង្កហានិភ័យខ្ពស់
+* DPIAs — for processing that poses high risk
+* ការផ្ទេរទិន្នន័យឆ្លងដែន — តម្រូវឱ្យមានការការពារគ្រប់គ្រាន់ ឬវិធានការការពារសមស្រប
+* Cross-border transfers — adequate protection or appropriate safeguards
+* ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ — រាយការណ៍ទៅការិយាល័យទិន្នន័យ UAE និងម្ចាស់ទិន្នន័យ
+  * ការលេចធ្លាយកម្រិតស្រាល៖ ក្នុងរយៈពេល ៧២ ម៉ោង
+  * ការលេចធ្លាយកម្រិតធ្ងន់៖ ក្នុងរយៈពេល ២៤ ម៉ោង
+* Data breach notification — UAE Data Office and data subjects (Minor breach: within 72 hours; Major breach: within 24 hours)
+* កុមារ (អាយុក្រោម ១៨ ឆ្នាំ)៖ ត្រូវមានការយល់ព្រមពីមាតាបិតា/អាណាព្យាបាល
+* Children (under 18): parental/guardian consent required
 
-```
+#### ទិន្នន័យផ្ទាល់ខ្លួនរសើប (Sensitive Personal Data)
+
+តម្រូវឱ្យមានការយល់ព្រមច្បាស់លាស់ (ឬមូលដ្ឋានច្បាប់ជាក់លាក់)៖
 Requires explicit consent (or specific legal grounds):
-- Health and medical data
-- Biometric data
-- Genetic data
-- Financial data (credit information)
-- Criminal records
-- Religious beliefs
-- Ethnic origin
-```
 
-#### Penalties
+* ទិន្នន័យសុខភាព និងវេជ្ជសាស្ត្រ
+* Health and medical data
+* ទិន្នន័យជីវមាត្រ
+* Biometric data
+* ទិន្នន័យហ្សែន
+* Genetic data
+* ទិន្នន័យហិរញ្ញវត្ថុ (ព័ត៌មានឥណទាន)
+* Financial data (credit information)
+* ប្រវត្តិព្រហ្មទណ្ឌ
+* Criminal records
+* ជំនឿសាសនា
+* Religious beliefs
+* ប្រភពដើមជាតិសាសន៍
+* Ethnic origin
 
-| Violation | Maximum |
-|:----------|:--------|
-| Unlawful transfer of sensitive data | AED 5M (≈ $1.36M) |
-| Processing without legal basis | AED 1M |
-| Failure to comply with data subject requests | AED 500K |
+#### ទោសទណ្ឌ (Penalties)
+
+| ករណីល្មើស<br/>(Violation) | ទណ្ឌកម្មអតិបរមា<br/>(Maximum) |
+|:---|:---|
+| ការផ្ទេរទិន្នន័យរសើបដោយខុសច្បាប់<br/>Unlawful transfer of sensitive data | ៥ លានឌីហាំ (~១,៣៦ លានដុល្លារ)<br/>AED 5M (≈ $1.36M) |
+| ការដំណើរការដោយគ្មានមូលដ្ឋានច្បាប់<br/>Processing without legal basis | ១ លានឌីហាំ<br/>AED 1M |
+| ការមិនអនុលោមតាមសំណើរបស់ម្ចាស់ទិន្នន័យ<br/>Failure to comply with data subject requests | ៥០០,០០០ ឌីហាំ<br/>AED 500K |
 
 ---
 
-### DIFC — Dubai International Financial Centre
+<a id="4"></a>
+## តំបន់ DIFC — មជ្ឈមណ្ឌលហិរញ្ញវត្ថុអន្តរជាតិឌូបៃ (DIFC — Dubai International Financial Centre)
 
+DIFC មានច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួនរបស់ខ្លួនផ្អែកលើគោលការណ៍ GDPR — ដែលមានភាពចាស់ទុំ និងត្រូវបានអនុវត្តយ៉ាងទូលំទូលាយ។
 DIFC has its own data protection law based on GDPR principles — more mature and extensively enforced.
 
-**DIFC Data Protection Law 2020 (DP Law)**  
+**ច្បាប់ការពារទិន្នន័យ DIFC ឆ្នាំ ២០២០ (DP Law)**  
 **Enforced by:** DIFC Commissioner of Data Protection
 
-#### DIFC DP Law vs GDPR
+#### ច្បាប់ DIFC DP Law ធៀបនឹង GDPR (DIFC DP Law vs GDPR)
 
-| Aspect | DIFC DP Law | EU GDPR |
-|:-------|:------------|:--------|
-| Legal basis | Same 6 grounds as GDPR | Same |
-| Data subject rights | Same set | Same |
-| DPO requirement | Risk-based | Risk-based |
-| Breach notification | Commissioner: 72 hours | DPA: 72 hours |
-| Cross-border transfers | DIFC adequacy list | EU adequacy list |
-| Fines | USD 100K per violation | Up to 4% global turnover |
+| ទិដ្ឋភាព<br/>(Aspect) | ច្បាប់ DIFC DP Law | ច្បាប់ EU GDPR |
+|:---|:---|:---|
+| មូលដ្ឋានច្បាប់<br/>Legal basis | ដូចគ្នានឹងមូលដ្ឋានទាំង ៦ របស់ GDPR<br/>Same 6 grounds as GDPR | ដូចគ្នា<br/>Same |
+| សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ<br/>Data subject rights | ដូចគ្នា<br/>Same set | ដូចគ្នា<br/>Same |
+| តម្រូវការ DPO<br/>DPO requirement | ផ្អែកលើហានិភ័យ<br/>Risk-based | ផ្អែកលើហានិភ័យ<br/>Risk-based |
+| ការរាយការណ៍ការលេចធ្លាយ<br/>Breach notification | ស្នងការ៖ ៧២ ម៉ោង<br/>Commissioner: 72 hours | DPA៖ ៧២ ម៉ោង<br/>DPA: 72 hours |
+| ការផ្ទេរទិន្នន័យឆ្លងដែន<br/>Cross-border transfers | បញ្ជីប្រទេសមានសុវត្ថិភាពរបស់ DIFC<br/>DIFC adequacy list | បញ្ជីប្រទេសមានសុវត្ថិភាពរបស់ EU<br/>EU adequacy list |
+| ការផាកពិន័យ<br/>Fines | ១០០,០០០ ដុល្លារអាមេរិកក្នុងមួយករណីល្មើស<br/>USD 100K per violation | រហូតដល់ ៤% នៃចំណូលសកល<br/>Up to 4% global turnover |
 
-```
-DIFC compliance requirements:
-□ Register with DIFC Commissioner of Data Protection
-□ Appoint DPO if required
-□ Privacy notice — DIFC-specific requirements
-□ Data subject rights portal
-□ Cross-border transfers — DIFC whitelist or safeguards
-□ DPIA for high-risk processing
-□ Controller-processor agreements
-□ Breach notification within 72 hours
-```
+* ចុះបញ្ជីជាមួយស្នងការការពារទិន្នន័យ DIFC
+* Register with DIFC Commissioner of Data Protection
+* ចាត់តាំង DPO ប្រសិនបើតម្រូវឱ្យមាន
+* Appoint DPO if required
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព — តម្រូវការជាក់លាក់របស់ DIFC
+* Privacy notice — DIFC-specific requirements
+* ច្រកទ្វារសិទ្ធិម្ចាស់ទិន្នន័យ
+* Data subject rights portal
+* ការផ្ទេរទិន្នន័យឆ្លងដែន — បញ្ជីស ឬវិធានការការពាររបស់ DIFC
+* Cross-border transfers — DIFC whitelist or safeguards
+* វាយតម្លៃ DPIA សម្រាប់ការដំណើរការដែលមានហានិភ័យខ្ពស់
+* DPIA for high-risk processing
+* កិច្ចព្រមព្រៀងរវាងភាគីគ្រប់គ្រង និងភាគីដំណើរការ
+* Controller-processor agreements
+* ការរាយការណ៍ការលេចធ្លាយទិន្នន័យក្នុងរយៈពេល ៧២ ម៉ោង
+* Breach notification within 72 hours
 
-#### DFSA — Dubai Financial Services Authority (DIFC)
+#### DFSA — អាជ្ញាធរសេវាហិរញ្ញវត្ថុឌូបៃ (DFSA — Dubai Financial Services Authority)
 
+សម្រាប់សេវាកម្មហិរញ្ញវត្ថុដែលប្រតិបត្តិការក្នុង DIFC៖
 For financial services operating in DIFC:
 
-```
-Key requirements:
-□ DFSA authorisation for regulated activities
-□ AML/CFT programme — KYC, transaction monitoring
-□ Operational resilience requirements
-□ Client money protection — segregated accounts
-□ Senior management accountability
-□ Annual regulatory reporting
-```
+* ការអនុញ្ញាតពី DFSA សម្រាប់សកម្មភាពដែលបានកំណត់
+* DFSA authorisation for regulated activities
+* កម្មវិធី AML/CFT — KYC ការត្រួតពិនិត្យប្រតិបត្តិការ
+* AML/CFT programme — KYC, transaction monitoring
+* តម្រូវការភាពធន់នឹងប្រតិបត្តិការ
+* Operational resilience requirements
+* ការការពារប្រាក់របស់អតិថិជន — គណនីដាច់ដោយឡែក
+* Client money protection — segregated accounts
+* គណនេយ្យភាពរបស់ថ្នាក់ដឹកនាំជាន់ខ្ពស់
+* Senior management accountability
+* របាយការណ៍បទប្បញ្ញត្តិប្រចាំឆ្នាំ
+* Annual regulatory reporting
 
 ---
 
-### ADGM — Abu Dhabi Global Market
+<a id="5"></a>
+## តំបន់ ADGM — ទីផ្សារសកលអាប៊ូដាប៊ី (ADGM — Abu Dhabi Global Market)
 
+**ADGM DPR — បទប្បញ្ញត្តិការពារទិន្នន័យឆ្នាំ ២០២១**  
 **ADGM DPR — Data Protection Regulations 2021**  
+ផ្អែកលើគោលការណ៍ GDPR អនុវត្តដោយអាជ្ញាធរចុះបញ្ជី ADGM  
 Based on GDPR principles, enforced by the ADGM Registration Authority
 
-```
-Similar to DIFC DP Law:
-□ Same 6 lawful bases
-□ Data subject rights aligned with GDPR
-□ DPO requirement for high-risk processing
-□ 72-hour breach notification to ADGM
-□ Cross-border transfer restrictions
-□ ADGM-specific adequacy decisions
-```
+* ដូចគ្នានឹងមូលដ្ឋានច្បាប់ទាំង ៦
+* Same 6 lawful bases
+* សិទ្ធិម្ចាស់ទិន្នន័យស្របតាម GDPR
+* Data subject rights aligned with GDPR
+* តម្រូវការ DPO សម្រាប់ការដំណើរការដែលមានហានិភ័យខ្ពស់
+* DPO requirement for high-risk processing
+* ការរាយការណ៍ការលេចធ្លាយក្នុងរយៈពេល ៧២ ម៉ោងទៅកាន់ ADGM
+* 72-hour breach notification to ADGM
+* ការរឹតត្បិតការផ្ទេរទិន្នន័យឆ្លងដែន
+* Cross-border transfer restrictions
+* ការសម្រេចចិត្តការពារទិន្នន័យគ្រប់គ្រាន់ជាក់លាក់របស់ ADGM
+* ADGM-specific adequacy decisions
+
+**FSRA** — អាជ្ញាធរបទប្បញ្ញត្តិសេវាហិរញ្ញវត្ថុ (ADGM) ចាត់ចែងការផ្តល់អាជ្ញាប័ណ្ណបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)៖
+- ក្រុមហ៊ុនអនុញ្ញាត FinTech (FinTech Permission) — ប្រអប់ខ្សាច់សម្រាប់បច្ចេកវិទ្យាដែលទើបនឹងលេចចេញរូបរាង
+- ការអនុញ្ញាតពេញលេញ៖ អ្នកផ្តល់សេវាទូទាត់ប្រាក់ អ្នកគ្រប់គ្រងការវិនិយោគ ល។
 
 **FSRA** — Financial Services Regulatory Authority (ADGM) handles fintech licensing:
 - FinTech Permission — sandbox for emerging technologies
@@ -139,196 +213,272 @@ Similar to DIFC DP Law:
 
 ---
 
-## Saudi Arabia
+<a id="6"></a>
+## ២. ប្រទេសអារ៉ាប៊ីសាអូឌីត (Saudi Arabia)
 
-### Key Authorities
-- **NDMO** (National Data Management Office) — personal data protection
-- **SAMA** (Saudi Central Bank) — banking, insurance, fintech
-- **CMA** (Capital Market Authority) — capital markets
-- **CITC** (Communications and Information Technology Commission) — telecoms and cloud
+<a id="7"></a>
+### ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Authorities)
 
-### PDPL — Personal Data Protection Law
+* **NDMO** (National Data Management Office) — ការិយាល័យគ្រប់គ្រងទិន្នន័យជាតិ (ការការពារទិន្នន័យផ្ទាល់ខ្លួន)
+* **NDMO** (National Data Management Office) — personal data protection
+* **SAMA** (Saudi Central Bank) — ធនាគារកណ្តាលអារ៉ាប៊ីសាអូឌីត (ធនាគារ ធានារ៉ាប់រង Fintech)
+* **SAMA** (Saudi Central Bank) — banking, insurance, fintech
+* **CMA** (Capital Market Authority) — អាជ្ញាធរទីផ្សារមូលធន
+* **CMA** (Capital Market Authority) — capital markets
+* **CITC** (Communications and Information Technology Commission) — គណៈកម្មការទូរគមនាគមន៍ និងព័ត៌មានវិទ្យា (ខ្លោដ និងទូរគមនាគមន៍)
+* **CITC** (Communications and Information Technology Commission) — telecoms and cloud
 
+<a id="8"></a>
+### ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន - PDPL (PDPL — Personal Data Protection Law)
+
+**Saudi PDPL** — ព្រះរាជក្រឹត្យលេខ M/19 នៃឆ្នាំ 1443H (2021)  
 **Saudi PDPL** — Royal Decree M/19 of 1443H (2021)  
+
+**ចូលជាធរមាន៖** ខែកញ្ញា ឆ្នាំ ២០២៣  
 **In force:** September 2023  
-**Enforced by:** NDMO / Saudi Data & AI Authority (SDAIA)
 
-#### Key Requirements
+**អនុវត្តដោយ៖** NDMO / អាជ្ញាធរទិន្នន័យ និងបញ្ញាសិប្បនិម្មិតអារ៉ាប៊ីសាអូឌីត (SDAIA)  
+**Enforced by:** NDMO / Saudi Data & AI Authority (SDAIA)  
 
-```
-□ Lawful basis — consent, contract, legal obligation, vital interest, public interest
-□ Privacy notice — purpose, legal basis, categories of data, retention period, rights
-□ Data subject rights — access (within 30 days), correction, deletion, data portability
-□ Data localisation — sensitive personal data and government data must remain in Saudi Arabia
-□ Cross-border transfers — Kingdom must have adequacy arrangement OR controller/processor agreement
-□ Data breach notification — NDMO within 72 hours; data subjects if high risk
-□ Sensitive data — explicit consent or specific legal grounds
-□ Minors (under 18) — guardian consent required
-□ DPIA — for high-risk processing before initiation
-□ DPO — not explicitly mandated but recommended for large-scale processing
-```
+* មូលដ្ឋានច្បាប់ — ការយល់ព្រម កិច្ចសន្យា កាតព្វកិច្ចច្បាប់ ផលប្រយោជន៍សំខាន់ៗ ផលប្រយោជន៍សាធារណៈ
+* Lawful basis — consent, contract, legal obligation, vital interest, public interest
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព — គោលបំណង មូលដ្ឋានច្បាប់ ប្រភេទនៃទិន្នន័យ រយៈពេលរក្សាទុក សិទ្ធិ
+* Privacy notice — purpose, legal basis, categories of data, retention period, rights
+* សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ — ការចូលមើល (ក្នុងរយៈពេល ៣០ ថ្ងៃ) ការកែតម្រូវ ការលុបចោល ការផ្ទេរទិន្នន័យ
+* Data subject rights — access (within 30 days), correction, deletion, data portability
+* ការរក្សាទុកទិន្នន័យក្នុងប្រទេស — ទិន្នន័យផ្ទាល់ខ្លួនរសើប និងទិន្នន័យរដ្ឋាភិបាលត្រូវតែរក្សាទុកក្នុងប្រទេសអារ៉ាប៊ីសាអូឌីត
+* Data localisation — sensitive personal data and government data must remain in Saudi Arabia
+* ការផ្ទេរទិន្នន័យឆ្លងដែន — ព្រះរាជាណាចក្រត្រូវតែមានការរៀបចំការពារគ្រប់គ្រាន់ ឬមានកិច្ចសន្យារវាងភាគីគ្រប់គ្រង/ដំណើរការ
+* Cross-border transfers — Kingdom must have adequacy arrangement OR controller/processor agreement
+* ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ — រាយការណ៍ទៅ NDMO ក្នុងរយៈពេល ៧២ ម៉ោង និងជូនដំណឹងដល់ម្ចាស់ទិន្នន័យប្រសិនបើមានហានិភ័យខ្ពស់
+* Data breach notification — NDMO within 72 hours; data subjects if high risk
+* ទិន្នន័យរសើប — ត្រូវមានការយល់ព្រមច្បាស់លាស់ ឬមូលដ្ឋានច្បាប់ជាក់លាក់
+* Sensitive data — explicit consent or specific legal grounds
+* អនីតិជន (អាយុក្រោម ១៨ ឆ្នាំ) — ត្រូវមានការយល់ព្រមពីអាណាព្យាបាល
+* Minors (under 18) — guardian consent required
+* វាយតម្លៃ DPIA — សម្រាប់ការដំណើរការដែលមានហានិភ័យខ្ពស់មុនពេលចាប់ផ្តើម
+* DPIA — for high-risk processing before initiation
+* មន្ត្រី DPO — មិនត្រូវបានចែងបង្ខំឡើយ ប៉ុន្តែត្រូវបានណែនាំសម្រាប់ការដំណើរការទ្រង់ទ្រាយធំ
+* DPO — not explicitly mandated but recommended for large-scale processing
 
-#### Saudi-Specific: Data Localisation
+<a id="9"></a>
+### លក្ខណៈជាក់លាក់របស់អារ៉ាប៊ីសាអូឌីត៖ ការរក្សាទុកទិន្នន័យក្នុងប្រទេស (Saudi-Specific: Data Localisation)
 
+អារ៉ាប៊ីសាអូឌីតមានតម្រូវការរក្សាទុកទិន្នន័យក្នុងស្រុកយ៉ាងតឹងរ៉ឹង៖
 Saudi Arabia has strong data localisation requirements:
 
-```
-Must store in Saudi Arabia:
-□ Sensitive personal data (health, financial, biometric, etc.)
-□ Government and public sector data
-□ Critical national infrastructure data
-□ Data under SAMA or CMA regulatory oversight
+* ត្រូវតែរក្សាទុកនៅក្នុងប្រទេសអារ៉ាប៊ីសាអូឌីត៖
+  * ទិន្នន័យផ្ទាល់ខ្លួនរសើប (សុខភាព ហិរញ្ញវត្ថុ ជីវមាត្រ ល។)
+  * ទិន្នន័យរដ្ឋាភិបាល និងវិស័យសាធារណៈ
+  * ទិន្នន័យហេដ្ឋារចនាសម្ព័ន្ធជាតិសំខាន់ៗ
+  * ទិន្នន័យស្ថិតក្រោមការត្រួតពិនិត្យបទប្បញ្ញត្តិរបស់ SAMA ឬ CMA
+* Must store in Saudi Arabia (Sensitive personal data; Government and public sector data; Critical national infrastructure data; Data under SAMA or CMA regulatory oversight)
+* លក្ខខណ្ឌនៃការផ្ទេរទិន្នន័យឆ្លងដែន៖
+  * ប្រទេសអ្នកទទួលធានាការការពារគ្រប់គ្រាន់ ឬ
+  * លក្ខខណ្ឌកិច្ចសន្យាមានកាតព្វកិច្ចដែលបានអនុម័តដោយ NDMO OR
+  * ការយល់ព្រមច្បាស់លាស់របស់ម្ចាស់ទិន្នន័យសម្រាប់ទិន្នន័យមិនរសើប
+* Cross-border transfer conditions (Recipient country ensures adequate protection OR Binding contractual clauses approved by NDMO OR Data subject explicit consent for non-sensitive data)
 
-Cross-border transfer conditions:
-□ Recipient country ensures adequate protection OR
-□ Binding contractual clauses approved by NDMO OR
-□ Data subject explicit consent for non-sensitive data
-```
+#### ទោសទណ្ឌ (Penalties)
 
-#### Penalties
+| ករណីល្មើស<br/>(Violation) | ទណ្ឌកម្មអតិបរមា<br/>(Maximum) |
+|:---|:---|
+| ការផ្ទេរទិន្នន័យឆ្លងដែនដោយខុសច្បាប់<br/>Unlawful cross-border data transfer | ៥ លានរីយ៉ាល់ (~១,៣៣ លានដុល្លារ)<br/>SAR 5M (≈ $1.33M) |
+| ការដំណើរការទិន្នន័យរសើបដោយខុសច្បាប់<br/>Unlawful processing of sensitive data | ៣ លានរីយ៉ាល់<br/>SAR 3M |
+| ការមិនអនុលោមតាមសិទ្ធិរបស់ម្ចាស់ទិន្នន័យ<br/>Non-compliance with rights | ១ លានរីយ៉ាល់<br/>SAR 1M |
 
-| Violation | Maximum |
-|:----------|:--------|
-| Unlawful cross-border data transfer | SAR 5M (≈ $1.33M) |
-| Unlawful processing of sensitive data | SAR 3M |
-| Non-compliance with rights | SAR 1M |
+<a id="10"></a>
+### ក្របខ័ណ្ឌការងារ Fintech របស់ SAMA (SAMA Fintech Framework)
 
-### SAMA Fintech Framework
-
-```
-Key SAMA requirements:
-□ FinTech ExPermit — sandbox programme for new entrants
-□ Payment Service Provider licence (if beyond sandbox)
-□ BNPL regulations (new 2023) — consumer protection
-□ Open banking framework — account aggregation APIs
-□ AML/CFT — SAMA-specific KYC requirements
-□ Cybersecurity Framework — mandatory for SAMA-regulated entities
-□ Cloud Computing Framework — approved cloud providers list
-```
+* ការអនុញ្ញាតពិសេស FinTech (FinTech ExPermit) — កម្មវិធីប្រអប់ខ្សាច់សម្រាប់ក្រុមហ៊ុនថ្មី
+* FinTech ExPermit — sandbox programme for new entrants
+* អាជ្ញាប័ណ្ណអ្នកផ្តល់សេវាទូទាត់ប្រាក់ (ប្រសិនបើហួសពីកម្រិតប្រអប់ខ្សាច់)
+* Payment Service Provider licence (if beyond sandbox)
+* បទប្បញ្ញត្តិទិញមុនទូទាត់ក្រោយ (BNPL) (ថ្មី ២០២៣) — ការការពារអ្នកប្រើប្រាស់
+* BNPL regulations (new 2023) — consumer protection
+* ក្របខ័ណ្ឌធនាគារបើកចំហ — APIs សម្រាប់ប្រមូលផ្តុំគណនី
+* Open banking framework — account aggregation APIs
+* ការប្រឆាំងការលាងលុយកខ្វក់ — តម្រូវការ KYC ជាក់លាក់របស់ SAMA
+* AML/CFT — SAMA-specific KYC requirements
+* ក្របខ័ណ្ឌសន្តិសុខសាយប័រ — ជាកាតព្វកិច្ចសម្រាប់ស្ថាប័នដែលគ្រប់គ្រងដោយ SAMA
+* Cybersecurity Framework — mandatory for SAMA-regulated entities
+* ក្របខ័ណ្ឌកុំព្យូទ័រខ្លោដ — បញ្ជីអ្នកផ្តល់សេវាខ្លោដដែលបានអនុម័ត
+* Cloud Computing Framework — approved cloud providers list
 
 ---
 
-## Qatar
+<a id="11"></a>
+## ៣. ប្រទេសកាតា (Qatar)
 
-### Key Authorities
-- **MOTC** (Ministry of Transport and Communications) — data protection
-- **QCB** (Qatar Central Bank) — banking and fintech
-- **QFC** (Qatar Financial Centre) — special financial free zone
+<a id="12"></a>
+### ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Authorities)
 
-### PDPL 2016 and Amendment 2021
+* **MOTC** (Ministry of Transport and Communications) — ក្រសួងដឹកជញ្ជូន និងគមនាគមន៍ (ការពារទិន្នន័យ)
+* **MOTC** (Ministry of Transport and Communications) — data protection
+* **QCB** (Qatar Central Bank) — ធនាគារកណ្តាលកាតា (ធនាគារ និង Fintech)
+* **QCB** (Qatar Central Bank) — banking and fintech
+* **QFC** (Qatar Financial Centre) — តំបន់សេរីហិរញ្ញវត្ថុពិសេសកាតា
+* **QFC** (Qatar Financial Centre) — special financial free zone
 
+<a id="13"></a>
+### ច្បាប់ PDPL ២០១៦ និងវិសោធនកម្ម ២០២១ (PDPL 2016 and Amendment 2021)
+
+**Qatar PDPL** — ច្បាប់លេខ ១៣ ឆ្នាំ ២០១៦ ស្តីពីឯកជនភាព និងការការពារទិន្នន័យផ្ទាល់ខ្លួន  
 **Qatar PDPL** — Law No. 13 of 2016 on Privacy and Protection of Personal Data  
-**Enforced by:** MOTC
 
-```
-Key requirements:
-□ Lawful basis — consent or legal obligation
-□ Privacy notice — purpose, data categories, retention
-□ Data subject rights — access, correction, objection, deletion
-□ Cross-border transfers — only to countries with adequate protection
-□ Sensitive data — explicit consent required
-□ Breach notification — MOTC (timeframe not explicitly defined)
-□ Security measures — appropriate technical and organisational safeguards
-```
+**អនុវត្តដោយ៖** MOTC  
+**Enforced by:** MOTC  
 
-### QFC Data Protection Rules
+* មូលដ្ឋានច្បាប់ — ការយល់ព្រម ឬកាតព្វកិច្ចច្បាប់
+* Lawful basis — consent or legal obligation
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព — គោលបំណង ប្រភេទទិន្នន័យ ការរក្សាទុក
+* Privacy notice — purpose, data categories, retention
+* សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ — ការចូលមើល ការកែតម្រូវ ការជំទាស់ និងការលុបចោល
+* Data subject rights — access, correction, objection, deletion
+* ការផ្ទេរទិន្នន័យឆ្លងដែន — ផ្ទេរទៅកាន់តែប្រទេសដែលមានការការពារគ្រប់គ្រាន់ប៉ុណ្ណោះ
+* Cross-border transfers — only to countries with adequate protection
+* ទិន្នន័យរសើប — ត្រូវមានការយល់ព្រមច្បាស់លាស់
+* Sensitive data — explicit consent required
+* ការរាយការណ៍ការលេចធ្លាយ — រាយការណ៍ទៅ MOTC (មិនបានបញ្ជាក់ពេលវេលាច្បាស់លាស់)
+* Breach notification — MOTC (timeframe not explicitly defined)
+* វិធានការសន្តិសុខ — វិធានការការពារបច្ចេកទេស និងស្ថាប័នសមស្រប
+* Security measures — appropriate technical and organisational safeguards
 
+<a id="14"></a>
+### វិធានការការពារទិន្នន័យរបស់ QFC (QFC Data Protection Rules)
+
+សម្រាប់អង្គភាពនៅក្នុងតំបន់ហិរញ្ញវត្ថុកាតា (QFC) — មានភាពលម្អិត និងទទួលបានឥទ្ធិពលពី GDPR៖
 For entities within Qatar Financial Centre — more detailed, GDPR-influenced:
 
-```
-□ Register with QFC Authority
-□ Privacy notice aligned with GDPR transparency requirements
-□ Data subject rights — same set as GDPR
-□ Breach notification — 72 hours to QFC Commissioner
-□ DPO — for high-risk processing
-□ Cross-border transfer rules — QFC whitelist
-```
+* ចុះបញ្ជីជាមួយអាជ្ញាធរ QFC
+* Register with QFC Authority
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាពស្របតាមតម្រូវការតម្លាភាពរបស់ GDPR
+* Privacy notice aligned with GDPR transparency requirements
+* សិទ្ធិម្ចាស់ទិន្នន័យ — ដូចគ្នានឹងច្បាប់ GDPR
+* Data subject rights  — same set as GDPR
+* ការរាយការណ៍ការលេចធ្លាយ — ៧២ ម៉ោងទៅកាន់ស្នងការ QFC
+* Breach notification — 72 hours to QFC Commissioner
+* DPO — សម្រាប់ការដំណើរការដែលមានហានិភ័យខ្ពស់
+* DPO — for high-risk processing
+* វិធានផ្ទេរទិន្នន័យឆ្លងដែន — បញ្ជីសរបស់ QFC
+* Cross-border transfer rules — QFC whitelist
 
 ---
 
-## Israel
+<a id="15"></a>
+## ៤. ប្រទេសអ៊ីស្រាអែល (Israel)
 
-### Key Authority
-- **PPA** (Privacy Protection Authority) — Israeli DPA
+### ស្ថាប័នការពារទិន្នន័យ (Key Authority)
 
-### Privacy Protection Law + Regulations
+* **PPA** (Privacy Protection Authority) — អាជ្ញាធរការពារឯកជនភាពអ៊ីស្រាអែល
+* **PPA** (Privacy Protection Authority) — Israeli DPA
 
-```
+អ៊ីស្រាអែលមានសេចក្តីសម្រេចការពារទិន្នន័យគ្រប់គ្រាន់ពីសហភាពអឺរ៉ុប (Adequacy Decision) សម្រាប់ការផ្ទេរទិន្នន័យពី EU។
 Israel has EU adequacy decision for data transfers from EU.
 
-Key requirements:
-□ Database registration — large databases must register with PPA
-□ Security: ISO 27001 level security for sensitive databases
-□ Data subject rights — access, correction, deletion
-□ Direct marketing — opt-out required
-□ Breach notification — within 72 hours for severe breaches
-```
+* ការចុះបញ្ជីទិន្នន័យ — មូលដ្ឋានទិន្នន័យខ្នាតធំត្រូវចុះបញ្ជីជាមួយ PPA
+* Database registration — large databases must register with PPA
+* សន្តិសុខ៖ សន្តិសុខកម្រិត ISO 27001 សម្រាប់មូលដ្ឋានទិន្នន័យរសើប
+* Security: ISO 27001 level security for sensitive databases
+* សិទ្ធិម្ចាស់ទិន្នន័យ — ការចូលមើល ការកែតម្រូវ ការលុបចោល
+* Data subject rights — access, correction, deletion
+* ការផ្សព្វផ្សាយពាណិជ្ជកម្មផ្ទាល់ — ត្រូវផ្តល់ជម្រើសបដិសេធ (Opt-out)
+* Direct marketing — opt-out required
+* ការរាយការណ៍ការលេចធ្លាយ — ក្នុងរយៈពេល ៧២ ម៉ោងសម្រាប់ការលេចធ្លាយធ្ងន់ធ្ងរ
+* Breach notification — within 72 hours for severe breaches
 
 ---
 
-## Turkey
+<a id="16"></a>
+## ៥. ប្រទេសតួកគី (Turkey)
 
-### Key Authority
-- **KVKK** (Kişisel Verileri Koruma Kurumu) — Turkish DPA
+### ស្ថាប័នការពារទិន្នន័យ (Key Authority)
 
-### KVKK Law No. 6698 (2016)
+* **KVKK** (Kişisel Verileri Koruma Kurumu) — អាជ្ញាធរការពារទិន្នន័យតួកគី
+* **KVKK** (Kişisel Verileri Koruma Kurumu) — Turkish DPA
 
+### ច្បាប់ KVKK លេខ ៦៦៩៨ (២០១៦) (KVKK Law No. 6698 (2016))
+
+ច្បាប់របស់តួកគីទទួលបានឥទ្ធិពលពី GDPR ប៉ុន្តែមានភាពខុសគ្នាខ្លះ៖
 Turkey's law is influenced by GDPR but has differences:
 
-```
-Key requirements:
-□ Explicit consent or legal basis
-□ Privacy notice
-□ Data subject rights — access, objection, restriction, deletion
-□ VERBİS registration — mandatory for organisations above threshold
-□ DPO equivalent — contact person required
-□ Cross-border transfers — KVKK adequate country list OR standard contractual clauses
-□ Breach notification — KVKK within 72 hours; data subjects within "reasonable time"
-```
+* ការយល់ព្រមច្បាស់លាស់ ឬមូលដ្ឋានច្បាប់
+* Explicit consent or legal basis
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព
+* Privacy notice
+* សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ — ការចូលមើល ការជំទាស់ ការកម្រិត ការលុបចោល
+* Data subject rights — access, objection, restriction, deletion
+* ការចុះបញ្ជី VERBİS — ជាកាតព្វកិច្ចសម្រាប់ស្ថាប័នលើសពីកម្រិតកំណត់
+* VERBİS registration — mandatory for organisations above threshold
+* សមមូល DPO — ត្រូវមានបុគ្គលទំនាក់ទំនង
+* DPO equivalent — contact person required
+* ការផ្ទេរទិន្នន័យឆ្លងដែន — បញ្ជីប្រទេសមានសុវត្ថិភាពរបស់ KVKK ឬលក្ខខណ្ឌកិច្ចសន្យាស្តង់ដារ
+* Cross-border transfers — KVKK adequate country list OR standard contractual clauses
+* ការរាយការណ៍ការលេចធ្លាយ — ទៅកាន់ KVKK ក្នុងរយៈពេល ៧២ ម៉ោង និងម្ចាស់ទិន្នន័យក្នុង «រយៈពេលសមស្រប»
+* Breach notification — KVKK within 72 hours; data subjects within "reasonable time"
 
+**ចំណាំអំពីភាពគ្រប់គ្រាន់៖** ប្រទេសតួកគីមិនស្ថិតនៅក្នុងបញ្ជីការពារគ្រប់គ្រាន់របស់ EU GDPR ឡើយ — ការផ្ទេរទិន្នន័យពី EU ទៅតួកគីត្រូវការវិធានការការពារបន្ថែម។
 **Adequacy note:** Turkey is NOT on the EU GDPR adequacy list — EU→Turkey transfers need safeguards.
 
 ---
 
-## Regional Compliance Summary
+<a id="17"></a>
+## ៦. សេចក្តីសង្ខេបការអនុលោមតាមច្បាប់ថ្នាក់តំបន់ (Regional Compliance Summary)
 
-| Country | Key Law | DPA | Notable Feature |
-|:--------|:--------|:----|:----------------|
-| UAE (onshore) | PDPL 2021 | UAE Data Office | 24h major breach notification |
-| DIFC | DP Law 2020 | DIFC Commissioner | GDPR-equivalent |
-| ADGM | DPR 2021 | ADGM RA | GDPR-equivalent |
-| Saudi Arabia | PDPL 2021 | NDMO/SDAIA | Data localisation for sensitive data |
-| Qatar | PDPL 2016 | MOTC | Consent-focused |
-| QFC | DP Rules | QFC Authority | GDPR-influenced |
-| Israel | PPL | PPA | EU adequacy decision |
-| Turkey | KVKK | KVKK | VERBİS registration |
+| ប្រទេស<br/>(Country) | ច្បាប់សំខាន់<br/>(Key Law) | អាជ្ញាធរការពារ<br/>(DPA) | លក្ខណៈពិសេសគួរឱ្យកត់សម្គាល់<br/>(Notable Feature) |
+|:---|:---|:---|:---|
+| UAE (ដែនដីគោក)<br/>UAE (onshore) | PDPL 2021 | UAE Data Office | ការរាយការណ៍ការលេចធ្លាយធ្ងន់ធ្ងរក្នុងរយៈពេល ២៤ ម៉ោង<br/>24h major breach notification |
+| DIFC | DP Law 2020 | DIFC Commissioner | សមមូលនឹងច្បាប់ GDPR<br/>GDPR-equivalent |
+| ADGM | DPR 2021 | ADGM RA | សមមូលនឹងច្បាប់ GDPR<br/>GDPR-equivalent |
+| អារ៉ាប៊ីសាអូឌីត<br/>Saudi Arabia | PDPL 2021 | NDMO/SDAIA | ការរក្សាទុកទិន្នន័យក្នុងប្រទេសសម្រាប់ទិន្នន័យរសើប<br/>Data localisation for sensitive data |
+| កាតា<br/>Qatar | PDPL 2016 | MOTC | ផ្តោតលើការសុំការយល់ព្រម<br/>Consent-focused |
+| QFC | DP Rules | QFC Authority | ទទួលបានឥទ្ធិពលពី GDPR<br/>GDPR-influenced |
+| អ៊ីស្រាអែល<br/>Israel | PPL | PPA | សេចក្តីសម្រេចការពារគ្រប់គ្រាន់របស់ EU<br/>EU adequacy decision |
+| តួកគី<br/>Turkey | KVKK | KVKK | ការចុះបញ្ជី VERBİS<br/>VERBİS registration |
 
 ---
 
-## What to Build for Middle East Expansion
+<a id="18"></a>
+## ៧. អ្វីដែលត្រូវរៀបចំសម្រាប់ការវិនិយោគនៅតំបន់មជ្ឈិមបូព៌ា (What to Build for Middle East Expansion)
 
-```
+កម្មវិធីឌីជីថលដែលបម្រើ UAE + អារ៉ាប៊ីសាអូឌីត (ទីផ្សារច្រកចូលទូទៅបំផុត)៖
 Platform serving UAE + Saudi Arabia (most common entry markets):
 
-□ Data localisation — sensitive data stored in-country for Saudi Arabia
-□ Privacy notice — cover both UAE PDPL and Saudi PDPL requirements
-□ Consent management — explicit consent for Saudi sensitive data processing
-□ DIFC/ADGM registration — if operating within financial free zones
-□ 72-hour breach notification to: UAE Data Office, NDMO (Saudi)
-□ 24-hour notification for major incidents in UAE
-□ Data subject rights portal — access (30 days), correction, deletion
-□ Cross-border transfer assessment — both countries have different adequacy lists
-□ SAMA compliance — if serving Saudi fintech customers
-□ DFSA compliance — if DIFC-based financial services
-□ Arabic-language privacy notices — required in Saudi Arabia
-□ VPN/geo-restriction awareness — UAE blocks some communication platforms
-```
+* ការរក្សាទុកទិន្នន័យក្នុងប្រទេស — រក្សាទុកទិន្នន័យរសើបនៅក្នុងប្រទេសសម្រាប់អារ៉ាប៊ីសាអូឌីត
+* Data localisation — sensitive data stored in-country for Saudi Arabia
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាព — គ្របដណ្តប់លើទាំងតម្រូវការ UAE PDPL និង Saudi PDPL
+* Privacy notice — cover both UAE PDPL and Saudi PDPL requirements
+* ការគ្រប់គ្រងការយល់ព្រម — ត្រូវសុំការយល់ព្រមច្បាស់លាស់សម្រាប់ទិន្នន័យរសើបរបស់អារ៉ាប៊ីសាអូឌីត
+* Consent management — explicit consent for Saudi sensitive data processing
+* ការចុះបញ្ជី DIFC/ADGM — ប្រសិនបើប្រតិបត្តិការក្នុងតំបន់សេរីហិរញ្ញវត្ថុ
+* DIFC/ADGM registration — if operating within financial free zones
+* ការរាយការណ៍ការលេចធ្លាយ ៧២ ម៉ោងទៅកាន់៖ ការិយាល័យទិន្នន័យ UAE, NDMO (អារ៉ាប៊ីសាអូឌីត)
+* 72-hour breach notification to: UAE Data Office, NDMO (Saudi)
+* ការរាយការណ៍ក្នុងរយៈពេល ២៤ ម៉ោងសម្រាប់ឧប្បត្តិហេតុធំៗនៅ UAE
+* 24-hour notification for major incidents in UAE
+* ច្រកទ្វារសិទ្ធិម្ចាស់ទិន្នន័យ — ការចូលមើល (ក្នុងរយៈពេល ៣០ ថ្ងៃ) ការកែតម្រូវ និងការលុបចោល
+* Data subject rights portal — access (30 days), correction, deletion
+* ការវាយតម្លៃការផ្ទេរទិន្នន័យឆ្លងដែន — ប្រទេសទាំងពីរមានបញ្ជីការពារគ្រប់គ្រាន់ខុសគ្នា
+* Cross-border transfer assessment — both countries have different adequacy lists
+* ការអនុលោមតាមច្បាប់ SAMA — ប្រសិនបើបម្រើអតិថិជន Fintech របស់អារ៉ាប៊ីសាអូឌីត
+* SAMA compliance — if serving Saudi fintech customers
+* ការអនុលោមតាមច្បាប់ DFSA — ប្រសិនបើជាសេវាកម្មហិរញ្ញវត្ថុដែលមានមូលដ្ឋាននៅ DIFC
+* DFSA compliance — if DIFC-based financial services
+* សេចក្តីជូនដំណឹងអំពីឯកជនភាពជាភាសាអារ៉ាប់ — តម្រូវឱ្យមាននៅក្នុងប្រទេសអារ៉ាប៊ីសាអូឌីត
+* Arabic-language privacy notices — required in Saudi Arabia
+* ការយល់ដឹងអំពីបណ្តាញ VPN/ការរឹតត្បិតភូមិសាស្ត្រ — UAE រារាំងកម្មវិធីទំនាក់ទំនងមួយចំនួន
+* VPN/geo-restriction awareness — UAE blocks some communication platforms
 
 ---
 
-## Related
+<a id="19"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
+- [ច្បាប់ការពារទិន្នន័យទូទៅ (GDPR)](../data-privacy/01-gdpr.md) — ជាមូលដ្ឋានសកល ច្បាប់មជ្ឈិមបូព៌ាភាគច្រើនឆ្លុះបញ្ចាំងពីច្បាប់នេះ
 - [GDPR](../data-privacy/01-gdpr.md) — global baseline; many Middle East laws mirror it
+- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb.md)
 - [KYC/KYB](../identity-and-kyc/01-kyc-kyb.md) — GCC KYC requirements
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
+- [ស្តង់ដារ ISO 27001](../security-frameworks/02-iso-27001.md) — តម្រូវដោយក្រសួងសន្តិសុខសាយប័ររបស់ SAMA
 - [ISO 27001](../security-frameworks/02-iso-27001.md) — required by SAMA cybersecurity framework

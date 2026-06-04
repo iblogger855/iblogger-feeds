@@ -1,47 +1,68 @@
-# Vietnam — Compliance Overview for Digital Platforms
+# ប្រទេសវៀតណាម៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់សម្រាប់កម្មវិធីឌីជីថល (Vietnam: Compliance Overview for Digital Platforms)
 
 **Tags:** #compliance #vietnam #cybersecurity-law #decree13 #sbv #southeast-asia
 
 ---
 
-## Summary
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)](#1)
+- [២. ការការពារទិន្នន័យ — ក្រឹត្យលេខ ១៣ (២០២៣) (Data Protection — Decree 13 (2023))](#2)
+- [៣. ការរក្សាទុកទិន្នន័យក្នុងប្រទេស — ច្បាប់សន្តិសុខសាយប័រ (២០១៩) (Data Localisation — Cybersecurity Law (2019))](#3)
+- [៤. សេវាទូទាត់ប្រាក់ — ធនាគាររដ្ឋវៀតណាម (Payment Services — SBV)](#4)
+- [៥. តម្រូវការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT Requirements)](#5)
+- [៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)](#6)
+- [៧. កាតព្វកិច្ចរបស់កម្មវិធីអ៊ីនធឺណិត (Internet Platform Obligations)](#7)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#8)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+ប្រទេសវៀតណាមមានបរិស្ថានបទប្បញ្ញត្តិស្មុគស្មាញ និងវិវត្តយ៉ាងរហ័ស។ ច្បាប់សន្តិសុខសាយប័រ (២០១៩) និងក្រឹត្យលេខ ១៣ ស្តីពីការការពារទិន្នន័យផ្ទាល់ខ្លួន (២០២៣) គឺជាក្របខ័ណ្ឌការងារចម្បងសម្រាប់កម្មវិធីឌីជីថល។ ប្រទេសវៀតណាមមានតម្រូវការតឹងរ៉ឹងក្នុងការរក្សាទុកទិន្នន័យក្នុងប្រទេស (Data Localisation) ជាពិសេសសម្រាប់ទិន្នន័យដែលបានចាត់ថ្នាក់ក្នុងវិស័យសន្តិសុខសាយប័រ។ ធនាគាររដ្ឋវៀតណាម (SBV) គ្រប់គ្រងលើការទូទាត់ប្រាក់ និងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)។
 
 Vietnam has a complex and rapidly evolving regulatory environment. The Cybersecurity Law (2019) and Decree 13 on Personal Data Protection (2023) are the primary frameworks for digital platforms. Vietnam has strong data localisation requirements, particularly for cybersecurity-classified data. The State Bank of Vietnam (SBV) regulates payments and fintech.
 
 ---
 
-## Key Regulators
+<a id="1"></a>
+## ១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)
 
-| Regulator | Acronym | Jurisdiction |
-|:----------|:--------|:-------------|
-| Ministry of Public Security | MPS | Cybersecurity Law enforcement, data localisation |
-| State Bank of Vietnam | SBV | Banking, payments, e-money, fintech |
-| Ministry of Information and Communications | MIC | E-transactions, internet platforms, telecom |
-| Anti-Money Laundering Department | AMLD (under SBV) | AML/CFT for financial institutions |
-| Ministry of Health | MOH | Healthcare regulation |
-| Vietnam Food Administration | VFA | Pharmaceuticals |
+| ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | អក្សរកាត់<br/>(Acronym) | សមត្ថកិច្ចអនុវត្តច្បាប់<br/>(Jurisdiction) |
+|:---|:---|:---|
+| ក្រសួងសន្តិសុខសាធារណៈ<br/>Ministry of Public Security | MPS | ការអនុវត្តច្បាប់សន្តិសុខសាយប័រ និងការរក្សាទុកទិន្នន័យក្នុងប្រទេស<br/>Cybersecurity Law enforcement, data localisation |
+| ធនាគាររដ្ឋវៀតណាម<br/>State Bank of Vietnam | SBV | វិស័យធនាគារ ការទូទាត់ប្រាក់ រូបិយប័ណ្ណអេឡិចត្រូនិក និងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)<br/>Banking, payments, e-money, fintech |
+| ក្រសួងព័ត៌មាន និងទូរគមនាគមន៍<br/>Ministry of Information and Communications | MIC | ប្រតិបត្តិការអេឡិចត្រូនិក កម្មវិធីអ៊ីនធឺណិត និងទូរគមនាគមន៍<br/>E-transactions, internet platforms, telecom |
+| នាយកដ្ឋានប្រឆាំងការលាងលុយកខ្វក់ (ក្រោម SBV)<br/>Anti-Money Laundering Department (under SBV) | AMLD | ការប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម (AML/CFT) សម្រាប់ស្ថាប័នហិរញ្ញវត្ថុ<br/>AML/CFT for financial institutions |
+| ក្រសួងសុខាភិបាល<br/>Ministry of Health | MOH | បទប្បញ្ញត្តិសុខាភិបាល<br/>Healthcare regulation |
+| រដ្ឋបាលចំណីអាហារ និងឱសថវៀតណាម<br/>Vietnam Food Administration | VFA | វិស័យឱសថ និងចំណីអាហារ<br/>Pharmaceuticals |
 
 ---
 
-## Data Protection — Decree 13 (2023)
+<a id="2"></a>
+## ២. ការការពារទិន្នន័យ — ក្រឹត្យលេខ ១៣ (២០២៣) (Data Protection — Decree 13 (2023))
 
+ប្រទេសវៀតណាមមិនទាន់មានច្បាប់ការពារទិន្នន័យដាច់ដោយឡែកនៅឡើយទេ ប៉ុន្តែ **ក្រឹត្យលេខ 13/2023/ND-CP ស្តីពីការការពារទិន្នន័យផ្ទាល់ខ្លួន** (មានប្រសិទ្ធភាពចាប់ពីថ្ងៃទី ១ ខែកក្កដា ឆ្នាំ ២០២៣) គឺជាក្របខ័ណ្ឌចម្បង៖
 Vietnam does not yet have a standalone Data Protection Law, but **Decree 13/2023/ND-CP on Personal Data Protection** (effective 1 July 2023) is the primary framework:
 
-| Requirement | Detail |
-|:------------|:-------|
-| Scope | All organisations processing personal data of Vietnamese residents |
-| Consent | Required — specific, informed, voluntary, clearly expressed |
-| Sensitive data categories | Health, genetic, biometric, racial/ethnic, political, sexual orientation, criminal records, financial info |
-| Data subject rights | Access, correction, deletion, withdraw consent, portability |
-| DPO | Required for some organisations |
-| Data breach notification | Notify PDPD (Personal Data Protection Department) within 72 hours |
-| Cross-border transfer | Requires PDPD approval + impact assessment |
-| Max penalty | Up to VND 5 billion (~$200,000 USD) per violation |
+| តម្រូវការ<br/>(Requirement) | ព័ត៌មានលម្អិត<br/>(Detail) |
+|:---|:---|
+| វិសាលភាព<br/>Scope | គ្រប់ស្ថាប័នទាំងអស់ដែលដំណើរការទិន្នន័យផ្ទាល់ខ្លួនរបស់ប្រជាពលរដ្ឋវៀតណាម<br/>All organisations processing personal data of Vietnamese residents |
+| ការយល់ព្រម<br/>Consent | តម្រូវឱ្យមាន — ជាក់លាក់ ទទួលបានព័ត៌មានគ្រប់គ្រាន់ ស្ម័គ្រចិត្ត និងបង្ហាញឱ្យឃើញច្បាស់លាស់<br/>Required — specific, informed, voluntary, clearly expressed |
+| ប្រភេទទិន្នន័យរសើប<br/>Sensitive data categories | ព័ត៌មានសុខភាព ហ្សែន ជីវមាត្រ ពូជសាសន៍/ជាតិសាសន៍ នយោបាយ តម្រង់ទិសផ្លូវភេទ ប្រវត្តិព្រហ្មទណ្ឌ និងព័ត៌មានហិរញ្ញវត្ថុ<br/>Health, genetic, biometric, racial/ethnic, political, sexual orientation, criminal records, financial info |
+| សិទ្ធិរបស់ម្ចាស់ទិន្នន័យ<br/>Data subject rights | សិទ្ធិចូលមើល កែតម្រូវ លុបចោល ដកការយល់ព្រម និងការផ្ទេរទិន្នន័យ<br/>Access, correction, deletion, withdraw consent, portability |
+| មន្ត្រីការពារទិន្នន័យ (DPO)<br/>DPO | តម្រូវឱ្យមានសម្រាប់ស្ថាប័នមួយចំនួន<br/>Required for some organisations |
+| ការរាយការណ៍ការលេចធ្លាយទិន្នន័យ<br/>Breach notification | រាយការណ៍ទៅកាន់នាយកដ្ឋានការពារទិន្នន័យផ្ទាល់ខ្លួន (PDPD) ក្នុងរយៈពេល ៧២ ម៉ោង<br/>Notify PDPD (Personal Data Protection Department) within 72 hours |
+| ការផ្ទេរទិន្នន័យឆ្លងដែន<br/>Cross-border transfer | ត្រូវមានការអនុម័តពី PDPD + ការវាយតម្លៃផលប៉ះពាល់<br/>Requires PDPD approval + impact assessment |
+| ទណ្ឌកម្មអតិបរមា<br/>Max penalty | រហូតដល់ ៥ ប៊ីលានដុងវៀតណាម (~២០០,០០០ ដុល្លារអាមេរិក) ក្នុងមួយល្មើស<br/>Up to VND 5 billion (~$200,000 USD) per violation |
 
 ---
 
-## Data Localisation — Cybersecurity Law (2019)
+<a id="3"></a>
+## ៣. ការរក្សាទុកទិន្នន័យក្នុងប្រទេស — ច្បាប់សន្តិសុខសាយប័រ (២០១៩) (Data Localisation — Cybersecurity Law (2019))
 
+ច្បាប់សន្តិសុខសាយប័ររបស់ប្រទេសវៀតណាមមានតម្រូវការរក្សាទុកទិន្នន័យក្នុងស្រុកយ៉ាងតឹងរ៉ឹងសម្រាប់ **«ទិន្នន័យសំខាន់ៗ»**៖
 Vietnam's Cybersecurity Law has significant data localisation requirements for **"important data"**:
 
 ```
@@ -60,64 +81,77 @@ REQUIREMENT:
   or local data centre (or use a Vietnamese cloud provider)
 ```
 
+នេះគឺជាតម្រូវការរក្សាទុកទិន្នន័យក្នុងស្រុកដ៏តឹងរ៉ឹងបំផុតមួយនៅក្នុងអាស៊ីអាគ្នេយ៍។
 This is one of the strictest data localisation requirements in Southeast Asia.
 
+**ផលប៉ះពាល់ជាក់ស្តែង៖** កម្មវិធីឌីជីថលដែលមានអ្នកប្រើប្រាស់វៀតណាមច្រើន (អ្នកប្រើប្រាស់ដែលបង្កើត «ទិន្នន័យសំខាន់ៗ») ត្រូវតែរក្សាទុកទិន្នន័យនោះនៅក្នុងប្រទេសវៀតណាម — ឬសហការជាមួយអ្នកផ្តល់សេវាមជ្ឈមណ្ឌលទិន្នន័យរបស់វៀតណាម។
 **Practical impact:** Platforms with significant Vietnamese user bases (users generating "important data") must host that data in Vietnam — or partner with a Vietnamese data centre provider.
 
 ---
 
-## Payment Services — SBV
+<a id="4"></a>
+## ៤. សេវាទូទាត់ប្រាក់ — ធនាគាររដ្ឋវៀតណាម (Payment Services — SBV)
 
-| Licence | Required for |
-|:--------|:------------|
-| E-money institution | Operating a digital wallet |
-| Payment intermediary | Payment gateway services |
-| Money transfer | Domestic and cross-border transfers |
+| អាជ្ញាប័ណ្ណ<br/>(Licence) | តម្រូវការសម្រាប់<br/>(Required for) |
+|:---|:---|
+| ស្ថាប័នលុយអេឡិចត្រូនិក<br/>E-money institution | ការដំណើរការកាបូបលុយឌីជីថល<br/>Operating a digital wallet |
+| ស្ថាប័នកណ្តាលទូទាត់ប្រាក់<br/>Payment intermediary | សេវាកម្មច្រកទូទាត់ប្រាក់ (Payment Gateway)<br/>Payment gateway services |
+| ការផ្ទេរប្រាក់<br/>Money transfer | ការផ្ទេរប្រាក់ក្នុងស្រុក និងឆ្លងដែន<br/>Domestic and cross-border transfers |
 
+**VNPay** និង **MoMo** គឺជាប្រព័ន្ធទូទាត់ឈានមុខគេនៅក្នុងប្រទេសវៀតណាម។ កម្មវិធីទូទាត់ប្រាក់បរទេសត្រូវតែសហការជាមួយស្ថាប័នកណ្តាលទូទាត់ប្រាក់របស់វៀតណាមដែលមានអាជ្ញាប័ណ្ណ ឬស្នើសុំអាជ្ញាប័ណ្ណផ្ទាល់ខ្លួន។
 **VNPay** and **MoMo** are the dominant payment systems. Foreign payment platforms must partner with a licensed Vietnamese payment intermediary or obtain their own licence.
 
 ---
 
-## AML/CFT Requirements
+<a id="5"></a>
+## ៥. តម្រូវការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT Requirements)
 
+នៅក្រោមច្បាប់ប្រឆាំងការលាងលុយកខ្វក់ (២០២២)៖
 Under the Anti-Money Laundering Law (2022):
 
-| Obligation | Requirement |
-|:-----------|:------------|
-| CDD / KYC | Mandatory for all financial customers |
-| EDD | For PEPs, high-risk countries, large transactions |
-| STR filing | Within 3 working days |
-| Cash transaction reports | Transactions above VND 300 million (~$12,500) |
-| Record retention | Minimum 5 years |
+| កាតព្វកិច្ច<br/>(Obligation) | តម្រូវការ<br/>(Requirement) |
+|:---|:---|
+| ការត្រួតពិនិត្យអតិថិជន (CDD) / KYC<br/>CDD / KYC | ជាកាតព្វកិច្ចសម្រាប់អតិថិជនហិរញ្ញវត្ថុទាំងអស់<br/>Mandatory for all financial customers |
+| EDD (ការត្រួតពិនិត្យបន្ថែម)<br/>EDD | សម្រាប់បុគ្គល PEPs ប្រទេសដែលមានហានិភ័យខ្ពស់ និងប្រតិបត្តិការធំៗ<br/>For PEPs, high-risk countries, large transactions |
+| ការដាក់របាយការណ៍ STR<br/>STR filing | ក្នុងរយៈពេល ៣ ថ្ងៃធ្វើការ<br/>Within 3 working days |
+| របាយការណ៍ប្រតិបត្តិការសាច់ប្រាក់<br/>Cash transaction reports | ប្រតិបត្តិការលើសពី ៣០០ លានដុង (~១២,៥០០ ដុល្លារ)<br/>Transactions above VND 300 million (~$12,500) |
+| ការរក្សាទុកឯកសារ<br/>Record retention | យ៉ាងហោចណាស់ ៥ ឆ្នាំ<br/>Minimum 5 years |
 
 ---
 
-## Healthcare Regulations
+<a id="6"></a>
+## ៦. បទប្បញ្ញត្តិសុខាភិបាល (Healthcare Regulations)
 
-| Requirement | Regulator |
-|:------------|:----------|
-| Hospital licensing | MOH |
-| Doctor registration | Vietnam Medical Association |
-| Telemedicine framework | MOH Circular (framework in development) |
-| Pharmaceutical licensing | Drug Administration of Vietnam |
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|
+| អាជ្ញាប័ណ្ណមន្ទីរពេទ្យ<br/>Hospital licensing | ក្រសួងសុខាភិបាល<br/>MOH |
+| ការចុះបញ្ជីគ្រូពេទ្យ<br/>Doctor registration | សមាគមវេជ្ជសាស្ត្រវៀតណាម<br/>Vietnam Medical Association |
+| ក្របខ័ណ្ឌទូរវេជ្ជសាស្ត្រ<br/>Telemedicine framework | សារាចររបស់ក្រសួងសុខាភិបាល (កំពុងអភិវឌ្ឍ)<br/>MOH Circular (framework in development) |
+| អាជ្ញាប័ណ្ណឱសថ<br/>Pharmaceutical licensing | រដ្ឋបាលឱសថវៀតណាម<br/>Drug Administration of Vietnam |
 
 ---
 
-## Internet Platform Obligations
+<a id="7"></a>
+## ៧. កាតព្វកិច្ចរបស់កម្មវិធីអ៊ីនធឺណិត (Internet Platform Obligations)
 
+សម្រាប់កម្មវិធីដែលមានវត្តមានគួរឱ្យកត់សម្គាល់នៅក្នុងប្រទេសវៀតណាម៖
 For platforms with significant Vietnamese presence:
 
-| Obligation | Regulator |
-|:-----------|:----------|
-| Platform registration | MIC (for platforms > 1M users in Vietnam) |
-| Content moderation | MIC — must remove illegal content within 24–48 hours |
-| User data requests | Must comply with MPS and MIC requests |
-| Local representative office | Required for large foreign platforms |
+| កាតព្វកិច្ច<br/>(Obligation) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) |
+|:---|:---|
+| ការចុះបញ្ជីកម្មវិធី<br/>Platform registration | ក្រសួងព័ត៌មាន និងទូរគមនាគមន៍ (MIC) (សម្រាប់កម្មវិធីដែលមានអ្នកប្រើប្រាស់ > ១ លាននាក់នៅវៀតណាម)<br/>MIC (for platforms > 1M users in Vietnam) |
+| ការគ្រប់គ្រងខ្លឹមសារព័ត៌មាន<br/>Content moderation | ក្រសួងព័ត៌មាន និងទូរគមនាគមន៍ (MIC) — ត្រូវលុបខ្លឹមសារខុសច្បាប់ចេញក្នុងរយៈពេល ២៤ ទៅ ៤៨ ម៉ោង<br/>MIC — must remove illegal content within 24–48 hours |
+| សំណើសុំទិន្នន័យអ្នកប្រើប្រាស់<br/>User data requests | ត្រូវតែអនុលោមតាមសំណើរបស់ក្រសួងសន្តិសុខសាធារណៈ (MPS) និងក្រសួងព័ត៌មាន (MIC)<br/>Must comply with MPS and MIC requests |
+| ការិយាល័យតំណាងក្នុងស្រុក<br/>Local representative office | តម្រូវឱ្យមានសម្រាប់កម្មវិធីបរទេសខ្នាតធំ<br/>Required for large foreign platforms |
 
 ---
 
-## Related
+<a id="8"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
-- [GDPR](../data-privacy/01-gdpr.md) — implement as best practice for data protection
+- [ច្បាប់ការពារទិន្នន័យទូទៅ (GDPR)](../data-privacy/01-gdpr.md) — ការអនុវត្តជាការអនុវត្តល្អបំផុតសម្រាប់ការការពារទិន្នន័យ។
+- [GDPR](../data-privacy/01-gdpr.md) — implement as best practice for data protection.
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
+- [ម៉ាទ្រីសប្រៀបធៀបច្បាប់ឯកជនភាពទិន្នន័យ](../data-privacy/07-comparison-matrix.md)
 - [Data Privacy Comparison Matrix](../data-privacy/07-comparison-matrix.md)

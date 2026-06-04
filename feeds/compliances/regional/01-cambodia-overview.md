@@ -1,103 +1,142 @@
-# Cambodia — Compliance Overview for Digital Platforms
+# ប្រទេសកម្ពុជា៖ ទិដ្ឋភាពទូទៅនៃការអនុលោមតាមច្បាប់សម្រាប់កម្មវិធីឌីជីថល (Cambodia: Compliance Overview for Digital Platforms)
 
 **Tags:** #compliance #cambodia #nbc #mlspp #pdpk #moh #cybercrime #southeast-asia
 
 ---
 
-## Summary
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីសង្ខេប (Summary)](#0)
+- [១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)](#1)
+- [២. ផែនទីអនុលោមភាពតាមប្រភេទកម្មវិធី (Compliance Map by Platform Type)](#2)
+  - [២.១ កម្មវិធីបច្ចេកវិទ្យាហិរញ្ញវត្ថុ / ការទូទាត់ប្រាក់ (Fintech / Payment Platform)](#3)
+  - [២.២ កម្មវិធីសុខាភិបាល (Healthcare Platform)](#4)
+  - [២.៣ កម្មវិធីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (E-Commerce Platform)](#5)
+- [៣. ច្បាប់ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Laws and Regulations)](#6)
+- [៤. បរិបទរូបិយប័ណ្ណ និងការទូទាត់ប្រាក់ (Currency and Payment Context)](#7)
+- [៥. ការពិចារណាលើផ្នែកពន្ធដារ (Tax Considerations)](#8)
+- [🔗 ឯកសារទាក់ទង (Related Topics)](#9)
+
+---
+
+<a id="0"></a>
+## សេចក្តីសង្ខេប (Summary)
+
+ប្រទេសកម្ពុជាគឺជាសេដ្ឋកិច្ចឌីជីថលដែលកំពុងអភិវឌ្ឍយ៉ាងរហ័ស។ បរិស្ថានបទប្បញ្ញត្តិសម្រាប់កម្មវិធីឌីជីថលគ្របដណ្តប់លើសេវាហិរញ្ញវត្ថុ (ធនាគារជាតិនៃកម្ពុជា NBC) ការការពារទិន្នន័យ (អនុក្រឹត្យលេខ ៣២ + ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន PDPK នាពេលខាងមុខ) វិស័យសុខាភិបាល (ប្រកាសរបស់ក្រសួងសុខាភិបាល MOH) និងបទល្មើសបច្ចេកវិទ្យា (ច្បាប់ស្តីពីបទល្មើសបច្ចេកវិទ្យាព័ត៌មានឆ្នាំ ២០២៣)។ បទប្បញ្ញត្តិទាំងនេះកំពុងវិវត្តយ៉ាងសកម្ម — ស្ថាប័ន ឬកម្មវិធីនានាត្រូវតែតាមដាននូវរាល់ប្រកាស និងអនុក្រឹត្យថ្មីៗ។
 
 Cambodia is a rapidly developing digital economy. Its regulatory environment for digital platforms spans financial services (NBC), data protection (Sub-Decree 32 + forthcoming PDPK), healthcare (MOH Prakas), and cybercrime (Cybercrime Law 2023). Regulations are actively evolving — platforms must monitor for new Prakas and sub-decrees.
 
 ---
 
-## Key Regulators
+<a id="1"></a>
+## ១. ស្ថាប័នរៀបចំគោលនយោបាយ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Regulators)
 
-| Regulator | Acronym | Jurisdiction |
-|:----------|:--------|:-------------|
-| National Bank of Cambodia | NBC | Banking, payments, e-money, fintech |
-| Ministry of Posts and Telecommunications | MPTC | Telecoms, internet, e-commerce, data protection |
-| Ministry of Health | MOH | Healthcare, pharmaceuticals, medical devices |
-| Financial Intelligence Unit | FIU (under MLSPP) | AML/CFT reporting and enforcement |
-| Ministry of Economy and Finance | MEF | General financial regulation, taxation |
-| Ministry of Commerce | MOC | Business registration, e-commerce |
-| Cambodian Medical Council | CMC | Medical professional registration |
-| Department of Drugs and Food | DDF (under MOH) | Pharmaceuticals, medical devices |
-
----
-
-## Compliance Map by Platform Type
-
-### Fintech / Payment Platform
-| Requirement | Regulator | Reference |
-|:------------|:----------|:----------|
-| PSP licence | NBC | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
-| KHQR integration | NBC | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
-| Bakong integration | NBC | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
-| AML/KYC programme | NBC / FIU | [AML/CFT](../payment-and-financial/03-aml-cft.md) |
-| STR filing | FIU Cambodia | [AML Transaction Monitoring](../identity-and-kyc/02-aml-transaction-monitoring.md) |
-| Financial data localisation | NBC | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
-| 10-year record retention | NBC / MLSPP | [AML/CFT](../payment-and-financial/03-aml-cft.md) |
-
-### Healthcare Platform
-| Requirement | Regulator | Reference |
-|:------------|:----------|:----------|
-| MOH/Provincial licence | MOH | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
-| CMC-registered doctors | CMC | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
-| Telemedicine compliance | MOH | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
-| Electronic prescription rules | MOH / DDF | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
-| Pharmacy licensing | DDF | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
-
-### E-Commerce Platform
-| Requirement | Regulator | Reference |
-|:------------|:----------|:----------|
-| E-commerce registration | MOC / MPTC | Sub-Decree 32 |
-| Consumer data protection | MPTC | [PDPK Cambodia](../data-privacy/06-pdpk-cambodia.md) |
-| Consent for data collection | MPTC | [PDPK Cambodia](../data-privacy/06-pdpk-cambodia.md) |
-| Khmer language requirements | MOC | Consumer Protection Law |
+| ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | អក្សរកាត់<br/>(Acronym) | សមត្ថកិច្ចអនុវត្តច្បាប់<br/>(Jurisdiction) |
+|:---|:---|:---|
+| ធនាគារជាតិនៃកម្ពុជា<br/>National Bank of Cambodia | ធ.ជ.ក. (NBC) | វិស័យធនាគារ ការទូទាត់ប្រាក់ រូបិយប័ណ្ណអេឡិចត្រូនិក និងបច្ចេកវិទ្យាហិរញ្ញវត្ថុ (Fintech)<br/>Banking, payments, e-money, fintech |
+| ក្រសួងប្រៃសណីយ៍ និងទូរគមនាគមន៍<br/>Ministry of Posts and Telecommunications | ក.ប.ទ. (MPTC) | ទូរគមនាគមន៍ អ៊ីនធឺណិត ពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក និងការការពារទិន្នន័យ<br/>Telecoms, internet, e-commerce, data protection |
+| ក្រសួងសុខាភិបាល<br/>Ministry of Health | ក្រសួងសុខាភិបាល (MOH) | សេវាសុខាភិបាល ឱសថ និងឧបករណ៍វេជ្ជសាស្ត្រ<br/>Healthcare, pharmaceuticals, medical devices |
+| អង្គភាពស៊ើបការណ៍ហិរញ្ញវត្ថុ<br/>Financial Intelligence Unit | FIU (under MLSPP) | ការរាយការណ៍ និងការអនុវត្តច្បាប់ស្តីពីការប្រឆាំងការលាងលុយកខ្វក់ និងហិរញ្ញប្បទានភេរវកម្ម (AML/CFT)<br/>AML/CFT reporting and enforcement |
+| ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ<br/>Ministry of Economy and Finance | ក.ស.ហ.វ. (MEF) | បទប្បញ្ញត្តិហិរញ្ញវត្ថុទូទៅ និងពន្ធដារ<br/>General financial regulation, taxation |
+| ក្រសួងពាណិជ្ជកម្ម<br/>Ministry of Commerce | ក្រសួងពាណិជ្ជកម្ម (MOC) | ការចុះបញ្ជីអាជីវកម្ម និងពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក<br/>Business registration, e-commerce |
+| ក្រុមប្រឹក្សាវេជ្ជសាស្ត្រកម្ពុជា<br/>Cambodian Medical Council | ក.វ.ក. (CMC) | ការចុះបញ្ជីអ្នកវិជ្ជាជីវៈវេជ្ជសាស្ត្រ<br/>Medical professional registration |
+| នាយកដ្ឋានឱសថ និងចំណីអាហារ<br/>Department of Drugs and Food | ន.ឱ.ច. (DDF under MOH) | ឱសថ និងឧបករណ៍វេជ្ជសាស្ត្រ<br/>Pharmaceuticals, medical devices |
 
 ---
 
-## Key Laws and Regulations
+<a id="2"></a>
+## ២. ផែនទីអនុលោមភាពតាមប្រភេទកម្មវិធី (Compliance Map by Platform Type)
 
-| Law / Prakas | Year | Key provisions |
-|:-------------|:-----|:--------------|
-| Law on E-Commerce | 2019 | Electronic contracts, digital signatures, consumer protection |
-| Sub-Decree 32 on E-Commerce | 2021 | Data collection consent, consumer privacy in digital transactions |
-| NBC Prakas on AML | 2017 + amendments | KYC, STR filing, 10-year retention |
-| Cybercrime Law | 2023 | Unauthorised access, data breaches, cybercrime offences |
-| Law on Pharmaceuticals | 2014 | Drug regulation, prescription requirements |
-| Law on Telecommunications | 2015 | Telecom operator licensing, data interception rules |
-| Forthcoming PDPK | TBD | Comprehensive personal data protection |
-| Forthcoming Telemedicine Prakas | TBD | Digital health consultation rules |
+<a id="3"></a>
+### ២.១ កម្មវិធីបច្ចេកវិទ្យាហិរញ្ញវត្ថុ / ការទូទាត់ប្រាក់ (Fintech / Payment Platform)
+
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | ឯកសារយោង<br/>(Reference) |
+|:---|:---|:---|
+| អាជ្ញាប័ណ្ណអ្នកផ្តល់សេវាទូទាត់ប្រាក់ (PSP)<br/>PSP licence | ធ.ជ.ក. (NBC) | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
+| ការរួមបញ្ចូលប្រព័ន្ធ KHQR<br/>KHQR integration | ធ.ជ.ក. (NBC) | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
+| ការរួមបញ្ចូលប្រព័ន្ធបាគង<br/>Bakong integration | ធ.ជ.ក. (NBC) | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
+| កម្មវិធីការពារប្រឆាំងការលាងលុយកខ្វក់ និងស្គាល់អត្តសញ្ញាណអតិថិជន (AML/KYC)<br/>AML/KYC programme | ធ.ជ.ក. / FIU (NBC / FIU) | [AML/CFT](../payment-and-financial/03-aml-cft.md) |
+| ការដាក់របាយការណ៍ប្រតិបត្តិការគួរឱ្យសង្ស័យ (STR)<br/>STR filing | FIU កម្ពុជា (FIU Cambodia) | [AML Transaction Monitoring](../identity-and-kyc/02-aml-transaction-monitoring.md) |
+| ការរក្សាទុកទិន្នន័យហិរញ្ញវត្ថុក្នុងប្រទេស<br/>Financial data localisation | ធ.ជ.ក. (NBC) | [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md) |
+| ការរក្សាទុកឯកសាររយៈពេល ១០ ឆ្នាំ<br/>10-year record retention | ធ.ជ.ក. / MLSPP (NBC / MLSPP) | [AML/CFT](../payment-and-financial/03-aml-cft.md) |
+
+<a id="4"></a>
+### ២.២ កម្មវិធីសុខាភិបាល (Healthcare Platform)
+
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | ឯកសារយោង<br/>(Reference) |
+|:---|:---|:---|
+| អាជ្ញាប័ណ្ណក្រសួង/មន្ទីរសុខាភិបាល<br/>MOH/Provincial licence | ក្រសួងសុខាភិបាល (MOH) | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
+| គ្រូពេទ្យចុះបញ្ជីជាមួយ CMC<br/>CMC-registered doctors | ក.វ.ក. (CMC) | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
+| ការអនុលោមតាមច្បាប់ទូរវេជ្ជសាស្ត្រ<br/>Telemedicine compliance | ក្រសួងសុខាភិបាល (MOH) | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
+| វិធានការចេញវេជ្ជបញ្ជាអេឡិចត្រូនិក<br/>Electronic prescription rules | ក្រសួងសុខាភិបាល / DDF (MOH / DDF) | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
+| អាជ្ញាប័ណ្ណឱសថស្ថាន<br/>Pharmacy licensing | ន.ឱ.ច. (DDF) | [Prakas Health Cambodia](../healthcare/05-prakas-health-cambodia.md) |
+
+<a id="5"></a>
+### ២.៣ កម្មវិធីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក (E-Commerce Platform)
+
+| តម្រូវការ<br/>(Requirement) | ស្ថាប័នប្បញ្ញត្តិករ<br/>(Regulator) | ឯកសារយោង<br/>(Reference) |
+|:---|:---|:---|
+| ការចុះបញ្ជីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក<br/>E-commerce registration | ក្រសួងពាណិជ្ជកម្ម / ក.ប.ទ. (MOC / MPTC) | អនុក្រឹត្យលេខ ៣២ (Sub-Decree 32) |
+| ការការពារទិន្នន័យអ្នកប្រើប្រាស់<br/>Consumer data protection | ក.ប.ទ. (MPTC) | [PDPK Cambodia](../data-privacy/06-pdpk-cambodia.md) |
+| ការសុំការយល់ព្រមសម្រាប់ការប្រមូលទិន្នន័យ<br/>Consent for data collection | ក.ប.ទ. (MPTC) | [PDPK Cambodia](../data-privacy/06-pdpk-cambodia.md) |
+| តម្រូវការភាសាខ្មែរ<br/>Khmer language requirements | ក្រសួងពាណិជ្ជកម្ម (MOC) | ច្បាប់ស្តីពីការការពារអ្នកប្រើប្រាស់ (Consumer Protection Law) |
 
 ---
 
-## Currency and Payment Context
+<a id="6"></a>
+## ៣. ច្បាប់ និងបទប្បញ្ញត្តិសំខាន់ៗ (Key Laws and Regulations)
 
+| ច្បាប់ / ប្រកាស<br/>(Law / Prakas) | ឆ្នាំ<br/>(Year) | បញ្ញត្តិសំខាន់ៗ<br/>(Key provisions) |
+|:---|:---|:---|
+| ច្បាប់ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក<br/>Law on E-Commerce | ២០១៩ (2019) | កិច្ចសន្យាអេឡិចត្រូនិក ហត្ថលេខាឌីជីថល និងការការពារអ្នកប្រើប្រាស់<br/>Electronic contracts, digital signatures, consumer protection |
+| អនុក្រឹត្យលេខ ៣២ ស្តីពីពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក<br/>Sub-Decree 32 on E-Commerce | ២០២១ (2021) | ការយល់ព្រមលើការប្រមូលទិន្នន័យ និងឯកជនភាពអ្នកប្រើប្រាស់ក្នុងប្រតិបត្តិការឌីជីថល<br/>Data collection consent, consumer privacy in digital transactions |
+| ប្រកាសរបស់ NBC ស្តីពី AML<br/>NBC Prakas on AML | ២០១៧ + វិសោធនកម្ម (2017 + amendments) | ការស្គាល់អត្តសញ្ញាណអតិថិជន (KYC) ការដាក់របាយការណ៍ STR និងការរក្សាទុកឯកសាររយៈពេល ១០ ឆ្នាំ<br/>KYC, STR filing, 10-year retention |
+| ច្បាប់ស្តីពីបទល្មើសបច្ចេកវិទ្យាព័ត៌មាន<br/>Cybercrime Law | ២០២៣ (2023) | ការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត ការលេចធ្លាយទិន្នន័យ និងបទល្មើសបច្ចេកវិទ្យាព័ត៌មាន<br/>Unauthorised access, data breaches, cybercrime offences |
+| ច្បាប់ស្តីពីការគ្រប់គ្រងឱសថ<br/>Law on Pharmaceuticals | ២០១៤ (2014) | បទប្បញ្ញត្តិគ្រប់គ្រងឱសថ និងតម្រូវការវេជ្ជបញ្ជា<br/>Drug regulation, prescription requirements |
+| ច្បាប់ស្តីពីទូរគមនាគមន៍<br/>Law on Telecommunications | ២០១៥ (2015) | អាជ្ញាប័ណ្ណប្រតិបត្តិករទូរគមនាគមន៍ និងវិធានការស្ទាក់ចាប់ទិន្នន័យ<br/>Telecom operator licensing, data interception rules |
+| ច្បាប់ការពារទិន្នន័យផ្ទាល់ខ្លួន (PDPK) នាពេលខាងមុខ<br/>Forthcoming PDPK | ព.ម. (TBD) | ការការពារទិន្នន័យផ្ទាល់ខ្លួនគ្រប់ជ្រុងជ្រោយ<br/>Comprehensive personal data protection |
+| ប្រកាសស្តីពីទូរវេជ្ជសាស្ត្រនាពេលខាងមុខ<br/>Forthcoming Telemedicine Prakas | ព.ម. (TBD) | វិធានការពិគ្រោះយោបល់សុខភាពតាមឌីជីថល<br/>Digital health consultation rules |
+
+---
+
+<a id="7"></a>
+## ៤. បរិបទរូបិយប័ណ្ណ និងការទូទាត់ប្រាក់ (Currency and Payment Context)
+
+ប្រទេសកម្ពុជាប្រើប្រាស់ប្រព័ន្ធរូបិយប័ណ្ណពីរ (Dual-Currency System)៖
 Cambodia uses a dual-currency system:
-- **USD** — dominant for commerce and business transactions
-- **KHR (Khmer Riel)** — legally mandated to be accepted
 
+* **ដុល្លារអាមេរិក (USD)** — មានឥទ្ធិពលខ្លាំងសម្រាប់ពាណិជ្ជកម្ម និងប្រតិបត្តិការអាជីវកម្ម
+* **USD** — dominant for commerce and business transactions
+* **ប្រាក់រៀលខ្មែរ (KHR)** — ត្រូវបានកំណត់ដោយច្បាប់ថាត្រូវតែទទួលយក
+* **KHR (Khmer Riel)** — legally mandated to be accepted
+
+ប្រព័ន្ធទូទាត់ប្រាក់ត្រូវតែគាំទ្ររូបិយប័ណ្ណទាំងពីរប្រភេទ។ ប្រព័ន្ធ KHQR គាំទ្រទាំងប្រតិបត្តិការជា USD និង KHR។
 Payment platforms must support both currencies. KHQR supports both USD and KHR transactions.
 
 ---
 
-## Tax Considerations
+<a id="8"></a>
+## ៥. ការពិចារណាលើផ្នែកពន្ធដារ (Tax Considerations)
 
-| Tax | Rate | Notes |
-|:----|:-----|:------|
-| Corporate income tax | 20% | Standard rate |
-| VAT | 10% | Applies to digital services |
-| Withholding tax (non-residents) | 14% | On services paid to non-resident entities |
-| Prepayment income tax | 1% | Monthly advance on projected income |
+| ប្រភេទពន្ធ<br/>(Tax) | អត្រាពន្ធ<br/>(Rate) | កំណត់សម្គាល់<br/>(Notes) |
+|:---|:---|:---|
+| ពន្ធលើប្រាក់ចំណូលសហគ្រាស<br/>Corporate income tax | ២០% (20%) | អត្រាស្តង់ដារ<br/>Standard rate |
+| អាករលើតម្លៃបន្ថែម (VAT)<br/>VAT | ១០% (10%) | អនុវត្តចំពោះសេវាកម្មឌីជីថល<br/>Applies to digital services |
+| ពន្ធកាត់ទុក (សម្រាប់បុគ្គលមិនមែននិវាសនជន)<br/>Withholding tax (non-residents) | ១៤% (14%) | លើសេវាកម្មដែលបានបង់ទៅឱ្យស្ថាប័នមិនមែននិវាសនជន<br/>On services paid to non-resident entities |
+| ប្រាក់រំដោះពន្ធលើប្រាក់ចំណូល<br/>Prepayment income tax | ១% (1%) | ការបង់ប្រាក់ប្រចាំខែទុកមុនលើប្រាក់ចំណូលប៉ាន់ស្មាន<br/>Monthly advance on projected income |
 
+កម្មវិធីឌីជីថលដែលមានចំណូលក្នុងប្រទេសកម្ពុជា ត្រូវតែចុះបញ្ជីពន្ធដារជាមួយអគ្គនាយកដ្ឋានពន្ធដារ (GDT)។
 Digital platforms with Cambodian revenue must register with the General Department of Taxation (GDT).
 
 ---
 
-## Related
+<a id="9"></a>
+## 🔗 ឯកសារទាក់ទង (Related Topics)
 
+- [ធនាគារជាតិនៃកម្ពុជា (NBC Cambodia)](../payment-and-financial/05-nbc-cambodia.md)
 - [NBC Cambodia](../payment-and-financial/05-nbc-cambodia.md)
+- [ច្បាប់ការពារទិន្នន័យ (PDPK Cambodia)](../data-privacy/06-pdpk-cambodia.md)
 - [PDPK Cambodia](../data-privacy/06-pdpk-cambodia.md)
+- [បទប្បញ្ញត្តិសុខាភិបាលកម្ពុជា (Healthcare Regulations Cambodia)](../healthcare/05-prakas-health-cambodia.md)
 - [Healthcare Regulations Cambodia](../healthcare/05-prakas-health-cambodia.md)
+- [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
