@@ -62,6 +62,7 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 254 | [The Ginseng Fruit Tree & the Cost of Impulse](./254-the-ginseng-fruit-tree-and-the-cost-of-impulse.md) | Emotional Impulse & Destruction/Remediation Cost |
 | 255 | [The Magic Gourd & the Trap of Response](./255-the-magic-gourd-and-the-trap-of-response.md) | Social Engineering & Input Validation |
 | 256 | [The Three Knocks & the Art of Subtle Signals](./256-the-three-knocks-and-the-art-of-subtle-signals.md) | Active Listening & High-Context Communication |
+| 257 | [The Stranger at the Door & the Voice at Home](./257-the-stranger-at-the-door-and-the-voice-at-home.md) | Familiarity · Why We're Harsh With Loved Ones |
 
 ---
 

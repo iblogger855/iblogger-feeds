@@ -76,6 +76,7 @@ Understanding interpersonal dynamics, emotional intelligence (EQ), constructive 
 | **74** | Stress Minimization: The Preservation of Cognitive Energy | [Read Article](./74-stress-minimization.md) | #stress-minimization #burnout #team-culture #sunk-cost |
 | **77** | Information Asymmetry: The Illusion of Knowledge | [Read Article](./77-information-asymmetry.md) | #information-asymmetry #illusion-of-knowledge #knowledge-silos #communication |
 | **78** | The Seventy-Two Faces of Sun Wukong: Adaptation, Masks & the Self | [Read Article](./78-the-seventy-two-faces-of-sun-wukong.md) | #sun-wukong #self-monitoring #goffman #persona #authenticity |
+| **79** | Gentle With a Child, Harsh With the Ones We Love | [Read Article](./79-gentle-with-strangers-harsh-with-loved-ones.md) | #relationships #familiarity #emotional-regulation #empathy #communication |
 
 ---
 
