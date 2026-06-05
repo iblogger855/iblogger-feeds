@@ -115,14 +115,20 @@ Let us examine how these low-EQ habits destroy relationships in practical situat
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor Emp as 👤 Employee (បុគ្គលិក)
-    actor Ldr as 👥 Team Leader (ប្រធានក្រុម)
+    participant Emp as 👤 Employee (បុគ្គលិក)
+    participant Ldr as 👥 Team Leader (ប្រធានក្រុម)
 
     Emp->>Ldr: Starts presenting a new creative idea<br/>ចាប់ផ្តើមលើកឡើងពីគំនិតច្នៃប្រឌិតថ្មី
     
@@ -159,14 +165,20 @@ sequenceDiagram
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor F1 as 👤 Friend A (មិត្តភក្តិ A)
-    actor F2 as 👥 Friend B (មិត្តភក្តិ B)
+    participant F1 as 👤 Friend A (មិត្តភក្តិ A)
+    participant F2 as 👥 Friend B (មិត្តភក្តិ B)
 
     F1->>F2: Complains about work & life for 2 hours<br/>ត្អូញត្អែរពីការងារ និងជីវិតផ្ទាល់ខ្លួន ២ម៉ោងពេញ
     Note over F1: Emotional Dumping / បង្ហូរសម្រាមអារម្មណ៍
@@ -206,14 +218,20 @@ sequenceDiagram
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor Mbr as 👤 Member A (សមាជិក A)
-    actor Fam as 👥 Family (សមាជិកគ្រួសារ)
+    participant Mbr as 👤 Member A (សមាជិក A)
+    participant Fam as 👥 Family (សមាជិកគ្រួសារ)
 
     Mbr->>Fam: Mocks weight and body shames someone<br/>និយាយចំអករូបរាងកាយ និងទម្ងន់អ្នកដទៃ
     Mbr->>Fam: Digs up and weaponizes 10-year-old failures<br/>គាស់កកាយកំហុស ឬការប្រឡងធ្លាក់កាលពី ១០ឆ្នាំមុន
@@ -251,14 +269,20 @@ sequenceDiagram
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor Mgr as 👤 Manager (ប្រធាន)
-    actor Emp as 👥 Employee (បុគ្គលិក)
+    participant Mgr as 👤 Manager (ប្រធាន)
+    participant Emp as 👥 Employee (បុគ្គលិក)
 
     Mgr->>Emp: Arrives 1 hour late to meeting without apology<br/>មកប្រជុំយឺត ១ម៉ោង ដោយគ្មានពាក្យសុំទោស
     
@@ -297,14 +321,20 @@ sequenceDiagram
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor Hsb as 👤 Husband (ស្វាមី)
-    actor Wfe as 👥 Wife (ភរិយា)
+    participant Hsb as 👤 Husband (ស្វាមី)
+    participant Wfe as 👥 Wife (ភរិយា)
 
     Wfe->>Hsb: Shares a financial/purchasing mistake<br/>ប្រាប់ពីកំហុសនៃការទិញរបស់ខុស
     

@@ -101,13 +101,19 @@ eKYC is the fully digital end-to-end process:
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
 }}%%
 sequenceDiagram
     autonumber
-    actor User as 👤 ម្ចាស់គណនី<br/>(User)
+    participant User as 👤 ម្ចាស់គណនី<br/>(User)
     participant App as 📱 កម្មវិធីទូរស័ព្ទ<br/>(Client App)
     participant Server as 🖥️ ម៉ាស៊ីនបម្រើ<br/>(Backend Server)
     participant KYC as 🔍 សេវា eKYC<br/>(eKYC Provider)
